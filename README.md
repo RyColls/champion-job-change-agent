@@ -9,8 +9,9 @@ account. Nothing goes to a prospect until a person approves it.
 > person and every company are invented, and the 90-day job-change feed is simulated. There is no data
 > provider, no real client and no live deployment. Nothing is ever sent: approvals go to a mock outbox.
 
-- **Demo:** open `docs/index.html` (90-day replay, approval inbox, account view)
-- **Case study:** `docs/case-study.html`
+- **Guided walkthrough:** [Follow one job change through the agent](https://rycolls.github.io/champion-job-change-agent/walkthrough.html) (pick any of the 80 events and watch each check, with the 9 test results)
+- **Dashboard demo:** [90-day replay, approval inbox, account view](https://rycolls.github.io/champion-job-change-agent/) (source: `docs/index.html`)
+- **Case study:** [VantaOps.ai case study](https://rycolls.github.io/champion-job-change-agent/case-study.html) (source: `docs/case-study.html`)
 - **Design:** [DESIGN.md](DESIGN.md)
 
 ## How it works
@@ -70,7 +71,8 @@ python -m pytest                                        # 46 unit tests
 python datagen/generate.py --feed eval2                 # regenerate a feed (dev, eval, eval2)
 python -m agent.cli --feed eval2 --backend template     # run the pipeline
 python -m evals.run_acceptance --feed eval2 --backend template
-python demo/build.py --feed eval2 --backend recorded    # rebuild docs/
+python demo/build.py --feed eval2 --backend recorded    # rebuild the dashboard and case study
+python demo/walkthrough.py                              # rebuild the guided walkthrough
 # live models: ANTHROPIC_API_KEY=... pip install anthropic && python -m agent.cli --feed eval2 --backend live
 ```
 

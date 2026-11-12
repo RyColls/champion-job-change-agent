@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Follow one job change: champion job-change agent</title>
+<meta name="description" content="A guided walk through one simulated job-change event at a time, showing every check the agent runs and where it stops. Fictional sample client; simulated data.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#e5ece1; --paper-2:#d6e0d1; --card:#f4f7f1; --ink:#0f241e; --ink-2:#3f5a51;
+  --spruce:#1b4a3e; --moss:#6f8f58; --moss-soft:#cfdcc3; --tape:#d9205c; --tape-soft:#f6cfdc;
+  --glacier:#a8d5d0; --line:#b8c7b3; --stone:#8b9a91;
+  --head:'Bricolage Grotesque','Avenir Next','Segoe UI',system-ui,sans-serif;
+  --body:'Literata',Georgia,'Times New Roman',serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+a{color:var(--spruce);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--tape)}
+:focus-visible{outline:3px solid var(--tape);outline-offset:2px;border-radius:4px}
+h1,h2,h3{font-family:var(--head);line-height:1.08;margin:0;letter-spacing:-.02em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.sr{position:absolute;left:-9999px}
+
+/* top bar */
+.bar{display:flex;gap:18px;align-items:center;justify-content:space-between;padding:14px 0;font-family:var(--head);font-size:15px}
+.bar nav{display:flex;gap:18px;flex-wrap:wrap}
+.bar b{font-weight:800;letter-spacing:-.01em}
+.bar a{text-decoration:none;color:var(--ink-2)}
+.bar a:hover{color:var(--tape)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line);
+  background:
+   repeating-radial-gradient(circle at 88% -10%,transparent 0 26px,rgba(27,74,62,.09) 26px 27px),
+   var(--paper)}
+.hero .wrap{padding-top:10px;padding-bottom:44px}
+.hero h1{font-size:clamp(38px,6.4vw,76px);font-weight:800;max-width:15ch;margin:34px 0 18px}
+.lede{max-width:60ch;font-size:19px;margin:0 0 14px}
+.fict{display:inline-block;max-width:66ch;font-family:var(--head);font-size:14.5px;color:var(--ink-2);border-left:4px solid var(--tape);padding:2px 0 2px 12px;margin:6px 0 26px}
+.tally{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px 24px;max-width:860px;font-family:var(--head);margin:0 0 6px}
+.tally strong{display:block;font-size:34px;font-weight:800;line-height:1}
+.tally span{font-size:14px;color:var(--ink-2)}
+
+.deco{position:absolute;right:max(24px,calc((100vw - 1120px)/2 + 20px));top:96px;display:flex;flex-direction:column-reverse;align-items:center;gap:5px;width:260px}
+.deco i{display:block;height:46px;border-radius:50%/58% 58% 42% 42%;background:var(--spruce)}
+.deco i:nth-child(1){width:250px}.deco i:nth-child(2){width:212px;background:#2b5d50}.deco i:nth-child(3){width:176px}
+.deco i:nth-child(4){width:146px;background:var(--moss)}.deco i:nth-child(5){width:112px;background:#2b5d50}.deco i:nth-child(6){width:84px}
+.deco i:nth-child(7){width:56px;background:var(--tape);height:34px}
+@media (max-width:980px){.deco{display:none}}
+/* pick */
+section{padding:56px 0}
+.sec-head{max-width:62ch;margin-bottom:22px}
+.sec-head h2{font-size:clamp(28px,4vw,42px);font-weight:800;margin-bottom:10px}
+.sec-head p{margin:0;color:var(--ink-2)}
+.field{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:7px;max-width:880px;margin:18px 0 12px}
+.peb{all:unset;box-sizing:border-box;cursor:pointer;height:34px;display:grid;place-items:center;font:600 11px var(--head);
+  color:var(--ink);border:2px solid transparent;border-radius:52% 46% 54% 48%/48% 54% 46% 52%;background:var(--stone);transition:transform .15s}
+.peb:nth-child(3n){border-radius:46% 54% 48% 52%/54% 46% 52% 48%}
+.peb:nth-child(4n){border-radius:55% 45% 52% 48%/46% 52% 48% 54%}
+.peb:hover{transform:translateY(-2px)}
+.peb[aria-current=true]{border-color:var(--ink);box-shadow:0 0 0 3px var(--paper),0 0 0 5px var(--ink)}
+.peb:focus-visible{outline:3px solid var(--tape);outline-offset:3px}
+.c-draft{background:var(--spruce);color:#eef5ee}
+.c-flag{background:var(--moss);color:#0f241e}
+.c-update{background:var(--glacier)}
+.c-review{background:var(--tape);color:#fff}
+.c-ignored{background:transparent;border:2px dashed var(--stone);color:var(--ink-2)}
+.c-ignored[aria-current=true]{border:2px solid var(--ink)}
+.key{display:flex;flex-wrap:wrap;gap:8px 20px;font:14px var(--head);color:var(--ink-2);margin-bottom:22px}
+.key i{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:-2px;margin-right:6px}
+.start{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--head)}
+.start span{font-size:14px;color:var(--ink-2);margin-right:4px}
+.chip{all:unset;cursor:pointer;box-sizing:border-box;font:600 14px var(--head);padding:7px 13px;border:1.5px solid var(--ink);border-radius:999px;background:transparent}
+.chip:hover{background:var(--ink);color:var(--paper)}
+.chip[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+
+/* trail */
+.trail{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.trail-head{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:flex-end;justify-content:space-between;margin-bottom:26px}
+.trail-head h2{font-size:clamp(26px,3.6vw,40px);font-weight:800;max-width:26ch}
+.nav2{display:flex;gap:8px}
+.btn{all:unset;cursor:pointer;font:600 14px var(--head);padding:8px 14px;border-radius:8px;border:1.5px solid var(--ink);box-sizing:border-box}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn[disabled]{opacity:.35;cursor:default;pointer-events:none}
+.grid{display:grid;grid-template-columns:230px minmax(0,1fr);gap:36px;align-items:start}
+.cairn{position:sticky;top:18px;font-family:var(--head)}
+.cairn h3{font-size:15px;font-weight:600;color:var(--ink-2);margin-bottom:12px;letter-spacing:0}
+.stack{display:flex;flex-direction:column-reverse;gap:5px}
+.row{all:unset;cursor:pointer;display:grid;grid-template-columns:132px 1fr;align-items:center;gap:10px;box-sizing:border-box}
+.row:focus-visible{outline:3px solid var(--tape);outline-offset:2px}
+.stone{justify-self:center;height:30px;border-radius:50%/58% 58% 42% 42%;background:var(--spruce);transform-origin:50% 100%;position:relative}
+.row[data-st=stop] .stone{background:var(--tape)}
+.row[data-st=skipped] .stone{background:transparent;border:2px dashed var(--stone)}
+.row[data-st=final-draft] .stone{background:var(--spruce);box-shadow:inset 0 0 0 3px var(--glacier)}
+.row[data-st=final-flag] .stone{background:var(--moss)}
+.row[data-st=final-update] .stone{background:var(--glacier)}
+.row[data-st=final-review] .stone{background:var(--tape-soft);border:2px solid var(--tape)}
+.row[data-st=final-ignored] .stone{background:transparent;border:2px dashed var(--stone)}
+.row .nm{font-size:14px;font-weight:600}
+.row[data-st=skipped] .nm{color:var(--stone);font-weight:400}
+.row:hover .nm{color:var(--tape)}
+.stack.build .row .stone{animation:lay .35s both}
+@keyframes lay{from{transform:translateY(-14px);opacity:0}to{transform:none;opacity:1}}
+.flag{position:absolute;left:50%;top:-20px;width:3px;height:22px;background:var(--ink)}
+.flag:after{content:"";position:absolute;left:3px;top:0;border-left:16px solid var(--tape);border-top:6px solid transparent;border-bottom:6px solid transparent}
+.cairn .cap{font-size:14px;color:var(--ink-2);margin-top:14px;line-height:1.4}
+.ground{height:4px;background:var(--ink);border-radius:2px;margin-top:6px}
+
+.arrive{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin-bottom:18px}
+.arrive h3,.stop h3{font-size:22px;font-weight:800;margin-bottom:6px}
+.meta{font:14px var(--head);color:var(--ink-2);margin:0 0 10px}
+blockquote{margin:6px 0 0;padding:10px 14px;border-left:4px solid var(--moss);background:#fff8;font-style:italic}
+dl.kv{display:grid;grid-template-columns:max-content 1fr;gap:3px 16px;margin:6px 0 0;font-size:15.5px}
+dl.kv dt{font-family:var(--head);font-size:14px;color:var(--ink-2)}
+dl.kv dd{margin:0}
+.stop{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px 20px;margin-bottom:14px;scroll-margin-top:16px;position:relative}
+.stop[data-st=stop]{border-color:var(--tape);box-shadow:0 0 0 2px var(--tape-soft)}
+.stop[data-st=skipped]{background:transparent;border-style:dashed;color:var(--ink-2)}
+.stop .top{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:8px;font:600 13px var(--head)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;border:1.5px solid var(--ink);font:600 12.5px var(--head)}
+.pill.ok{background:var(--moss-soft);border-color:var(--moss)}
+.pill.stop{background:var(--tape);border-color:var(--tape);color:#fff}
+.pill.skip{border-style:dashed;border-color:var(--stone);color:var(--ink-2)}
+.pill.ai{background:var(--glacier);border-color:var(--spruce)}
+.pill.code{background:#fff;border-color:var(--line);color:var(--ink-2)}
+.rule{font:600 12.5px var(--head);color:var(--ink-2);cursor:help;border-bottom:1px dotted var(--ink-2)}
+.stop p{margin:6px 0}
+.said{font-size:16.5px}
+
+/* score meter */
+.meter{position:relative;height:46px;margin:34px 0 28px;font-family:var(--head)}
+.meter .bands{position:absolute;left:0;right:0;top:14px;height:16px;border-radius:8px;overflow:hidden;display:flex}
+.meter .bands i{display:block;height:100%}
+.pin{position:absolute;top:0;transform:translateX(-50%);text-align:center;font:800 15px var(--head)}
+.pin:after{content:"";display:block;width:3px;height:30px;background:var(--ink);margin:2px auto 0}
+.tick{position:absolute;top:34px;transform:translateX(-50%);font:12px var(--head);color:var(--ink-2);white-space:nowrap}
+.ev{list-style:none;padding:0;margin:6px 0 0;font-size:15.5px}
+.ev li{display:grid;grid-template-columns:56px 1fr;gap:10px;padding:5px 0;border-top:1px solid var(--line)}
+.ev b{font:800 15px var(--head)}
+.ev .neg{color:var(--tape)}
+.ev .zero{color:var(--stone)}
+.expl{margin-top:12px;padding:12px 14px;background:#fff9;border-radius:10px;font-size:16px}
+.expl small{display:block;font:600 12.5px var(--head);color:var(--ink-2);margin-top:6px}
+
+/* results */
+.out{margin-top:14px;display:grid;gap:12px}
+.art{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:#fff9}
+.art h4{margin:0 0 6px;font:800 16px var(--head)}
+.mail{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-size:16px;white-space:pre-wrap}
+.mail .sub{font:700 15px var(--head);margin-bottom:8px;white-space:normal}
+mark{background:var(--glacier);padding:0 2px;border-radius:3px;cursor:help}
+.risk{display:inline-block;font:800 12.5px var(--head);padding:2px 10px;border-radius:999px}
+.risk.high{background:var(--tape);color:#fff}.risk.medium{background:var(--moss-soft)}.risk.low{background:#fff;border:1px solid var(--line)}
+ul.plain{margin:6px 0 0;padding-left:20px}
+.gate{font:14px var(--head);color:var(--ink-2);margin-top:8px}
+
+/* proof */
+.board{display:grid;gap:10px;max-width:900px}
+.test{background:var(--card);border:1px solid var(--line);border-radius:12px}
+.test summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:34px 1fr auto;gap:12px;align-items:center;padding:12px 16px}
+.test summary::-webkit-details-marker{display:none}
+.dot{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font:800 13px var(--head);background:var(--moss);color:#0f241e}
+.dot.f{background:var(--tape);color:#fff}
+.test h3{font-size:18px;font-weight:600;letter-spacing:-.01em}
+.test .cond{font-size:14.5px;color:var(--ink-2)}
+.test .num{font:600 14px var(--head);text-align:right}
+.test .num s{color:var(--stone)}
+.test .body{padding:0 16px 14px 62px;font-size:16px}
+.callout{max-width:900px;margin-top:18px;border-left:4px solid var(--tape);padding:4px 0 4px 14px}
+
+.tbl{width:100%;max-width:900px;border-collapse:collapse;font-size:15.5px}
+.tbl th,.tbl td{text-align:left;padding:9px 10px;border-top:1px solid var(--line);vertical-align:top}
+.tbl th{font:600 14px var(--head);color:var(--ink-2)}
+pre{background:var(--ink);color:#dfeadf;padding:16px 18px;border-radius:12px;overflow:auto;font:14px/1.6 ui-monospace,Consolas,monospace;max-width:900px}
+ul.limits{max-width:70ch;padding-left:20px}
+ul.limits li{margin:8px 0}
+footer{padding:34px 0 60px;font:14px var(--head);color:var(--ink-2);border-top:1px solid var(--line)}
+footer p{max-width:80ch}
+
+@media (max-width:820px){
+  body{font-size:16.5px}
+  .grid{grid-template-columns:1fr;gap:18px}
+  .cairn{position:static;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .stack{max-width:320px}
+  .test summary{grid-template-columns:34px 1fr}
+  .test .num{grid-column:2;text-align:left}
+  .test .body{padding-left:16px}
+  section{padding:40px 0}
+}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="bar"><b>Champion job-change agent</b>
+      <nav aria-label="Pages"><a href="#pick">Pick an event</a><a href="#proof">Test results</a><a href="#ai">Where AI is used</a><a href="index.html">Dashboard demo</a><a href="case-study.html">Case study</a><a href="https://github.com/RyColls/champion-job-change-agent">Code</a></nav></div>
+    <div class="deco" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <h1>Follow one job change through the agent</h1>
+    <p class="lede">When someone who champions a product changes jobs, two things are at stake: the old account may lose its champion without anyone noticing, and the person may be a warm lead at a new company. This agent reads each job-change event, runs it through seven checks, and queues work for a person. It never sends anything.</p>
+    <p class="fict">Cairnboard, its customers and every person in this walkthrough are fictional, and the job-change feed is simulated. Each event below is a real row from this project's simulated feed, run through the real code.</p>
+    <div class="tally" id="tally" aria-label="What happened across the 80 simulated events"></div>
+  </div>
+</header>
+
+<section id="pick">
+  <div class="wrap">
+    <div class="sec-head"><h2>Pick any of the 80 events</h2>
+      <p>One pebble per event, in the order they arrived over 90 days. The color shows how far each one got. Start with one of these, then wander.</p></div>
+    <div class="start" id="start"><span>Start with</span></div>
+    <div class="field" id="field" role="group" aria-label="The 80 events"></div>
+    <div class="key" id="key"></div>
+  </div>
+</section>
+
+<section class="trail" id="trail">
+  <div class="wrap">
+    <div class="trail-head"><h2 id="t-title" aria-live="polite"></h2>
+      <div class="nav2"><button class="btn" id="prev">Previous event</button><button class="btn" id="next">Next event</button></div></div>
+    <div class="grid">
+      <aside class="cairn" aria-label="How far this event got">
+        <h3>The cairn: one stone per check</h3>
+        <div class="stack" id="stack"></div><div class="ground"></div>
+        <p class="cap" id="cap"></p>
+      </aside>
+      <div id="stops"></div>
+    </div>
+  </div>
+</section>
+
+<section id="proof">
+  <div class="wrap">
+    <div class="sec-head"><h2 id="proof-h"></h2>
+      <p>Nine tests, written down before the first run and scored against an answer key the agent never reads. The first run and the final run are both published. Open a row for the detail.</p></div>
+    <div class="board" id="board"></div>
+    <div class="callout" id="why"></div>
+  </div>
+</section>
+
+<section id="ai" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head"><h2>Code decides. Models write.</h2>
+      <p>Every decision in the trail above comes from a fixed rule or a score. Models are used in four places, always with a check in code afterwards.</p></div>
+    <table class="tbl" id="aitbl"></table>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <div class="sec-head"><h2>What this does not show</h2></div>
+    <ul class="limits">
+      <li>It has not touched a real company, a real person or a data provider. The feed is simulated and the numbers describe this project's test data only.</li>
+      <li>It has not prevented any churn or generated any pipeline, and nothing here is deployed.</li>
+      <li>The model answers on this page were recorded and replayed. The live API backend is unit-tested against a fake client but was not run against the real API in this build.</li>
+      <li>When the feed gives no prior employer, a real move and a look-alike stranger look identical to the agent. It holds those for a person instead of guessing. A provider-supplied profile ID would fix this.</li>
+      <li>The offline reader only understands the announcement formats the simulator writes. The recorded Haiku answers matched it on every post in this feed, which shows these were handled, not that arbitrary text is solved.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="run" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><h2>Run it yourself</h2><p>Python 3.11 or newer. No API key is needed for the deterministic and recorded backends.</p></div>
+<pre>pip install -r requirements-dev.txt
+python -m pytest                                        # 46 unit tests
+python -m agent.cli --feed eval2 --backend recorded     # run the pipeline
+python -m evals.run_acceptance --feed eval2 --backend recorded
+python demo/walkthrough.py                              # rebuild this page</pre>
+  </div>
+</section>
+
+<footer><div class="wrap">
+  <p>Cairnboard and Tomás Echeverría are fictional, as is all data in this repository. Simulated job-change events. Test results are real, measured in this project against its own answer key, with counts. The agent is a proof of concept by Ryan Collins; the repository is MIT licensed.</p>
+  <p><a href="https://github.com/RyColls/champion-job-change-agent">Source on GitHub</a> · <a href="index.html">Dashboard demo</a> · <a href="case-study.html">Case study</a> · <a href="#top">Back to top</a></p>
+</div></footer>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fmtDate = d => new Date(d + 'T12:00:00').toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric'});
+const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
+const money = n => '$' + Number(n).toLocaleString('en-US');
+
+const CLS = {
+  draft:{name:'Outreach drafted and account flagged', css:'c-draft'},
+  flag:{name:'Account flagged', css:'c-flag'},
+  update:{name:'Record updated', css:'c-update'},
+  review:{name:'Held for a person', css:'c-review'},
+  ignored:{name:'Dropped', css:'c-ignored'}
+};
+const HEADLINE = {
+  'departure:fit_prospect':'Moved to a company that fits, and is not a customer',
+  'departure:customer':'Moved to an existing customer',
+  'departure:competitor':'Moved to a competitor',
+  'departure:nofit_prospect':'Moved to a company that does not fit',
+  'departure:no_new_employer':'Left, with no new employer known',
+  'departure:unknown_company':'Moved to a company on none of our lists',
+  'same_company_title_change':'New title at the same company',
+  'identity_review':'Cannot tell yet whether this is our contact',
+  'no_match':'A different person who shares a name',
+  'duplicate':'The same news, a second time'
+};
+const VERDICT = {
+  'departure:fit_prospect':'Two plays: outreach drafted for a person to approve, and a risk flag for the old account.',
+  'departure:customer':'Two plays: the account manager at the new company is told, and the old account is flagged.',
+  'departure:competitor':'Outreach is suppressed. The old account is flagged.',
+  'departure:nofit_prospect':'The move is logged. The old account is flagged.',
+  'departure:no_new_employer':'The old account is flagged. There is nothing to reach out about.',
+  'departure:unknown_company':'The old account is flagged, and RevOps is asked to look at the unknown company.',
+  'same_company_title_change':'The contact’s title is updated. No play.',
+  'identity_review':'Held. Nothing happens until a person decides who this is.',
+  'no_match':'Dropped. The evidence says this is a different person.',
+  'duplicate':'Dropped. This was already handled.'
+};
+const QUESTION = {
+  normalize:'Can the event be read?', identity:'Is this really our contact?', classify:'Where did they go?',
+  dedupe:'Have we seen this before?', watchlist:'Is this person on the watch list?', rules:'Which rule applies?',
+  disposition:'What happens?'
+};
+const DEST = {
+  fit_prospect:'a company that fits our ideal customer profile and is not a customer', customer:'an existing customer',
+  competitor:'a competitor', nofit_prospect:'a company that does not fit', same_company:'the same company',
+  unknown:'a company that is on none of our lists', none:'no new employer'
+};
+const ROLE = {champion:'champion', exec_sponsor:'executive sponsor', admin:'admin', power_user:'power user'};
+const STEP_NAMES = {normalize:'Read', identity:'Match', classify:'Place', dedupe:'Repeat?', watchlist:'Watch', rules:'Rule', disposition:'Result'};
+const STEPS = ['normalize','identity','classify','dedupe','watchlist','rules','disposition'];
+const OK = new Set(['ok','confirmed']);
+
+const events = D.events;
+let cur = 0;
+
+/* ---------- header tally ---------- */
+(function(){
+  const c = D.counts, n = events.length;
+  const items = [[n,'events in 90 days'],[D.drafts,'outreach drafts waiting for a person'],[D.flags,'old accounts flagged for customer success'],
+    [c.review||0,'held because identity was unclear'],[(c.ignored||0),'dropped as strangers or repeats']];
+  $('#tally').innerHTML = items.map(([a,b]) => `<div><strong>${a}</strong><span>${esc(b)}</span></div>`).join('');
+  $('#key').innerHTML = Object.entries(CLS).map(([k,v]) => `<span><i class="${v.css}" style="${k==='ignored'?'border:2px dashed var(--stone)':''}"></i>${esc(v.name)} (${c[k]||0})</span>`).join('');
+  $('#proof-h').textContent = `${D.passed} of 9 tests pass. Three fail, and they fail for one reason.`;
+})();
+
+/* ---------- pebble field ---------- */
+const field = $('#field');
+events.forEach((e, i) => {
+  const b = document.createElement('button');
+  b.className = 'peb ' + CLS[e.cls].css;
+  b.textContent = i + 1;
+  b.setAttribute('aria-label', `Event ${e.id}, ${fmtDate(e.date)}: ${HEADLINE[e.label] || e.label}`);
+  b.title = `${e.id} · ${HEADLINE[e.label] || e.label}`;
+  b.tabIndex = -1;
+  b.addEventListener('click', () => select(i, true));
+  b.addEventListener('keydown', ev => {
+    const step = {ArrowRight:1, ArrowLeft:-1, ArrowDown:10, ArrowUp:-10}[ev.key];
+    if (ev.key === 'Home') { ev.preventDefault(); select(0, false, true); }
+    else if (ev.key === 'End') { ev.preventDefault(); select(events.length - 1, false, true); }
+    else if (step) { ev.preventDefault(); select(Math.max(0, Math.min(events.length - 1, i + step)), false, true); }
+  });
+  field.appendChild(b);
+});
+
+const START = [['E001','Moves to a prospect that fits'],['E003','Moves to another customer'],['E026','Moves to a competitor'],
+  ['E013','Cannot tell who it is'],['E007','Same name, different person'],['E008','Same news twice'],['E006','Just a new title']];
+START.forEach(([id, label]) => {
+  const i = events.findIndex(e => e.id === id);
+  if (i < 0) return;
+  const b = document.createElement('button');
+  b.className = 'chip'; b.textContent = label; b.dataset.id = id;
+  b.addEventListener('click', () => select(i, true));
+  $('#start').appendChild(b);
+});
+
+/* ---------- helpers ---------- */
+function stepState(e, s, idx) {
+  if (s.step === 'disposition') return 'final-' + e.cls;
+  if (s.outcome === 'skipped') return 'skipped';
+  return OK.has(s.outcome) ? 'pass' : 'stop';
+}
+function rawBlock(e) {
+  const kind = e.fmt === 'text' ? 'A free-text post' : 'A structured row';
+  let body;
+  if (typeof e.raw === 'string') body = `<blockquote>${esc(e.raw)}</blockquote>`;
+  else {
+    const r = e.raw || {};
+    const rows = [['Name', r.full_name],['Was at', r.prior_employer],['Was', r.prior_title],['Email domain', r.prior_email_domain],
+                  ['Now at', r.new_employer],['New title', r.new_title],['City', r.location]];
+    body = '<dl class="kv">' + rows.map(([k,v]) => `<dt>${k}</dt><dd>${v ? esc(v) : '<span style="color:var(--stone)">not given</span>'}</dd>`).join('') + '</dl>';
+  }
+  return `<div class="arrive"><p class="meta">${esc(e.id)} arrived ${esc(fmtDate(e.date))} · ${kind} from the simulated feed</p>
+    <h3>${esc(HEADLINE[e.label] || e.label)}</h3>${body}</div>`;
+}
+function meter(score) {
+  const lo = -4, hi = 12, rev = D.thresholds.review, con = D.thresholds.confirm;
+  const pct = v => Math.max(0, Math.min(100, (v - lo) / (hi - lo) * 100));
+  return `<div class="meter" role="img" aria-label="Score ${score}. Below ${rev} is a different person, ${rev} to ${con} is held for a person, ${con} or more confirms.">
+    <div class="bands"><i style="width:${pct(rev)}%;background:var(--paper-2);box-shadow:inset 0 0 0 1px var(--stone)"></i>
+    <i style="width:${pct(con)-pct(rev)}%;background:var(--tape-soft)"></i><i style="flex:1;background:var(--moss-soft)"></i></div>
+    <div class="pin" style="left:${pct(score)}%">${score.toFixed(1)}</div>
+    <div class="tick" style="left:${pct(rev)}%">${rev.toFixed(1)} review</div><div class="tick" style="left:${pct(con)}%">${con.toFixed(1)} confirm</div></div>`;
+}
+function pills(s, state) {
+  const ai = (s.step === 'normalize' && s.rule === 'N2') ? '<span class="pill ai">Claude Haiku read this</span>'
+           : (s.step === 'identity') ? '<span class="pill ai">Claude Sonnet wrote the explanation</span>' : '';
+  const st = state === 'pass' || state.startsWith('final') ? '<span class="pill ok">Cleared</span>'
+           : state === 'stop' ? '<span class="pill stop">Stopped here</span>' : '<span class="pill skip">Not reached</span>';
+  const code = (s.step === 'identity') ? '<span class="pill code">Score: code</span>' : '';
+  return `${st}${code}${ai}<span class="rule" title="${esc(s.ruleText)}">Rule ${esc(s.rule)}</span>`;
+}
+function stopBody(e, s, state) {
+  if (s.outcome === 'skipped') return `<p>${esc(s.detail.replace(/^not reached: /i,'Not reached: ').replace(/ by (G\d)/, ' by rule $1'))}.</p>`;
+  switch (s.step) {
+    case 'normalize': {
+      const p = e.payload || {};
+      const how = s.rule === 'N2'
+        ? 'This came in as free text. Claude Haiku pulled out the fields below, then code checked that every value appears word for word in the post. If one did not, the event would have gone to a person.'
+        : 'This came in as a structured row, so no model was needed.';
+      return `<p class="said">${how}</p>`;
+    }
+    case 'identity': {
+      const id = e.identity, sc = id.score;
+      const lines = (id.evidence || []).map(x => `<li><b class="${x.points < 0 ? 'neg' : x.points === 0 ? 'zero' : ''}">${x.points > 0 ? '+' : ''}${x.points.toFixed(1)}</b><span>${esc(x.detail)}</span></li>`).join('');
+      const c = e.contact;
+      const who = c ? `<p class="said">Closest record: <b>${esc(c.name)}</b>, ${esc(ROLE[c.role] || c.role)}${e.account ? ' at ' + esc(e.account.name) : ''}.</p>` : '';
+      const verdict = id.status === 'confirmed' ? 'The score clears the confirm line, so the agent treats this as our contact.'
+        : id.status === 'review' ? 'The score lands between the lines. The agent will not guess: a person decides.'
+        : 'The score is below the review line. The agent treats this as a different person.';
+      return `${who}${meter(sc)}<p class="said">${verdict}</p><ul class="ev">${lines}</ul>
+        <div class="expl">${esc(id.explanation || '')}<small>Written by Claude Sonnet from the evidence above. It explains the score and cannot change it.</small></div>`;
+    }
+    case 'classify': {
+      const m = /destination=(\w+)(?: \((.*)\))?/.exec(s.detail);
+      if (!m) return `<p class="said">${esc(s.detail)}</p>`;
+      return `<p class="said">They went to ${esc(DEST[m[1]] || m[1])}${m[2] ? ': <b>' + esc(m[2]) + '</b>' : ''}.</p>`;
+    }
+    case 'dedupe':
+      return `<p class="said">${state === 'stop' ? esc('Yes: ' + s.detail + '. The agent logs it and creates no second task.') : 'No. This is the first time this person and destination appear, so it goes on.'}</p>`;
+    case 'watchlist': {
+      const m = /^(\w+) is on the watch list/.exec(s.detail);
+      return `<p class="said">Yes${m ? ': a ' + esc(m[1].replace('_',' ')) : ''}. Only champions and executive sponsors are monitored; moves by admins and power users are logged with no play.</p>`;
+    }
+    case 'rules':
+      return `<p class="said">${esc(s.detail)}.</p>`;
+    case 'disposition':
+      return `<p class="said"><b>${esc(HEADLINE[e.label] || e.label)}.</b> ${esc(VERDICT[e.label] || '')}</p>${outputs(e)}`;
+  }
+  return '';
+}
+function highlight(body, claims) {
+  let h = esc(body);
+  (claims || []).forEach(c => {
+    const t = esc(c.text);
+    const i = h.indexOf(t);
+    if (i >= 0) h = h.slice(0, i) + `<mark title="Checked against record field: ${esc(c.field)}">${t}</mark>` + h.slice(i + t.length);
+  });
+  return h;
+}
+function outputs(e) {
+  const parts = [];
+  const q = e.queue;
+  if (q && q.type === 'outreach_draft') {
+    const v = q.verification || {};
+    parts.push(`<div class="art"><h4>Outreach draft, waiting for a person</h4>
+      <p style="font-size:15.5px"><b>History for the rep</b> (Claude Sonnet): ${esc(q.history_summary)}</p>
+      <div class="mail"><div class="sub">${esc(q.subject)}</div>${highlight(q.body, q.claims)}</div>
+      <p class="gate">Highlighted words are claims the model had to point at a record field. Code checked all ${(q.claims||[]).length}: ${v.ok ? 'every one is in the record' : 'some failed'}, and scanned the rest of the text for numbers, outcome promises and pronouns. Approving moves it to a mock outbox. Nothing is ever sent.</p></div>`);
+  }
+  if (e.flag) {
+    const f = e.flag;
+    const nb = (f.next_best_contacts || []).map(c => `<li><b>${esc(c.name)}</b>, ${esc(c.title)}: ${esc(c.reason)}</li>`).join('');
+    parts.push(`<div class="art"><h4>Risk flag on ${esc(f.account_name)} <span class="risk ${esc(f.risk_level)}">${esc(f.risk_level)} risk</span></h4>
+      <p style="margin:0">${esc(f.departed_name)} (${esc(ROLE[f.departed_role] || f.departed_role)}) left. ${esc(f.plan)} plan, ${money(f.arr)} a year, renews ${esc(fmtDate(f.renewal_date))}, which is ${plural(f.days_until_renewal,'day')} after the event.</p>
+      ${nb ? `<p style="margin:8px 0 0"><b>Who to talk to instead</b>, ranked by code:</p><ul class="plain">${nb}</ul>` : ''}</div>`);
+  }
+  if (e.task) parts.push(`<div class="art"><h4>Task for ${esc(e.task.assignee)} (customer success)</h4><p style="margin:0">${esc(e.task.title)}. Due ${esc(fmtDate(e.task.due))}.</p></div>`);
+  if (e.note) parts.push(`<div class="art"><h4>Note for ${esc(e.note.to)} (account manager)</h4><p style="margin:0">${esc(e.note.message)}</p></div>`);
+  if (e.supp) parts.push(`<div class="art"><h4>Outreach suppressed</h4><p style="margin:0">The new employer, ${esc(e.supp.competitor)}, is a competitor, so no message is drafted. The event is still logged.</p></div>`);
+  if (e.upd) parts.push(`<div class="art"><h4>Record updated</h4><p style="margin:0">Title: ${esc(e.upd.old)} → <b>${esc(e.upd.new)}</b>. No play.</p></div>`);
+  if (q && q.type === 'revops_review') parts.push(`<div class="art"><h4>Asked RevOps to look</h4><p style="margin:0">${esc(q.reason)}.</p></div>`);
+  if (q && q.type === 'identity_review') parts.push(`<div class="art"><h4>Waiting in the identity-review queue</h4><p style="margin:0">A person decides whether this is ${esc(e.contact ? e.contact.name : 'our contact')}. Real moves and look-alike strangers can produce identical evidence here, which is why the agent does not guess. No play fires until they decide.</p></div>`);
+  parts.push(`<p class="gate" style="margin:2px 0 0">Logged in the audit trail: all 7 steps, each with its rule.</p>`);
+  return `<div class="out">${parts.join('')}</div>`;
+}
+
+/* ---------- render the trail ---------- */
+function render(animate) {
+  const e = events[cur];
+  $('#t-title').textContent = `${e.id}: ${HEADLINE[e.label] || e.label}`;
+  const stack = $('#stack');
+  let reached = 0, stopAt = null;
+  stack.innerHTML = e.steps.map((s, i) => {
+    const st = stepState(e, s, i);
+    if (st === 'pass') reached++;
+    if (st === 'stop') stopAt = s;
+    const w = [132, 118, 104, 92, 80, 68, 56][i];
+    const flag = st === 'stop' ? '<span class="flag"></span>' : '';
+    return `<button class="row" data-st="${st}" data-i="${i}" aria-label="${esc(STEP_NAMES[s.step])}: jump to this check">
+      <span class="stone" style="width:${w}px;${animate ? `animation-delay:${i * 70}ms` : ''}">${flag}</span><span class="nm">${esc(STEP_NAMES[s.step])}</span></button>`;
+  }).join('');
+  stack.classList.toggle('build', !!animate);
+  $('#cap').textContent = stopAt ? `Cleared ${reached} of 6 checks, then stopped at ${STEP_NAMES[stopAt.step].toLowerCase()} (rule ${stopAt.rule}). The flag marks where.`
+                                 : `Cleared all ${reached} of 6 checks, then a result was recorded.`;
+  const html = [rawBlock(e)];
+  e.steps.forEach((s, i) => {
+    const st = stepState(e, s, i);
+    html.push(`<article class="stop" id="stop-${i}" data-st="${st.startsWith('final') ? 'pass' : st}">
+      <div class="top">${pills(s, st)}</div><h3>${esc(QUESTION[s.step])}</h3>${stopBody(e, s, st)}</article>`);
+  });
+  $('#stops').innerHTML = html.join('');
+  stack.querySelectorAll('.row').forEach(r => r.addEventListener('click', () => {
+    const t = $('#stop-' + r.dataset.i); if (t) { t.scrollIntoView({behavior:'smooth', block:'start'}); t.setAttribute('tabindex','-1'); t.focus({preventScroll:true}); }
+  }));
+  $('#prev').disabled = cur === 0; $('#next').disabled = cur === events.length - 1;
+  document.querySelectorAll('.peb').forEach((b, i) => { b.setAttribute('aria-current', i === cur ? 'true' : 'false'); b.tabIndex = i === cur ? 0 : -1; });
+  document.querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', c.dataset.id === e.id ? 'true' : 'false'));
+}
+function select(i, scroll, focus) {
+  cur = i;
+  render(true);
+  try { history.replaceState(null, '', '#' + events[i].id); } catch (_) {}
+  if (focus) document.querySelectorAll('.peb')[i].focus();
+  if (scroll) $('#trail').scrollIntoView({behavior:'smooth', block:'start'});
+}
+$('#prev').addEventListener('click', () => select(Math.max(0, cur - 1), false));
+$('#next').addEventListener('click', () => select(Math.min(events.length - 1, cur + 1), false));
+
+/* ---------- proof, AI table ---------- */
+(function(){
+  const why = {
+    1:'All 7 misses were held in identity review rather than confirmed. I scored held events as not caught. Counting them would have passed the test.',
+    4:'The classification misses trace to the same held events: no destination is decided for an event that stops at identity.',
+    6:'The old-account play is strict: a real departure held in review counts as a miss, because no flag reached customer success.'
+  };
+  $('#board').innerHTML = D.tests.map(t => `<details class="test"><summary>
+      <span class="dot ${t.passed ? '' : 'f'}" aria-label="${t.passed ? 'Passed' : 'Failed'}">${t.n}</span>
+      <span><h3>${esc(t.name)}</h3><span class="cond">${esc(t.cond)}</span></span>
+      <span class="num"><span style="color:var(--stone)">${esc(t.v1)}</span> → ${esc(t.now)}</span></summary>
+      <div class="body"><p style="margin:0 0 6px">${esc(t.measured)}.</p>${why[t.n] && !t.passed ? `<p style="margin:0"><b>Why it fails:</b> ${esc(why[t.n])}</p>` : ''}
+      <p style="margin:6px 0 0;font:14px var(--head);color:var(--ink-2)">First run: ${t.v1pass ? 'passed' : 'failed'} (${esc(t.v1)}). Final run: ${t.passed ? 'passed' : 'failed'}.</p></div></details>`).join('');
+  $('#why').innerHTML = `<p style="margin:0"><b>The honest version.</b> The first run passed 5 of 9. I fixed one rule (a surname mismatch could carry an identity match by itself), then measured again on a fresh feed generated after the fix, so the fix was not tuned to the test data. It passed 6 of 9. The three remaining failures are the price of holding unclear events for a person.
+    <a href="https://github.com/RyColls/champion-job-change-agent/blob/main/results/eval2/recorded/acceptance.md">Full report</a></p>`;
+  const calls = D.stats.ai_calls, n = p => Object.entries(calls).filter(([k]) => k.startsWith(p)).reduce((a, [,v]) => a + v, 0);
+  const rows = [
+    ['Read a free-text post','Claude Haiku',n('normalize'),'Every extracted value must appear word for word in the post, or the event goes to a person.'],
+    ['Explain an identity score','Claude Sonnet',n('explain_identity'),'The match decision is a score in code. The model explains it and cannot change it.'],
+    ['Summarize history with Cairnboard','Claude Sonnet',n('history_summary'),'Built only from a fact sheet, then checked by the same verifier as drafts.'],
+    ['Draft the outreach','Claude Sonnet',n('draft_outreach'),`Every claim must point at a record field. Code scans the rest for numbers, outcome promises and pronouns. 0 of ${D.stats.drafts} drafts needed blocking, and ${D.tests[6].now.match(/(\d+ of \d+) planted/)?.[1] || '60 of 60'} deliberately planted fake facts were caught.`]
+  ];
+  $('#aitbl').innerHTML = '<tr><th>Job</th><th>Model</th><th>Calls in this run</th><th>Check in code</th></tr>' + rows.map(r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td>${r[2]}</td><td>${esc(r[3])}</td></tr>`).join('');
+})();
+
+const h = location.hash.slice(1);
+const start = Math.max(0, events.findIndex(e => e.id === h));
+select(start, false);
+addEventListener('hashchange', () => { const j = events.findIndex(e => e.id === location.hash.slice(1)); if (j >= 0 && j !== cur) { cur = j; render(true); } });
+</script>
+</body>
+</html>
