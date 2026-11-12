@@ -1,0 +1,1583 @@
+{
+ "events": {
+  "E001": {
+   "type": "moved_fit",
+   "received_at": "2026-08-05",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing",
+    "city_changed"
+   ],
+   "contact_id": "K00805",
+   "account_id": "A0161",
+   "true_person": "K00805",
+   "new_employer_id": "P0255",
+   "real_departure": true,
+   "days_until_renewal": 235,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E002": {
+   "type": "moved_fit",
+   "received_at": "2026-08-09",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K00365",
+   "account_id": "A0073",
+   "true_person": "K00365",
+   "new_employer_id": "P0191",
+   "real_departure": true,
+   "days_until_renewal": 50,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E003": {
+   "type": "moved_customer",
+   "received_at": "2026-08-10",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01316",
+   "account_id": "A0264",
+   "true_person": "K01316",
+   "new_employer_id": "A0222",
+   "real_departure": true,
+   "days_until_renewal": 315,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E004": {
+   "type": "moved_unknown",
+   "received_at": "2026-08-13",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00926",
+   "account_id": "A0186",
+   "true_person": "K00926",
+   "new_employer_id": "UNKNOWN",
+   "real_departure": true,
+   "days_until_renewal": 163,
+   "expected_label": "departure:unknown_company",
+   "acceptable_labels": [
+    "departure:unknown_company"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E005": {
+   "type": "moved_fit",
+   "received_at": "2026-08-13",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00148",
+   "account_id": "A0030",
+   "true_person": "K00148",
+   "new_employer_id": "P0286",
+   "real_departure": true,
+   "days_until_renewal": 67,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E006": {
+   "type": "title_change",
+   "received_at": "2026-08-13",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing",
+    "prior_title_missing"
+   ],
+   "contact_id": "K01170",
+   "account_id": "A0234",
+   "true_person": "K01170",
+   "new_employer_id": "A0234",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E007": {
+   "type": "collision",
+   "received_at": "2026-08-15",
+   "format": "structured",
+   "noise": [
+    "collision:easy"
+   ],
+   "contact_id": "K00565",
+   "account_id": "A0113",
+   "true_person": null,
+   "namesake_contact_id": "K00565",
+   "new_employer_id": "P0176",
+   "collision_level": "easy",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E008": {
+   "type": "duplicate",
+   "received_at": "2026-08-16",
+   "format": "text",
+   "noise": [
+    "duplicate",
+    "variant_employer_name",
+    "shifted_date"
+   ],
+   "contact_id": "K00148",
+   "account_id": "A0030",
+   "true_person": "K00148",
+   "new_employer_id": "P0286",
+   "dup_of": "E005",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "duplicate",
+   "acceptable_labels": [
+    "duplicate"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E009": {
+   "type": "left",
+   "received_at": "2026-08-17",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00773",
+   "account_id": "A0155",
+   "true_person": "K00773",
+   "real_departure": true,
+   "days_until_renewal": 127,
+   "expected_label": "departure:no_new_employer",
+   "acceptable_labels": [
+    "departure:no_new_employer"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E010": {
+   "type": "moved_fit",
+   "received_at": "2026-08-18",
+   "format": "text",
+   "noise": [
+    "nickname"
+   ],
+   "contact_id": "K00488",
+   "account_id": "A0098",
+   "true_person": "K00488",
+   "new_employer_id": "P0076",
+   "real_departure": true,
+   "days_until_renewal": 350,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E011": {
+   "type": "moved_nofit",
+   "received_at": "2026-08-19",
+   "format": "structured",
+   "noise": [
+    "surname_change"
+   ],
+   "contact_id": "K01296",
+   "account_id": "A0260",
+   "true_person": "K01296",
+   "new_employer_id": "P0221",
+   "real_departure": true,
+   "days_until_renewal": 336,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E012": {
+   "type": "title_change",
+   "received_at": "2026-08-19",
+   "format": "text",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K01456",
+   "account_id": "A0292",
+   "true_person": "K01456",
+   "new_employer_id": "A0292",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E013": {
+   "type": "collision",
+   "received_at": "2026-08-20",
+   "format": "structured",
+   "noise": [
+    "collision:hard"
+   ],
+   "contact_id": "K00030",
+   "account_id": "A0006",
+   "true_person": null,
+   "namesake_contact_id": "K00030",
+   "new_employer_id": "P0295",
+   "collision_level": "hard",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E014": {
+   "type": "title_change",
+   "received_at": "2026-08-20",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00815",
+   "account_id": "A0163",
+   "true_person": "K00815",
+   "new_employer_id": "A0163",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E015": {
+   "type": "collision",
+   "received_at": "2026-08-21",
+   "format": "text",
+   "noise": [
+    "collision:easy"
+   ],
+   "contact_id": "K01065",
+   "account_id": "A0213",
+   "true_person": null,
+   "namesake_contact_id": "K01065",
+   "new_employer_id": "P0117",
+   "collision_level": "easy",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E016": {
+   "type": "left",
+   "received_at": "2026-08-22",
+   "format": "structured",
+   "noise": [
+    "nickname"
+   ],
+   "contact_id": "K00013",
+   "account_id": "A0003",
+   "true_person": "K00013",
+   "real_departure": true,
+   "days_until_renewal": 259,
+   "expected_label": "departure:no_new_employer",
+   "acceptable_labels": [
+    "departure:no_new_employer"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E017": {
+   "type": "moved_fit",
+   "received_at": "2026-08-24",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01101",
+   "account_id": "A0221",
+   "true_person": "K01101",
+   "new_employer_id": "P0038",
+   "real_departure": true,
+   "days_until_renewal": 67,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E018": {
+   "type": "collision",
+   "received_at": "2026-08-26",
+   "format": "text",
+   "noise": [
+    "collision:medium"
+   ],
+   "contact_id": "K00858",
+   "account_id": "A0172",
+   "true_person": null,
+   "namesake_contact_id": "K00858",
+   "new_employer_id": "P0111",
+   "collision_level": "medium",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E019": {
+   "type": "moved_nofit",
+   "received_at": "2026-08-27",
+   "format": "text",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00118",
+   "account_id": "A0024",
+   "true_person": "K00118",
+   "new_employer_id": "P0128",
+   "real_departure": true,
+   "days_until_renewal": 5,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E020": {
+   "type": "moved_fit",
+   "received_at": "2026-08-28",
+   "format": "text",
+   "noise": [
+    "prior_employer_missing"
+   ],
+   "contact_id": "K01345",
+   "account_id": "A0269",
+   "true_person": "K01345",
+   "new_employer_id": "P0295",
+   "real_departure": true,
+   "days_until_renewal": 242,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E021": {
+   "type": "collision",
+   "received_at": "2026-08-29",
+   "format": "structured",
+   "noise": [
+    "collision:easy"
+   ],
+   "contact_id": "K00025",
+   "account_id": "A0005",
+   "true_person": null,
+   "namesake_contact_id": "K00025",
+   "new_employer_id": "P0121",
+   "collision_level": "easy",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E022": {
+   "type": "title_change",
+   "received_at": "2026-08-29",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing",
+    "city_changed"
+   ],
+   "contact_id": "K00576",
+   "account_id": "A0116",
+   "true_person": "K00576",
+   "new_employer_id": "A0116",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E023": {
+   "type": "collision",
+   "received_at": "2026-08-29",
+   "format": "structured",
+   "noise": [
+    "collision:medium"
+   ],
+   "contact_id": "K01201",
+   "account_id": "A0241",
+   "true_person": null,
+   "namesake_contact_id": "K01201",
+   "new_employer_id": "P0265",
+   "collision_level": "medium",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E024": {
+   "type": "moved_customer",
+   "received_at": "2026-08-30",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K00786",
+   "account_id": "A0158",
+   "true_person": "K00786",
+   "new_employer_id": "A0178",
+   "real_departure": true,
+   "days_until_renewal": 204,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E025": {
+   "type": "moved_fit",
+   "received_at": "2026-08-30",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing",
+    "prior_title_missing"
+   ],
+   "contact_id": "K01486",
+   "account_id": "A0298",
+   "true_person": "K01486",
+   "new_employer_id": "P0034",
+   "real_departure": true,
+   "days_until_renewal": 235,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E026": {
+   "type": "moved_competitor",
+   "received_at": "2026-08-31",
+   "format": "text",
+   "noise": [
+    "nickname"
+   ],
+   "contact_id": "K01470",
+   "account_id": "A0294",
+   "true_person": "K01470",
+   "new_employer_id": "C01",
+   "real_departure": true,
+   "days_until_renewal": 88,
+   "expected_label": "departure:competitor",
+   "acceptable_labels": [
+    "departure:competitor"
+   ],
+   "expected_new_company_play": "suppress_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E027": {
+   "type": "title_change",
+   "received_at": "2026-09-02",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01335",
+   "account_id": "A0267",
+   "true_person": "K01335",
+   "new_employer_id": "A0267",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E028": {
+   "type": "moved_customer",
+   "received_at": "2026-09-03",
+   "format": "structured",
+   "noise": [
+    "nickname",
+    "city_changed"
+   ],
+   "contact_id": "K00510",
+   "account_id": "A0102",
+   "true_person": "K00510",
+   "new_employer_id": "A0216",
+   "real_departure": true,
+   "days_until_renewal": 54,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E029": {
+   "type": "left",
+   "received_at": "2026-09-03",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01370",
+   "account_id": "A0274",
+   "true_person": "K01370",
+   "real_departure": true,
+   "days_until_renewal": 324,
+   "expected_label": "departure:no_new_employer",
+   "acceptable_labels": [
+    "departure:no_new_employer"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E030": {
+   "type": "title_change",
+   "received_at": "2026-09-05",
+   "format": "text",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00640",
+   "account_id": "A0128",
+   "true_person": "K00640",
+   "new_employer_id": "A0128",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E031": {
+   "type": "moved_customer",
+   "received_at": "2026-09-07",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing",
+    "city_changed"
+   ],
+   "contact_id": "K00425",
+   "account_id": "A0085",
+   "true_person": "K00425",
+   "new_employer_id": "A0181",
+   "real_departure": true,
+   "days_until_renewal": 1,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E032": {
+   "type": "title_change",
+   "received_at": "2026-09-08",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00705",
+   "account_id": "A0141",
+   "true_person": "K00705",
+   "new_employer_id": "A0141",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E033": {
+   "type": "moved_fit",
+   "received_at": "2026-09-10",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K01321",
+   "account_id": "A0265",
+   "true_person": "K01321",
+   "new_employer_id": "P0052",
+   "real_departure": true,
+   "days_until_renewal": 282,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E034": {
+   "type": "moved_fit",
+   "received_at": "2026-09-11",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01225",
+   "account_id": "A0245",
+   "true_person": "K01225",
+   "new_employer_id": "P0398",
+   "real_departure": true,
+   "days_until_renewal": 210,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E035": {
+   "type": "moved_fit",
+   "received_at": "2026-09-11",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00521",
+   "account_id": "A0105",
+   "true_person": "K00521",
+   "new_employer_id": "P0048",
+   "real_departure": true,
+   "days_until_renewal": 166,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E036": {
+   "type": "moved_nofit",
+   "received_at": "2026-09-13",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00130",
+   "account_id": "A0026",
+   "true_person": "K00130",
+   "new_employer_id": "P0014",
+   "real_departure": true,
+   "days_until_renewal": 242,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E037": {
+   "type": "moved_nofit",
+   "received_at": "2026-09-16",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00181",
+   "account_id": "A0037",
+   "true_person": "K00181",
+   "new_employer_id": "P0306",
+   "real_departure": true,
+   "days_until_renewal": 223,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E038": {
+   "type": "moved_nofit",
+   "received_at": "2026-09-20",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K01271",
+   "account_id": "A0255",
+   "true_person": "K01271",
+   "new_employer_id": "P0321",
+   "real_departure": true,
+   "days_until_renewal": 284,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E039": {
+   "type": "moved_fit",
+   "received_at": "2026-09-20",
+   "format": "text",
+   "noise": [
+    "nickname"
+   ],
+   "contact_id": "K00070",
+   "account_id": "A0014",
+   "true_person": "K00070",
+   "new_employer_id": "P0295",
+   "real_departure": true,
+   "days_until_renewal": 211,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E040": {
+   "type": "moved_fit",
+   "received_at": "2026-09-21",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00128",
+   "account_id": "A0026",
+   "true_person": "K00128",
+   "new_employer_id": "P0178",
+   "real_departure": true,
+   "days_until_renewal": 234,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E041": {
+   "type": "title_change",
+   "received_at": "2026-09-22",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K01490",
+   "account_id": "A0298",
+   "true_person": "K01490",
+   "new_employer_id": "A0298",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E042": {
+   "type": "title_change",
+   "received_at": "2026-09-22",
+   "format": "structured",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00820",
+   "account_id": "A0164",
+   "true_person": "K00820",
+   "new_employer_id": "A0164",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E043": {
+   "type": "moved_fit",
+   "received_at": "2026-09-26",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00010",
+   "account_id": "A0002",
+   "true_person": "K00010",
+   "new_employer_id": "P0099",
+   "real_departure": true,
+   "days_until_renewal": 274,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E044": {
+   "type": "moved_nofit",
+   "received_at": "2026-09-26",
+   "format": "text",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00740",
+   "account_id": "A0148",
+   "true_person": "K00740",
+   "new_employer_id": "P0262",
+   "real_departure": true,
+   "days_until_renewal": 3,
+   "expected_label": "departure:nofit_prospect",
+   "acceptable_labels": [
+    "departure:nofit_prospect"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E045": {
+   "type": "collision",
+   "received_at": "2026-09-27",
+   "format": "structured",
+   "noise": [
+    "collision:hard"
+   ],
+   "contact_id": "K01376",
+   "account_id": "A0276",
+   "true_person": null,
+   "namesake_contact_id": "K01376",
+   "new_employer_id": "P0235",
+   "collision_level": "hard",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E046": {
+   "type": "duplicate",
+   "received_at": "2026-09-28",
+   "format": "text",
+   "noise": [
+    "duplicate",
+    "variant_employer_name",
+    "shifted_date"
+   ],
+   "contact_id": "K00010",
+   "account_id": "A0002",
+   "true_person": "K00010",
+   "new_employer_id": "P0099",
+   "dup_of": "E043",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "duplicate",
+   "acceptable_labels": [
+    "duplicate"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E047": {
+   "type": "moved_fit",
+   "received_at": "2026-10-02",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00826",
+   "account_id": "A0166",
+   "true_person": "K00826",
+   "new_employer_id": "P0073",
+   "real_departure": true,
+   "days_until_renewal": -11,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E048": {
+   "type": "moved_competitor",
+   "received_at": "2026-10-03",
+   "format": "text",
+   "noise": [
+    "prior_employer_missing"
+   ],
+   "contact_id": "K00930",
+   "account_id": "A0186",
+   "true_person": "K00930",
+   "new_employer_id": "C02",
+   "real_departure": true,
+   "days_until_renewal": 112,
+   "expected_label": "departure:competitor",
+   "acceptable_labels": [
+    "departure:competitor"
+   ],
+   "expected_new_company_play": "suppress_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E049": {
+   "type": "moved_fit",
+   "received_at": "2026-10-03",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00580",
+   "account_id": "A0116",
+   "true_person": "K00580",
+   "new_employer_id": "P0222",
+   "real_departure": true,
+   "days_until_renewal": 1,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E050": {
+   "type": "moved_fit",
+   "received_at": "2026-10-04",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K00591",
+   "account_id": "A0119",
+   "true_person": "K00591",
+   "new_employer_id": "P0097",
+   "real_departure": true,
+   "days_until_renewal": 251,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E051": {
+   "type": "moved_fit",
+   "received_at": "2026-10-05",
+   "format": "structured",
+   "noise": [
+    "surname_change",
+    "city_changed"
+   ],
+   "contact_id": "K01231",
+   "account_id": "A0247",
+   "true_person": "K01231",
+   "new_employer_id": "P0148",
+   "real_departure": true,
+   "days_until_renewal": 54,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E052": {
+   "type": "moved_competitor",
+   "received_at": "2026-10-07",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01095",
+   "account_id": "A0219",
+   "true_person": "K01095",
+   "new_employer_id": "C05",
+   "real_departure": true,
+   "days_until_renewal": 297,
+   "expected_label": "departure:competitor",
+   "acceptable_labels": [
+    "departure:competitor"
+   ],
+   "expected_new_company_play": "suppress_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E053": {
+   "type": "collision",
+   "received_at": "2026-10-08",
+   "format": "structured",
+   "noise": [
+    "collision:easy"
+   ],
+   "contact_id": "K00200",
+   "account_id": "A0040",
+   "true_person": null,
+   "namesake_contact_id": "K00200",
+   "new_employer_id": "P0336",
+   "collision_level": "easy",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E054": {
+   "type": "moved_fit",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K01261",
+   "account_id": "A0253",
+   "true_person": "K01261",
+   "new_employer_id": "P0096",
+   "real_departure": true,
+   "days_until_renewal": 44,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E055": {
+   "type": "title_change",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00771",
+   "account_id": "A0155",
+   "true_person": "K00771",
+   "new_employer_id": "A0155",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E056": {
+   "type": "moved_fit",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00780",
+   "account_id": "A0156",
+   "true_person": "K00780",
+   "new_employer_id": "P0205",
+   "real_departure": true,
+   "days_until_renewal": 211,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E057": {
+   "type": "moved_fit",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K00216",
+   "account_id": "A0044",
+   "true_person": "K00216",
+   "new_employer_id": "P0313",
+   "real_departure": true,
+   "days_until_renewal": -33,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E058": {
+   "type": "title_change",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing"
+   ],
+   "contact_id": "K01285",
+   "account_id": "A0257",
+   "true_person": "K01285",
+   "new_employer_id": "A0257",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E059": {
+   "type": "moved_fit",
+   "received_at": "2026-10-09",
+   "format": "structured",
+   "noise": [
+    "prior_employer_missing"
+   ],
+   "contact_id": "K00446",
+   "account_id": "A0090",
+   "true_person": "K00446",
+   "new_employer_id": "P0169",
+   "real_departure": true,
+   "days_until_renewal": -41,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E060": {
+   "type": "moved_fit",
+   "received_at": "2026-10-10",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00825",
+   "account_id": "A0165",
+   "true_person": "K00825",
+   "new_employer_id": "P0045",
+   "real_departure": true,
+   "days_until_renewal": 240,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E061": {
+   "type": "moved_fit",
+   "received_at": "2026-10-10",
+   "format": "text",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00975",
+   "account_id": "A0195",
+   "true_person": "K00975",
+   "new_employer_id": "P0220",
+   "real_departure": true,
+   "days_until_renewal": 12,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E062": {
+   "type": "left",
+   "received_at": "2026-10-11",
+   "format": "structured",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00995",
+   "account_id": "A0199",
+   "true_person": "K00995",
+   "real_departure": true,
+   "days_until_renewal": 107,
+   "expected_label": "departure:no_new_employer",
+   "acceptable_labels": [
+    "departure:no_new_employer"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E063": {
+   "type": "moved_customer",
+   "received_at": "2026-10-12",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01313",
+   "account_id": "A0263",
+   "true_person": "K01313",
+   "new_employer_id": "A0149",
+   "real_departure": true,
+   "days_until_renewal": 301,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E064": {
+   "type": "title_change",
+   "received_at": "2026-10-14",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K00460",
+   "account_id": "A0092",
+   "true_person": "K00460",
+   "new_employer_id": "A0092",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "same_company_title_change",
+   "acceptable_labels": [
+    "same_company_title_change"
+   ],
+   "expected_new_company_play": "update_record",
+   "expected_old_account_play": "none"
+  },
+  "E065": {
+   "type": "moved_fit",
+   "received_at": "2026-10-14",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K00905",
+   "account_id": "A0181",
+   "true_person": "K00905",
+   "new_employer_id": "P0251",
+   "real_departure": true,
+   "days_until_renewal": -63,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E066": {
+   "type": "duplicate",
+   "received_at": "2026-10-14",
+   "format": "text",
+   "noise": [
+    "duplicate",
+    "variant_employer_name",
+    "shifted_date"
+   ],
+   "contact_id": "K00825",
+   "account_id": "A0165",
+   "true_person": "K00825",
+   "new_employer_id": "P0045",
+   "dup_of": "E060",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "duplicate",
+   "acceptable_labels": [
+    "duplicate"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E067": {
+   "type": "moved_fit",
+   "received_at": "2026-10-15",
+   "format": "structured",
+   "noise": [
+    "surname_change"
+   ],
+   "contact_id": "K00470",
+   "account_id": "A0094",
+   "true_person": "K00470",
+   "new_employer_id": "P0237",
+   "real_departure": true,
+   "days_until_renewal": 28,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E068": {
+   "type": "moved_fit",
+   "received_at": "2026-10-15",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01386",
+   "account_id": "A0278",
+   "true_person": "K01386",
+   "new_employer_id": "P0191",
+   "real_departure": true,
+   "days_until_renewal": -40,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E069": {
+   "type": "moved_unknown",
+   "received_at": "2026-10-15",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K01473",
+   "account_id": "A0295",
+   "true_person": "K01473",
+   "new_employer_id": "UNKNOWN",
+   "real_departure": true,
+   "days_until_renewal": -52,
+   "expected_label": "departure:unknown_company",
+   "acceptable_labels": [
+    "departure:unknown_company"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E070": {
+   "type": "moved_competitor",
+   "received_at": "2026-10-15",
+   "format": "text",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00835",
+   "account_id": "A0167",
+   "true_person": "K00835",
+   "new_employer_id": "C04",
+   "real_departure": true,
+   "days_until_renewal": 39,
+   "expected_label": "departure:competitor",
+   "acceptable_labels": [
+    "departure:competitor"
+   ],
+   "expected_new_company_play": "suppress_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E071": {
+   "type": "moved_customer",
+   "received_at": "2026-10-20",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01481",
+   "account_id": "A0297",
+   "true_person": "K01481",
+   "new_employer_id": "A0089",
+   "real_departure": true,
+   "days_until_renewal": -24,
+   "expected_label": "departure:customer",
+   "acceptable_labels": [
+    "departure:customer"
+   ],
+   "expected_new_company_play": "notify_account_manager",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E072": {
+   "type": "moved_fit",
+   "received_at": "2026-10-20",
+   "format": "structured",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00260",
+   "account_id": "A0052",
+   "true_person": "K00260",
+   "new_employer_id": "P0177",
+   "real_departure": true,
+   "days_until_renewal": 253,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E073": {
+   "type": "duplicate",
+   "received_at": "2026-10-21",
+   "format": "text",
+   "noise": [
+    "duplicate",
+    "variant_employer_name",
+    "shifted_date"
+   ],
+   "contact_id": "K00260",
+   "account_id": "A0052",
+   "true_person": "K00260",
+   "new_employer_id": "P0177",
+   "dup_of": "E072",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "duplicate",
+   "acceptable_labels": [
+    "duplicate"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E074": {
+   "type": "left",
+   "received_at": "2026-10-22",
+   "format": "structured",
+   "noise": [
+    "prior_title_missing"
+   ],
+   "contact_id": "K00745",
+   "account_id": "A0149",
+   "true_person": "K00745",
+   "real_departure": true,
+   "days_until_renewal": 148,
+   "expected_label": "departure:no_new_employer",
+   "acceptable_labels": [
+    "departure:no_new_employer"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E075": {
+   "type": "moved_fit",
+   "received_at": "2026-10-25",
+   "format": "text",
+   "noise": [
+    "surname_change"
+   ],
+   "contact_id": "K01138",
+   "account_id": "A0228",
+   "true_person": "K01138",
+   "new_employer_id": "P0030",
+   "real_departure": true,
+   "days_until_renewal": 315,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E076": {
+   "type": "collision",
+   "received_at": "2026-10-25",
+   "format": "text",
+   "noise": [
+    "collision:easy"
+   ],
+   "contact_id": "K00336",
+   "account_id": "A0068",
+   "true_person": null,
+   "namesake_contact_id": "K00336",
+   "new_employer_id": "P0278",
+   "collision_level": "easy",
+   "real_departure": false,
+   "days_until_renewal": null,
+   "expected_label": "no_match",
+   "acceptable_labels": [
+    "no_match",
+    "identity_review"
+   ],
+   "expected_new_company_play": "none",
+   "expected_old_account_play": "none"
+  },
+  "E077": {
+   "type": "moved_fit",
+   "received_at": "2026-10-25",
+   "format": "structured",
+   "noise": [
+    "city_changed"
+   ],
+   "contact_id": "K00963",
+   "account_id": "A0193",
+   "true_person": "K00963",
+   "new_employer_id": "P0084",
+   "real_departure": true,
+   "days_until_renewal": 211,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E078": {
+   "type": "moved_unknown",
+   "received_at": "2026-10-27",
+   "format": "text",
+   "noise": [],
+   "contact_id": "K01128",
+   "account_id": "A0226",
+   "true_person": "K01128",
+   "new_employer_id": "UNKNOWN",
+   "real_departure": true,
+   "days_until_renewal": 31,
+   "expected_label": "departure:unknown_company",
+   "acceptable_labels": [
+    "departure:unknown_company"
+   ],
+   "expected_new_company_play": "log_only",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E079": {
+   "type": "moved_competitor",
+   "received_at": "2026-10-27",
+   "format": "text",
+   "noise": [
+    "nickname"
+   ],
+   "contact_id": "K01453",
+   "account_id": "A0291",
+   "true_person": "K01453",
+   "new_employer_id": "C02",
+   "real_departure": true,
+   "days_until_renewal": 245,
+   "expected_label": "departure:competitor",
+   "acceptable_labels": [
+    "departure:competitor"
+   ],
+   "expected_new_company_play": "suppress_outreach",
+   "expected_old_account_play": "risk_flag"
+  },
+  "E080": {
+   "type": "moved_fit",
+   "received_at": "2026-10-29",
+   "format": "structured",
+   "noise": [],
+   "contact_id": "K01116",
+   "account_id": "A0224",
+   "true_person": "K01116",
+   "new_employer_id": "P0062",
+   "real_departure": true,
+   "days_until_renewal": 182,
+   "expected_label": "departure:fit_prospect",
+   "acceptable_labels": [
+    "departure:fit_prospect"
+   ],
+   "expected_new_company_play": "draft_outreach",
+   "expected_old_account_play": "risk_flag"
+  }
+ },
+ "feed": "eval2",
+ "seed": 4242
+}

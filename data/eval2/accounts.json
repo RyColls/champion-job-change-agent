@@ -1,0 +1,4802 @@
+[
+ {
+  "id": "A0001",
+  "name": "Pinionwave",
+  "parts": [
+   "Pinion",
+   "wave"
+  ],
+  "domain": "pinionwave.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-08-09",
+  "customer_since": "2025-11-10",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0002",
+  "name": "Emberbridge",
+  "parts": [
+   "Ember",
+   "bridge"
+  ],
+  "domain": "emberbridge.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-06-27",
+  "customer_since": "2024-07-22",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0003",
+  "name": "Emberscope",
+  "parts": [
+   "Ember",
+   "scope"
+  ],
+  "domain": "emberscope.example",
+  "plan": "Enterprise",
+  "arr": 44500,
+  "renewal_date": "2027-05-08",
+  "customer_since": "2025-08-12",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0004",
+  "name": "Wrenscope",
+  "parts": [
+   "Wren",
+   "scope"
+  ],
+  "domain": "wrenscope.example",
+  "plan": "Enterprise",
+  "arr": 42500,
+  "renewal_date": "2027-05-15",
+  "customer_since": "2023-08-23",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0005",
+  "name": "Tesselworks",
+  "parts": [
+   "Tessel",
+   "works"
+  ],
+  "domain": "tesselworks.example",
+  "plan": "Enterprise",
+  "arr": 48000,
+  "renewal_date": "2026-11-07",
+  "customer_since": "2023-11-29",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0006",
+  "name": "Juniperflow",
+  "parts": [
+   "Juniper",
+   "flow"
+  ],
+  "domain": "juniperflow.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2026-10-03",
+  "customer_since": "2025-06-03",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0007",
+  "name": "Kestrelpoint",
+  "parts": [
+   "Kestrel",
+   "point"
+  ],
+  "domain": "kestrelpoint.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-09-28",
+  "customer_since": "2022-07-03",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0008",
+  "name": "Ironwoodlabs",
+  "parts": [
+   "Ironwood",
+   "labs"
+  ],
+  "domain": "ironwoodlabs.example",
+  "plan": "Enterprise",
+  "arr": 43500,
+  "renewal_date": "2027-03-24",
+  "customer_since": "2023-09-10",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0009",
+  "name": "Brindlestack",
+  "parts": [
+   "Brindle",
+   "stack"
+  ],
+  "domain": "brindlestack.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2026-11-29",
+  "customer_since": "2024-02-16",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0010",
+  "name": "Corvidhub",
+  "parts": [
+   "Corvid",
+   "hub"
+  ],
+  "domain": "corvidhub.example",
+  "plan": "Enterprise",
+  "arr": 46000,
+  "renewal_date": "2026-11-02",
+  "customer_since": "2022-11-24",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0011",
+  "name": "Hollisforge",
+  "parts": [
+   "Hollis",
+   "forge"
+  ],
+  "domain": "hollisforge.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-08-31",
+  "customer_since": "2024-07-30",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0012",
+  "name": "Cobaltworks",
+  "parts": [
+   "Cobalt",
+   "works"
+  ],
+  "domain": "cobaltworks.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-01-27",
+  "customer_since": "2024-01-29",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0013",
+  "name": "Alderbridge",
+  "parts": [
+   "Alder",
+   "bridge"
+  ],
+  "domain": "alderbridge.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2026-10-23",
+  "customer_since": "2024-09-27",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0014",
+  "name": "Northwindpoint",
+  "parts": [
+   "Northwind",
+   "point"
+  ],
+  "domain": "northwindpoint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-04-19",
+  "customer_since": "2024-06-13",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0015",
+  "name": "Yarrowworks",
+  "parts": [
+   "Yarrow",
+   "works"
+  ],
+  "domain": "yarrowworks.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-09",
+  "customer_since": "2023-12-21",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0016",
+  "name": "Solacescope",
+  "parts": [
+   "Solace",
+   "scope"
+  ],
+  "domain": "solacescope.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-02-07",
+  "customer_since": "2025-12-20",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0017",
+  "name": "Hollispoint",
+  "parts": [
+   "Hollis",
+   "point"
+  ],
+  "domain": "hollispoint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-09-04",
+  "customer_since": "2023-11-29",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0018",
+  "name": "Ferroloop",
+  "parts": [
+   "Ferro",
+   "loop"
+  ],
+  "domain": "ferroloop.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-12-21",
+  "customer_since": "2022-07-20",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0019",
+  "name": "Brindlepoint",
+  "parts": [
+   "Brindle",
+   "point"
+  ],
+  "domain": "brindlepoint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-09-08",
+  "customer_since": "2024-02-22",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0020",
+  "name": "Ferroflow",
+  "parts": [
+   "Ferro",
+   "flow"
+  ],
+  "domain": "ferroflow.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-15",
+  "customer_since": "2023-01-14",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0021",
+  "name": "Ironwoodline",
+  "parts": [
+   "Ironwood",
+   "line"
+  ],
+  "domain": "ironwoodline.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-01-15",
+  "customer_since": "2022-10-12",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0022",
+  "name": "Alderlabs",
+  "parts": [
+   "Alder",
+   "labs"
+  ],
+  "domain": "alderlabs.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-01-19",
+  "customer_since": "2022-12-08",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0023",
+  "name": "Juniperstack",
+  "parts": [
+   "Juniper",
+   "stack"
+  ],
+  "domain": "juniperstack.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-05-19",
+  "customer_since": "2024-12-30",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0024",
+  "name": "Zephyrstack",
+  "parts": [
+   "Zephyr",
+   "stack"
+  ],
+  "domain": "zephyrstack.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-09-01",
+  "customer_since": "2023-09-26",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0025",
+  "name": "Ferrostack",
+  "parts": [
+   "Ferro",
+   "stack"
+  ],
+  "domain": "ferrostack.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-06-28",
+  "customer_since": "2022-08-18",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0026",
+  "name": "Cobaltcast",
+  "parts": [
+   "Cobalt",
+   "cast"
+  ],
+  "domain": "cobaltcast.example",
+  "plan": "Enterprise",
+  "arr": 41500,
+  "renewal_date": "2027-05-13",
+  "customer_since": "2025-12-08",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0027",
+  "name": "Umbercast",
+  "parts": [
+   "Umber",
+   "cast"
+  ],
+  "domain": "umbercast.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-09-11",
+  "customer_since": "2024-08-12",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0028",
+  "name": "Pylongrid",
+  "parts": [
+   "Pylon",
+   "grid"
+  ],
+  "domain": "pylongrid.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-01-26",
+  "customer_since": "2025-03-13",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0029",
+  "name": "Fathomstack",
+  "parts": [
+   "Fathom",
+   "stack"
+  ],
+  "domain": "fathomstack.example",
+  "plan": "Enterprise",
+  "arr": 40000,
+  "renewal_date": "2027-04-09",
+  "customer_since": "2025-02-06",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0030",
+  "name": "Thistlelabs",
+  "parts": [
+   "Thistle",
+   "labs"
+  ],
+  "domain": "thistlelabs.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-10-19",
+  "customer_since": "2024-01-29",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0031",
+  "name": "Northwindgrid",
+  "parts": [
+   "Northwind",
+   "grid"
+  ],
+  "domain": "northwindgrid.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-03-01",
+  "customer_since": "2023-07-01",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0032",
+  "name": "Solacestack",
+  "parts": [
+   "Solace",
+   "stack"
+  ],
+  "domain": "solacestack.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-05-10",
+  "customer_since": "2024-10-29",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0033",
+  "name": "Quartzstack",
+  "parts": [
+   "Quartz",
+   "stack"
+  ],
+  "domain": "quartzstack.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-06-16",
+  "customer_since": "2024-11-21",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0034",
+  "name": "Opalbridge",
+  "parts": [
+   "Opal",
+   "bridge"
+  ],
+  "domain": "opalbridge.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-03-30",
+  "customer_since": "2023-05-24",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0035",
+  "name": "Heronpath",
+  "parts": [
+   "Heron",
+   "path"
+  ],
+  "domain": "heronpath.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-06-07",
+  "customer_since": "2022-06-11",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0036",
+  "name": "Fabledock",
+  "parts": [
+   "Fable",
+   "dock"
+  ],
+  "domain": "fabledock.example",
+  "plan": "Enterprise",
+  "arr": 45000,
+  "renewal_date": "2027-04-17",
+  "customer_since": "2024-07-15",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0037",
+  "name": "Harborloop",
+  "parts": [
+   "Harbor",
+   "loop"
+  ],
+  "domain": "harborloop.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2027-04-27",
+  "customer_since": "2024-02-17",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0038",
+  "name": "Heronmint",
+  "parts": [
+   "Heron",
+   "mint"
+  ],
+  "domain": "heronmint.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-08-17",
+  "customer_since": "2024-06-30",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0039",
+  "name": "Tesselforge",
+  "parts": [
+   "Tessel",
+   "forge"
+  ],
+  "domain": "tesselforge.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-12-22",
+  "customer_since": "2023-04-24",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0040",
+  "name": "Knollport",
+  "parts": [
+   "Knoll",
+   "port"
+  ],
+  "domain": "knollport.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-03",
+  "customer_since": "2023-03-01",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0041",
+  "name": "Lumenstack",
+  "parts": [
+   "Lumen",
+   "stack"
+  ],
+  "domain": "lumenstack.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-01-09",
+  "customer_since": "2023-04-04",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0042",
+  "name": "Wrenbase",
+  "parts": [
+   "Wren",
+   "base"
+  ],
+  "domain": "wrenbase.example",
+  "plan": "Enterprise",
+  "arr": 41000,
+  "renewal_date": "2027-03-23",
+  "customer_since": "2022-07-21",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0043",
+  "name": "Glintyard",
+  "parts": [
+   "Glint",
+   "yard"
+  ],
+  "domain": "glintyard.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-02-01",
+  "customer_since": "2022-08-21",
+  "usage_level": "low",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0044",
+  "name": "Cobaltyard",
+  "parts": [
+   "Cobalt",
+   "yard"
+  ],
+  "domain": "cobaltyard.example",
+  "plan": "Enterprise",
+  "arr": 39000,
+  "renewal_date": "2026-09-06",
+  "customer_since": "2023-03-15",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0045",
+  "name": "Kestrelflow",
+  "parts": [
+   "Kestrel",
+   "flow"
+  ],
+  "domain": "kestrelflow.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-08-21",
+  "customer_since": "2023-08-12",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0046",
+  "name": "Islecast",
+  "parts": [
+   "Isle",
+   "cast"
+  ],
+  "domain": "islecast.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-07-02",
+  "customer_since": "2024-05-26",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0047",
+  "name": "Jasperbridge",
+  "parts": [
+   "Jasper",
+   "bridge"
+  ],
+  "domain": "jasperbridge.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-04-11",
+  "customer_since": "2023-06-08",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0048",
+  "name": "Granitestack",
+  "parts": [
+   "Granite",
+   "stack"
+  ],
+  "domain": "granitestack.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-05-04",
+  "customer_since": "2022-10-31",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0049",
+  "name": "Pinionworks",
+  "parts": [
+   "Pinion",
+   "works"
+  ],
+  "domain": "pinionworks.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-05-03",
+  "customer_since": "2024-09-07",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0050",
+  "name": "Cindergrid",
+  "parts": [
+   "Cinder",
+   "grid"
+  ],
+  "domain": "cindergrid.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-02-05",
+  "customer_since": "2024-07-04",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0051",
+  "name": "Cinderhub",
+  "parts": [
+   "Cinder",
+   "hub"
+  ],
+  "domain": "cinderhub.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-10-26",
+  "customer_since": "2023-11-08",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0052",
+  "name": "Knollwave",
+  "parts": [
+   "Knoll",
+   "wave"
+  ],
+  "domain": "knollwave.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-06-30",
+  "customer_since": "2022-04-12",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0053",
+  "name": "Vantagecast",
+  "parts": [
+   "Vantage",
+   "cast"
+  ],
+  "domain": "vantagecast.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-08-29",
+  "customer_since": "2024-05-02",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0054",
+  "name": "Veritymint",
+  "parts": [
+   "Verity",
+   "mint"
+  ],
+  "domain": "veritymint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-08-30",
+  "customer_since": "2024-04-28",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0055",
+  "name": "Basaltlabs",
+  "parts": [
+   "Basalt",
+   "labs"
+  ],
+  "domain": "basaltlabs.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-10-23",
+  "customer_since": "2025-06-27",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0056",
+  "name": "Cobaltwave",
+  "parts": [
+   "Cobalt",
+   "wave"
+  ],
+  "domain": "cobaltwave.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-11-05",
+  "customer_since": "2022-08-15",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0057",
+  "name": "Zephyryard",
+  "parts": [
+   "Zephyr",
+   "yard"
+  ],
+  "domain": "zephyryard.example",
+  "plan": "Enterprise",
+  "arr": 47000,
+  "renewal_date": "2026-12-31",
+  "customer_since": "2022-06-08",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0058",
+  "name": "Orchardcast",
+  "parts": [
+   "Orchard",
+   "cast"
+  ],
+  "domain": "orchardcast.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-04-18",
+  "customer_since": "2023-12-14",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0059",
+  "name": "Mosaichub",
+  "parts": [
+   "Mosaic",
+   "hub"
+  ],
+  "domain": "mosaichub.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2026-12-14",
+  "customer_since": "2025-05-20",
+  "usage_level": "low",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0060",
+  "name": "Hollisdock",
+  "parts": [
+   "Hollis",
+   "dock"
+  ],
+  "domain": "hollisdock.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-10-07",
+  "customer_since": "2024-04-28",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0061",
+  "name": "Sablemint",
+  "parts": [
+   "Sable",
+   "mint"
+  ],
+  "domain": "sablemint.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-08-24",
+  "customer_since": "2025-01-13",
+  "usage_level": "low",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0062",
+  "name": "Fablewave",
+  "parts": [
+   "Fable",
+   "wave"
+  ],
+  "domain": "fablewave.example",
+  "plan": "Enterprise",
+  "arr": 38500,
+  "renewal_date": "2027-07-23",
+  "customer_since": "2023-08-15",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0063",
+  "name": "Tamarackforge",
+  "parts": [
+   "Tamarack",
+   "forge"
+  ],
+  "domain": "tamarackforge.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-01-02",
+  "customer_since": "2023-08-11",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0064",
+  "name": "Corvidscope",
+  "parts": [
+   "Corvid",
+   "scope"
+  ],
+  "domain": "corvidscope.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-29",
+  "customer_since": "2024-07-29",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0065",
+  "name": "Glintworks",
+  "parts": [
+   "Glint",
+   "works"
+  ],
+  "domain": "glintworks.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-03-29",
+  "customer_since": "2024-12-28",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0066",
+  "name": "Vantageforge",
+  "parts": [
+   "Vantage",
+   "forge"
+  ],
+  "domain": "vantageforge.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2026-10-27",
+  "customer_since": "2024-04-08",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0067",
+  "name": "Estuarylabs",
+  "parts": [
+   "Estuary",
+   "labs"
+  ],
+  "domain": "estuarylabs.example",
+  "plan": "Enterprise",
+  "arr": 39000,
+  "renewal_date": "2027-05-28",
+  "customer_since": "2022-08-08",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0068",
+  "name": "Hollisflow",
+  "parts": [
+   "Hollis",
+   "flow"
+  ],
+  "domain": "hollisflow.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-06-05",
+  "customer_since": "2023-10-12",
+  "usage_level": "low",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0069",
+  "name": "Sableloop",
+  "parts": [
+   "Sable",
+   "loop"
+  ],
+  "domain": "sableloop.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-12-30",
+  "customer_since": "2022-09-26",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0070",
+  "name": "Heronbridge",
+  "parts": [
+   "Heron",
+   "bridge"
+  ],
+  "domain": "heronbridge.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-06-11",
+  "customer_since": "2022-04-13",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0071",
+  "name": "Pinionlabs",
+  "parts": [
+   "Pinion",
+   "labs"
+  ],
+  "domain": "pinionlabs.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-07-19",
+  "customer_since": "2022-03-26",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0072",
+  "name": "Cobaltpath",
+  "parts": [
+   "Cobalt",
+   "path"
+  ],
+  "domain": "cobaltpath.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-08-30",
+  "customer_since": "2024-10-09",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0073",
+  "name": "Tesselscope",
+  "parts": [
+   "Tessel",
+   "scope"
+  ],
+  "domain": "tesselscope.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-09-28",
+  "customer_since": "2024-11-27",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0074",
+  "name": "Hollisyard",
+  "parts": [
+   "Hollis",
+   "yard"
+  ],
+  "domain": "hollisyard.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-05-19",
+  "customer_since": "2022-11-24",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0075",
+  "name": "Tesselstack",
+  "parts": [
+   "Tessel",
+   "stack"
+  ],
+  "domain": "tesselstack.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-02-04",
+  "customer_since": "2025-05-04",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0076",
+  "name": "Tamarackbase",
+  "parts": [
+   "Tamarack",
+   "base"
+  ],
+  "domain": "tamarackbase.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-05-28",
+  "customer_since": "2023-05-09",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0077",
+  "name": "Glintstack",
+  "parts": [
+   "Glint",
+   "stack"
+  ],
+  "domain": "glintstack.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-10-21",
+  "customer_since": "2023-06-25",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0078",
+  "name": "Nimbusgrid",
+  "parts": [
+   "Nimbus",
+   "grid"
+  ],
+  "domain": "nimbusgrid.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-02-04",
+  "customer_since": "2023-11-17",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0079",
+  "name": "Vantagestack",
+  "parts": [
+   "Vantage",
+   "stack"
+  ],
+  "domain": "vantagestack.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-10-08",
+  "customer_since": "2024-12-20",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0080",
+  "name": "Emberbase",
+  "parts": [
+   "Ember",
+   "base"
+  ],
+  "domain": "emberbase.example",
+  "plan": "Enterprise",
+  "arr": 47500,
+  "renewal_date": "2027-03-11",
+  "customer_since": "2024-03-19",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0081",
+  "name": "Dunlinbase",
+  "parts": [
+   "Dunlin",
+   "base"
+  ],
+  "domain": "dunlinbase.example",
+  "plan": "Enterprise",
+  "arr": 46000,
+  "renewal_date": "2026-08-12",
+  "customer_since": "2024-08-24",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0082",
+  "name": "Fableforge",
+  "parts": [
+   "Fable",
+   "forge"
+  ],
+  "domain": "fableforge.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-07-30",
+  "customer_since": "2024-10-27",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0083",
+  "name": "Solaceworks",
+  "parts": [
+   "Solace",
+   "works"
+  ],
+  "domain": "solaceworks.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-11-29",
+  "customer_since": "2024-01-30",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0084",
+  "name": "Gantryline",
+  "parts": [
+   "Gantry",
+   "line"
+  ],
+  "domain": "gantryline.example",
+  "plan": "Business",
+  "arr": 20500,
+  "renewal_date": "2026-09-18",
+  "customer_since": "2022-07-08",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0085",
+  "name": "Hollisgrid",
+  "parts": [
+   "Hollis",
+   "grid"
+  ],
+  "domain": "hollisgrid.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2026-09-08",
+  "customer_since": "2023-07-14",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0086",
+  "name": "Opalmint",
+  "parts": [
+   "Opal",
+   "mint"
+  ],
+  "domain": "opalmint.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-01-24",
+  "customer_since": "2022-07-22",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0087",
+  "name": "Ironwoodbase",
+  "parts": [
+   "Ironwood",
+   "base"
+  ],
+  "domain": "ironwoodbase.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-08-24",
+  "customer_since": "2022-12-15",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0088",
+  "name": "Opalflow",
+  "parts": [
+   "Opal",
+   "flow"
+  ],
+  "domain": "opalflow.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-09-01",
+  "customer_since": "2022-06-12",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0089",
+  "name": "Nimbuspoint",
+  "parts": [
+   "Nimbus",
+   "point"
+  ],
+  "domain": "nimbuspoint.example",
+  "plan": "Business",
+  "arr": 20500,
+  "renewal_date": "2027-04-28",
+  "customer_since": "2022-09-18",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0090",
+  "name": "Pinioncast",
+  "parts": [
+   "Pinion",
+   "cast"
+  ],
+  "domain": "pinioncast.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2026-08-29",
+  "customer_since": "2023-08-23",
+  "usage_level": "low",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0091",
+  "name": "Fableline",
+  "parts": [
+   "Fable",
+   "line"
+  ],
+  "domain": "fableline.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-02-11",
+  "customer_since": "2024-03-06",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0092",
+  "name": "Deltastack",
+  "parts": [
+   "Delta",
+   "stack"
+  ],
+  "domain": "deltastack.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-10-26",
+  "customer_since": "2024-02-15",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0093",
+  "name": "Latticeline",
+  "parts": [
+   "Lattice",
+   "line"
+  ],
+  "domain": "latticeline.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-05-15",
+  "customer_since": "2024-10-30",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0094",
+  "name": "Fathompoint",
+  "parts": [
+   "Fathom",
+   "point"
+  ],
+  "domain": "fathompoint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-11-12",
+  "customer_since": "2022-07-05",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0095",
+  "name": "Deltawave",
+  "parts": [
+   "Delta",
+   "wave"
+  ],
+  "domain": "deltawave.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-07-30",
+  "customer_since": "2023-01-13",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0096",
+  "name": "Opalbase",
+  "parts": [
+   "Opal",
+   "base"
+  ],
+  "domain": "opalbase.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-12-05",
+  "customer_since": "2022-08-13",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0097",
+  "name": "Fathomyard",
+  "parts": [
+   "Fathom",
+   "yard"
+  ],
+  "domain": "fathomyard.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-11-03",
+  "customer_since": "2023-09-15",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0098",
+  "name": "Pylonmint",
+  "parts": [
+   "Pylon",
+   "mint"
+  ],
+  "domain": "pylonmint.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-08-03",
+  "customer_since": "2023-02-16",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0099",
+  "name": "Granitehub",
+  "parts": [
+   "Granite",
+   "hub"
+  ],
+  "domain": "granitehub.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-08-14",
+  "customer_since": "2024-02-12",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0100",
+  "name": "Umberwave",
+  "parts": [
+   "Umber",
+   "wave"
+  ],
+  "domain": "umberwave.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-03-31",
+  "customer_since": "2022-03-20",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0101",
+  "name": "Opalworks",
+  "parts": [
+   "Opal",
+   "works"
+  ],
+  "domain": "opalworks.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-09-28",
+  "customer_since": "2023-08-27",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0102",
+  "name": "Latticeworks",
+  "parts": [
+   "Lattice",
+   "works"
+  ],
+  "domain": "latticeworks.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-10-27",
+  "customer_since": "2025-08-19",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0103",
+  "name": "Emberwave",
+  "parts": [
+   "Ember",
+   "wave"
+  ],
+  "domain": "emberwave.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2027-04-15",
+  "customer_since": "2025-05-12",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0104",
+  "name": "Glintbridge",
+  "parts": [
+   "Glint",
+   "bridge"
+  ],
+  "domain": "glintbridge.example",
+  "plan": "Business",
+  "arr": 16000,
+  "renewal_date": "2026-10-31",
+  "customer_since": "2023-03-01",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0105",
+  "name": "Veritydock",
+  "parts": [
+   "Verity",
+   "dock"
+  ],
+  "domain": "veritydock.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-02-24",
+  "customer_since": "2024-11-05",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0106",
+  "name": "Basaltbase",
+  "parts": [
+   "Basalt",
+   "base"
+  ],
+  "domain": "basaltbase.example",
+  "plan": "Enterprise",
+  "arr": 39000,
+  "renewal_date": "2026-11-06",
+  "customer_since": "2023-09-19",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0107",
+  "name": "Harborworks",
+  "parts": [
+   "Harbor",
+   "works"
+  ],
+  "domain": "harborworks.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-06-27",
+  "customer_since": "2025-12-21",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0108",
+  "name": "Latticepoint",
+  "parts": [
+   "Lattice",
+   "point"
+  ],
+  "domain": "latticepoint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-11-16",
+  "customer_since": "2025-11-28",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0109",
+  "name": "Fathommint",
+  "parts": [
+   "Fathom",
+   "mint"
+  ],
+  "domain": "fathommint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-05-16",
+  "customer_since": "2026-01-03",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0110",
+  "name": "Glintline",
+  "parts": [
+   "Glint",
+   "line"
+  ],
+  "domain": "glintline.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2027-05-21",
+  "customer_since": "2023-07-01",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0111",
+  "name": "Deltahub",
+  "parts": [
+   "Delta",
+   "hub"
+  ],
+  "domain": "deltahub.example",
+  "plan": "Business",
+  "arr": 20500,
+  "renewal_date": "2026-09-09",
+  "customer_since": "2022-07-06",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0112",
+  "name": "Lumenscope",
+  "parts": [
+   "Lumen",
+   "scope"
+  ],
+  "domain": "lumenscope.example",
+  "plan": "Enterprise",
+  "arr": 46500,
+  "renewal_date": "2026-11-03",
+  "customer_since": "2024-09-25",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0113",
+  "name": "Willowworks",
+  "parts": [
+   "Willow",
+   "works"
+  ],
+  "domain": "willowworks.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-11-18",
+  "customer_since": "2024-10-21",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0114",
+  "name": "Knollbase",
+  "parts": [
+   "Knoll",
+   "base"
+  ],
+  "domain": "knollbase.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-01-15",
+  "customer_since": "2025-07-31",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0115",
+  "name": "Isleloop",
+  "parts": [
+   "Isle",
+   "loop"
+  ],
+  "domain": "isleloop.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-08-13",
+  "customer_since": "2023-03-07",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0116",
+  "name": "Mosaicscope",
+  "parts": [
+   "Mosaic",
+   "scope"
+  ],
+  "domain": "mosaicscope.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2026-10-04",
+  "customer_since": "2023-06-26",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0117",
+  "name": "Deltabridge",
+  "parts": [
+   "Delta",
+   "bridge"
+  ],
+  "domain": "deltabridge.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-07-20",
+  "customer_since": "2025-04-04",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0118",
+  "name": "Orchardwave",
+  "parts": [
+   "Orchard",
+   "wave"
+  ],
+  "domain": "orchardwave.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-01-06",
+  "customer_since": "2024-12-30",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0119",
+  "name": "Isleyard",
+  "parts": [
+   "Isle",
+   "yard"
+  ],
+  "domain": "isleyard.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-06-12",
+  "customer_since": "2023-02-11",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0120",
+  "name": "Northwindwave",
+  "parts": [
+   "Northwind",
+   "wave"
+  ],
+  "domain": "northwindwave.example",
+  "plan": "Enterprise",
+  "arr": 42500,
+  "renewal_date": "2026-09-06",
+  "customer_since": "2023-09-27",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0121",
+  "name": "Marlowflow",
+  "parts": [
+   "Marlow",
+   "flow"
+  ],
+  "domain": "marlowflow.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-08-31",
+  "customer_since": "2022-08-06",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0122",
+  "name": "Basaltyard",
+  "parts": [
+   "Basalt",
+   "yard"
+  ],
+  "domain": "basaltyard.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-10-28",
+  "customer_since": "2025-12-17",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0123",
+  "name": "Pylonport",
+  "parts": [
+   "Pylon",
+   "port"
+  ],
+  "domain": "pylonport.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-06-01",
+  "customer_since": "2025-01-18",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0124",
+  "name": "Thistlebridge",
+  "parts": [
+   "Thistle",
+   "bridge"
+  ],
+  "domain": "thistlebridge.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-12-22",
+  "customer_since": "2023-10-18",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0125",
+  "name": "Corviddock",
+  "parts": [
+   "Corvid",
+   "dock"
+  ],
+  "domain": "corviddock.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-08-03",
+  "customer_since": "2024-09-18",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0126",
+  "name": "Deltaport",
+  "parts": [
+   "Delta",
+   "port"
+  ],
+  "domain": "deltaport.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-08-13",
+  "customer_since": "2025-10-26",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0127",
+  "name": "Hollisport",
+  "parts": [
+   "Hollis",
+   "port"
+  ],
+  "domain": "hollisport.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-09-14",
+  "customer_since": "2023-11-18",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0128",
+  "name": "Opalloop",
+  "parts": [
+   "Opal",
+   "loop"
+  ],
+  "domain": "opalloop.example",
+  "plan": "Enterprise",
+  "arr": 45000,
+  "renewal_date": "2027-04-20",
+  "customer_since": "2025-10-27",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0129",
+  "name": "Deltayard",
+  "parts": [
+   "Delta",
+   "yard"
+  ],
+  "domain": "deltayard.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-08-06",
+  "customer_since": "2023-11-15",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0130",
+  "name": "Graniteforge",
+  "parts": [
+   "Granite",
+   "forge"
+  ],
+  "domain": "graniteforge.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-04-22",
+  "customer_since": "2023-05-16",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0131",
+  "name": "Pylonpath",
+  "parts": [
+   "Pylon",
+   "path"
+  ],
+  "domain": "pylonpath.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-11-21",
+  "customer_since": "2024-04-24",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0132",
+  "name": "Cobaltbase",
+  "parts": [
+   "Cobalt",
+   "base"
+  ],
+  "domain": "cobaltbase.example",
+  "plan": "Enterprise",
+  "arr": 46000,
+  "renewal_date": "2027-01-18",
+  "customer_since": "2025-03-05",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0133",
+  "name": "Corvidworks",
+  "parts": [
+   "Corvid",
+   "works"
+  ],
+  "domain": "corvidworks.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-06-08",
+  "customer_since": "2022-07-05",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0134",
+  "name": "Dunlinstack",
+  "parts": [
+   "Dunlin",
+   "stack"
+  ],
+  "domain": "dunlinstack.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-02-06",
+  "customer_since": "2024-07-25",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0135",
+  "name": "Dunlinpath",
+  "parts": [
+   "Dunlin",
+   "path"
+  ],
+  "domain": "dunlinpath.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-09-03",
+  "customer_since": "2025-07-18",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0136",
+  "name": "Estuarybase",
+  "parts": [
+   "Estuary",
+   "base"
+  ],
+  "domain": "estuarybase.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-06-26",
+  "customer_since": "2025-03-25",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0137",
+  "name": "Corvidloop",
+  "parts": [
+   "Corvid",
+   "loop"
+  ],
+  "domain": "corvidloop.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-08-17",
+  "customer_since": "2022-03-16",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0138",
+  "name": "Ironwoodyard",
+  "parts": [
+   "Ironwood",
+   "yard"
+  ],
+  "domain": "ironwoodyard.example",
+  "plan": "Enterprise",
+  "arr": 47000,
+  "renewal_date": "2027-05-14",
+  "customer_since": "2025-01-11",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0139",
+  "name": "Lumenpoint",
+  "parts": [
+   "Lumen",
+   "point"
+  ],
+  "domain": "lumenpoint.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-01-16",
+  "customer_since": "2024-11-22",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0140",
+  "name": "Jaspermint",
+  "parts": [
+   "Jasper",
+   "mint"
+  ],
+  "domain": "jaspermint.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-09-09",
+  "customer_since": "2024-10-11",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0141",
+  "name": "Knollyard",
+  "parts": [
+   "Knoll",
+   "yard"
+  ],
+  "domain": "knollyard.example",
+  "plan": "Business",
+  "arr": 16000,
+  "renewal_date": "2027-02-05",
+  "customer_since": "2024-03-30",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0142",
+  "name": "Quartzyard",
+  "parts": [
+   "Quartz",
+   "yard"
+  ],
+  "domain": "quartzyard.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2027-02-14",
+  "customer_since": "2024-03-01",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0143",
+  "name": "Nimbusmint",
+  "parts": [
+   "Nimbus",
+   "mint"
+  ],
+  "domain": "nimbusmint.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2026-12-06",
+  "customer_since": "2024-03-14",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0144",
+  "name": "Heroncast",
+  "parts": [
+   "Heron",
+   "cast"
+  ],
+  "domain": "heroncast.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-09-17",
+  "customer_since": "2026-01-02",
+  "usage_level": "low",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0145",
+  "name": "Corvidforge",
+  "parts": [
+   "Corvid",
+   "forge"
+  ],
+  "domain": "corvidforge.example",
+  "plan": "Enterprise",
+  "arr": 45000,
+  "renewal_date": "2027-05-28",
+  "customer_since": "2024-11-13",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0146",
+  "name": "Pinionbase",
+  "parts": [
+   "Pinion",
+   "base"
+  ],
+  "domain": "pinionbase.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-01-21",
+  "customer_since": "2024-04-07",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0147",
+  "name": "Opalpoint",
+  "parts": [
+   "Opal",
+   "point"
+  ],
+  "domain": "opalpoint.example",
+  "plan": "Enterprise",
+  "arr": 40000,
+  "renewal_date": "2027-05-25",
+  "customer_since": "2024-05-14",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0148",
+  "name": "Glintwave",
+  "parts": [
+   "Glint",
+   "wave"
+  ],
+  "domain": "glintwave.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2026-09-29",
+  "customer_since": "2023-04-07",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0149",
+  "name": "Emberloop",
+  "parts": [
+   "Ember",
+   "loop"
+  ],
+  "domain": "emberloop.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2027-03-19",
+  "customer_since": "2025-07-19",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0150",
+  "name": "Ridgemint",
+  "parts": [
+   "Ridge",
+   "mint"
+  ],
+  "domain": "ridgemint.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-08-13",
+  "customer_since": "2024-07-12",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0151",
+  "name": "Veritygrid",
+  "parts": [
+   "Verity",
+   "grid"
+  ],
+  "domain": "veritygrid.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-07-03",
+  "customer_since": "2023-06-15",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0152",
+  "name": "Nimbusyard",
+  "parts": [
+   "Nimbus",
+   "yard"
+  ],
+  "domain": "nimbusyard.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-02-15",
+  "customer_since": "2024-11-13",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0153",
+  "name": "Latticestack",
+  "parts": [
+   "Lattice",
+   "stack"
+  ],
+  "domain": "latticestack.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-03-14",
+  "customer_since": "2024-12-22",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0154",
+  "name": "Latticebridge",
+  "parts": [
+   "Lattice",
+   "bridge"
+  ],
+  "domain": "latticebridge.example",
+  "plan": "Enterprise",
+  "arr": 47000,
+  "renewal_date": "2027-03-16",
+  "customer_since": "2022-05-06",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0155",
+  "name": "Thistlepath",
+  "parts": [
+   "Thistle",
+   "path"
+  ],
+  "domain": "thistlepath.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-12-22",
+  "customer_since": "2024-04-25",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0156",
+  "name": "Aldercast",
+  "parts": [
+   "Alder",
+   "cast"
+  ],
+  "domain": "aldercast.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-05-08",
+  "customer_since": "2023-07-14",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0157",
+  "name": "Brindlelabs",
+  "parts": [
+   "Brindle",
+   "labs"
+  ],
+  "domain": "brindlelabs.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-08-14",
+  "customer_since": "2025-10-27",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0158",
+  "name": "Brindlebase",
+  "parts": [
+   "Brindle",
+   "base"
+  ],
+  "domain": "brindlebase.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-03-22",
+  "customer_since": "2024-12-22",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0159",
+  "name": "Juniperbase",
+  "parts": [
+   "Juniper",
+   "base"
+  ],
+  "domain": "juniperbase.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2027-01-14",
+  "customer_since": "2024-01-20",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0160",
+  "name": "Quillpath",
+  "parts": [
+   "Quill",
+   "path"
+  ],
+  "domain": "quillpath.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-04-13",
+  "customer_since": "2023-03-27",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0161",
+  "name": "Knollscope",
+  "parts": [
+   "Knoll",
+   "scope"
+  ],
+  "domain": "knollscope.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-03-28",
+  "customer_since": "2025-08-13",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0162",
+  "name": "Gantrydock",
+  "parts": [
+   "Gantry",
+   "dock"
+  ],
+  "domain": "gantrydock.example",
+  "plan": "Enterprise",
+  "arr": 39000,
+  "renewal_date": "2026-08-26",
+  "customer_since": "2022-08-24",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0163",
+  "name": "Ferroyard",
+  "parts": [
+   "Ferro",
+   "yard"
+  ],
+  "domain": "ferroyard.example",
+  "plan": "Enterprise",
+  "arr": 40500,
+  "renewal_date": "2027-06-17",
+  "customer_since": "2022-04-12",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0164",
+  "name": "Marlowyard",
+  "parts": [
+   "Marlow",
+   "yard"
+  ],
+  "domain": "marlowyard.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2026-11-12",
+  "customer_since": "2023-09-14",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0165",
+  "name": "Opalscope",
+  "parts": [
+   "Opal",
+   "scope"
+  ],
+  "domain": "opalscope.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-06-07",
+  "customer_since": "2022-12-28",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0166",
+  "name": "Wrenpath",
+  "parts": [
+   "Wren",
+   "path"
+  ],
+  "domain": "wrenpath.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2026-09-21",
+  "customer_since": "2023-12-31",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0167",
+  "name": "Graniteport",
+  "parts": [
+   "Granite",
+   "port"
+  ],
+  "domain": "graniteport.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2026-11-23",
+  "customer_since": "2023-09-22",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0168",
+  "name": "Jasperhub",
+  "parts": [
+   "Jasper",
+   "hub"
+  ],
+  "domain": "jasperhub.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-02-12",
+  "customer_since": "2025-06-05",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0169",
+  "name": "Wrenloop",
+  "parts": [
+   "Wren",
+   "loop"
+  ],
+  "domain": "wrenloop.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-02-24",
+  "customer_since": "2023-03-04",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0170",
+  "name": "Nimbusstack",
+  "parts": [
+   "Nimbus",
+   "stack"
+  ],
+  "domain": "nimbusstack.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-03-29",
+  "customer_since": "2024-03-10",
+  "usage_level": "low",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0171",
+  "name": "Marlowscope",
+  "parts": [
+   "Marlow",
+   "scope"
+  ],
+  "domain": "marlowscope.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-11-25",
+  "customer_since": "2024-05-24",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0172",
+  "name": "Gantrywave",
+  "parts": [
+   "Gantry",
+   "wave"
+  ],
+  "domain": "gantrywave.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-04-23",
+  "customer_since": "2024-05-17",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0173",
+  "name": "Gantryscope",
+  "parts": [
+   "Gantry",
+   "scope"
+  ],
+  "domain": "gantryscope.example",
+  "plan": "Enterprise",
+  "arr": 47500,
+  "renewal_date": "2026-09-03",
+  "customer_since": "2023-03-04",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0174",
+  "name": "Knollmint",
+  "parts": [
+   "Knoll",
+   "mint"
+  ],
+  "domain": "knollmint.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2027-06-04",
+  "customer_since": "2023-06-30",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0175",
+  "name": "Lumendock",
+  "parts": [
+   "Lumen",
+   "dock"
+  ],
+  "domain": "lumendock.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-01-26",
+  "customer_since": "2025-05-18",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0176",
+  "name": "Tesselhub",
+  "parts": [
+   "Tessel",
+   "hub"
+  ],
+  "domain": "tesselhub.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-10-22",
+  "customer_since": "2025-10-12",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0177",
+  "name": "Sablebridge",
+  "parts": [
+   "Sable",
+   "bridge"
+  ],
+  "domain": "sablebridge.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-07-11",
+  "customer_since": "2025-09-19",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0178",
+  "name": "Pylonyard",
+  "parts": [
+   "Pylon",
+   "yard"
+  ],
+  "domain": "pylonyard.example",
+  "plan": "Enterprise",
+  "arr": 42000,
+  "renewal_date": "2027-07-12",
+  "customer_since": "2022-05-08",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0179",
+  "name": "Dunlinforge",
+  "parts": [
+   "Dunlin",
+   "forge"
+  ],
+  "domain": "dunlinforge.example",
+  "plan": "Enterprise",
+  "arr": 44500,
+  "renewal_date": "2027-07-06",
+  "customer_since": "2024-11-15",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0180",
+  "name": "Heronscope",
+  "parts": [
+   "Heron",
+   "scope"
+  ],
+  "domain": "heronscope.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-09",
+  "customer_since": "2024-12-01",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0181",
+  "name": "Tamarackport",
+  "parts": [
+   "Tamarack",
+   "port"
+  ],
+  "domain": "tamarackport.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-08-12",
+  "customer_since": "2025-09-06",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0182",
+  "name": "Jaspergrid",
+  "parts": [
+   "Jasper",
+   "grid"
+  ],
+  "domain": "jaspergrid.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-27",
+  "customer_since": "2025-02-09",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0183",
+  "name": "Juniperpath",
+  "parts": [
+   "Juniper",
+   "path"
+  ],
+  "domain": "juniperpath.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-11-09",
+  "customer_since": "2024-08-30",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0184",
+  "name": "Solacepath",
+  "parts": [
+   "Solace",
+   "path"
+  ],
+  "domain": "solacepath.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-06-13",
+  "customer_since": "2025-08-15",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0185",
+  "name": "Thistleloop",
+  "parts": [
+   "Thistle",
+   "loop"
+  ],
+  "domain": "thistleloop.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2027-01-13",
+  "customer_since": "2024-04-21",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0186",
+  "name": "Northwindyard",
+  "parts": [
+   "Northwind",
+   "yard"
+  ],
+  "domain": "northwindyard.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-01-23",
+  "customer_since": "2022-11-28",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0187",
+  "name": "Ferrodock",
+  "parts": [
+   "Ferro",
+   "dock"
+  ],
+  "domain": "ferrodock.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-08",
+  "customer_since": "2023-02-27",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0188",
+  "name": "Alderworks",
+  "parts": [
+   "Alder",
+   "works"
+  ],
+  "domain": "alderworks.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-01-15",
+  "customer_since": "2023-03-12",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0189",
+  "name": "Thistleforge",
+  "parts": [
+   "Thistle",
+   "forge"
+  ],
+  "domain": "thistleforge.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-05-17",
+  "customer_since": "2025-12-22",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0190",
+  "name": "Harborhub",
+  "parts": [
+   "Harbor",
+   "hub"
+  ],
+  "domain": "harborhub.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-07-17",
+  "customer_since": "2024-11-18",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0191",
+  "name": "Alderline",
+  "parts": [
+   "Alder",
+   "line"
+  ],
+  "domain": "alderline.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-12-25",
+  "customer_since": "2023-01-13",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0192",
+  "name": "Harborport",
+  "parts": [
+   "Harbor",
+   "port"
+  ],
+  "domain": "harborport.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2027-02-01",
+  "customer_since": "2024-06-07",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0193",
+  "name": "Knollworks",
+  "parts": [
+   "Knoll",
+   "works"
+  ],
+  "domain": "knollworks.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-05-24",
+  "customer_since": "2025-04-26",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0194",
+  "name": "Glintmint",
+  "parts": [
+   "Glint",
+   "mint"
+  ],
+  "domain": "glintmint.example",
+  "plan": "Enterprise",
+  "arr": 42000,
+  "renewal_date": "2027-05-26",
+  "customer_since": "2023-12-13",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0195",
+  "name": "Fathomlabs",
+  "parts": [
+   "Fathom",
+   "labs"
+  ],
+  "domain": "fathomlabs.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-10-22",
+  "customer_since": "2023-06-16",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0196",
+  "name": "Corvidline",
+  "parts": [
+   "Corvid",
+   "line"
+  ],
+  "domain": "corvidline.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2026-08-15",
+  "customer_since": "2025-05-20",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0197",
+  "name": "Willowpoint",
+  "parts": [
+   "Willow",
+   "point"
+  ],
+  "domain": "willowpoint.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2026-12-20",
+  "customer_since": "2024-04-27",
+  "usage_level": "low",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0198",
+  "name": "Fablescope",
+  "parts": [
+   "Fable",
+   "scope"
+  ],
+  "domain": "fablescope.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-10-21",
+  "customer_since": "2023-07-10",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0199",
+  "name": "Estuaryhub",
+  "parts": [
+   "Estuary",
+   "hub"
+  ],
+  "domain": "estuaryhub.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-01-26",
+  "customer_since": "2025-10-21",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0200",
+  "name": "Basaltport",
+  "parts": [
+   "Basalt",
+   "port"
+  ],
+  "domain": "basaltport.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2026-08-12",
+  "customer_since": "2025-08-28",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0201",
+  "name": "Cinderport",
+  "parts": [
+   "Cinder",
+   "port"
+  ],
+  "domain": "cinderport.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-05-06",
+  "customer_since": "2024-09-23",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0202",
+  "name": "Marlowstack",
+  "parts": [
+   "Marlow",
+   "stack"
+  ],
+  "domain": "marlowstack.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-08-18",
+  "customer_since": "2025-02-24",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0203",
+  "name": "Thistlewave",
+  "parts": [
+   "Thistle",
+   "wave"
+  ],
+  "domain": "thistlewave.example",
+  "plan": "Business",
+  "arr": 16000,
+  "renewal_date": "2027-02-02",
+  "customer_since": "2023-11-11",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0204",
+  "name": "Estuarybridge",
+  "parts": [
+   "Estuary",
+   "bridge"
+  ],
+  "domain": "estuarybridge.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2026-10-01",
+  "customer_since": "2023-09-01",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0205",
+  "name": "Cobaltmint",
+  "parts": [
+   "Cobalt",
+   "mint"
+  ],
+  "domain": "cobaltmint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-04-30",
+  "customer_since": "2023-02-06",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0206",
+  "name": "Junipercast",
+  "parts": [
+   "Juniper",
+   "cast"
+  ],
+  "domain": "junipercast.example",
+  "plan": "Business",
+  "arr": 20500,
+  "renewal_date": "2027-06-05",
+  "customer_since": "2024-09-28",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0207",
+  "name": "Latticewave",
+  "parts": [
+   "Lattice",
+   "wave"
+  ],
+  "domain": "latticewave.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-07-12",
+  "customer_since": "2023-12-10",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0208",
+  "name": "Northwindloop",
+  "parts": [
+   "Northwind",
+   "loop"
+  ],
+  "domain": "northwindloop.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-05-05",
+  "customer_since": "2023-08-02",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0209",
+  "name": "Fablehub",
+  "parts": [
+   "Fable",
+   "hub"
+  ],
+  "domain": "fablehub.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-02-20",
+  "customer_since": "2026-01-01",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0210",
+  "name": "Cinderyard",
+  "parts": [
+   "Cinder",
+   "yard"
+  ],
+  "domain": "cinderyard.example",
+  "plan": "Business",
+  "arr": 18500,
+  "renewal_date": "2027-05-31",
+  "customer_since": "2022-06-06",
+  "usage_level": "low",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0211",
+  "name": "Ferroport",
+  "parts": [
+   "Ferro",
+   "port"
+  ],
+  "domain": "ferroport.example",
+  "plan": "Enterprise",
+  "arr": 44000,
+  "renewal_date": "2027-01-13",
+  "customer_since": "2026-01-06",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0212",
+  "name": "Heronpoint",
+  "parts": [
+   "Heron",
+   "point"
+  ],
+  "domain": "heronpoint.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-08-25",
+  "customer_since": "2025-05-23",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0213",
+  "name": "Basaltforge",
+  "parts": [
+   "Basalt",
+   "forge"
+  ],
+  "domain": "basaltforge.example",
+  "plan": "Enterprise",
+  "arr": 47000,
+  "renewal_date": "2027-05-20",
+  "customer_since": "2025-01-19",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0214",
+  "name": "Nimbushub",
+  "parts": [
+   "Nimbus",
+   "hub"
+  ],
+  "domain": "nimbushub.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-08-09",
+  "customer_since": "2023-11-04",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0215",
+  "name": "Pylonbase",
+  "parts": [
+   "Pylon",
+   "base"
+  ],
+  "domain": "pylonbase.example",
+  "plan": "Enterprise",
+  "arr": 41500,
+  "renewal_date": "2027-06-10",
+  "customer_since": "2022-11-19",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0216",
+  "name": "Sableflow",
+  "parts": [
+   "Sable",
+   "flow"
+  ],
+  "domain": "sableflow.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-03-18",
+  "customer_since": "2025-05-20",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0217",
+  "name": "Dunlinline",
+  "parts": [
+   "Dunlin",
+   "line"
+  ],
+  "domain": "dunlinline.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2026-12-27",
+  "customer_since": "2024-07-24",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0218",
+  "name": "Cinderflow",
+  "parts": [
+   "Cinder",
+   "flow"
+  ],
+  "domain": "cinderflow.example",
+  "plan": "Enterprise",
+  "arr": 47500,
+  "renewal_date": "2026-09-20",
+  "customer_since": "2022-05-29",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0219",
+  "name": "Umberforge",
+  "parts": [
+   "Umber",
+   "forge"
+  ],
+  "domain": "umberforge.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-07-31",
+  "customer_since": "2025-08-06",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0220",
+  "name": "Fathomscope",
+  "parts": [
+   "Fathom",
+   "scope"
+  ],
+  "domain": "fathomscope.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2027-04-23",
+  "customer_since": "2025-03-13",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0221",
+  "name": "Isleworks",
+  "parts": [
+   "Isle",
+   "works"
+  ],
+  "domain": "isleworks.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2026-10-30",
+  "customer_since": "2022-07-08",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0222",
+  "name": "Emberport",
+  "parts": [
+   "Ember",
+   "port"
+  ],
+  "domain": "emberport.example",
+  "plan": "Enterprise",
+  "arr": 40500,
+  "renewal_date": "2026-10-04",
+  "customer_since": "2023-05-29",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0223",
+  "name": "Heronstack",
+  "parts": [
+   "Heron",
+   "stack"
+  ],
+  "domain": "heronstack.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-31",
+  "customer_since": "2025-09-16",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0224",
+  "name": "Deltacast",
+  "parts": [
+   "Delta",
+   "cast"
+  ],
+  "domain": "deltacast.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-04-29",
+  "customer_since": "2023-05-13",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0225",
+  "name": "Juniperscope",
+  "parts": [
+   "Juniper",
+   "scope"
+  ],
+  "domain": "juniperscope.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-05-25",
+  "customer_since": "2022-12-20",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0226",
+  "name": "Estuaryyard",
+  "parts": [
+   "Estuary",
+   "yard"
+  ],
+  "domain": "estuaryyard.example",
+  "plan": "Team",
+  "arr": 8000,
+  "renewal_date": "2026-11-27",
+  "customer_since": "2023-03-09",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0227",
+  "name": "Corvidyard",
+  "parts": [
+   "Corvid",
+   "yard"
+  ],
+  "domain": "corvidyard.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-11-10",
+  "customer_since": "2022-10-10",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0228",
+  "name": "Lumenport",
+  "parts": [
+   "Lumen",
+   "port"
+  ],
+  "domain": "lumenport.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-09-05",
+  "customer_since": "2024-06-10",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0229",
+  "name": "Ridgestack",
+  "parts": [
+   "Ridge",
+   "stack"
+  ],
+  "domain": "ridgestack.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-10-31",
+  "customer_since": "2025-09-15",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0230",
+  "name": "Ironwoodflow",
+  "parts": [
+   "Ironwood",
+   "flow"
+  ],
+  "domain": "ironwoodflow.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-03-16",
+  "customer_since": "2024-04-24",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0231",
+  "name": "Quillloop",
+  "parts": [
+   "Quill",
+   "loop"
+  ],
+  "domain": "quillloop.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-11-01",
+  "customer_since": "2025-10-06",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0232",
+  "name": "Wrenbridge",
+  "parts": [
+   "Wren",
+   "bridge"
+  ],
+  "domain": "wrenbridge.example",
+  "plan": "Enterprise",
+  "arr": 39500,
+  "renewal_date": "2027-01-13",
+  "customer_since": "2023-12-27",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0233",
+  "name": "Gantrymint",
+  "parts": [
+   "Gantry",
+   "mint"
+  ],
+  "domain": "gantrymint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-11-06",
+  "customer_since": "2024-12-16",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0234",
+  "name": "Mosaicwave",
+  "parts": [
+   "Mosaic",
+   "wave"
+  ],
+  "domain": "mosaicwave.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-05-24",
+  "customer_since": "2022-04-05",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0235",
+  "name": "Cinderpath",
+  "parts": [
+   "Cinder",
+   "path"
+  ],
+  "domain": "cinderpath.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-06-24",
+  "customer_since": "2024-07-31",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0236",
+  "name": "Cobaltscope",
+  "parts": [
+   "Cobalt",
+   "scope"
+  ],
+  "domain": "cobaltscope.example",
+  "plan": "Enterprise",
+  "arr": 43500,
+  "renewal_date": "2026-09-27",
+  "customer_since": "2024-03-07",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0237",
+  "name": "Knolldock",
+  "parts": [
+   "Knoll",
+   "dock"
+  ],
+  "domain": "knolldock.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-10-05",
+  "customer_since": "2025-01-15",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0238",
+  "name": "Alderbase",
+  "parts": [
+   "Alder",
+   "base"
+  ],
+  "domain": "alderbase.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-04-30",
+  "customer_since": "2025-03-30",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0239",
+  "name": "Wrenwave",
+  "parts": [
+   "Wren",
+   "wave"
+  ],
+  "domain": "wrenwave.example",
+  "plan": "Enterprise",
+  "arr": 46000,
+  "renewal_date": "2027-04-07",
+  "customer_since": "2023-01-02",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0240",
+  "name": "Glinthub",
+  "parts": [
+   "Glint",
+   "hub"
+  ],
+  "domain": "glinthub.example",
+  "plan": "Enterprise",
+  "arr": 45500,
+  "renewal_date": "2027-01-22",
+  "customer_since": "2023-09-14",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0241",
+  "name": "Solacebridge",
+  "parts": [
+   "Solace",
+   "bridge"
+  ],
+  "domain": "solacebridge.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-06-16",
+  "customer_since": "2023-01-17",
+  "usage_level": "low",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0242",
+  "name": "Opallabs",
+  "parts": [
+   "Opal",
+   "labs"
+  ],
+  "domain": "opallabs.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2027-03-30",
+  "customer_since": "2023-10-17",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0243",
+  "name": "Ridgedock",
+  "parts": [
+   "Ridge",
+   "dock"
+  ],
+  "domain": "ridgedock.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-05-26",
+  "customer_since": "2024-05-06",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0244",
+  "name": "Fathombridge",
+  "parts": [
+   "Fathom",
+   "bridge"
+  ],
+  "domain": "fathombridge.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-01-12",
+  "customer_since": "2025-10-06",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0245",
+  "name": "Islepoint",
+  "parts": [
+   "Isle",
+   "point"
+  ],
+  "domain": "islepoint.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-04-09",
+  "customer_since": "2024-08-29",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0246",
+  "name": "Knollpoint",
+  "parts": [
+   "Knoll",
+   "point"
+  ],
+  "domain": "knollpoint.example",
+  "plan": "Enterprise",
+  "arr": 41000,
+  "renewal_date": "2027-07-20",
+  "customer_since": "2022-08-14",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0247",
+  "name": "Nimbusbase",
+  "parts": [
+   "Nimbus",
+   "base"
+  ],
+  "domain": "nimbusbase.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-11-28",
+  "customer_since": "2024-03-19",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0248",
+  "name": "Tesselcast",
+  "parts": [
+   "Tessel",
+   "cast"
+  ],
+  "domain": "tesselcast.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2026-12-07",
+  "customer_since": "2023-03-23",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0249",
+  "name": "Kestrelpath",
+  "parts": [
+   "Kestrel",
+   "path"
+  ],
+  "domain": "kestrelpath.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-09",
+  "customer_since": "2024-07-19",
+  "usage_level": "low",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0250",
+  "name": "Solaceyard",
+  "parts": [
+   "Solace",
+   "yard"
+  ],
+  "domain": "solaceyard.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2027-08-11",
+  "customer_since": "2022-05-30",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0251",
+  "name": "Pylonstack",
+  "parts": [
+   "Pylon",
+   "stack"
+  ],
+  "domain": "pylonstack.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-02-26",
+  "customer_since": "2025-01-12",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0252",
+  "name": "Estuarypoint",
+  "parts": [
+   "Estuary",
+   "point"
+  ],
+  "domain": "estuarypoint.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-06-04",
+  "customer_since": "2023-04-14",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0253",
+  "name": "Tesselloop",
+  "parts": [
+   "Tessel",
+   "loop"
+  ],
+  "domain": "tesselloop.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-11-22",
+  "customer_since": "2025-05-27",
+  "usage_level": "low",
+  "csm": "Brooks Hadley",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0254",
+  "name": "Fathomflow",
+  "parts": [
+   "Fathom",
+   "flow"
+  ],
+  "domain": "fathomflow.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-03-06",
+  "customer_since": "2025-12-07",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0255",
+  "name": "Veritypoint",
+  "parts": [
+   "Verity",
+   "point"
+  ],
+  "domain": "veritypoint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-01",
+  "customer_since": "2023-05-02",
+  "usage_level": "low",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0256",
+  "name": "Quillline",
+  "parts": [
+   "Quill",
+   "line"
+  ],
+  "domain": "quillline.example",
+  "plan": "Enterprise",
+  "arr": 44500,
+  "renewal_date": "2027-01-01",
+  "customer_since": "2022-05-12",
+  "usage_level": "high",
+  "csm": "Dana Whitlock",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0257",
+  "name": "Juniperworks",
+  "parts": [
+   "Juniper",
+   "works"
+  ],
+  "domain": "juniperworks.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-05-02",
+  "customer_since": "2025-10-05",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0258",
+  "name": "Islebridge",
+  "parts": [
+   "Isle",
+   "bridge"
+  ],
+  "domain": "islebridge.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-09-14",
+  "customer_since": "2024-09-24",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0259",
+  "name": "Tamaracklabs",
+  "parts": [
+   "Tamarack",
+   "labs"
+  ],
+  "domain": "tamaracklabs.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-08-21",
+  "customer_since": "2025-01-24",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0260",
+  "name": "Gantrypath",
+  "parts": [
+   "Gantry",
+   "path"
+  ],
+  "domain": "gantrypath.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2027-07-21",
+  "customer_since": "2022-06-03",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0261",
+  "name": "Deltaline",
+  "parts": [
+   "Delta",
+   "line"
+  ],
+  "domain": "deltaline.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-04-25",
+  "customer_since": "2025-01-15",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0262",
+  "name": "Aldergrid",
+  "parts": [
+   "Alder",
+   "grid"
+  ],
+  "domain": "aldergrid.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-11-19",
+  "customer_since": "2024-02-16",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0263",
+  "name": "Umberyard",
+  "parts": [
+   "Umber",
+   "yard"
+  ],
+  "domain": "umberyard.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-08-09",
+  "customer_since": "2024-11-18",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0264",
+  "name": "Islehub",
+  "parts": [
+   "Isle",
+   "hub"
+  ],
+  "domain": "islehub.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-06-21",
+  "customer_since": "2023-04-12",
+  "usage_level": "high",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0265",
+  "name": "Harborcast",
+  "parts": [
+   "Harbor",
+   "cast"
+  ],
+  "domain": "harborcast.example",
+  "plan": "Enterprise",
+  "arr": 42000,
+  "renewal_date": "2027-06-19",
+  "customer_since": "2022-04-11",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0266",
+  "name": "Tamarackmint",
+  "parts": [
+   "Tamarack",
+   "mint"
+  ],
+  "domain": "tamarackmint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-11-25",
+  "customer_since": "2024-02-21",
+  "usage_level": "high",
+  "csm": "Priscilla Odum",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0267",
+  "name": "Jaspercast",
+  "parts": [
+   "Jasper",
+   "cast"
+  ],
+  "domain": "jaspercast.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-02-06",
+  "customer_since": "2025-02-08",
+  "usage_level": "high",
+  "csm": "Brooks Hadley",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0268",
+  "name": "Ridgescope",
+  "parts": [
+   "Ridge",
+   "scope"
+  ],
+  "domain": "ridgescope.example",
+  "plan": "Business",
+  "arr": 16000,
+  "renewal_date": "2027-05-19",
+  "customer_since": "2024-01-27",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0269",
+  "name": "Nimbuspath",
+  "parts": [
+   "Nimbus",
+   "path"
+  ],
+  "domain": "nimbuspath.example",
+  "plan": "Business",
+  "arr": 17500,
+  "renewal_date": "2027-04-27",
+  "customer_since": "2022-04-22",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0270",
+  "name": "Estuarystack",
+  "parts": [
+   "Estuary",
+   "stack"
+  ],
+  "domain": "estuarystack.example",
+  "plan": "Business",
+  "arr": 17000,
+  "renewal_date": "2027-07-16",
+  "customer_since": "2023-04-04",
+  "usage_level": "low",
+  "csm": "Dana Whitlock",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0271",
+  "name": "Opalwave",
+  "parts": [
+   "Opal",
+   "wave"
+  ],
+  "domain": "opalwave.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-10-10",
+  "customer_since": "2023-02-21",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0272",
+  "name": "Umberhub",
+  "parts": [
+   "Umber",
+   "hub"
+  ],
+  "domain": "umberhub.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-08-29",
+  "customer_since": "2023-11-08",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0273",
+  "name": "Estuaryloop",
+  "parts": [
+   "Estuary",
+   "loop"
+  ],
+  "domain": "estuaryloop.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2027-02-27",
+  "customer_since": "2024-10-13",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0274",
+  "name": "Lumenlabs",
+  "parts": [
+   "Lumen",
+   "labs"
+  ],
+  "domain": "lumenlabs.example",
+  "plan": "Enterprise",
+  "arr": 45000,
+  "renewal_date": "2027-07-24",
+  "customer_since": "2025-10-05",
+  "usage_level": "low",
+  "csm": "Corinne Aubert",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0275",
+  "name": "Wrenhub",
+  "parts": [
+   "Wren",
+   "hub"
+  ],
+  "domain": "wrenhub.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2026-11-04",
+  "customer_since": "2025-07-16",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0276",
+  "name": "Mosaicdock",
+  "parts": [
+   "Mosaic",
+   "dock"
+  ],
+  "domain": "mosaicdock.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-12-29",
+  "customer_since": "2025-08-11",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0277",
+  "name": "Basaltflow",
+  "parts": [
+   "Basalt",
+   "flow"
+  ],
+  "domain": "basaltflow.example",
+  "plan": "Enterprise",
+  "arr": 38000,
+  "renewal_date": "2027-05-18",
+  "customer_since": "2024-09-17",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0278",
+  "name": "Ironwoodpoint",
+  "parts": [
+   "Ironwood",
+   "point"
+  ],
+  "domain": "ironwoodpoint.example",
+  "plan": "Business",
+  "arr": 18000,
+  "renewal_date": "2026-09-05",
+  "customer_since": "2025-08-14",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0279",
+  "name": "Brindleloop",
+  "parts": [
+   "Brindle",
+   "loop"
+  ],
+  "domain": "brindleloop.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-01-28",
+  "customer_since": "2025-10-29",
+  "usage_level": "medium",
+  "csm": "Priscilla Odum",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0280",
+  "name": "Yarrowmint",
+  "parts": [
+   "Yarrow",
+   "mint"
+  ],
+  "domain": "yarrowmint.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-02",
+  "customer_since": "2024-09-13",
+  "usage_level": "low",
+  "csm": "Lars Nyberg",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0281",
+  "name": "Cinderpoint",
+  "parts": [
+   "Cinder",
+   "point"
+  ],
+  "domain": "cinderpoint.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2026-10-13",
+  "customer_since": "2022-09-09",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0282",
+  "name": "Alderscope",
+  "parts": [
+   "Alder",
+   "scope"
+  ],
+  "domain": "alderscope.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2027-05-24",
+  "customer_since": "2025-01-16",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0283",
+  "name": "Basalthub",
+  "parts": [
+   "Basalt",
+   "hub"
+  ],
+  "domain": "basalthub.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-12-21",
+  "customer_since": "2024-01-22",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0284",
+  "name": "Quartzhub",
+  "parts": [
+   "Quartz",
+   "hub"
+  ],
+  "domain": "quartzhub.example",
+  "plan": "Business",
+  "arr": 16500,
+  "renewal_date": "2027-07-17",
+  "customer_since": "2023-09-21",
+  "usage_level": "high",
+  "csm": "Ife Balogun",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0285",
+  "name": "Latticebase",
+  "parts": [
+   "Lattice",
+   "base"
+  ],
+  "domain": "latticebase.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-07-20",
+  "customer_since": "2024-05-01",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0286",
+  "name": "Willowbridge",
+  "parts": [
+   "Willow",
+   "bridge"
+  ],
+  "domain": "willowbridge.example",
+  "plan": "Team",
+  "arr": 9500,
+  "renewal_date": "2026-11-27",
+  "customer_since": "2024-11-01",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0287",
+  "name": "Fathomhub",
+  "parts": [
+   "Fathom",
+   "hub"
+  ],
+  "domain": "fathomhub.example",
+  "plan": "Team",
+  "arr": 10000,
+  "renewal_date": "2026-12-23",
+  "customer_since": "2024-08-18",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0288",
+  "name": "Quillport",
+  "parts": [
+   "Quill",
+   "port"
+  ],
+  "domain": "quillport.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-08-31",
+  "customer_since": "2022-12-17",
+  "usage_level": "medium",
+  "csm": "Brooks Hadley",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0289",
+  "name": "Northwindpath",
+  "parts": [
+   "Northwind",
+   "path"
+  ],
+  "domain": "northwindpath.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2026-10-13",
+  "customer_since": "2025-03-04",
+  "usage_level": "high",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0290",
+  "name": "Fablemint",
+  "parts": [
+   "Fable",
+   "mint"
+  ],
+  "domain": "fablemint.example",
+  "plan": "Team",
+  "arr": 10500,
+  "renewal_date": "2027-05-31",
+  "customer_since": "2024-01-26",
+  "usage_level": "medium",
+  "csm": "Dana Whitlock",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0291",
+  "name": "Vantagelabs",
+  "parts": [
+   "Vantage",
+   "labs"
+  ],
+  "domain": "vantagelabs.example",
+  "plan": "Business",
+  "arr": 20000,
+  "renewal_date": "2027-06-29",
+  "customer_since": "2023-08-23",
+  "usage_level": "medium",
+  "csm": "Corinne Aubert",
+  "account_manager": "Omar Kessler"
+ },
+ {
+  "id": "A0292",
+  "name": "Kestrelworks",
+  "parts": [
+   "Kestrel",
+   "works"
+  ],
+  "domain": "kestrelworks.example",
+  "plan": "Business",
+  "arr": 19000,
+  "renewal_date": "2026-10-27",
+  "customer_since": "2022-08-02",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Talia Brandt"
+ },
+ {
+  "id": "A0293",
+  "name": "Willowloop",
+  "parts": [
+   "Willow",
+   "loop"
+  ],
+  "domain": "willowloop.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-03-11",
+  "customer_since": "2022-03-24",
+  "usage_level": "medium",
+  "csm": "Jorge Alvarenga",
+  "account_manager": "Noelle Vance"
+ },
+ {
+  "id": "A0294",
+  "name": "Tamarackpath",
+  "parts": [
+   "Tamarack",
+   "path"
+  ],
+  "domain": "tamarackpath.example",
+  "plan": "Team",
+  "arr": 9000,
+  "renewal_date": "2026-11-27",
+  "customer_since": "2025-09-07",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Gideon Marsh"
+ },
+ {
+  "id": "A0295",
+  "name": "Quillworks",
+  "parts": [
+   "Quill",
+   "works"
+  ],
+  "domain": "quillworks.example",
+  "plan": "Enterprise",
+  "arr": 41000,
+  "renewal_date": "2026-08-24",
+  "customer_since": "2024-03-30",
+  "usage_level": "medium",
+  "csm": "Lars Nyberg",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0296",
+  "name": "Alderyard",
+  "parts": [
+   "Alder",
+   "yard"
+  ],
+  "domain": "alderyard.example",
+  "plan": "Enterprise",
+  "arr": 42000,
+  "renewal_date": "2027-08-22",
+  "customer_since": "2023-06-20",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0297",
+  "name": "Jasperscope",
+  "parts": [
+   "Jasper",
+   "scope"
+  ],
+  "domain": "jasperscope.example",
+  "plan": "Business",
+  "arr": 20500,
+  "renewal_date": "2026-09-26",
+  "customer_since": "2022-11-26",
+  "usage_level": "high",
+  "csm": "Lars Nyberg",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0298",
+  "name": "Marlowlabs",
+  "parts": [
+   "Marlow",
+   "labs"
+  ],
+  "domain": "marlowlabs.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-04-22",
+  "customer_since": "2024-05-11",
+  "usage_level": "medium",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ },
+ {
+  "id": "A0299",
+  "name": "Veritycast",
+  "parts": [
+   "Verity",
+   "cast"
+  ],
+  "domain": "veritycast.example",
+  "plan": "Team",
+  "arr": 8500,
+  "renewal_date": "2027-07-06",
+  "customer_since": "2022-04-29",
+  "usage_level": "medium",
+  "csm": "Ife Balogun",
+  "account_manager": "Rupa Sethi"
+ },
+ {
+  "id": "A0300",
+  "name": "Sablebase",
+  "parts": [
+   "Sable",
+   "base"
+  ],
+  "domain": "sablebase.example",
+  "plan": "Business",
+  "arr": 19500,
+  "renewal_date": "2027-03-12",
+  "customer_since": "2024-12-29",
+  "usage_level": "high",
+  "csm": "Mina Takeda",
+  "account_manager": "Hollis Grant"
+ }
+]

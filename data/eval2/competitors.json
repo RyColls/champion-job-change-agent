@@ -1,0 +1,47 @@
+[
+ {
+  "id": "C01",
+  "name": "Fathomgrid",
+  "parts": [
+   "Fathom",
+   "grid"
+  ],
+  "domain": "fathomgrid.example"
+ },
+ {
+  "id": "C02",
+  "name": "Jasperwave",
+  "parts": [
+   "Jasper",
+   "wave"
+  ],
+  "domain": "jasperwave.example"
+ },
+ {
+  "id": "C03",
+  "name": "Deltalabs",
+  "parts": [
+   "Delta",
+   "labs"
+  ],
+  "domain": "deltalabs.example"
+ },
+ {
+  "id": "C04",
+  "name": "Ferromint",
+  "parts": [
+   "Ferro",
+   "mint"
+  ],
+  "domain": "ferromint.example"
+ },
+ {
+  "id": "C05",
+  "name": "Brindleflow",
+  "parts": [
+   "Brindle",
+   "flow"
+  ],
+  "domain": "brindleflow.example"
+ }
+]

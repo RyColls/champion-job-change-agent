@@ -10,7 +10,9 @@ Outputs, per feed:
 
 Feeds:
   dev   (seed 7)     used while building the agent and choosing thresholds
-  eval  (seed 2026)  held out; acceptance results are measured on this feed only
+  eval  (seed 2026)  held out; first measured results (agent v1) were taken on this feed
+  eval2 (seed 4242)  second held-out feed, generated AFTER agent v2 was fixed in response to the eval run;
+                     it has never been used to tune anything
 """
 from __future__ import annotations
 
@@ -393,10 +395,10 @@ class Generator:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--feed", choices=["dev", "eval"], required=True)
+    ap.add_argument("--feed", choices=["dev", "eval", "eval2"], required=True)
     ap.add_argument("--seed", type=int)
     a = ap.parse_args()
-    seed = a.seed if a.seed is not None else {"dev": 7, "eval": 2026}[a.feed]
+    seed = a.seed if a.seed is not None else {"dev": 7, "eval": 2026, "eval2": 4242}[a.feed]
     data, key = Generator(seed).build()
     out = ROOT / "data" / a.feed
     out.mkdir(parents=True, exist_ok=True)

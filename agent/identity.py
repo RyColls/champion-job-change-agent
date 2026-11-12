@@ -75,7 +75,11 @@ class IdentityResolver:
         elif canon_first(first) == canon_first(c["first_name"]) and last.lower() == c["last_name"].lower():
             add("name", 2.5, f"first name is a known variant ({first} / {c['first_name']}), surname matches")
         else:
-            add("name", 1.0, f"first name matches but surname differs ({last} / {c['last_name']})")
+            # v2: a surname mismatch is only weak evidence. Same first name at the same employer is common
+            # (colleagues), so on its own it can never reach the confirm threshold; it needs corroboration
+            # such as a matching prior e-mail domain.
+            add("name", 0.5, f"first name matches but surname differs ({last} / {c['last_name']}); "
+                             "needs corroboration")
 
         prior = p.get("prior_employer")
         if prior:

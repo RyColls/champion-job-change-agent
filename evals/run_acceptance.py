@@ -230,6 +230,10 @@ def run(feed: str, backend: str) -> dict:
     out["extra"] = {
         "queue_counts": {t: sum(1 for q in queue if q["type"] == t) for t in sorted({q["type"] for q in queue})},
         "identity_review_events": [e for e, d in decisions.items() if d["label"] == "identity_review"],
+        # what is actually sitting in the review queue: real moves and look-alike strangers, side by side
+        "identity_review_composition": {
+            t: sum(1 for e, d in decisions.items() if d["label"] == "identity_review" and key[e]["type"] == t)
+            for t in sorted({key[e]["type"] for e, d in decisions.items() if d["label"] == "identity_review"})},
         "ai_calls": stats["ai_calls"],
         "draft_stats": {k: stats[k] for k in ("drafts", "drafts_blocked_first_pass", "drafts_blocked_final",
                                               "draft_retries", "summaries_failed_check")},
@@ -260,7 +264,7 @@ def render_md(o: dict) -> str:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--feed", choices=["dev", "eval"], required=True)
+    ap.add_argument("--feed", choices=["dev", "eval", "eval2"], required=True)
     ap.add_argument("--backend", choices=["template", "recorded", "live"], default="template")
     a = ap.parse_args()
     r = run(a.feed, a.backend)

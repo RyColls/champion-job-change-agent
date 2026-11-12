@@ -1,0 +1,50 @@
+[
+ {
+  "id": "N001",
+  "type": "account_manager_note",
+  "event_id": "E003",
+  "to": "Gideon Marsh",
+  "account_id": "A0222",
+  "message": "Diego Marchetti, a former champion at Islehub, has joined Emberport, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N002",
+  "type": "account_manager_note",
+  "event_id": "E024",
+  "to": "Gideon Marsh",
+  "account_id": "A0178",
+  "message": "Idris Iyer, a former champion at Brindlebase, has joined Pylonyard, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N003",
+  "type": "account_manager_note",
+  "event_id": "E028",
+  "to": "Gideon Marsh",
+  "account_id": "A0216",
+  "message": "Matthew Fontaine, a former champion at Latticeworks, has joined Sableflow, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N004",
+  "type": "account_manager_note",
+  "event_id": "E031",
+  "to": "Hollis Grant",
+  "account_id": "A0181",
+  "message": "Wanjiru Montgomery, a former champion at Hollisgrid, has joined Tamarackport, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N005",
+  "type": "account_manager_note",
+  "event_id": "E063",
+  "to": "Omar Kessler",
+  "account_id": "A0149",
+  "message": "Anika Varga, a former champion at Umberyard, has joined Emberloop, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N006",
+  "type": "account_manager_note",
+  "event_id": "E071",
+  "to": "Omar Kessler",
+  "account_id": "A0089",
+  "message": "Theo Lombardi, a former champion at Jasperscope, has joined Nimbuspoint, an existing customer. Consider reaching out about expansion."
+ }
+]

@@ -98,25 +98,25 @@
  {
   "event_id": "E002",
   "received_at": "2026-08-05",
-  "label": "departure:fit_prospect",
-  "rule": "R1",
+  "label": "identity_review",
+  "rule": "G3",
   "contact_id": "K00490",
-  "account_id": "A0098",
+  "account_id": null,
   "identity": {
-   "status": "confirmed",
-   "score": 6.0,
-   "reason": "score 6.0 meets the confirm threshold 6.0",
+   "status": "review",
+   "score": 5.5,
+   "reason": "score 5.5 is between review 3.5 and confirm 6.0",
    "candidates": [
     {
      "contact_id": "K00490",
-     "score": 6.0
+     "score": 5.5
     }
    ],
    "evidence": [
     {
      "signal": "name",
-     "points": 1.0,
-     "detail": "first name matches but surname differs (Achterberg / Castellano)"
+     "points": 0.5,
+     "detail": "first name matches but surname differs (Achterberg / Castellano); needs corroboration"
     },
     {
      "signal": "employer",
@@ -134,17 +134,12 @@
      "detail": "prior title 'VP Product' is similar to 'VP Product'"
     }
    ],
-   "explanation": "Evidence: first name matches but surname differs (Achterberg / Castellano) (+1.0); prior employer 'The Willowcast' is Willowcast (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+   "explanation": "Evidence: first name matches but surname differs (Achterberg / Castellano); needs corroboration (+0.5); prior employer 'The Willowcast' is Willowcast (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
   },
-  "destination": "fit_prospect",
-  "new_company_play": "create_contact_and_draft_outreach",
-  "old_account_play": "risk_flag_and_csm_task",
-  "plays": {
-   "risk_flag": "F001",
-   "csm_task": "T001",
-   "new_contact": "NK001",
-   "queue_item": "Q001"
-  },
+  "destination": null,
+  "new_company_play": "none",
+  "old_account_play": "none",
+  "plays": {},
   "payload": {
    "full_name": "Chloe Achterberg",
    "prior_employer": "The Willowcast",
@@ -163,39 +158,39 @@
    },
    {
     "step": "identity",
-    "rule": "I1",
-    "outcome": "confirmed",
-    "detail": "score 6.0 meets the confirm threshold 6.0. Evidence: first name matches but surname differs (Achterberg / Castellano) (+1.0); prior employer 'The Willowcast' is Willowcast (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+    "rule": "G3",
+    "outcome": "review",
+    "detail": "score 5.5 is between review 3.5 and confirm 6.0. Evidence: first name matches but surname differs (Achterberg / Castellano); needs corroboration (+0.5); prior employer 'The Willowcast' is Willowcast (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
    },
    {
     "step": "classify",
-    "rule": "C1",
-    "outcome": "ok",
-    "detail": "destination=fit_prospect (Jasperbridge)"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "dedupe",
-    "rule": "D1",
-    "outcome": "ok",
-    "detail": "first time this person and destination were seen"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "watchlist",
-    "rule": "W1",
-    "outcome": "ok",
-    "detail": "exec_sponsor is on the watch list"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "rules",
-    "rule": "R1",
-    "outcome": "ok",
-    "detail": "Moved to a company that fits and is not a customer"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "disposition",
     "rule": "X1",
     "outcome": "ok",
-    "detail": "label=departure:fit_prospect (decided by R1)"
+    "detail": "label=identity_review (decided by G3)"
    }
   ]
  },
@@ -239,8 +234,8 @@
   "new_company_play": "none",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F002",
-   "csm_task": "T002"
+   "risk_flag": "F001",
+   "csm_task": "T001"
   },
   "payload": {
    "full_name": "Sofia Yilmaz",
@@ -336,8 +331,8 @@
   "new_company_play": "notify_account_manager",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F003",
-   "csm_task": "T003",
+   "risk_flag": "F002",
+   "csm_task": "T002",
    "notification": "N001"
   },
   "payload": {
@@ -540,8 +535,8 @@
   "new_company_play": "none",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F004",
-   "csm_task": "T004"
+   "risk_flag": "F003",
+   "csm_task": "T003"
   },
   "payload": {
    "full_name": "Amara Rutherford",
@@ -637,8 +632,8 @@
   "new_company_play": "notify_account_manager",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F005",
-   "csm_task": "T005",
+   "risk_flag": "F004",
+   "csm_task": "T004",
    "notification": "N002"
   },
   "payload": {
@@ -713,7 +708,7 @@
     },
     {
      "contact_id": "K00384",
-     "score": 5.0
+     "score": 4.5
     }
    ],
    "evidence": [
@@ -744,8 +739,8 @@
   "new_company_play": "suppress_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F006",
-   "csm_task": "T006",
+   "risk_flag": "F005",
+   "csm_task": "T005",
    "suppression": "S001"
   },
   "payload": {
@@ -847,8 +842,8 @@
   "new_company_play": "none",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F007",
-   "csm_task": "T007"
+   "risk_flag": "F006",
+   "csm_task": "T006"
   },
   "payload": {
    "full_name": "Mei Mbeki",
@@ -1043,9 +1038,9 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F008",
-   "csm_task": "T008",
-   "new_contact": "NK002",
+   "risk_flag": "F007",
+   "csm_task": "T007",
+   "new_contact": "NK001",
    "queue_item": "Q002"
   },
   "payload": {
@@ -1142,8 +1137,8 @@
   "new_company_play": "none",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F009",
-   "csm_task": "T009"
+   "risk_flag": "F008",
+   "csm_task": "T008"
   },
   "payload": {
    "full_name": "Mateo Voss",
@@ -1338,9 +1333,9 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F010",
-   "csm_task": "T010",
-   "new_contact": "NK003",
+   "risk_flag": "F009",
+   "csm_task": "T009",
+   "new_contact": "NK002",
    "queue_item": "Q003"
   },
   "payload": {
@@ -1447,9 +1442,9 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F011",
-   "csm_task": "T011",
-   "new_contact": "NK004",
+   "risk_flag": "F010",
+   "csm_task": "T010",
+   "new_contact": "NK003",
    "queue_item": "Q004"
   },
   "payload": {
@@ -1546,9 +1541,9 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F012",
-   "csm_task": "T012",
-   "new_contact": "NK005",
+   "risk_flag": "F011",
+   "csm_task": "T011",
+   "new_contact": "NK004",
    "queue_item": "Q005"
   },
   "payload": {
@@ -1608,25 +1603,25 @@
  {
   "event_id": "E017",
   "received_at": "2026-08-23",
-  "label": "departure:nofit_prospect",
-  "rule": "R4",
+  "label": "identity_review",
+  "rule": "G3",
   "contact_id": "K00516",
-  "account_id": "A0104",
+  "account_id": null,
   "identity": {
-   "status": "confirmed",
-   "score": 6.0,
-   "reason": "score 6.0 meets the confirm threshold 6.0",
+   "status": "review",
+   "score": 5.5,
+   "reason": "score 5.5 is between review 3.5 and confirm 6.0",
    "candidates": [
     {
      "contact_id": "K00516",
-     "score": 6.0
+     "score": 5.5
     }
    ],
    "evidence": [
     {
      "signal": "name",
-     "points": 1.0,
-     "detail": "first name matches but surname differs (Holloway / Patel)"
+     "points": 0.5,
+     "detail": "first name matches but surname differs (Holloway / Patel); needs corroboration"
     },
     {
      "signal": "employer",
@@ -1644,15 +1639,12 @@
      "detail": "prior title 'Product Operations Lead' is similar to 'Product Operations Lead'"
     }
    ],
-   "explanation": "Evidence: first name matches but surname differs (Holloway / Patel) (+1.0); prior employer 'Solace stack' is Solacestack (+3.0); location Atlanta matches (+1.0); prior title 'Product Operations Lead' is similar to 'Product Operations Lead' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+   "explanation": "Evidence: first name matches but surname differs (Holloway / Patel); needs corroboration (+0.5); prior employer 'Solace stack' is Solacestack (+3.0); location Atlanta matches (+1.0); prior title 'Product Operations Lead' is similar to 'Product Operations Lead' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
   },
-  "destination": "nofit_prospect",
-  "new_company_play": "log_only",
-  "old_account_play": "risk_flag_and_csm_task",
-  "plays": {
-   "risk_flag": "F013",
-   "csm_task": "T013"
-  },
+  "destination": null,
+  "new_company_play": "none",
+  "old_account_play": "none",
+  "plays": {},
   "payload": {
    "full_name": "Greta Holloway",
    "prior_employer": "Solace stack",
@@ -1671,39 +1663,39 @@
    },
    {
     "step": "identity",
-    "rule": "I1",
-    "outcome": "confirmed",
-    "detail": "score 6.0 meets the confirm threshold 6.0. Evidence: first name matches but surname differs (Holloway / Patel) (+1.0); prior employer 'Solace stack' is Solacestack (+3.0); location Atlanta matches (+1.0); prior title 'Product Operations Lead' is similar to 'Product Operations Lead' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+    "rule": "G3",
+    "outcome": "review",
+    "detail": "score 5.5 is between review 3.5 and confirm 6.0. Evidence: first name matches but surname differs (Holloway / Patel); needs corroboration (+0.5); prior employer 'Solace stack' is Solacestack (+3.0); location Atlanta matches (+1.0); prior title 'Product Operations Lead' is similar to 'Product Operations Lead' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
    },
    {
     "step": "classify",
-    "rule": "C1",
-    "outcome": "ok",
-    "detail": "destination=nofit_prospect (Hollisworks)"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "dedupe",
-    "rule": "D1",
-    "outcome": "ok",
-    "detail": "first time this person and destination were seen"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "watchlist",
-    "rule": "W1",
-    "outcome": "ok",
-    "detail": "champion is on the watch list"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "rules",
-    "rule": "R4",
-    "outcome": "ok",
-    "detail": "Moved to a company that does not fit"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "disposition",
     "rule": "X1",
     "outcome": "ok",
-    "detail": "label=departure:nofit_prospect (decided by R4)"
+    "detail": "label=identity_review (decided by G3)"
    }
   ]
  },
@@ -1853,10 +1845,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F014",
-   "csm_task": "T014",
-   "new_contact": "NK006",
-   "queue_item": "Q006"
+   "risk_flag": "F012",
+   "csm_task": "T012",
+   "new_contact": "NK005",
+   "queue_item": "Q007"
   },
   "payload": {
    "full_name": "Benjamin Vasquez",
@@ -1962,8 +1954,8 @@
   "new_company_play": "notify_account_manager",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F015",
-   "csm_task": "T015",
+   "risk_flag": "F013",
+   "csm_task": "T013",
    "notification": "N003"
   },
   "payload": {
@@ -2253,10 +2245,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F016",
-   "csm_task": "T016",
-   "new_contact": "NK007",
-   "queue_item": "Q009"
+   "risk_flag": "F014",
+   "csm_task": "T014",
+   "new_contact": "NK006",
+   "queue_item": "Q010"
   },
   "payload": {
    "full_name": "Lucia Sorensen",
@@ -2352,10 +2344,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F017",
-   "csm_task": "T017",
-   "new_contact": "NK008",
-   "queue_item": "Q010"
+   "risk_flag": "F015",
+   "csm_task": "T015",
+   "new_contact": "NK007",
+   "queue_item": "Q011"
   },
   "payload": {
    "full_name": "Malik Ibarra",
@@ -2560,10 +2552,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F018",
-   "csm_task": "T018",
-   "new_contact": "NK009",
-   "queue_item": "Q011"
+   "risk_flag": "F016",
+   "csm_task": "T016",
+   "new_contact": "NK008",
+   "queue_item": "Q012"
   },
   "payload": {
    "full_name": "Sam Pereira",
@@ -2669,10 +2661,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F019",
-   "csm_task": "T019",
-   "new_contact": "NK010",
-   "queue_item": "Q012"
+   "risk_flag": "F017",
+   "csm_task": "T017",
+   "new_contact": "NK009",
+   "queue_item": "Q013"
   },
   "payload": {
    "full_name": "Mike Adeyemi",
@@ -2978,8 +2970,8 @@
   "new_company_play": "suppress_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F020",
-   "csm_task": "T020",
+   "risk_flag": "F018",
+   "csm_task": "T018",
    "suppression": "S002"
   },
   "payload": {
@@ -3279,8 +3271,8 @@
   "new_company_play": "log_only",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F021",
-   "csm_task": "T021"
+   "risk_flag": "F019",
+   "csm_task": "T019"
   },
   "payload": {
    "full_name": "Mei Hashemi",
@@ -3453,7 +3445,7 @@
     },
     {
      "contact_id": "K00780",
-     "score": 4.0
+     "score": 3.5
     }
    ],
    "evidence": [
@@ -3474,8 +3466,8 @@
   "new_company_play": "notify_account_manager",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F022",
-   "csm_task": "T022",
+   "risk_flag": "F020",
+   "csm_task": "T020",
    "notification": "N004"
   },
   "payload": {
@@ -3577,10 +3569,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F023",
-   "csm_task": "T023",
-   "new_contact": "NK011",
-   "queue_item": "Q014"
+   "risk_flag": "F021",
+   "csm_task": "T021",
+   "new_contact": "NK010",
+   "queue_item": "Q015"
   },
   "payload": {
    "full_name": "Matthew Ramos",
@@ -3654,7 +3646,7 @@
     },
     {
      "contact_id": "K01098",
-     "score": 7.5
+     "score": 7.0
     }
    ],
    "evidence": [
@@ -3690,9 +3682,9 @@
   "new_company_play": "log_only_flag_for_revops_review",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F024",
-   "csm_task": "T024",
-   "revops_review": "Q015"
+   "risk_flag": "F022",
+   "csm_task": "T022",
+   "revops_review": "Q016"
   },
   "payload": {
    "full_name": "Zainab Vasquez",
@@ -3798,10 +3790,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F025",
-   "csm_task": "T025",
-   "new_contact": "NK012",
-   "queue_item": "Q016"
+   "risk_flag": "F023",
+   "csm_task": "T023",
+   "new_contact": "NK011",
+   "queue_item": "Q017"
   },
   "payload": {
    "full_name": "Andre Moreau",
@@ -3998,9 +3990,9 @@
   "new_company_play": "log_only_flag_for_revops_review",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F026",
-   "csm_task": "T026",
-   "revops_review": "Q017"
+   "risk_flag": "F024",
+   "csm_task": "T024",
+   "revops_review": "Q018"
   },
   "payload": {
    "full_name": "Dmitri Bergstrom",
@@ -4101,9 +4093,9 @@
   "new_company_play": "log_only_flag_for_revops_review",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F027",
-   "csm_task": "T027",
-   "revops_review": "Q018"
+   "risk_flag": "F025",
+   "csm_task": "T025",
+   "revops_review": "Q019"
   },
   "payload": {
    "full_name": "Rohan Voss",
@@ -4362,18 +4354,18 @@
  {
   "event_id": "E044",
   "received_at": "2026-09-17",
-  "label": "departure:fit_prospect",
-  "rule": "R1",
+  "label": "identity_review",
+  "rule": "G3",
   "contact_id": "K00025",
-  "account_id": "A0005",
+  "account_id": null,
   "identity": {
-   "status": "confirmed",
-   "score": 6.0,
-   "reason": "score 6.0 meets the confirm threshold 6.0",
+   "status": "review",
+   "score": 5.5,
+   "reason": "score 5.5 is between review 3.5 and confirm 6.0",
    "candidates": [
     {
      "contact_id": "K00025",
-     "score": 6.0
+     "score": 5.5
     },
     {
      "contact_id": "K00137",
@@ -4383,8 +4375,8 @@
    "evidence": [
     {
      "signal": "name",
-     "points": 1.0,
-     "detail": "first name matches but surname differs (Ibarra / Fontaine)"
+     "points": 0.5,
+     "detail": "first name matches but surname differs (Ibarra / Fontaine); needs corroboration"
     },
     {
      "signal": "employer",
@@ -4402,17 +4394,12 @@
      "detail": "prior title 'VP Product' is similar to 'VP Product'"
     }
    ],
-   "explanation": "Evidence: first name matches but surname differs (Ibarra / Fontaine) (+1.0); prior employer 'Tamarackdock' is Tamarackdock (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+   "explanation": "Evidence: first name matches but surname differs (Ibarra / Fontaine); needs corroboration (+0.5); prior employer 'Tamarackdock' is Tamarackdock (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
   },
-  "destination": "fit_prospect",
-  "new_company_play": "create_contact_and_draft_outreach",
-  "old_account_play": "risk_flag_and_csm_task",
-  "plays": {
-   "risk_flag": "F028",
-   "csm_task": "T028",
-   "new_contact": "NK013",
-   "queue_item": "Q019"
-  },
+  "destination": null,
+  "new_company_play": "none",
+  "old_account_play": "none",
+  "plays": {},
   "payload": {
    "full_name": "Marisol Ibarra",
    "prior_employer": "Tamarackdock",
@@ -4431,39 +4418,39 @@
    },
    {
     "step": "identity",
-    "rule": "I1",
-    "outcome": "confirmed",
-    "detail": "score 6.0 meets the confirm threshold 6.0. Evidence: first name matches but surname differs (Ibarra / Fontaine) (+1.0); prior employer 'Tamarackdock' is Tamarackdock (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+    "rule": "G3",
+    "outcome": "review",
+    "detail": "score 5.5 is between review 3.5 and confirm 6.0. Evidence: first name matches but surname differs (Ibarra / Fontaine); needs corroboration (+0.5); prior employer 'Tamarackdock' is Tamarackdock (+3.0); location Singapore matches (+1.0); prior title 'VP Product' is similar to 'VP Product' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
    },
    {
     "step": "classify",
-    "rule": "C1",
-    "outcome": "ok",
-    "detail": "destination=fit_prospect (Knollcast)"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "dedupe",
-    "rule": "D1",
-    "outcome": "ok",
-    "detail": "first time this person and destination were seen"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "watchlist",
-    "rule": "W1",
-    "outcome": "ok",
-    "detail": "exec_sponsor is on the watch list"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "rules",
-    "rule": "R1",
-    "outcome": "ok",
-    "detail": "Moved to a company that fits and is not a customer"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "disposition",
     "rule": "X1",
     "outcome": "ok",
-    "detail": "label=departure:fit_prospect (decided by R1)"
+    "detail": "label=identity_review (decided by G3)"
    }
   ]
  },
@@ -4517,8 +4504,8 @@
   "new_company_play": "notify_account_manager",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F029",
-   "csm_task": "T029",
+   "risk_flag": "F026",
+   "csm_task": "T026",
    "notification": "N005"
   },
   "payload": {
@@ -4615,10 +4602,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F030",
-   "csm_task": "T030",
-   "new_contact": "NK014",
-   "queue_item": "Q020"
+   "risk_flag": "F027",
+   "csm_task": "T027",
+   "new_contact": "NK012",
+   "queue_item": "Q021"
   },
   "payload": {
    "full_name": "Samantha Yamada",
@@ -4818,10 +4805,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F031",
-   "csm_task": "T031",
-   "new_contact": "NK015",
-   "queue_item": "Q021"
+   "risk_flag": "F028",
+   "csm_task": "T028",
+   "new_contact": "NK013",
+   "queue_item": "Q022"
   },
   "payload": {
    "full_name": "Anika Eriksen",
@@ -4927,8 +4914,8 @@
   "new_company_play": "suppress_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F032",
-   "csm_task": "T032",
+   "risk_flag": "F029",
+   "csm_task": "T029",
    "suppression": "S003"
   },
   "payload": {
@@ -5222,8 +5209,8 @@
   "new_company_play": "suppress_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F033",
-   "csm_task": "T033",
+   "risk_flag": "F030",
+   "csm_task": "T030",
    "suppression": "S004"
   },
   "payload": {
@@ -5409,10 +5396,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F034",
-   "csm_task": "T034",
-   "new_contact": "NK016",
-   "queue_item": "Q023"
+   "risk_flag": "F031",
+   "csm_task": "T031",
+   "new_contact": "NK014",
+   "queue_item": "Q024"
   },
   "payload": {
    "full_name": "Sienna Holloway",
@@ -5471,18 +5458,18 @@
  {
   "event_id": "E055",
   "received_at": "2026-10-02",
-  "label": "departure:nofit_prospect",
-  "rule": "R4",
+  "label": "identity_review",
+  "rule": "G3",
   "contact_id": "K00126",
-  "account_id": "A0026",
+  "account_id": null,
   "identity": {
-   "status": "confirmed",
-   "score": 6.0,
-   "reason": "score 6.0 meets the confirm threshold 6.0",
+   "status": "review",
+   "score": 5.5,
+   "reason": "score 5.5 is between review 3.5 and confirm 6.0",
    "candidates": [
     {
      "contact_id": "K00126",
-     "score": 6.0
+     "score": 5.5
     },
     {
      "contact_id": "K00190",
@@ -5492,8 +5479,8 @@
    "evidence": [
     {
      "signal": "name",
-     "points": 1.0,
-     "detail": "first name matches but surname differs (Chaudhry / Gallagher)"
+     "points": 0.5,
+     "detail": "first name matches but surname differs (Chaudhry / Gallagher); needs corroboration"
     },
     {
      "signal": "employer",
@@ -5511,15 +5498,12 @@
      "detail": "prior title 'Product Ops Lead' is similar to 'Product Operations Lead'"
     }
    ],
-   "explanation": "Evidence: first name matches but surname differs (Chaudhry / Gallagher) (+1.0); prior employer 'Opalscope' is Opalscope (+3.0); location Portland matches (+1.0); prior title 'Product Ops Lead' is similar to 'Product Operations Lead' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+   "explanation": "Evidence: first name matches but surname differs (Chaudhry / Gallagher); needs corroboration (+0.5); prior employer 'Opalscope' is Opalscope (+3.0); location Portland matches (+1.0); prior title 'Product Ops Lead' is similar to 'Product Operations Lead' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
   },
-  "destination": "nofit_prospect",
-  "new_company_play": "log_only",
-  "old_account_play": "risk_flag_and_csm_task",
-  "plays": {
-   "risk_flag": "F035",
-   "csm_task": "T035"
-  },
+  "destination": null,
+  "new_company_play": "none",
+  "old_account_play": "none",
+  "plays": {},
   "payload": {
    "full_name": "Malik Chaudhry",
    "prior_employer": "Opalscope",
@@ -5538,39 +5522,39 @@
    },
    {
     "step": "identity",
-    "rule": "I1",
-    "outcome": "confirmed",
-    "detail": "score 6.0 meets the confirm threshold 6.0. Evidence: first name matches but surname differs (Chaudhry / Gallagher) (+1.0); prior employer 'Opalscope' is Opalscope (+3.0); location Portland matches (+1.0); prior title 'Product Ops Lead' is similar to 'Product Operations Lead' (+1.0). Total 6.0. Decision: confirmed: score 6.0 meets the confirm threshold 6.0."
+    "rule": "G3",
+    "outcome": "review",
+    "detail": "score 5.5 is between review 3.5 and confirm 6.0. Evidence: first name matches but surname differs (Chaudhry / Gallagher); needs corroboration (+0.5); prior employer 'Opalscope' is Opalscope (+3.0); location Portland matches (+1.0); prior title 'Product Ops Lead' is similar to 'Product Operations Lead' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0."
    },
    {
     "step": "classify",
-    "rule": "C1",
-    "outcome": "ok",
-    "detail": "destination=nofit_prospect (Quilldock)"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "dedupe",
-    "rule": "D1",
-    "outcome": "ok",
-    "detail": "first time this person and destination were seen"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "watchlist",
-    "rule": "W1",
-    "outcome": "ok",
-    "detail": "champion is on the watch list"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "rules",
-    "rule": "R4",
-    "outcome": "ok",
-    "detail": "Moved to a company that does not fit"
+    "rule": "G3",
+    "outcome": "skipped",
+    "detail": "not reached: stopped at identity by G3"
    },
    {
     "step": "disposition",
     "rule": "X1",
     "outcome": "ok",
-    "detail": "label=departure:nofit_prospect (decided by R4)"
+    "detail": "label=identity_review (decided by G3)"
    }
   ]
  },
@@ -5725,10 +5709,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F036",
-   "csm_task": "T036",
-   "new_contact": "NK017",
-   "queue_item": "Q024"
+   "risk_flag": "F032",
+   "csm_task": "T032",
+   "new_contact": "NK015",
+   "queue_item": "Q026"
   },
   "payload": {
    "full_name": "Diego Prescott",
@@ -5940,8 +5924,8 @@
   "new_company_play": "suppress_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F037",
-   "csm_task": "T037",
+   "risk_flag": "F033",
+   "csm_task": "T033",
    "suppression": "S005"
   },
   "payload": {
@@ -6016,7 +6000,7 @@
     },
     {
      "contact_id": "K01471",
-     "score": 6.5
+     "score": 6.0
     }
    ],
    "evidence": [
@@ -6052,10 +6036,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F038",
-   "csm_task": "T038",
-   "new_contact": "NK018",
-   "queue_item": "Q025"
+   "risk_flag": "F034",
+   "csm_task": "T034",
+   "new_contact": "NK016",
+   "queue_item": "Q027"
   },
   "payload": {
    "full_name": "Elizabeth Eriksen",
@@ -6151,8 +6135,8 @@
   "new_company_play": "none",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F039",
-   "csm_task": "T039"
+   "risk_flag": "F035",
+   "csm_task": "T035"
   },
   "payload": {
    "full_name": "Marcus Gallagher",
@@ -6253,10 +6237,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F040",
-   "csm_task": "T040",
-   "new_contact": "NK019",
-   "queue_item": "Q026"
+   "risk_flag": "F036",
+   "csm_task": "T036",
+   "new_contact": "NK017",
+   "queue_item": "Q028"
   },
   "payload": {
    "full_name": "Idris Ortega",
@@ -6347,10 +6331,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F041",
-   "csm_task": "T041",
-   "new_contact": "NK020",
-   "queue_item": "Q027"
+   "risk_flag": "F037",
+   "csm_task": "T037",
+   "new_contact": "NK018",
+   "queue_item": "Q029"
   },
   "payload": {
    "full_name": "Mateo Pereira",
@@ -6545,10 +6529,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F042",
-   "csm_task": "T042",
-   "new_contact": "NK021",
-   "queue_item": "Q029"
+   "risk_flag": "F038",
+   "csm_task": "T038",
+   "new_contact": "NK019",
+   "queue_item": "Q031"
   },
   "payload": {
    "full_name": "Julian Marchetti",
@@ -6753,10 +6737,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F043",
-   "csm_task": "T043",
-   "new_contact": "NK022",
-   "queue_item": "Q031"
+   "risk_flag": "F039",
+   "csm_task": "T039",
+   "new_contact": "NK020",
+   "queue_item": "Q033"
   },
   "payload": {
    "full_name": "Priya Castellano",
@@ -6924,7 +6908,7 @@
     },
     {
      "contact_id": "K00699",
-     "score": 4.5
+     "score": 4.0
     }
    ],
    "evidence": [
@@ -6955,10 +6939,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F044",
-   "csm_task": "T044",
-   "new_contact": "NK023",
-   "queue_item": "Q033"
+   "risk_flag": "F040",
+   "csm_task": "T040",
+   "new_contact": "NK021",
+   "queue_item": "Q035"
   },
   "payload": {
    "full_name": "Ayesha Vasquez",
@@ -7064,8 +7048,8 @@
   "new_company_play": "log_only",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F045",
-   "csm_task": "T045"
+   "risk_flag": "F041",
+   "csm_task": "T041"
   },
   "payload": {
    "full_name": "Rebecca Cardenas",
@@ -7139,7 +7123,7 @@
     },
     {
      "contact_id": "K00699",
-     "score": 5.0
+     "score": 4.5
     }
    ],
    "evidence": [
@@ -7269,10 +7253,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F046",
-   "csm_task": "T046",
-   "new_contact": "NK024",
-   "queue_item": "Q034"
+   "risk_flag": "F042",
+   "csm_task": "T042",
+   "new_contact": "NK022",
+   "queue_item": "Q036"
   },
   "payload": {
    "full_name": "Jen Navarro",
@@ -7479,8 +7463,8 @@
   "new_company_play": "log_only",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F047",
-   "csm_task": "T047"
+   "risk_flag": "F043",
+   "csm_task": "T043"
   },
   "payload": {
    "full_name": "Noor Holloway",
@@ -7586,10 +7570,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F048",
-   "csm_task": "T048",
-   "new_contact": "NK025",
-   "queue_item": "Q035"
+   "risk_flag": "F044",
+   "csm_task": "T044",
+   "new_contact": "NK023",
+   "queue_item": "Q037"
   },
   "payload": {
    "full_name": "Hannah Iyer",
@@ -7690,10 +7674,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F049",
-   "csm_task": "T049",
-   "new_contact": "NK026",
-   "queue_item": "Q036"
+   "risk_flag": "F045",
+   "csm_task": "T045",
+   "new_contact": "NK024",
+   "queue_item": "Q038"
   },
   "payload": {
    "full_name": "Alexander Fairbanks",
@@ -7898,10 +7882,10 @@
   "new_company_play": "create_contact_and_draft_outreach",
   "old_account_play": "risk_flag_and_csm_task",
   "plays": {
-   "risk_flag": "F050",
-   "csm_task": "T050",
-   "new_contact": "NK027",
-   "queue_item": "Q037"
+   "risk_flag": "F046",
+   "csm_task": "T046",
+   "new_contact": "NK025",
+   "queue_item": "Q039"
   },
   "payload": {
    "full_name": "Diego Xiong",

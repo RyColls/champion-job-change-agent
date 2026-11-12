@@ -622,12 +622,44 @@
   "id": "Q011"
  },
  {
-  "type": "revops_review",
+  "type": "identity_review",
   "event_id": "E014",
   "status": "pending",
   "assigned_to": "revops",
-  "reason": "'Brindlepath' is not in the customer, prospect or competitor lists",
   "contact_id": "K00501",
+  "score": 5.5,
+  "explanation": "Evidence: first name matches but surname differs (Bakshi / Takahashi); needs corroboration (+0.5); prior employer 'Northwindflow' is Northwindflow (+3.0); location London matches (+1.0); prior title 'Principal Product Manager' is similar to 'Principal Product Manager' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 0.5,
+    "detail": "first name matches but surname differs (Bakshi / Takahashi); needs corroboration"
+   },
+   {
+    "signal": "employer",
+    "points": 3.0,
+    "detail": "prior employer 'Northwindflow' is Northwindflow"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location London matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Principal Product Manager' is similar to 'Principal Product Manager'"
+   }
+  ],
+  "payload": {
+   "full_name": "Elena Bakshi",
+   "prior_employer": "Northwindflow",
+   "prior_title": "Principal Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Brindlepath",
+   "new_title": "Principal Product Manager",
+   "location": "London"
+  },
   "id": "Q012"
  },
  {
@@ -1726,66 +1758,44 @@
   "id": "Q033"
  },
  {
+  "type": "identity_review",
   "event_id": "E068",
-  "contact_id": "K01318",
-  "prospect_id": "P0259",
-  "company": "Tamarackline",
-  "contact_name": "Matthew Thorne",
-  "new_title": "Associate Product Manager",
-  "to": "e-mail to be found by the rep",
-  "history_summary": "Matthew Thorne was a champion at Estuarydock (Team plan, high usage, customer since 2023-03-12). Signed up 2023-05-19, created 40 feedback boards, last active 2026-07-12.",
-  "rule": "R1",
-  "assigned_to": "sales-assist",
-  "provenance": {
-   "backend": "template",
-   "model": null
-  },
-  "first_pass_ok": true,
-  "verification": {
-   "ok": true,
-   "problems": []
-  },
-  "facts_used": {
-   "contact.first_name": "Matthew",
-   "contact.full_name": "Matthew Thorne",
-   "contact.role_label": "champion",
-   "contact.old_title": "Senior Product Manager",
-   "contact.signup_date": "2023-05-19",
-   "contact.last_active_date": "2026-07-12",
-   "contact.boards_created": "40",
-   "account.name": "Estuarydock",
-   "account.plan": "Team",
-   "account.usage_level": "high",
-   "account.customer_since": "2023-03-12",
-   "new_company.name": "Tamarackline",
-   "new_title": "Associate Product Manager"
-  },
-  "type": "outreach_draft",
   "status": "pending",
-  "subject": "Congratulations on the new role at Tamarackline",
-  "body": "Hi Matthew,\n\nCongratulations on joining Tamarackline as Associate Product Manager. As a champion of Cairnboard at Estuarydock, you helped shape how your team handled product feedback, and we would love to hear how things are going in the new seat.\n\nIf product feedback and roadmap tooling comes up at Tamarackline, I am happy to share what worked for your team at Estuarydock. No pressure either way.\n\nThe Cairnboard sales-assist team",
-  "claims": [
+  "assigned_to": "revops",
+  "contact_id": "K01318",
+  "score": 5.5,
+  "explanation": "Evidence: first name matches but surname differs (Bergstrom / Thorne); needs corroboration (+0.5); prior employer 'Estuary dock' is Estuarydock (+3.0); location Austin matches (+1.0); prior title 'Principal Product Manager' is similar to 'Senior Product Manager' (+1.0). Total 5.5. Decision: review: score 5.5 is between review 3.5 and confirm 6.0.",
+  "evidence": [
    {
-    "text": "Matthew",
-    "field": "contact.first_name"
+    "signal": "name",
+    "points": 0.5,
+    "detail": "first name matches but surname differs (Bergstrom / Thorne); needs corroboration"
    },
    {
-    "text": "Tamarackline",
-    "field": "new_company.name"
+    "signal": "employer",
+    "points": 3.0,
+    "detail": "prior employer 'Estuary dock' is Estuarydock"
    },
    {
-    "text": "Estuarydock",
-    "field": "account.name"
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Austin matches"
    },
    {
-    "text": "champion",
-    "field": "contact.role_label"
-   },
-   {
-    "text": "Associate Product Manager",
-    "field": "new_title"
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Principal Product Manager' is similar to 'Senior Product Manager'"
    }
   ],
+  "payload": {
+   "full_name": "Matthew Bergstrom",
+   "prior_employer": "Estuary dock",
+   "prior_title": "Principal Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Tamarack line",
+   "new_title": "Associate Product Manager",
+   "location": "Austin"
+  },
   "id": "Q034"
  },
  {

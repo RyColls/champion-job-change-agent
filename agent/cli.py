@@ -37,7 +37,7 @@ def run_feed(feed: str, backend_name: str, results_dir: Path | None = None) -> d
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--feed", choices=["dev", "eval"], required=True)
+    ap.add_argument("--feed", choices=["dev", "eval", "eval2"], required=True)
     ap.add_argument("--backend", choices=["template", "recorded", "live"], default="template")
     a = ap.parse_args()
     res = run_feed(a.feed, a.backend)

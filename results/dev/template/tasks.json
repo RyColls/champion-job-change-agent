@@ -2,19 +2,8 @@
  {
   "id": "T001",
   "type": "csm_task",
-  "event_id": "E002",
-  "flag_id": "F001",
-  "assignee": "Dana Whitlock",
-  "account_id": "A0098",
-  "due": "2026-08-07",
-  "title": "Confirm who the new champion is at Willowcast",
-  "detail": "Chloe Castellano (executive sponsor) left Willowcast; renewal in 329 days."
- },
- {
-  "id": "T002",
-  "type": "csm_task",
   "event_id": "E003",
-  "flag_id": "F002",
+  "flag_id": "F001",
   "assignee": "Lars Nyberg",
   "account_id": "A0292",
   "due": "2026-08-07",
@@ -22,10 +11,10 @@
   "detail": "Sofia Yilmaz (champion) left Umberforge; renewal in 176 days."
  },
  {
-  "id": "T003",
+  "id": "T002",
   "type": "csm_task",
   "event_id": "E004",
-  "flag_id": "F003",
+  "flag_id": "F002",
   "assignee": "Lars Nyberg",
   "account_id": "A0183",
   "due": "2026-08-07",
@@ -33,10 +22,10 @@
   "detail": "Ayesha Olsen (champion) left Hollisdock; renewal in 356 days."
  },
  {
-  "id": "T004",
+  "id": "T003",
   "type": "csm_task",
   "event_id": "E006",
-  "flag_id": "F004",
+  "flag_id": "F003",
   "assignee": "Ife Balogun",
   "account_id": "A0220",
   "due": "2026-08-09",
@@ -44,10 +33,10 @@
   "detail": "Amara Rutherford (executive sponsor) left Cobaltbase; renewal in 299 days."
  },
  {
-  "id": "T005",
+  "id": "T004",
   "type": "csm_task",
   "event_id": "E007",
-  "flag_id": "F005",
+  "flag_id": "F004",
   "assignee": "Corinne Aubert",
   "account_id": "A0188",
   "due": "2026-08-10",
@@ -55,10 +44,10 @@
   "detail": "Jonathan Patel (champion) left Lumenstack; renewal in 258 days."
  },
  {
-  "id": "T006",
+  "id": "T005",
   "type": "csm_task",
   "event_id": "E008",
-  "flag_id": "F006",
+  "flag_id": "F005",
   "assignee": "Lars Nyberg",
   "account_id": "A0077",
   "due": "2026-08-12",
@@ -66,10 +55,10 @@
   "detail": "Rohan Yilmaz (champion) left Basalthub; renewal in 46 days."
  },
  {
-  "id": "T007",
+  "id": "T006",
   "type": "csm_task",
   "event_id": "E009",
-  "flag_id": "F007",
+  "flag_id": "F006",
   "assignee": "Dana Whitlock",
   "account_id": "A0281",
   "due": "2026-08-13",
@@ -77,10 +66,10 @@
   "detail": "Mei Mbeki (executive sponsor) left Latticemint; renewal in 350 days."
  },
  {
-  "id": "T008",
+  "id": "T007",
   "type": "csm_task",
   "event_id": "E011",
-  "flag_id": "F008",
+  "flag_id": "F007",
   "assignee": "Dana Whitlock",
   "account_id": "A0132",
   "due": "2026-08-15",
@@ -88,10 +77,10 @@
   "detail": "Yusuf Grayson (executive sponsor) left Ridgeloop; renewal in 379 days."
  },
  {
-  "id": "T009",
+  "id": "T008",
   "type": "csm_task",
   "event_id": "E012",
-  "flag_id": "F009",
+  "flag_id": "F008",
   "assignee": "Priscilla Odum",
   "account_id": "A0157",
   "due": "2026-08-17",
@@ -99,10 +88,10 @@
   "detail": "Mateo Voss (champion) left Cinderforge; renewal in 187 days."
  },
  {
-  "id": "T010",
+  "id": "T009",
   "type": "csm_task",
   "event_id": "E014",
-  "flag_id": "F010",
+  "flag_id": "F009",
   "assignee": "Corinne Aubert",
   "account_id": "A0071",
   "due": "2026-08-19",
@@ -110,10 +99,10 @@
   "detail": "Sienna Dunmore (champion) left Gantrydock; renewal in 319 days."
  },
  {
-  "id": "T011",
+  "id": "T010",
   "type": "csm_task",
   "event_id": "E015",
-  "flag_id": "F011",
+  "flag_id": "F010",
   "assignee": "Brooks Hadley",
   "account_id": "A0038",
   "due": "2026-08-20",
@@ -121,10 +110,10 @@
   "detail": "Malik Chaudhry (executive sponsor) left Estuarybridge; renewal in 276 days."
  },
  {
-  "id": "T012",
+  "id": "T011",
   "type": "csm_task",
   "event_id": "E016",
-  "flag_id": "F012",
+  "flag_id": "F011",
   "assignee": "Jorge Alvarenga",
   "account_id": "A0207",
   "due": "2026-08-22",
@@ -132,21 +121,10 @@
   "detail": "Nicholas Calloway (champion) left Cinderworks; renewal in 261 days."
  },
  {
-  "id": "T013",
-  "type": "csm_task",
-  "event_id": "E017",
-  "flag_id": "F013",
-  "assignee": "Mina Takeda",
-  "account_id": "A0104",
-  "due": "2026-08-25",
-  "title": "Confirm who the new champion is at Solacestack",
-  "detail": "Greta Patel (champion) left Solacestack; renewal in 310 days."
- },
- {
-  "id": "T014",
+  "id": "T012",
   "type": "csm_task",
   "event_id": "E019",
-  "flag_id": "F014",
+  "flag_id": "F012",
   "assignee": "Corinne Aubert",
   "account_id": "A0008",
   "due": "2026-08-25",
@@ -154,10 +132,10 @@
   "detail": "Benjamin Vasquez (executive sponsor) left Quillbridge; renewal in 197 days."
  },
  {
-  "id": "T015",
+  "id": "T013",
   "type": "csm_task",
   "event_id": "E020",
-  "flag_id": "F015",
+  "flag_id": "F013",
   "assignee": "Corinne Aubert",
   "account_id": "A0289",
   "due": "2026-08-26",
@@ -165,10 +143,10 @@
   "detail": "Priya Dunmore (champion) left Yarrowworks; renewal in 68 days."
  },
  {
-  "id": "T016",
+  "id": "T014",
   "type": "csm_task",
   "event_id": "E023",
-  "flag_id": "F016",
+  "flag_id": "F014",
   "assignee": "Dana Whitlock",
   "account_id": "A0092",
   "due": "2026-08-31",
@@ -176,10 +154,10 @@
   "detail": "Lucia Sorensen (champion) left Piniongrid; renewal in 107 days."
  },
  {
-  "id": "T017",
+  "id": "T015",
   "type": "csm_task",
   "event_id": "E024",
-  "flag_id": "F017",
+  "flag_id": "F015",
   "assignee": "Ife Balogun",
   "account_id": "A0255",
   "due": "2026-08-31",
@@ -187,10 +165,10 @@
   "detail": "Malik Ibarra (executive sponsor) left Glintscope; renewal in -4 days."
  },
  {
-  "id": "T018",
+  "id": "T016",
   "type": "csm_task",
   "event_id": "E026",
-  "flag_id": "F018",
+  "flag_id": "F016",
   "assignee": "Ife Balogun",
   "account_id": "A0139",
   "due": "2026-09-03",
@@ -198,10 +176,10 @@
   "detail": "Samantha Pereira (executive sponsor) left Embercast; renewal in 268 days."
  },
  {
-  "id": "T019",
+  "id": "T017",
   "type": "csm_task",
   "event_id": "E027",
-  "flag_id": "F019",
+  "flag_id": "F017",
   "assignee": "Ife Balogun",
   "account_id": "A0181",
   "due": "2026-09-03",
@@ -209,10 +187,10 @@
   "detail": "Michael Adeyemi (champion) left Opalport; renewal in 320 days."
  },
  {
-  "id": "T020",
+  "id": "T018",
   "type": "csm_task",
   "event_id": "E030",
-  "flag_id": "F020",
+  "flag_id": "F018",
   "assignee": "Mina Takeda",
   "account_id": "A0263",
   "due": "2026-09-05",
@@ -220,10 +198,10 @@
   "detail": "Ayesha Everhart (executive sponsor) left Latticeforge; renewal in 271 days."
  },
  {
-  "id": "T021",
+  "id": "T019",
   "type": "csm_task",
   "event_id": "E033",
-  "flag_id": "F021",
+  "flag_id": "F019",
   "assignee": "Ife Balogun",
   "account_id": "A0255",
   "due": "2026-09-10",
@@ -231,10 +209,10 @@
   "detail": "Mei Hashemi (champion) left Glintscope; renewal in -14 days."
  },
  {
-  "id": "T022",
+  "id": "T020",
   "type": "csm_task",
   "event_id": "E035",
-  "flag_id": "F022",
+  "flag_id": "F020",
   "assignee": "Ife Balogun",
   "account_id": "A0156",
   "due": "2026-09-11",
@@ -242,10 +220,10 @@
   "detail": "Noor Yamada (champion) left Cinderpoint; renewal in 127 days."
  },
  {
-  "id": "T023",
+  "id": "T021",
   "type": "csm_task",
   "event_id": "E036",
-  "flag_id": "F023",
+  "flag_id": "F021",
   "assignee": "Priscilla Odum",
   "account_id": "A0259",
   "due": "2026-09-12",
@@ -253,10 +231,10 @@
   "detail": "Matthew Ramos (executive sponsor) left Cobaltlabs; renewal in 346 days."
  },
  {
-  "id": "T024",
+  "id": "T022",
   "type": "csm_task",
   "event_id": "E037",
-  "flag_id": "F024",
+  "flag_id": "F022",
   "assignee": "Ife Balogun",
   "account_id": "A0220",
   "due": "2026-09-13",
@@ -264,10 +242,10 @@
   "detail": "Zainab Vasquez (champion) left Cobaltbase; renewal in 264 days."
  },
  {
-  "id": "T025",
+  "id": "T023",
   "type": "csm_task",
   "event_id": "E038",
-  "flag_id": "F025",
+  "flag_id": "F023",
   "assignee": "Mina Takeda",
   "account_id": "A0261",
   "due": "2026-09-14",
@@ -275,10 +253,10 @@
   "detail": "Andre Moreau (champion) left Dunlinhub; renewal in 127 days."
  },
  {
-  "id": "T026",
+  "id": "T024",
   "type": "csm_task",
   "event_id": "E040",
-  "flag_id": "F026",
+  "flag_id": "F024",
   "assignee": "Mina Takeda",
   "account_id": "A0006",
   "due": "2026-09-16",
@@ -286,10 +264,10 @@
   "detail": "Dmitri Bergstrom (executive sponsor) left Granitemint; renewal in 86 days."
  },
  {
-  "id": "T027",
+  "id": "T025",
   "type": "csm_task",
   "event_id": "E041",
-  "flag_id": "F027",
+  "flag_id": "F025",
   "assignee": "Jorge Alvarenga",
   "account_id": "A0069",
   "due": "2026-09-16",
@@ -297,21 +275,10 @@
   "detail": "Rohan Voss (champion) left Yarrowcast; renewal in -18 days."
  },
  {
-  "id": "T028",
-  "type": "csm_task",
-  "event_id": "E044",
-  "flag_id": "F028",
-  "assignee": "Dana Whitlock",
-  "account_id": "A0005",
-  "due": "2026-09-19",
-  "title": "Confirm who the new champion is at Tamarackdock",
-  "detail": "Marisol Fontaine (executive sponsor) left Tamarackdock; renewal in 89 days."
- },
- {
-  "id": "T029",
+  "id": "T026",
   "type": "csm_task",
   "event_id": "E045",
-  "flag_id": "F029",
+  "flag_id": "F026",
   "assignee": "Corinne Aubert",
   "account_id": "A0180",
   "due": "2026-09-20",
@@ -319,10 +286,10 @@
   "detail": "Samantha Zhao (executive sponsor) left Ridgemint; renewal in 350 days."
  },
  {
-  "id": "T030",
+  "id": "T027",
   "type": "csm_task",
   "event_id": "E046",
-  "flag_id": "F030",
+  "flag_id": "F027",
   "assignee": "Mina Takeda",
   "account_id": "A0048",
   "due": "2026-09-22",
@@ -330,10 +297,10 @@
   "detail": "Samantha Yamada (champion) left Corvidcast; renewal in 336 days."
  },
  {
-  "id": "T031",
+  "id": "T028",
   "type": "csm_task",
   "event_id": "E048",
-  "flag_id": "F031",
+  "flag_id": "F028",
   "assignee": "Lars Nyberg",
   "account_id": "A0035",
   "due": "2026-09-25",
@@ -341,10 +308,10 @@
   "detail": "Anika Eriksen (champion) left Opalbase; renewal in 0 days."
  },
  {
-  "id": "T032",
+  "id": "T029",
   "type": "csm_task",
   "event_id": "E049",
-  "flag_id": "F032",
+  "flag_id": "F029",
   "assignee": "Jorge Alvarenga",
   "account_id": "A0258",
   "due": "2026-09-28",
@@ -352,10 +319,10 @@
   "detail": "Tamsin Rosales (champion) left Thistlescope; renewal in 154 days."
  },
  {
-  "id": "T033",
+  "id": "T030",
   "type": "csm_task",
   "event_id": "E052",
-  "flag_id": "F033",
+  "flag_id": "F030",
   "assignee": "Mina Takeda",
   "account_id": "A0046",
   "due": "2026-09-30",
@@ -363,10 +330,10 @@
   "detail": "Nadia Osei (champion) left Veritycast; renewal in 218 days."
  },
  {
-  "id": "T034",
+  "id": "T031",
   "type": "csm_task",
   "event_id": "E054",
-  "flag_id": "F034",
+  "flag_id": "F031",
   "assignee": "Mina Takeda",
   "account_id": "A0054",
   "due": "2026-10-03",
@@ -374,21 +341,10 @@
   "detail": "Sienna Holloway (champion) left Quartzmint; renewal in 73 days."
  },
  {
-  "id": "T035",
-  "type": "csm_task",
-  "event_id": "E055",
-  "flag_id": "F035",
-  "assignee": "Lars Nyberg",
-  "account_id": "A0026",
-  "due": "2026-10-04",
-  "title": "Confirm who the new champion is at Opalscope",
-  "detail": "Malik Gallagher (champion) left Opalscope; renewal in 166 days."
- },
- {
-  "id": "T036",
+  "id": "T032",
   "type": "csm_task",
   "event_id": "E057",
-  "flag_id": "F036",
+  "flag_id": "F032",
   "assignee": "Mina Takeda",
   "account_id": "A0153",
   "due": "2026-10-06",
@@ -396,10 +352,10 @@
   "detail": "Diego Prescott (champion) left Ferroyard; renewal in 110 days."
  },
  {
-  "id": "T037",
+  "id": "T033",
   "type": "csm_task",
   "event_id": "E059",
-  "flag_id": "F037",
+  "flag_id": "F033",
   "assignee": "Lars Nyberg",
   "account_id": "A0201",
   "due": "2026-10-07",
@@ -407,10 +363,10 @@
   "detail": "Anika Kimura (champion) left Solaceyard; renewal in 244 days."
  },
  {
-  "id": "T038",
+  "id": "T034",
   "type": "csm_task",
   "event_id": "E060",
-  "flag_id": "F038",
+  "flag_id": "F034",
   "assignee": "Corinne Aubert",
   "account_id": "A0295",
   "due": "2026-10-07",
@@ -418,10 +374,10 @@
   "detail": "Elizabeth Eriksen (executive sponsor) left Brindleflow; renewal in 60 days."
  },
  {
-  "id": "T039",
+  "id": "T035",
   "type": "csm_task",
   "event_id": "E061",
-  "flag_id": "F039",
+  "flag_id": "F035",
   "assignee": "Corinne Aubert",
   "account_id": "A0041",
   "due": "2026-10-08",
@@ -429,10 +385,10 @@
   "detail": "Marcus Gallagher (champion) left Deltaflow; renewal in 90 days."
  },
  {
-  "id": "T040",
+  "id": "T036",
   "type": "csm_task",
   "event_id": "E062",
-  "flag_id": "F040",
+  "flag_id": "F036",
   "assignee": "Priscilla Odum",
   "account_id": "A0095",
   "due": "2026-10-09",
@@ -440,10 +396,10 @@
   "detail": "Idris Ortega (executive sponsor) left Kestrelstack; renewal in 205 days."
  },
  {
-  "id": "T041",
+  "id": "T037",
   "type": "csm_task",
   "event_id": "E063",
-  "flag_id": "F041",
+  "flag_id": "F037",
   "assignee": "Ife Balogun",
   "account_id": "A0007",
   "due": "2026-10-09",
@@ -451,10 +407,10 @@
   "detail": "Mateo Pereira (executive sponsor) left Northwinddock; renewal in 283 days."
  },
  {
-  "id": "T042",
+  "id": "T038",
   "type": "csm_task",
   "event_id": "E065",
-  "flag_id": "F042",
+  "flag_id": "F038",
   "assignee": "Jorge Alvarenga",
   "account_id": "A0021",
   "due": "2026-10-10",
@@ -462,10 +418,10 @@
   "detail": "Julian Marchetti (champion) left Harborforge; renewal in 120 days."
  },
  {
-  "id": "T043",
+  "id": "T039",
   "type": "csm_task",
   "event_id": "E067",
-  "flag_id": "F043",
+  "flag_id": "F039",
   "assignee": "Mina Takeda",
   "account_id": "A0010",
   "due": "2026-10-12",
@@ -473,10 +429,10 @@
   "detail": "Priya Castellano (champion) left Ironwoodbridge; renewal in 123 days."
  },
  {
-  "id": "T044",
+  "id": "T040",
   "type": "csm_task",
   "event_id": "E069",
-  "flag_id": "F044",
+  "flag_id": "F040",
   "assignee": "Corinne Aubert",
   "account_id": "A0140",
   "due": "2026-10-13",
@@ -484,10 +440,10 @@
   "detail": "Ayesha Vasquez (champion) left Fathomwave; renewal in 322 days."
  },
  {
-  "id": "T045",
+  "id": "T041",
   "type": "csm_task",
   "event_id": "E070",
-  "flag_id": "F045",
+  "flag_id": "F041",
   "assignee": "Corinne Aubert",
   "account_id": "A0185",
   "due": "2026-10-15",
@@ -495,10 +451,10 @@
   "detail": "Rebecca Cardenas (champion) left Juniperbase; renewal in 263 days."
  },
  {
-  "id": "T046",
+  "id": "T042",
   "type": "csm_task",
   "event_id": "E072",
-  "flag_id": "F046",
+  "flag_id": "F042",
   "assignee": "Lars Nyberg",
   "account_id": "A0035",
   "due": "2026-10-18",
@@ -506,10 +462,10 @@
   "detail": "Jennifer Navarro (champion) left Opalbase; renewal in -23 days."
  },
  {
-  "id": "T047",
+  "id": "T043",
   "type": "csm_task",
   "event_id": "E074",
-  "flag_id": "F047",
+  "flag_id": "F043",
   "assignee": "Priscilla Odum",
   "account_id": "A0179",
   "due": "2026-10-21",
@@ -517,10 +473,10 @@
   "detail": "Noor Holloway (champion) left Opalline; renewal in 102 days."
  },
  {
-  "id": "T048",
+  "id": "T044",
   "type": "csm_task",
   "event_id": "E075",
-  "flag_id": "F048",
+  "flag_id": "F044",
   "assignee": "Jorge Alvarenga",
   "account_id": "A0286",
   "due": "2026-10-22",
@@ -528,10 +484,10 @@
   "detail": "Hannah Iyer (executive sponsor) left Pinionpoint; renewal in -27 days."
  },
  {
-  "id": "T049",
+  "id": "T045",
   "type": "csm_task",
   "event_id": "E076",
-  "flag_id": "F049",
+  "flag_id": "F045",
   "assignee": "Mina Takeda",
   "account_id": "A0111",
   "due": "2026-10-26",
@@ -539,10 +495,10 @@
   "detail": "Alexander Fairbanks (champion) left Heronlabs; renewal in 236 days."
  },
  {
-  "id": "T050",
+  "id": "T046",
   "type": "csm_task",
   "event_id": "E078",
-  "flag_id": "F050",
+  "flag_id": "F046",
   "assignee": "Mina Takeda",
   "account_id": "A0121",
   "due": "2026-10-30",

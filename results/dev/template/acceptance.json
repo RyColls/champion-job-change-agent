@@ -6,9 +6,25 @@
    "n": 1,
    "name": "Detection",
    "condition": "At least 52 of the 55 real departures are caught",
-   "measured": "50 of 55 caught; 5 of the 5 missed were held in identity review (not counted as caught)",
+   "measured": "46 of 55 caught; 9 of the 9 missed were held in identity review (not counted as caught)",
    "passed": false,
    "failing_events": [
+    {
+     "event_id": "E002",
+     "type": "moved_fit",
+     "noise": [
+      "surname_change"
+     ],
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
+     "event_id": "E017",
+     "type": "moved_nofit",
+     "noise": [
+      "surname_change"
+     ],
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
     {
      "event_id": "E021",
      "type": "moved_fit",
@@ -27,12 +43,28 @@
      "why": "held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
     },
     {
+     "event_id": "E044",
+     "type": "moved_fit",
+     "noise": [
+      "surname_change"
+     ],
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
      "event_id": "E053",
      "type": "moved_fit",
      "noise": [
       "prior_title_missing"
      ],
      "why": "held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
+    },
+    {
+     "event_id": "E055",
+     "type": "moved_nofit",
+     "noise": [
+      "surname_change"
+     ],
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
     },
     {
      "event_id": "E066",
@@ -75,9 +107,23 @@
    "n": 4,
    "name": "Classification",
    "condition": "At least 95% of events match the answer key",
-   "measured": "75 of 80 match (93.8%)",
+   "measured": "71 of 80 match (88.8%)",
    "passed": false,
    "failing_events": [
+    {
+     "event_id": "E002",
+     "type": "moved_fit",
+     "expected": "departure:fit_prospect",
+     "got": "identity_review",
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
+     "event_id": "E017",
+     "type": "moved_nofit",
+     "expected": "departure:nofit_prospect",
+     "got": "identity_review",
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
     {
      "event_id": "E021",
      "type": "moved_fit",
@@ -93,11 +139,25 @@
      "why": "held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
     },
     {
+     "event_id": "E044",
+     "type": "moved_fit",
+     "expected": "departure:fit_prospect",
+     "got": "identity_review",
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
      "event_id": "E053",
      "type": "moved_fit",
      "expected": "departure:fit_prospect",
      "got": "identity_review",
      "why": "held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
+    },
+    {
+     "event_id": "E055",
+     "type": "moved_nofit",
+     "expected": "departure:nofit_prospect",
+     "got": "identity_review",
+     "why": "held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
     },
     {
      "event_id": "E066",
@@ -129,9 +189,17 @@
    "n": 6,
    "name": "Old-account play",
    "condition": "Fires on every real departure, with the correct days until renewal",
-   "measured": "50 of 55 fired with the correct days until renewal",
+   "measured": "46 of 55 fired with the correct days until renewal",
    "passed": false,
    "failing_events": [
+    {
+     "event_id": "E002",
+     "why": "no risk flag: held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
+     "event_id": "E017",
+     "why": "no risk flag: held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
     {
      "event_id": "E021",
      "why": "no risk flag: held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
@@ -141,8 +209,16 @@
      "why": "no risk flag: held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
     },
     {
+     "event_id": "E044",
+     "why": "no risk flag: held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
+    },
+    {
      "event_id": "E053",
      "why": "no risk flag: held in identity review: score 4.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0)"
+    },
+    {
+     "event_id": "E055",
+     "why": "no risk flag: held in identity review: score 5.5 is below the confirm threshold (name +0.5, employer +3.0, city +1.0, title +1.0)"
     },
     {
      "event_id": "E066",
@@ -159,7 +235,7 @@
    "n": 7,
    "name": "Draft integrity",
    "condition": "0 facts in any draft that are not in the record",
-   "measured": "(a) independent audit of 27 queued drafts and summaries: 0 unsupported facts; (b) planted-fact tests: agent verifier blocked 60 of 60, independent audit flagged 60 of 60; first-pass blocks 0 of 27 drafts, 0 blocked after retry",
+   "measured": "(a) independent audit of 25 queued drafts and summaries: 0 unsupported facts; (b) planted-fact tests: agent verifier blocked 60 of 60, independent audit flagged 60 of 60; first-pass blocks 0 of 25 drafts, 0 blocked after retry",
    "passed": true,
    "failing_events": [],
    "note": "The verifier checks entities, numbers, quantities and outcome language. It cannot verify arbitrary lowercase prose claims; those are limited by the prompt and by human review."
@@ -168,7 +244,7 @@
    "n": 8,
    "name": "Approval gate",
    "condition": "Nothing leaves the queue without a human action",
-   "measured": "27 drafts left pending by the pipeline; outbox empty until a named human acted; direct sends refused; unapproved sends refused: 2 of 2",
+   "measured": "25 drafts left pending by the pipeline; outbox empty until a named human acted; direct sends refused; unapproved sends refused: 2 of 2",
    "passed": true,
    "failing_events": [],
    "note": "The outbox is a mock. Nothing real is ever sent."
@@ -185,27 +261,37 @@
  ],
  "extra": {
   "queue_counts": {
-   "identity_review": 7,
-   "outreach_draft": 27,
+   "identity_review": 11,
+   "outreach_draft": 25,
    "revops_review": 3
   },
   "identity_review_events": [
+   "E002",
+   "E017",
    "E021",
    "E022",
    "E031",
+   "E044",
    "E053",
+   "E055",
    "E064",
    "E066",
    "E068"
   ],
+  "identity_review_composition": {
+   "collision": 2,
+   "moved_customer": 1,
+   "moved_fit": 5,
+   "moved_nofit": 3
+  },
   "ai_calls": {
    "explain_identity|template|None": 80,
-   "history_summary|template|None": 27,
-   "draft_outreach|template|None": 27,
-   "normalize|template|None": 27
+   "normalize|template|None": 27,
+   "history_summary|template|None": 25,
+   "draft_outreach|template|None": 25
   },
   "draft_stats": {
-   "drafts": 27,
+   "drafts": 25,
    "drafts_blocked_first_pass": 0,
    "drafts_blocked_final": 0,
    "draft_retries": 0,
