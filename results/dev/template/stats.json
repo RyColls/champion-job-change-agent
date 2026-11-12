@@ -1,0 +1,13 @@
+{
+ "ai_calls": {
+  "explain_identity|template|None": 80,
+  "history_summary|template|None": 27,
+  "draft_outreach|template|None": 27,
+  "normalize|template|None": 27
+ },
+ "drafts": 27,
+ "drafts_blocked_first_pass": 0,
+ "drafts_blocked_final": 0,
+ "summaries_failed_check": 0,
+ "draft_retries": 0
+}

@@ -1,0 +1,34 @@
+[
+ {
+  "id": "N001",
+  "type": "account_manager_note",
+  "event_id": "E015",
+  "to": "Hollis Grant",
+  "account_id": "A0279",
+  "message": "Sienna Wadhwa, a former champion at Harborlabs, has joined Opalport, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N002",
+  "type": "account_manager_note",
+  "event_id": "E031",
+  "to": "Rupa Sethi",
+  "account_id": "A0183",
+  "message": "Leila Ortega, a former champion at Corviddock, has joined Harborlabs, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N003",
+  "type": "account_manager_note",
+  "event_id": "E039",
+  "to": "Talia Brandt",
+  "account_id": "A0220",
+  "message": "Chloe Lombardi, a former champion at Heronforge, has joined Ironwoodgrid, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N004",
+  "type": "account_manager_note",
+  "event_id": "E051",
+  "to": "Hollis Grant",
+  "account_id": "A0051",
+  "message": "Rebecca Quinlan, a former champion at Corvidpoint, has joined Harborport, an existing customer. Consider reaching out about expansion."
+ }
+]

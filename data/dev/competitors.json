@@ -1,0 +1,47 @@
+[
+ {
+  "id": "C01",
+  "name": "Wrenwave",
+  "parts": [
+   "Wren",
+   "wave"
+  ],
+  "domain": "wrenwave.example"
+ },
+ {
+  "id": "C02",
+  "name": "Jasperpath",
+  "parts": [
+   "Jasper",
+   "path"
+  ],
+  "domain": "jasperpath.example"
+ },
+ {
+  "id": "C03",
+  "name": "Aldermint",
+  "parts": [
+   "Alder",
+   "mint"
+  ],
+  "domain": "aldermint.example"
+ },
+ {
+  "id": "C04",
+  "name": "Cinderstack",
+  "parts": [
+   "Cinder",
+   "stack"
+  ],
+  "domain": "cinderstack.example"
+ },
+ {
+  "id": "C05",
+  "name": "Ridgebase",
+  "parts": [
+   "Ridge",
+   "base"
+  ],
+  "domain": "ridgebase.example"
+ }
+]

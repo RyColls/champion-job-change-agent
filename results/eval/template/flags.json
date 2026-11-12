@@ -1,0 +1,1913 @@
+[
+ {
+  "id": "F001",
+  "type": "risk_flag",
+  "event_id": "E001",
+  "account_id": "A0221",
+  "account_name": "Thistlebase",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K01101",
+  "departed_name": "Katherine Olsen",
+  "departed_role": "champion",
+  "days_until_renewal": 343,
+  "renewal_date": "2027-07-10",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01105",
+    "name": "Mei Yilmaz",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 52 boards created, last active 8 days before the event"
+   },
+   {
+    "contact_id": "K01104",
+    "name": "Fatima Oyelaran",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 18 boards created, last active 11 days before the event"
+   },
+   {
+    "contact_id": "K01103",
+    "name": "Rohan Delacroix",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 17 boards created, last active 18 days before the event"
+   }
+  ],
+  "summary": "Katherine Olsen (champion) left Thistlebase; renewal in 343 days."
+ },
+ {
+  "id": "F002",
+  "type": "risk_flag",
+  "event_id": "E003",
+  "account_id": "A0234",
+  "account_name": "Deltapoint",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K01170",
+  "departed_name": "Dmitri Patel",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 93,
+  "renewal_date": "2026-11-03",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01168",
+    "name": "Ayesha Bergstrom",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 19 boards created, last active 1 days before the event"
+   },
+   {
+    "contact_id": "K01166",
+    "name": "Hiroshi Zimmerman",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 38 boards created, last active 26 days before the event"
+   },
+   {
+    "contact_id": "K01167",
+    "name": "Dmitri Fairbanks",
+    "role": "admin",
+    "title": "Product Ops Analyst",
+    "reason": "admin, 8 boards created, last active 8 days before the event"
+   }
+  ],
+  "summary": "Dmitri Patel (executive sponsor) left Deltapoint; renewal in 93 days."
+ },
+ {
+  "id": "F003",
+  "type": "risk_flag",
+  "event_id": "E005",
+  "account_id": "A0226",
+  "account_name": "Hollisstack",
+  "plan": "Team",
+  "arr": 8000,
+  "departed_contact_id": "K01126",
+  "departed_name": "Theo Uribe",
+  "departed_role": "champion",
+  "days_until_renewal": 157,
+  "renewal_date": "2027-01-09",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01130",
+    "name": "Gabriel Varga",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 58 boards created, last active 4 days before the event"
+   },
+   {
+    "contact_id": "K01128",
+    "name": "Amara Dimitrov",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 59 boards created, last active 23 days before the event"
+   },
+   {
+    "contact_id": "K01127",
+    "name": "Arjun Wadhwa",
+    "role": "admin",
+    "title": "IT Systems Analyst",
+    "reason": "admin, 58 boards created, last active 13 days before the event"
+   }
+  ],
+  "summary": "Theo Uribe (champion) left Hollisstack; renewal in 157 days."
+ },
+ {
+  "id": "F004",
+  "type": "risk_flag",
+  "event_id": "E006",
+  "account_id": "A0044",
+  "account_name": "Islewave",
+  "plan": "Business",
+  "arr": 20000,
+  "departed_contact_id": "K00216",
+  "departed_name": "Mei Zimmerman",
+  "departed_role": "champion",
+  "days_until_renewal": 123,
+  "renewal_date": "2026-12-07",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00219",
+    "name": "Zainab Fairbanks",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 47 boards created, last active 13 days before the event"
+   },
+   {
+    "contact_id": "K00220",
+    "name": "Ingrid Winslow",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 12 boards created, last active 32 days before the event"
+   },
+   {
+    "contact_id": "K00218",
+    "name": "Chloe Oyelaran",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 31 boards created, last active 17 days before the event"
+   }
+  ],
+  "summary": "Mei Zimmerman (champion) left Islewave; renewal in 123 days."
+ },
+ {
+  "id": "F005",
+  "type": "risk_flag",
+  "event_id": "E008",
+  "account_id": "A0098",
+  "account_name": "Kestrelpath",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K00486",
+  "departed_name": "Sienna Jankowski",
+  "departed_role": "champion",
+  "days_until_renewal": 345,
+  "renewal_date": "2027-07-20",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00490",
+    "name": "Katherine Farouk",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 16 boards created, last active 28 days before the event"
+   },
+   {
+    "contact_id": "K00488",
+    "name": "Wanjiru Lindqvist",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 59 boards created, last active 26 days before the event"
+   },
+   {
+    "contact_id": "K00489",
+    "name": "Yusuf Osei",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 34 boards created, last active 37 days before the event"
+   }
+  ],
+  "summary": "Sienna Jankowski (champion) left Kestrelpath; renewal in 345 days."
+ },
+ {
+  "id": "F006",
+  "type": "risk_flag",
+  "event_id": "E010",
+  "account_id": "A0251",
+  "account_name": "Quillyard",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K01255",
+  "departed_name": "Santiago Halvorsen",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 169,
+  "renewal_date": "2027-01-25",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01251",
+    "name": "Wanjiru Bergstrom",
+    "role": "champion",
+    "title": "Product Operations Lead",
+    "reason": "champion, 8 boards created, last active 30 days before the event"
+   },
+   {
+    "contact_id": "K01254",
+    "name": "Katherine Lombardi",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 55 boards created, last active 38 days before the event"
+   },
+   {
+    "contact_id": "K01253",
+    "name": "Dmitri Underhill",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 43 boards created, last active 36 days before the event"
+   }
+  ],
+  "summary": "Santiago Halvorsen (executive sponsor) left Quillyard; renewal in 169 days."
+ },
+ {
+  "id": "F007",
+  "type": "risk_flag",
+  "event_id": "E011",
+  "account_id": "A0172",
+  "account_name": "Fablescope",
+  "plan": "Business",
+  "arr": 16500,
+  "departed_contact_id": "K00858",
+  "departed_name": "Theo Everhart",
+  "departed_role": "champion",
+  "days_until_renewal": 92,
+  "renewal_date": "2026-11-14",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00860",
+    "name": "Ingrid Ramos",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 55 boards created, last active 14 days before the event"
+   },
+   {
+    "contact_id": "K00856",
+    "name": "Diego Tran",
+    "role": "champion",
+    "title": "Product Operations Lead",
+    "reason": "champion, 49 boards created, last active 13 days before the event"
+   },
+   {
+    "contact_id": "K00859",
+    "name": "Sienna Winslow",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 29 boards created, last active 33 days before the event"
+   }
+  ],
+  "summary": "Theo Everhart (champion) left Fablescope; renewal in 92 days."
+ },
+ {
+  "id": "F008",
+  "type": "risk_flag",
+  "event_id": "E013",
+  "account_id": "A0210",
+  "account_name": "Solacestack",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K01050",
+  "departed_name": "Priya Underhill",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 28,
+  "renewal_date": "2026-09-12",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01048",
+    "name": "Matthew Bergstrom",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 26 boards created, last active 43 days before the event"
+   },
+   {
+    "contact_id": "K01046",
+    "name": "Ravi Olsen",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 14 boards created, last active 29 days before the event"
+   },
+   {
+    "contact_id": "K01049",
+    "name": "Jennifer Escobar",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 38 boards created, last active 16 days before the event"
+   }
+  ],
+  "summary": "Priya Underhill (executive sponsor) left Solacestack; renewal in 28 days."
+ },
+ {
+  "id": "F009",
+  "type": "risk_flag",
+  "event_id": "E014",
+  "account_id": "A0101",
+  "account_name": "Northwindflow",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K00501",
+  "departed_name": "Elena Takahashi",
+  "departed_role": "champion",
+  "days_until_renewal": 253,
+  "renewal_date": "2027-04-26",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00505",
+    "name": "Elena Holloway",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 32 boards created, last active 17 days before the event"
+   },
+   {
+    "contact_id": "K00503",
+    "name": "Benjamin Gallagher",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 36 boards created, last active 41 days before the event"
+   },
+   {
+    "contact_id": "K00504",
+    "name": "Beatrix Petrov",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 28 boards created, last active 37 days before the event"
+   }
+  ],
+  "summary": "Elena Takahashi (champion) left Northwindflow; renewal in 253 days."
+ },
+ {
+  "id": "F010",
+  "type": "risk_flag",
+  "event_id": "E015",
+  "account_id": "A0183",
+  "account_name": "Harborlabs",
+  "plan": "Business",
+  "arr": 16500,
+  "departed_contact_id": "K00915",
+  "departed_name": "Sienna Wadhwa",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 184,
+  "renewal_date": "2027-02-17",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00913",
+    "name": "Sofia Eriksen",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 21 boards created, last active 18 days before the event"
+   },
+   {
+    "contact_id": "K00911",
+    "name": "Hiroshi Lombardi",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 14 boards created, last active 30 days before the event"
+   },
+   {
+    "contact_id": "K00914",
+    "name": "Felix Olsen",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 25 boards created, last active 26 days before the event"
+   }
+  ],
+  "summary": "Sienna Wadhwa (executive sponsor) left Harborlabs; renewal in 184 days."
+ },
+ {
+  "id": "F011",
+  "type": "risk_flag",
+  "event_id": "E016",
+  "account_id": "A0275",
+  "account_name": "Pinionport",
+  "plan": "Business",
+  "arr": 17500,
+  "departed_contact_id": "K01375",
+  "departed_name": "Greta Eriksen",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 206,
+  "renewal_date": "2027-03-11",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01373",
+    "name": "Wanjiru Fairbanks",
+    "role": "champion",
+    "title": "Group Product Manager",
+    "reason": "champion, 59 boards created, last active 33 days before the event"
+   },
+   {
+    "contact_id": "K01371",
+    "name": "Emeka Rosales",
+    "role": "champion",
+    "title": "Group Product Manager",
+    "reason": "champion, 3 boards created, last active 31 days before the event"
+   },
+   {
+    "contact_id": "K01374",
+    "name": "Ingrid Achterberg",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 12 boards created, last active 27 days before the event"
+   }
+  ],
+  "summary": "Greta Eriksen (executive sponsor) left Pinionport; renewal in 206 days."
+ },
+ {
+  "id": "F012",
+  "type": "risk_flag",
+  "event_id": "E018",
+  "account_id": "A0260",
+  "account_name": "Solacebridge",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K01300",
+  "departed_name": "Idris Eriksen",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 317,
+  "renewal_date": "2027-07-01",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01296",
+    "name": "Sofia Lindqvist",
+    "role": "champion",
+    "title": "Group Product Manager",
+    "reason": "champion, 38 boards created, last active 31 days before the event"
+   },
+   {
+    "contact_id": "K01299",
+    "name": "Theo Fairbanks",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 58 boards created, last active 47 days before the event"
+   },
+   {
+    "contact_id": "K01298",
+    "name": "Matthew Novak",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 5 boards created, last active 35 days before the event"
+   }
+  ],
+  "summary": "Idris Eriksen (executive sponsor) left Solacebridge; renewal in 317 days."
+ },
+ {
+  "id": "F013",
+  "type": "risk_flag",
+  "event_id": "E019",
+  "account_id": "A0015",
+  "account_name": "Estuaryloop",
+  "plan": "Enterprise",
+  "arr": 43500,
+  "departed_contact_id": "K00073",
+  "departed_name": "Alexander Halvorsen",
+  "departed_role": "champion",
+  "days_until_renewal": 44,
+  "renewal_date": "2026-10-02",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00075",
+    "name": "Idris Bakshi",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 22 boards created, last active 31 days before the event"
+   },
+   {
+    "contact_id": "K00071",
+    "name": "Emeka Yamada",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 9 boards created, last active 20 days before the event"
+   },
+   {
+    "contact_id": "K00074",
+    "name": "Anika Hashemi",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 46 boards created, last active 35 days before the event"
+   }
+  ],
+  "summary": "Alexander Halvorsen (champion) left Estuaryloop; renewal in 44 days."
+ },
+ {
+  "id": "F014",
+  "type": "risk_flag",
+  "event_id": "E020",
+  "account_id": "A0081",
+  "account_name": "Nimbusbridge",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00405",
+  "departed_name": "Matthew Lindqvist",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 353,
+  "renewal_date": "2027-08-08",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00401",
+    "name": "Gabriel Banerjee",
+    "role": "champion",
+    "title": "Product Operations Lead",
+    "reason": "champion, 35 boards created, last active 28 days before the event"
+   },
+   {
+    "contact_id": "K00404",
+    "name": "Imani Fontaine",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 52 boards created, last active 21 days before the event"
+   },
+   {
+    "contact_id": "K00403",
+    "name": "Rohan Jovanovic",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 30 boards created, last active 48 days before the event"
+   }
+  ],
+  "summary": "Matthew Lindqvist (executive sponsor) left Nimbusbridge; renewal in 353 days."
+ },
+ {
+  "id": "F015",
+  "type": "risk_flag",
+  "event_id": "E025",
+  "account_id": "A0001",
+  "account_name": "Ridgeloop",
+  "plan": "Business",
+  "arr": 18500,
+  "departed_contact_id": "K00001",
+  "departed_name": "Benjamin Navarro",
+  "departed_role": "champion",
+  "days_until_renewal": 64,
+  "renewal_date": "2026-10-28",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00005",
+    "name": "Noor Laurent",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 41 boards created, last active 31 days before the event"
+   },
+   {
+    "contact_id": "K00004",
+    "name": "Santiago Everhart",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 58 boards created, last active 40 days before the event"
+   },
+   {
+    "contact_id": "K00003",
+    "name": "Viktor Novak",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 23 boards created, last active 31 days before the event"
+   }
+  ],
+  "summary": "Benjamin Navarro (champion) left Ridgeloop; renewal in 64 days."
+ },
+ {
+  "id": "F016",
+  "type": "risk_flag",
+  "event_id": "E027",
+  "account_id": "A0299",
+  "account_name": "Vantageloop",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K01495",
+  "departed_name": "Nicholas Bellamy",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 274,
+  "renewal_date": "2027-05-31",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01491",
+    "name": "Marcus Sandoval",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 3 boards created, last active 57 days before the event"
+   },
+   {
+    "contact_id": "K01494",
+    "name": "Lucia Quinlan",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 39 boards created, last active 52 days before the event"
+   },
+   {
+    "contact_id": "K01493",
+    "name": "Elena Farouk",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 10 boards created, last active 43 days before the event"
+   }
+  ],
+  "summary": "Nicholas Bellamy (executive sponsor) left Vantageloop; renewal in 274 days."
+ },
+ {
+  "id": "F017",
+  "type": "risk_flag",
+  "event_id": "E029",
+  "account_id": "A0178",
+  "account_name": "Gantrygrid",
+  "plan": "Business",
+  "arr": 20000,
+  "departed_contact_id": "K00886",
+  "departed_name": "Christopher Rutherford",
+  "departed_role": "champion",
+  "days_until_renewal": 370,
+  "renewal_date": "2027-09-05",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00890",
+    "name": "Noor Jovanovic",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 29 boards created, last active 60 days before the event"
+   },
+   {
+    "contact_id": "K00889",
+    "name": "Julian Holloway",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 39 boards created, last active 40 days before the event"
+   },
+   {
+    "contact_id": "K00888",
+    "name": "Anika Rutherford",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 4 boards created, last active 56 days before the event"
+   }
+  ],
+  "summary": "Christopher Rutherford (champion) left Gantrygrid; renewal in 370 days."
+ },
+ {
+  "id": "F018",
+  "type": "risk_flag",
+  "event_id": "E030",
+  "account_id": "A0278",
+  "account_name": "Willowbase",
+  "plan": "Business",
+  "arr": 18000,
+  "departed_contact_id": "K01386",
+  "departed_name": "Dmitri Whitfield",
+  "departed_role": "champion",
+  "days_until_renewal": 25,
+  "renewal_date": "2026-09-25",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01388",
+    "name": "Anders Underhill",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 25 boards created, last active 46 days before the event"
+   },
+   {
+    "contact_id": "K01390",
+    "name": "Zainab Zhao",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 6 boards created, last active 54 days before the event"
+   },
+   {
+    "contact_id": "K01389",
+    "name": "Arjun Varga",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 60 boards created, last active 42 days before the event"
+   }
+  ],
+  "summary": "Dmitri Whitfield (champion) left Willowbase; renewal in 25 days."
+ },
+ {
+  "id": "F019",
+  "type": "risk_flag",
+  "event_id": "E031",
+  "account_id": "A0030",
+  "account_name": "Corviddock",
+  "plan": "Team",
+  "arr": 9000,
+  "departed_contact_id": "K00150",
+  "departed_name": "Leila Ortega",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 139,
+  "renewal_date": "2027-01-21",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00146",
+    "name": "Julian Rutherford",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 54 boards created, last active 56 days before the event"
+   },
+   {
+    "contact_id": "K00148",
+    "name": "Wanjiru Farouk",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 51 boards created, last active 39 days before the event"
+   },
+   {
+    "contact_id": "K00149",
+    "name": "Tamsin Fontaine",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 7 boards created, last active 45 days before the event"
+   }
+  ],
+  "summary": "Leila Ortega (executive sponsor) left Corviddock; renewal in 139 days."
+ },
+ {
+  "id": "F020",
+  "type": "risk_flag",
+  "event_id": "E032",
+  "account_id": "A0023",
+  "account_name": "Fablewave",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K00115",
+  "departed_name": "Michael Okafor",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 63,
+  "renewal_date": "2026-11-06",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00111",
+    "name": "Andre Delacroix",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 20 boards created, last active 59 days before the event"
+   },
+   {
+    "contact_id": "K00114",
+    "name": "Elizabeth Okafor",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 11 boards created, last active 54 days before the event"
+   },
+   {
+    "contact_id": "K00113",
+    "name": "Mateo Quist",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 7 boards created, last active 34 days before the event"
+   }
+  ],
+  "summary": "Michael Okafor (executive sponsor) left Fablewave; renewal in 63 days."
+ },
+ {
+  "id": "F021",
+  "type": "risk_flag",
+  "event_id": "E033",
+  "account_id": "A0169",
+  "account_name": "Wrenstack",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K00845",
+  "departed_name": "Kwame Xiong",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 184,
+  "renewal_date": "2027-03-08",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00841",
+    "name": "Hannah Pereira",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 20 boards created, last active 37 days before the event"
+   },
+   {
+    "contact_id": "K00843",
+    "name": "Priya Brennan",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 46 boards created, last active 40 days before the event"
+   },
+   {
+    "contact_id": "K00844",
+    "name": "Beatrix Hashemi",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 14 boards created, last active 46 days before the event"
+   }
+  ],
+  "summary": "Kwame Xiong (executive sponsor) left Wrenstack; renewal in 184 days."
+ },
+ {
+  "id": "F022",
+  "type": "risk_flag",
+  "event_id": "E037",
+  "account_id": "A0063",
+  "account_name": "Umberforge",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00313",
+  "departed_name": "Oliver Underhill",
+  "departed_role": "champion",
+  "days_until_renewal": 268,
+  "renewal_date": "2027-06-02",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00311",
+    "name": "Marcus Pereira",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 53 boards created, last active 41 days before the event"
+   },
+   {
+    "contact_id": "K00315",
+    "name": "Rebecca Oyelaran",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 14 boards created, last active 63 days before the event"
+   },
+   {
+    "contact_id": "K00314",
+    "name": "Hiroshi Rosales",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 35 boards created, last active 45 days before the event"
+   }
+  ],
+  "summary": "Oliver Underhill (champion) left Umberforge; renewal in 268 days."
+ },
+ {
+  "id": "F023",
+  "type": "risk_flag",
+  "event_id": "E038",
+  "account_id": "A0066",
+  "account_name": "Veritydock",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00326",
+  "departed_name": "Camila Eriksen",
+  "departed_role": "champion",
+  "days_until_renewal": 30,
+  "renewal_date": "2026-10-08",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00330",
+    "name": "Imani Pereira",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 48 boards created, last active 60 days before the event"
+   },
+   {
+    "contact_id": "K00328",
+    "name": "Leila Rutherford",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 60 boards created, last active 42 days before the event"
+   },
+   {
+    "contact_id": "K00329",
+    "name": "Hiroshi Quinlan",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 15 boards created, last active 40 days before the event"
+   }
+  ],
+  "summary": "Camila Eriksen (champion) left Veritydock; renewal in 30 days."
+ },
+ {
+  "id": "F024",
+  "type": "risk_flag",
+  "event_id": "E039",
+  "account_id": "A0283",
+  "account_name": "Heronforge",
+  "plan": "Business",
+  "arr": 17500,
+  "departed_contact_id": "K01415",
+  "departed_name": "Chloe Lombardi",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -25,
+  "renewal_date": "2026-08-16",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01411",
+    "name": "Gabriel Escobar",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 19 boards created, last active 46 days before the event"
+   },
+   {
+    "contact_id": "K01413",
+    "name": "Jonathan Nguyen",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 43 boards created, last active 65 days before the event"
+   },
+   {
+    "contact_id": "K01414",
+    "name": "Lucas Mbeki",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 15 boards created, last active 54 days before the event"
+   }
+  ],
+  "summary": "Chloe Lombardi (executive sponsor) left Heronforge; renewal in -25 days."
+ },
+ {
+  "id": "F025",
+  "type": "risk_flag",
+  "event_id": "E040",
+  "account_id": "A0066",
+  "account_name": "Veritydock",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00330",
+  "departed_name": "Imani Pereira",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 27,
+  "renewal_date": "2026-10-08",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00326",
+    "name": "Camila Eriksen",
+    "role": "champion",
+    "title": "Senior Product Manager",
+    "reason": "champion, 55 boards created, last active 51 days before the event"
+   },
+   {
+    "contact_id": "K00328",
+    "name": "Leila Rutherford",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 60 boards created, last active 45 days before the event"
+   },
+   {
+    "contact_id": "K00329",
+    "name": "Hiroshi Quinlan",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 15 boards created, last active 43 days before the event"
+   }
+  ],
+  "summary": "Imani Pereira (executive sponsor) left Veritydock; renewal in 27 days."
+ },
+ {
+  "id": "F026",
+  "type": "risk_flag",
+  "event_id": "E044",
+  "account_id": "A0011",
+  "account_name": "Deltapath",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K00051",
+  "departed_name": "Noor Abernathy",
+  "departed_role": "champion",
+  "days_until_renewal": 10,
+  "renewal_date": "2026-09-24",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00055",
+    "name": "Amara Olsen",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 25 boards created, last active 47 days before the event"
+   },
+   {
+    "contact_id": "K00053",
+    "name": "Nadia Ibarra",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 50 boards created, last active 55 days before the event"
+   },
+   {
+    "contact_id": "K00054",
+    "name": "Matthew Brennan",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 7 boards created, last active 64 days before the event"
+   }
+  ],
+  "summary": "Noor Abernathy (champion) left Deltapath; renewal in 10 days."
+ },
+ {
+  "id": "F027",
+  "type": "risk_flag",
+  "event_id": "E045",
+  "account_id": "A0263",
+  "account_name": "Wrenhub",
+  "plan": "Team",
+  "arr": 9000,
+  "departed_contact_id": "K01315",
+  "departed_name": "Oliver Quist",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -4,
+  "renewal_date": "2026-09-10",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01311",
+    "name": "Katherine Rosales",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 39 boards created, last active 55 days before the event"
+   },
+   {
+    "contact_id": "K01314",
+    "name": "Dmitri Calloway",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 56 boards created, last active 49 days before the event"
+   },
+   {
+    "contact_id": "K01313",
+    "name": "Chloe Holloway",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 27 boards created, last active 52 days before the event"
+   }
+  ],
+  "summary": "Oliver Quist (executive sponsor) left Wrenhub; renewal in -4 days."
+ },
+ {
+  "id": "F028",
+  "type": "risk_flag",
+  "event_id": "E046",
+  "account_id": "A0200",
+  "account_name": "Tamaracklabs",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00996",
+  "departed_name": "Imani Jankowski",
+  "departed_role": "champion",
+  "days_until_renewal": -2,
+  "renewal_date": "2026-09-15",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01000",
+    "name": "Michael Tran",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 34 boards created, last active 53 days before the event"
+   },
+   {
+    "contact_id": "K00999",
+    "name": "Lucia Sinclair",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 42 boards created, last active 73 days before the event"
+   },
+   {
+    "contact_id": "K00998",
+    "name": "Lucia Banerjee",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 10 boards created, last active 70 days before the event"
+   }
+  ],
+  "summary": "Imani Jankowski (champion) left Tamaracklabs; renewal in -2 days."
+ },
+ {
+  "id": "F029",
+  "type": "risk_flag",
+  "event_id": "E047",
+  "account_id": "A0262",
+  "account_name": "Knollgrid",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K01310",
+  "departed_name": "Elizabeth Sandoval",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -12,
+  "renewal_date": "2026-09-07",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01306",
+    "name": "Felix Montgomery",
+    "role": "champion",
+    "title": "Product Operations Lead",
+    "reason": "champion, 6 boards created, last active 54 days before the event"
+   },
+   {
+    "contact_id": "K01309",
+    "name": "Katherine Kapoor",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 35 boards created, last active 57 days before the event"
+   },
+   {
+    "contact_id": "K01308",
+    "name": "Michael Lindqvist",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 19 boards created, last active 65 days before the event"
+   }
+  ],
+  "summary": "Elizabeth Sandoval (executive sponsor) left Knollgrid; renewal in -12 days."
+ },
+ {
+  "id": "F030",
+  "type": "risk_flag",
+  "event_id": "E048",
+  "account_id": "A0118",
+  "account_name": "Estuarypath",
+  "plan": "Business",
+  "arr": 19500,
+  "departed_contact_id": "K00586",
+  "departed_name": "Rohan Lindqvist",
+  "departed_role": "champion",
+  "days_until_renewal": 296,
+  "renewal_date": "2027-07-15",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00590",
+    "name": "Dmitri Olsen",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 17 boards created, last active 67 days before the event"
+   },
+   {
+    "contact_id": "K00589",
+    "name": "Julian Banerjee",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 28 boards created, last active 53 days before the event"
+   },
+   {
+    "contact_id": "K00588",
+    "name": "Samantha Winslow",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 23 boards created, last active 75 days before the event"
+   }
+  ],
+  "summary": "Rohan Lindqvist (champion) left Estuarypath; renewal in 296 days."
+ },
+ {
+  "id": "F031",
+  "type": "risk_flag",
+  "event_id": "E051",
+  "account_id": "A0163",
+  "account_name": "Corvidpoint",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K00815",
+  "departed_name": "Rebecca Quinlan",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 258,
+  "renewal_date": "2027-06-08",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00811",
+    "name": "Sienna Bergstrom",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 30 boards created, last active 58 days before the event"
+   },
+   {
+    "contact_id": "K00813",
+    "name": "Viktor Ortega",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 17 boards created, last active 81 days before the event"
+   },
+   {
+    "contact_id": "K00814",
+    "name": "Samantha Vasquez",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 17 boards created, last active 58 days before the event"
+   }
+  ],
+  "summary": "Rebecca Quinlan (executive sponsor) left Corvidpoint; renewal in 258 days."
+ },
+ {
+  "id": "F032",
+  "type": "risk_flag",
+  "event_id": "E052",
+  "account_id": "A0038",
+  "account_name": "Solacecast",
+  "plan": "Team",
+  "arr": 10000,
+  "departed_contact_id": "K00186",
+  "departed_name": "Diego Holloway",
+  "departed_role": "champion",
+  "days_until_renewal": 67,
+  "renewal_date": "2026-12-01",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00190",
+    "name": "Matthew Holloway",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 23 boards created, last active 64 days before the event"
+   },
+   {
+    "contact_id": "K00189",
+    "name": "Ingrid Marchetti",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 33 boards created, last active 61 days before the event"
+   },
+   {
+    "contact_id": "K00188",
+    "name": "Theo Thorne",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 24 boards created, last active 60 days before the event"
+   }
+  ],
+  "summary": "Diego Holloway (champion) left Solacecast; renewal in 67 days."
+ },
+ {
+  "id": "F033",
+  "type": "risk_flag",
+  "event_id": "E053",
+  "account_id": "A0023",
+  "account_name": "Fablewave",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K00111",
+  "departed_name": "Andre Delacroix",
+  "departed_role": "champion",
+  "days_until_renewal": 42,
+  "renewal_date": "2026-11-06",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00115",
+    "name": "Michael Okafor",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 9 boards created, last active 73 days before the event"
+   },
+   {
+    "contact_id": "K00114",
+    "name": "Elizabeth Okafor",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 11 boards created, last active 75 days before the event"
+   },
+   {
+    "contact_id": "K00113",
+    "name": "Mateo Quist",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 7 boards created, last active 55 days before the event"
+   }
+  ],
+  "summary": "Andre Delacroix (champion) left Fablewave; renewal in 42 days."
+ },
+ {
+  "id": "F034",
+  "type": "risk_flag",
+  "event_id": "E054",
+  "account_id": "A0049",
+  "account_name": "Kestrellabs",
+  "plan": "Business",
+  "arr": 17500,
+  "departed_contact_id": "K00245",
+  "departed_name": "Anika Iyer",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -40,
+  "renewal_date": "2026-08-17",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00241",
+    "name": "Diego Rosales",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 59 boards created, last active 86 days before the event"
+   },
+   {
+    "contact_id": "K00244",
+    "name": "Hannah Yilmaz",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 58 boards created, last active 65 days before the event"
+   },
+   {
+    "contact_id": "K00243",
+    "name": "Marisol Nakamura",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 43 boards created, last active 59 days before the event"
+   }
+  ],
+  "summary": "Anika Iyer (executive sponsor) left Kestrellabs; renewal in -40 days."
+ },
+ {
+  "id": "F035",
+  "type": "risk_flag",
+  "event_id": "E059",
+  "account_id": "A0213",
+  "account_name": "Islepath",
+  "plan": "Business",
+  "arr": 20500,
+  "departed_contact_id": "K01061",
+  "departed_name": "Julian Bakshi",
+  "departed_role": "champion",
+  "days_until_renewal": -2,
+  "renewal_date": "2026-09-27",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01065",
+    "name": "Imani Zhao",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 55 boards created, last active 87 days before the event"
+   },
+   {
+    "contact_id": "K01063",
+    "name": "Emeka Fontaine",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 54 boards created, last active 82 days before the event"
+   },
+   {
+    "contact_id": "K01064",
+    "name": "Viktor Farouk",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 38 boards created, last active 64 days before the event"
+   }
+  ],
+  "summary": "Julian Bakshi (champion) left Islepath; renewal in -2 days."
+ },
+ {
+  "id": "F036",
+  "type": "risk_flag",
+  "event_id": "E060",
+  "account_id": "A0204",
+  "account_name": "Ferrogrid",
+  "plan": "Business",
+  "arr": 18500,
+  "departed_contact_id": "K01016",
+  "departed_name": "Arjun Jankowski",
+  "departed_role": "champion",
+  "days_until_renewal": 4,
+  "renewal_date": "2026-10-04",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01020",
+    "name": "Wanjiru Ortega",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 16 boards created, last active 66 days before the event"
+   },
+   {
+    "contact_id": "K01019",
+    "name": "Benjamin Yamada",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 57 boards created, last active 62 days before the event"
+   },
+   {
+    "contact_id": "K01018",
+    "name": "Arjun Prescott",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 18 boards created, last active 88 days before the event"
+   }
+  ],
+  "summary": "Arjun Jankowski (champion) left Ferrogrid; renewal in 4 days."
+ },
+ {
+  "id": "F037",
+  "type": "risk_flag",
+  "event_id": "E062",
+  "account_id": "A0111",
+  "account_name": "Umbermint",
+  "plan": "Business",
+  "arr": 17000,
+  "departed_contact_id": "K00551",
+  "departed_name": "Nicholas Quinlan",
+  "departed_role": "champion",
+  "days_until_renewal": 304,
+  "renewal_date": "2027-08-07",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00553",
+    "name": "Viktor Bakshi",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 28 boards created, last active 77 days before the event"
+   },
+   {
+    "contact_id": "K00555",
+    "name": "Benjamin Quinlan",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 8 boards created, last active 71 days before the event"
+   },
+   {
+    "contact_id": "K00554",
+    "name": "Emeka Sinclair",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 13 boards created, last active 89 days before the event"
+   }
+  ],
+  "summary": "Nicholas Quinlan (champion) left Umbermint; renewal in 304 days."
+ },
+ {
+  "id": "F038",
+  "type": "risk_flag",
+  "event_id": "E063",
+  "account_id": "A0214",
+  "account_name": "Alderport",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K01070",
+  "departed_name": "Marisol Rutherford",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 99,
+  "renewal_date": "2027-01-20",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01066",
+    "name": "Wanjiru Underhill",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 56 boards created, last active 80 days before the event"
+   },
+   {
+    "contact_id": "K01068",
+    "name": "Emeka Takahashi",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 43 boards created, last active 93 days before the event"
+   },
+   {
+    "contact_id": "K01069",
+    "name": "Sienna Patel",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 15 boards created, last active 94 days before the event"
+   }
+  ],
+  "summary": "Marisol Rutherford (executive sponsor) left Alderport; renewal in 99 days."
+ },
+ {
+  "id": "F039",
+  "type": "risk_flag",
+  "event_id": "E064",
+  "account_id": "A0170",
+  "account_name": "Herondock",
+  "plan": "Team",
+  "arr": 9000,
+  "departed_contact_id": "K00846",
+  "departed_name": "Lucia Xiong",
+  "departed_role": "champion",
+  "days_until_renewal": 175,
+  "renewal_date": "2027-04-07",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00850",
+    "name": "Matthew Iyer",
+    "role": "exec_sponsor",
+    "title": "Chief Product Officer",
+    "reason": "executive sponsor, 24 boards created, last active 80 days before the event"
+   },
+   {
+    "contact_id": "K00849",
+    "name": "Benjamin Lombardi",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 43 boards created, last active 82 days before the event"
+   },
+   {
+    "contact_id": "K00848",
+    "name": "Andre Patel",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 33 boards created, last active 101 days before the event"
+   }
+  ],
+  "summary": "Lucia Xiong (champion) left Herondock; renewal in 175 days."
+ },
+ {
+  "id": "F040",
+  "type": "risk_flag",
+  "event_id": "E067",
+  "account_id": "A0273",
+  "account_name": "Marlowwave",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K01361",
+  "departed_name": "Anika Quist",
+  "departed_role": "champion",
+  "days_until_renewal": 62,
+  "renewal_date": "2026-12-16",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01365",
+    "name": "Felix Whitfield",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 52 boards created, last active 99 days before the event"
+   },
+   {
+    "contact_id": "K01363",
+    "name": "Marisol Novak",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 41 boards created, last active 91 days before the event"
+   },
+   {
+    "contact_id": "K01364",
+    "name": "Arjun Kowalczyk",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 18 boards created, last active 105 days before the event"
+   }
+  ],
+  "summary": "Anika Quist (champion) left Marlowwave; renewal in 62 days."
+ },
+ {
+  "id": "F041",
+  "type": "risk_flag",
+  "event_id": "E068",
+  "account_id": "A0264",
+  "account_name": "Estuarydock",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K01318",
+  "departed_name": "Matthew Thorne",
+  "departed_role": "champion",
+  "days_until_renewal": -11,
+  "renewal_date": "2026-10-06",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01316",
+    "name": "Matthew Xiong",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 50 boards created, last active 94 days before the event"
+   },
+   {
+    "contact_id": "K01320",
+    "name": "Kwame Eriksen",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 29 boards created, last active 85 days before the event"
+   },
+   {
+    "contact_id": "K01319",
+    "name": "Lucia Quist",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 19 boards created, last active 100 days before the event"
+   }
+  ],
+  "summary": "Matthew Thorne (champion) left Estuarydock; renewal in -11 days."
+ },
+ {
+  "id": "F042",
+  "type": "risk_flag",
+  "event_id": "E069",
+  "account_id": "A0220",
+  "account_name": "Ironwoodgrid",
+  "plan": "Enterprise",
+  "arr": 46000,
+  "departed_contact_id": "K01100",
+  "departed_name": "Ayesha Lindqvist",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -43,
+  "renewal_date": "2026-09-05",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01096",
+    "name": "Hannah Bakshi",
+    "role": "champion",
+    "title": "Product Operations Lead",
+    "reason": "champion, 19 boards created, last active 83 days before the event"
+   },
+   {
+    "contact_id": "K01098",
+    "name": "Camila Tran",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 37 boards created, last active 103 days before the event"
+   },
+   {
+    "contact_id": "K01099",
+    "name": "Tamsin Montgomery",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 7 boards created, last active 91 days before the event"
+   }
+  ],
+  "summary": "Ayesha Lindqvist (executive sponsor) left Ironwoodgrid; renewal in -43 days."
+ },
+ {
+  "id": "F043",
+  "type": "risk_flag",
+  "event_id": "E070",
+  "account_id": "A0060",
+  "account_name": "Alderstack",
+  "plan": "Team",
+  "arr": 8500,
+  "departed_contact_id": "K00300",
+  "departed_name": "Lucia Wadhwa",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": 221,
+  "renewal_date": "2027-05-28",
+  "risk_level": "medium",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00296",
+    "name": "Ayesha Patel",
+    "role": "champion",
+    "title": "Group Product Manager",
+    "reason": "champion, 55 boards created, last active 109 days before the event"
+   },
+   {
+    "contact_id": "K00299",
+    "name": "Yusuf Pereira",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 29 boards created, last active 84 days before the event"
+   },
+   {
+    "contact_id": "K00298",
+    "name": "Sofia Zhao",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 10 boards created, last active 93 days before the event"
+   }
+  ],
+  "summary": "Lucia Wadhwa (executive sponsor) left Alderstack; renewal in 221 days."
+ },
+ {
+  "id": "F044",
+  "type": "risk_flag",
+  "event_id": "E072",
+  "account_id": "A0082",
+  "account_name": "Deltacast",
+  "plan": "Business",
+  "arr": 19000,
+  "departed_contact_id": "K00406",
+  "departed_name": "Samantha Voss",
+  "departed_role": "champion",
+  "days_until_renewal": -49,
+  "renewal_date": "2026-09-02",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00410",
+    "name": "Callum Kapoor",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 20 boards created, last active 109 days before the event"
+   },
+   {
+    "contact_id": "K00409",
+    "name": "Viktor Petrov",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 55 boards created, last active 95 days before the event"
+   },
+   {
+    "contact_id": "K00408",
+    "name": "Lucas Hashemi",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 27 boards created, last active 97 days before the event"
+   }
+  ],
+  "summary": "Samantha Voss (champion) left Deltacast; renewal in -49 days."
+ },
+ {
+  "id": "F045",
+  "type": "risk_flag",
+  "event_id": "E073",
+  "account_id": "A0005",
+  "account_name": "Glintlabs",
+  "plan": "Business",
+  "arr": 17500,
+  "departed_contact_id": "K00021",
+  "departed_name": "Christopher Vasquez",
+  "departed_role": "champion",
+  "days_until_renewal": 71,
+  "renewal_date": "2026-12-31",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00023",
+    "name": "Jonathan Ibarra",
+    "role": "champion",
+    "title": "Principal Product Manager",
+    "reason": "champion, 55 boards created, last active 81 days before the event"
+   },
+   {
+    "contact_id": "K00025",
+    "name": "Oliver Kapoor",
+    "role": "exec_sponsor",
+    "title": "VP Product",
+    "reason": "executive sponsor, 40 boards created, last active 102 days before the event"
+   },
+   {
+    "contact_id": "K00024",
+    "name": "Ingrid Nakamura",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 39 boards created, last active 102 days before the event"
+   }
+  ],
+  "summary": "Christopher Vasquez (champion) left Glintlabs; renewal in 71 days."
+ },
+ {
+  "id": "F046",
+  "type": "risk_flag",
+  "event_id": "E075",
+  "account_id": "A0240",
+  "account_name": "Ironwoodbridge",
+  "plan": "Enterprise",
+  "arr": 48000,
+  "departed_contact_id": "K01200",
+  "departed_name": "Nicholas Oyelaran",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -46,
+  "renewal_date": "2026-09-10",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K01196",
+    "name": "Theo Brennan",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 43 boards created, last active 94 days before the event"
+   },
+   {
+    "contact_id": "K01199",
+    "name": "Amara Grayson",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 36 boards created, last active 90 days before the event"
+   },
+   {
+    "contact_id": "K01198",
+    "name": "Felix Nakamura",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 33 boards created, last active 87 days before the event"
+   }
+  ],
+  "summary": "Nicholas Oyelaran (executive sponsor) left Ironwoodbridge; renewal in -46 days."
+ },
+ {
+  "id": "F047",
+  "type": "risk_flag",
+  "event_id": "E078",
+  "account_id": "A0132",
+  "account_name": "Mosaicworks",
+  "plan": "Business",
+  "arr": 18500,
+  "departed_contact_id": "K00660",
+  "departed_name": "Hannah Whitfield",
+  "departed_role": "exec_sponsor",
+  "days_until_renewal": -37,
+  "renewal_date": "2026-09-20",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00656",
+    "name": "Rebecca Zimmerman",
+    "role": "champion",
+    "title": "Product Manager",
+    "reason": "champion, 44 boards created, last active 100 days before the event"
+   },
+   {
+    "contact_id": "K00658",
+    "name": "Lucia Kowalczyk",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 46 boards created, last active 105 days before the event"
+   },
+   {
+    "contact_id": "K00659",
+    "name": "Priya Hashemi",
+    "role": "power_user",
+    "title": "Associate Product Manager",
+    "reason": "power user, 43 boards created, last active 100 days before the event"
+   }
+  ],
+  "summary": "Hannah Whitfield (executive sponsor) left Mosaicworks; renewal in -37 days."
+ },
+ {
+  "id": "F048",
+  "type": "risk_flag",
+  "event_id": "E079",
+  "account_id": "A0135",
+  "account_name": "Ironwoodhub",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K00673",
+  "departed_name": "Diego Mahlangu",
+  "departed_role": "champion",
+  "days_until_renewal": -76,
+  "renewal_date": "2026-08-14",
+  "risk_level": "high",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00671",
+    "name": "Rohan Moreau",
+    "role": "champion",
+    "title": "Group Product Manager",
+    "reason": "champion, 45 boards created, last active 116 days before the event"
+   },
+   {
+    "contact_id": "K00675",
+    "name": "Camila Tanaka",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 23 boards created, last active 108 days before the event"
+   },
+   {
+    "contact_id": "K00674",
+    "name": "Samantha Reyes",
+    "role": "power_user",
+    "title": "UX Researcher",
+    "reason": "power user, 40 boards created, last active 105 days before the event"
+   }
+  ],
+  "summary": "Diego Mahlangu (champion) left Ironwoodhub; renewal in -76 days."
+ },
+ {
+  "id": "F049",
+  "type": "risk_flag",
+  "event_id": "E080",
+  "account_id": "A0124",
+  "account_name": "Hollisforge",
+  "plan": "Team",
+  "arr": 9500,
+  "departed_contact_id": "K00616",
+  "departed_name": "Andre Halvorsen",
+  "departed_role": "champion",
+  "days_until_renewal": 241,
+  "renewal_date": "2027-06-27",
+  "risk_level": "low",
+  "next_best_contacts": [
+   {
+    "contact_id": "K00620",
+    "name": "Marcus Ortega",
+    "role": "exec_sponsor",
+    "title": "Head of Product",
+    "reason": "executive sponsor, 25 boards created, last active 95 days before the event"
+   },
+   {
+    "contact_id": "K00618",
+    "name": "Wanjiru Zhao",
+    "role": "power_user",
+    "title": "Customer Insights Analyst",
+    "reason": "power user, 44 boards created, last active 116 days before the event"
+   },
+   {
+    "contact_id": "K00619",
+    "name": "Ingrid Dunmore",
+    "role": "power_user",
+    "title": "Product Designer",
+    "reason": "power user, 42 boards created, last active 100 days before the event"
+   }
+  ],
+  "summary": "Andre Halvorsen (champion) left Hollisforge; renewal in 241 days."
+ }
+]

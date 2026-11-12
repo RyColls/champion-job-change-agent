@@ -1,0 +1,42 @@
+[
+ {
+  "id": "N001",
+  "type": "account_manager_note",
+  "event_id": "E004",
+  "to": "Noelle Vance",
+  "account_id": "A0079",
+  "message": "Ayesha Olsen, a former champion at Hollisdock, has joined Thistlecast, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N002",
+  "type": "account_manager_note",
+  "event_id": "E007",
+  "to": "Gideon Marsh",
+  "account_id": "A0071",
+  "message": "Jonathan Patel, a former champion at Lumenstack, has joined Gantrydock, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N003",
+  "type": "account_manager_note",
+  "event_id": "E020",
+  "to": "Talia Brandt",
+  "account_id": "A0291",
+  "message": "Priya Dunmore, a former champion at Yarrowworks, has joined Marlowstack, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N004",
+  "type": "account_manager_note",
+  "event_id": "E035",
+  "to": "Rupa Sethi",
+  "account_id": "A0280",
+  "message": "Noor Yamada, a former champion at Cinderpoint, has joined Latticelabs, an existing customer. Consider reaching out about expansion."
+ },
+ {
+  "id": "N005",
+  "type": "account_manager_note",
+  "event_id": "E045",
+  "to": "Omar Kessler",
+  "account_id": "A0132",
+  "message": "Samantha Zhao, a former champion at Ridgemint, has joined Ridgeloop, an existing customer. Consider reaching out about expansion."
+ }
+]

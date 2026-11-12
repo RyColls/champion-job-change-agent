@@ -1,0 +1,986 @@
+[
+ {
+  "event_id": "E001",
+  "received_at": "2026-08-04",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Santiago Novak",
+   "prior_employer": "Mosaicline Inc.",
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "Mosaicline Inc.",
+   "new_title": "Principal Product Manager",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E002",
+  "received_at": "2026-08-05",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Chloe Achterberg",
+   "prior_employer": "The Willowcast",
+   "prior_title": "VP Product",
+   "prior_email_domain": null,
+   "new_employer": "jasperbridge",
+   "new_title": "Group Product Manager",
+   "location": "Singapore"
+  }
+ },
+ {
+  "event_id": "E003",
+  "received_at": "2026-08-05",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Sofia Yilmaz",
+   "prior_employer": "Umberforge",
+   "prior_title": "Product Manager",
+   "prior_email_domain": null,
+   "new_employer": null,
+   "new_title": null,
+   "location": null
+  }
+ },
+ {
+  "event_id": "E004",
+  "received_at": "2026-08-05",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Product Manager at Thistlecast Inc! After a great run at Hollisdock Inc, onward. — Ayesha Olsen, Atlanta"
+ },
+ {
+  "event_id": "E005",
+  "received_at": "2026-08-06",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Congratulations to Ravi Chaudhry, now Product Operations Lead at Wrenworks Inc (formerly Chief Product Officer)."
+ },
+ {
+  "event_id": "E006",
+  "received_at": "2026-08-07",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Amara Rutherford",
+   "prior_employer": "Cobaltbase Inc.",
+   "prior_title": "VP Product",
+   "prior_email_domain": "cobaltbase.example",
+   "new_employer": null,
+   "new_title": null,
+   "location": "Toronto"
+  }
+ },
+ {
+  "event_id": "E007",
+  "received_at": "2026-08-08",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Associate Product Manager at Gantrydock! After a great run at Lumenstack Inc, onward. — Jonathan Patel, Seattle"
+ },
+ {
+  "event_id": "E008",
+  "received_at": "2026-08-10",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Rohan Yilmaz has joined The Jasperpath as VP Product. Previously Principal Product Manager at Basalthub. Based in Toronto."
+ },
+ {
+  "event_id": "E009",
+  "received_at": "2026-08-11",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Mei Mbeki",
+   "prior_employer": "Latticemint",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": null,
+   "new_employer": null,
+   "new_title": null,
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E010",
+  "received_at": "2026-08-12",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Sofia Montgomery",
+   "prior_employer": "HERONMINT",
+   "prior_title": "Product Designer",
+   "prior_email_domain": null,
+   "new_employer": "Alder loop",
+   "new_title": "Senior Product Manager",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E011",
+  "received_at": "2026-08-13",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Principal Product Manager at Gantryhub! After a great run at The Ridgeloop, onward. — Yusuf Grayson, Portland"
+ },
+ {
+  "event_id": "E012",
+  "received_at": "2026-08-15",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Mateo Voss has left Cinderforge, where they were Product Ops Lead. No new role announced."
+ },
+ {
+  "event_id": "E013",
+  "received_at": "2026-08-15",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as UX Researcher at Fableline Inc! After a great run at Tamarackloop Inc, onward. — Fatima Voss, Dublin"
+ },
+ {
+  "event_id": "E014",
+  "received_at": "2026-08-17",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Sienna Dunmore",
+   "prior_employer": "GANTRYDOCK",
+   "prior_title": null,
+   "prior_email_domain": "gantrydock.example",
+   "new_employer": "Kestrelyard",
+   "new_title": "Head of Product",
+   "location": "Berlin"
+  }
+ },
+ {
+  "event_id": "E015",
+  "received_at": "2026-08-18",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Malik Chaudhry",
+   "prior_employer": "estuarybridge",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": "estuarybridge.example",
+   "new_employer": "Dunlin bridge",
+   "new_title": "Product Operations Lead",
+   "location": "Austin"
+  }
+ },
+ {
+  "event_id": "E016",
+  "received_at": "2026-08-20",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Nick Calloway has joined The Gantryport as Senior Product Manager. Previously Product Manager at Cinder works."
+ },
+ {
+  "event_id": "E017",
+  "received_at": "2026-08-23",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Greta Holloway has joined Hollisworks as Customer Insights Analyst. Previously Product Operations Lead at Solace stack. Based in Atlanta."
+ },
+ {
+  "event_id": "E018",
+  "received_at": "2026-08-23",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Julian Mbeki",
+   "prior_employer": "latticestack",
+   "prior_title": "VP Product",
+   "prior_email_domain": null,
+   "new_employer": "latticestack",
+   "new_title": "Group Product Manager",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E019",
+  "received_at": "2026-08-23",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Benjamin Vasquez",
+   "prior_employer": "Quillbridge",
+   "prior_title": "Head of Product",
+   "prior_email_domain": "quillbridge.example",
+   "new_employer": "knollstack",
+   "new_title": "Principal Product Manager",
+   "location": null
+  }
+ },
+ {
+  "event_id": "E020",
+  "received_at": "2026-08-24",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Priya Dunmore",
+   "prior_employer": null,
+   "prior_title": "Product Manager",
+   "prior_email_domain": "yarrowworks.example",
+   "new_employer": "Marlowstack Inc.",
+   "new_title": "Senior Product Manager",
+   "location": "Seattle"
+  }
+ },
+ {
+  "event_id": "E021",
+  "received_at": "2026-08-27",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Anders Fairbanks",
+   "prior_employer": null,
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "UMBERPATH",
+   "new_title": "Product Manager",
+   "location": "Austin"
+  }
+ },
+ {
+  "event_id": "E022",
+  "received_at": "2026-08-28",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Viktor Zhao",
+   "prior_employer": null,
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": null,
+   "new_employer": "Knollstack",
+   "new_title": "Senior Product Manager",
+   "location": "Austin"
+  }
+ },
+ {
+  "event_id": "E023",
+  "received_at": "2026-08-29",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Group Product Manager at Cinderline! After a great run at piniongrid, onward. — Lucia Sorensen, Singapore"
+ },
+ {
+  "event_id": "E024",
+  "received_at": "2026-08-29",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Group Product Manager at Deltabridge! After a great run at Glintscope, onward. — Malik Ibarra, Atlanta"
+ },
+ {
+  "event_id": "E025",
+  "received_at": "2026-08-29",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Ravi Marchetti",
+   "prior_employer": "Orchardmint Inc.",
+   "prior_title": "Associate Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Tessel grid",
+   "new_title": "Group Product Manager",
+   "location": "London"
+  }
+ },
+ {
+  "event_id": "E026",
+  "received_at": "2026-09-01",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Sam Pereira",
+   "prior_employer": "Embercast Inc.",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": "embercast.example",
+   "new_employer": "Willowline",
+   "new_title": "Group Product Manager",
+   "location": "Denver"
+  }
+ },
+ {
+  "event_id": "E027",
+  "received_at": "2026-09-01",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Mike Adeyemi",
+   "prior_employer": "The Opalport",
+   "prior_title": "Product Ops Lead",
+   "prior_email_domain": "opalport.example",
+   "new_employer": "fathomloop",
+   "new_title": "Product Operations Lead",
+   "location": "Singapore"
+  }
+ },
+ {
+  "event_id": "E028",
+  "received_at": "2026-09-01",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Lucia Sorensen",
+   "prior_employer": "Piniongrid",
+   "prior_title": "Senior Product Manager",
+   "prior_email_domain": "piniongrid.example",
+   "new_employer": "Cinderline, Inc.",
+   "new_title": "Group Product Manager",
+   "location": "Singapore"
+  }
+ },
+ {
+  "event_id": "E029",
+  "received_at": "2026-09-02",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Congratulations to Gabriel Zielinski, now Principal Product Manager at Thistle dock (formerly Head of Product)."
+ },
+ {
+  "event_id": "E030",
+  "received_at": "2026-09-03",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Ayesha Everhart",
+   "prior_employer": "The Latticeforge",
+   "prior_title": "VP Product",
+   "prior_email_domain": "latticeforge.example",
+   "new_employer": "aldermint",
+   "new_title": "Product Designer",
+   "location": "Berlin"
+  }
+ },
+ {
+  "event_id": "E031",
+  "received_at": "2026-09-04",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Chief Product Officer at Dunlinbase Inc! — Sofia Uribe, Seattle"
+ },
+ {
+  "event_id": "E032",
+  "received_at": "2026-09-06",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Nicholas Rosales has joined Basaltpoint Inc as Group Product Manager. Previously Product Designer at Brindlebase. Based in London."
+ },
+ {
+  "event_id": "E033",
+  "received_at": "2026-09-08",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Mei Hashemi",
+   "prior_employer": "The Glintscope",
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": "glintscope.example",
+   "new_employer": "WRENFORGE",
+   "new_title": "UX Researcher",
+   "location": "Denver"
+  }
+ },
+ {
+  "event_id": "E034",
+  "received_at": "2026-09-08",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Leila Sinclair",
+   "prior_employer": "Ferrolabs",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": null,
+   "new_employer": "Ridgeport Inc.",
+   "new_title": "Principal Product Manager",
+   "location": "Portland"
+  }
+ },
+ {
+  "event_id": "E035",
+  "received_at": "2026-09-09",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Group Product Manager at Latticelabs! After a great run at Cinderpoint, onward. — Noor Yamada"
+ },
+ {
+  "event_id": "E036",
+  "received_at": "2026-09-10",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Matthew Ramos",
+   "prior_employer": "Cobaltlabs, Inc.",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": null,
+   "new_employer": "mosaiccast",
+   "new_title": "Head of Product",
+   "location": "Dublin"
+  }
+ },
+ {
+  "event_id": "E037",
+  "received_at": "2026-09-11",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Zainab Vasquez",
+   "prior_employer": "Cobaltbase Inc.",
+   "prior_title": "Product Manager",
+   "prior_email_domain": "cobaltbase.example",
+   "new_employer": "Verityworks Inc.",
+   "new_title": "Principal Product Manager",
+   "location": "Toronto"
+  }
+ },
+ {
+  "event_id": "E038",
+  "received_at": "2026-09-12",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Andre Moreau",
+   "prior_employer": "DUNLINHUB",
+   "prior_title": "PM",
+   "prior_email_domain": "dunlinhub.example",
+   "new_employer": "Knoll yard",
+   "new_title": "Principal Product Manager",
+   "location": "Berlin"
+  }
+ },
+ {
+  "event_id": "E039",
+  "received_at": "2026-09-12",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Fatima Ramos",
+   "prior_employer": "quartzport",
+   "prior_title": null,
+   "prior_email_domain": "quartzport.example",
+   "new_employer": "quartzport",
+   "new_title": "Senior Product Manager",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E040",
+  "received_at": "2026-09-14",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Group Product Manager at Pylonloop! After a great run at The Granitemint, onward. — Dmitri Bergstrom, Boston"
+ },
+ {
+  "event_id": "E041",
+  "received_at": "2026-09-14",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Rohan Voss",
+   "prior_employer": "Yarrowcast Inc.",
+   "prior_title": "Group PM",
+   "prior_email_domain": null,
+   "new_employer": "Verityworks",
+   "new_title": "Chief Product Officer",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E042",
+  "received_at": "2026-09-15",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Callum Farouk",
+   "prior_employer": "The Knollport",
+   "prior_title": "VP Product",
+   "prior_email_domain": "knollport.example",
+   "new_employer": "The Knollport",
+   "new_title": "Head of Product",
+   "location": "Toronto"
+  }
+ },
+ {
+  "event_id": "E043",
+  "received_at": "2026-09-15",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Principal Product Manager at knollyard! After a great run at dunlinhub, onward. — Andre Moreau, Berlin"
+ },
+ {
+  "event_id": "E044",
+  "received_at": "2026-09-17",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Marisol Ibarra",
+   "prior_employer": "Tamarackdock",
+   "prior_title": "VP Product",
+   "prior_email_domain": null,
+   "new_employer": "KNOLLCAST",
+   "new_title": "Product Operations Lead",
+   "location": "Singapore"
+  }
+ },
+ {
+  "event_id": "E045",
+  "received_at": "2026-09-18",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Samantha Zhao",
+   "prior_employer": "Ridgemint Inc.",
+   "prior_title": "Chief Product Officer",
+   "prior_email_domain": "ridgemint.example",
+   "new_employer": "The Ridgeloop",
+   "new_title": "Customer Insights Analyst",
+   "location": "London"
+  }
+ },
+ {
+  "event_id": "E046",
+  "received_at": "2026-09-20",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Principal Product Manager at knollstack! After a great run at Corvidcast, onward. — Samantha Yamada, Dublin"
+ },
+ {
+  "event_id": "E047",
+  "received_at": "2026-09-21",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Samantha Yamada",
+   "prior_employer": "Corvidcast Inc.",
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": "corvidcast.example",
+   "new_employer": "knollstack",
+   "new_title": "Principal Product Manager",
+   "location": "Dublin"
+  }
+ },
+ {
+  "event_id": "E048",
+  "received_at": "2026-09-23",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Associate Product Manager at Fathommint Inc! After a great run at opalbase, onward. — Anika Eriksen, Austin"
+ },
+ {
+  "event_id": "E049",
+  "received_at": "2026-09-26",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Tamsin Rosales",
+   "prior_employer": "The Thistlescope",
+   "prior_title": "Group Product Manager",
+   "prior_email_domain": "thistlescope.example",
+   "new_employer": "Alder mint",
+   "new_title": "Principal Product Manager",
+   "location": "Seattle"
+  }
+ },
+ {
+  "event_id": "E050",
+  "received_at": "2026-09-27",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Congratulations to Fatima Kimura, now Product Manager at Granitecast (formerly Sr Product Manager)."
+ },
+ {
+  "event_id": "E051",
+  "received_at": "2026-09-27",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Sienna Farouk",
+   "prior_employer": "yarrowloop",
+   "prior_title": "Group Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "yarrowloop",
+   "new_title": "Head of Product",
+   "location": "Dublin"
+  }
+ },
+ {
+  "event_id": "E052",
+  "received_at": "2026-09-28",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Nadia Osei",
+   "prior_employer": "Veritycast",
+   "prior_title": null,
+   "prior_email_domain": "veritycast.example",
+   "new_employer": "Ridgebase",
+   "new_title": "Chief Product Officer",
+   "location": null
+  }
+ },
+ {
+  "event_id": "E053",
+  "received_at": "2026-09-28",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Idris Castellano has joined The Fathomworks as Product Designer. Based in Dublin."
+ },
+ {
+  "event_id": "E054",
+  "received_at": "2026-10-01",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Senior Product Manager at Cobaltdock! After a great run at Quartzmint Inc, onward. — Sienna Holloway"
+ },
+ {
+  "event_id": "E055",
+  "received_at": "2026-10-02",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Malik Chaudhry",
+   "prior_employer": "Opalscope",
+   "prior_title": "Product Ops Lead",
+   "prior_email_domain": null,
+   "new_employer": "QUILLDOCK",
+   "new_title": "Product Operations Lead",
+   "location": "Portland"
+  }
+ },
+ {
+  "event_id": "E056",
+  "received_at": "2026-10-04",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Nick Olsen",
+   "prior_employer": "The Ferroforge",
+   "prior_title": "Principal Product Manager",
+   "prior_email_domain": "ferroforge.example",
+   "new_employer": "The Ferroforge",
+   "new_title": "Senior Product Manager",
+   "location": "Seattle"
+  }
+ },
+ {
+  "event_id": "E057",
+  "received_at": "2026-10-04",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Diego Prescott",
+   "prior_employer": "FERROYARD",
+   "prior_title": "Sr Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Dunlinbridge",
+   "new_title": "Head of Product",
+   "location": "Dublin"
+  }
+ },
+ {
+  "event_id": "E058",
+  "received_at": "2026-10-04",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Emeka Dunmore",
+   "prior_employer": "Zephyr port",
+   "prior_title": "VP Product",
+   "prior_email_domain": "zephyrport.example",
+   "new_employer": "Zephyr port",
+   "new_title": "Product Operations Lead",
+   "location": "Toronto"
+  }
+ },
+ {
+  "event_id": "E059",
+  "received_at": "2026-10-05",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Anika Kimura",
+   "prior_employer": "Solaceyard",
+   "prior_title": "Group Product Manager",
+   "prior_email_domain": "solaceyard.example",
+   "new_employer": "Ridgebase, Inc.",
+   "new_title": "Head of Product",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E060",
+  "received_at": "2026-10-05",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Elizabeth Eriksen",
+   "prior_employer": "brindleflow",
+   "prior_title": "VP Product",
+   "prior_email_domain": "brindleflow.example",
+   "new_employer": "Glintflow",
+   "new_title": "Senior Product Manager",
+   "location": "Boston"
+  }
+ },
+ {
+  "event_id": "E061",
+  "received_at": "2026-10-06",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Marcus Gallagher has left Delta flow, where they were Principal Product Manager. No new role announced."
+ },
+ {
+  "event_id": "E062",
+  "received_at": "2026-10-07",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Idris Ortega has joined mosaicport as Principal Product Manager. Previously Chief Product Officer at Kestrelstack Inc. Based in Berlin."
+ },
+ {
+  "event_id": "E063",
+  "received_at": "2026-10-07",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Mateo Pereira",
+   "prior_employer": "Northwinddock, Inc.",
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "Solacepath Inc.",
+   "new_title": "VP Product",
+   "location": null
+  }
+ },
+ {
+  "event_id": "E064",
+  "received_at": "2026-10-07",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Elena Vasquez",
+   "prior_employer": null,
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": null,
+   "new_employer": "The Pinionforge",
+   "new_title": "UX Researcher",
+   "location": "Singapore"
+  }
+ },
+ {
+  "event_id": "E065",
+  "received_at": "2026-10-08",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Chief Product Officer at Heronloop! After a great run at Harbor forge, onward. — Julian Marchetti, Chicago"
+ },
+ {
+  "event_id": "E066",
+  "received_at": "2026-10-08",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Fatima Bergstrom",
+   "prior_employer": null,
+   "prior_title": "Head of Product",
+   "prior_email_domain": null,
+   "new_employer": "Fablepath, Inc.",
+   "new_title": "Chief Product Officer",
+   "location": "Dublin"
+  }
+ },
+ {
+  "event_id": "E067",
+  "received_at": "2026-10-10",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Priya Castellano",
+   "prior_employer": null,
+   "prior_title": "Principal Product Manager",
+   "prior_email_domain": "ironwoodbridge.example",
+   "new_employer": "Gantryhub",
+   "new_title": "Group Product Manager",
+   "location": "Portland"
+  }
+ },
+ {
+  "event_id": "E068",
+  "received_at": "2026-10-10",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Diego Yilmaz has joined Delta forge as Product Designer. Based in Portland."
+ },
+ {
+  "event_id": "E069",
+  "received_at": "2026-10-11",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Ayesha Vasquez",
+   "prior_employer": "Fathom wave",
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": null,
+   "new_employer": "Glintflow",
+   "new_title": "Group Product Manager",
+   "location": "Denver"
+  }
+ },
+ {
+  "event_id": "E070",
+  "received_at": "2026-10-13",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Rebecca Cardenas",
+   "prior_employer": "Juniperbase",
+   "prior_title": "Product Manager",
+   "prior_email_domain": "juniperbase.example",
+   "new_employer": "Ridge dock",
+   "new_title": "Chief Product Officer",
+   "location": "Chicago"
+  }
+ },
+ {
+  "event_id": "E071",
+  "received_at": "2026-10-14",
+  "source": "simulated-feed",
+  "format": "text",
+  "text": "Thrilled to share I'm starting a new chapter as Group Product Manager at Glint flow! After a great run at Fathomwave, onward. — Ayesha Vasquez, Denver"
+ },
+ {
+  "event_id": "E072",
+  "received_at": "2026-10-16",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Jen Navarro",
+   "prior_employer": "OPALBASE",
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": "opalbase.example",
+   "new_employer": "Latticebase Inc.",
+   "new_title": "UX Researcher",
+   "location": "Denver"
+  }
+ },
+ {
+  "event_id": "E073",
+  "received_at": "2026-10-19",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Chloe Okafor",
+   "prior_employer": "GRANITEPOINT",
+   "prior_title": "Group Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "GRANITEPOINT",
+   "new_title": "Principal Product Manager",
+   "location": "Seattle"
+  }
+ },
+ {
+  "event_id": "E074",
+  "received_at": "2026-10-19",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Noor Holloway",
+   "prior_employer": "Opal line",
+   "prior_title": "Group PM",
+   "prior_email_domain": "opalline.example",
+   "new_employer": "mosaicdock",
+   "new_title": "UX Researcher",
+   "location": "Denver"
+  }
+ },
+ {
+  "event_id": "E075",
+  "received_at": "2026-10-20",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Hannah Iyer",
+   "prior_employer": "pinionpoint",
+   "prior_title": "Head of Product",
+   "prior_email_domain": "pinionpoint.example",
+   "new_employer": "The Lumenbridge",
+   "new_title": "Customer Insights Analyst",
+   "location": "Boston"
+  }
+ },
+ {
+  "event_id": "E076",
+  "received_at": "2026-10-24",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Alexander Fairbanks",
+   "prior_employer": "Heron labs",
+   "prior_title": "Principal PM",
+   "prior_email_domain": null,
+   "new_employer": "Willowdock",
+   "new_title": "Product Manager",
+   "location": "Boston"
+  }
+ },
+ {
+  "event_id": "E077",
+  "received_at": "2026-10-25",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Beatrix Grayson",
+   "prior_employer": "Quillforge",
+   "prior_title": "Customer Insights Analyst",
+   "prior_email_domain": null,
+   "new_employer": "Cobaltpoint",
+   "new_title": "Product Designer",
+   "location": "Portland"
+  }
+ },
+ {
+  "event_id": "E078",
+  "received_at": "2026-10-28",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Diego Xiong",
+   "prior_employer": null,
+   "prior_title": "Product Manager",
+   "prior_email_domain": "estuaryforge.example",
+   "new_employer": "Quill port",
+   "new_title": "Chief Product Officer",
+   "location": "Berlin"
+  }
+ },
+ {
+  "event_id": "E079",
+  "received_at": "2026-10-29",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Rohan Calloway",
+   "prior_employer": "deltaline",
+   "prior_title": null,
+   "prior_email_domain": "deltaline.example",
+   "new_employer": "deltaline",
+   "new_title": "VP Product",
+   "location": "Toronto"
+  }
+ },
+ {
+  "event_id": "E080",
+  "received_at": "2026-10-29",
+  "source": "simulated-feed",
+  "format": "structured",
+  "structured": {
+   "full_name": "Zainab Bergstrom",
+   "prior_employer": "kestrelscope",
+   "prior_title": "Customer Insights Analyst",
+   "prior_email_domain": null,
+   "new_employer": "glintbridge",
+   "new_title": "Product Operations Lead",
+   "location": "Berlin"
+  }
+ }
+]

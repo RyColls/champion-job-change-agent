@@ -1,0 +1,4802 @@
+[
+ {
+  "id": "P0001",
+  "name": "Opalgrid",
+  "parts": [
+   "Opal",
+   "grid"
+  ],
+  "domain": "opalgrid.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0002",
+  "name": "Kestrelflow",
+  "parts": [
+   "Kestrel",
+   "flow"
+  ],
+  "domain": "kestrelflow.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0003",
+  "name": "Alderworks",
+  "parts": [
+   "Alder",
+   "works"
+  ],
+  "domain": "alderworks.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0004",
+  "name": "Cobaltstack",
+  "parts": [
+   "Cobalt",
+   "stack"
+  ],
+  "domain": "cobaltstack.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0005",
+  "name": "Ridgeline",
+  "parts": [
+   "Ridge",
+   "line"
+  ],
+  "domain": "ridgeline.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0006",
+  "name": "Juniperpath",
+  "parts": [
+   "Juniper",
+   "path"
+  ],
+  "domain": "juniperpath.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0007",
+  "name": "Vantagehub",
+  "parts": [
+   "Vantage",
+   "hub"
+  ],
+  "domain": "vantagehub.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0008",
+  "name": "Sablebridge",
+  "parts": [
+   "Sable",
+   "bridge"
+  ],
+  "domain": "sablebridge.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0009",
+  "name": "Basaltcast",
+  "parts": [
+   "Basalt",
+   "cast"
+  ],
+  "domain": "basaltcast.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0010",
+  "name": "Latticelabs",
+  "parts": [
+   "Lattice",
+   "labs"
+  ],
+  "domain": "latticelabs.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0011",
+  "name": "Deltastack",
+  "parts": [
+   "Delta",
+   "stack"
+  ],
+  "domain": "deltastack.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0012",
+  "name": "Tamarackforge",
+  "parts": [
+   "Tamarack",
+   "forge"
+  ],
+  "domain": "tamarackforge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0013",
+  "name": "Emberyard",
+  "parts": [
+   "Ember",
+   "yard"
+  ],
+  "domain": "emberyard.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0014",
+  "name": "Verityyard",
+  "parts": [
+   "Verity",
+   "yard"
+  ],
+  "domain": "verityyard.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0015",
+  "name": "Juniperwave",
+  "parts": [
+   "Juniper",
+   "wave"
+  ],
+  "domain": "juniperwave.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0016",
+  "name": "Zephyryard",
+  "parts": [
+   "Zephyr",
+   "yard"
+  ],
+  "domain": "zephyryard.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0017",
+  "name": "Cobaltport",
+  "parts": [
+   "Cobalt",
+   "port"
+  ],
+  "domain": "cobaltport.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0018",
+  "name": "Sableflow",
+  "parts": [
+   "Sable",
+   "flow"
+  ],
+  "domain": "sableflow.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0019",
+  "name": "Gantrycast",
+  "parts": [
+   "Gantry",
+   "cast"
+  ],
+  "domain": "gantrycast.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0020",
+  "name": "Umberpath",
+  "parts": [
+   "Umber",
+   "path"
+  ],
+  "domain": "umberpath.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0021",
+  "name": "Deltalabs",
+  "parts": [
+   "Delta",
+   "labs"
+  ],
+  "domain": "deltalabs.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0022",
+  "name": "Heronline",
+  "parts": [
+   "Heron",
+   "line"
+  ],
+  "domain": "heronline.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0023",
+  "name": "Gantryport",
+  "parts": [
+   "Gantry",
+   "port"
+  ],
+  "domain": "gantryport.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0024",
+  "name": "Juniperworks",
+  "parts": [
+   "Juniper",
+   "works"
+  ],
+  "domain": "juniperworks.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0025",
+  "name": "Umberyard",
+  "parts": [
+   "Umber",
+   "yard"
+  ],
+  "domain": "umberyard.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0026",
+  "name": "Kestrelwave",
+  "parts": [
+   "Kestrel",
+   "wave"
+  ],
+  "domain": "kestrelwave.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0027",
+  "name": "Estuarybridge",
+  "parts": [
+   "Estuary",
+   "bridge"
+  ],
+  "domain": "estuarybridge.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0028",
+  "name": "Fablecast",
+  "parts": [
+   "Fable",
+   "cast"
+  ],
+  "domain": "fablecast.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0029",
+  "name": "Ferroloop",
+  "parts": [
+   "Ferro",
+   "loop"
+  ],
+  "domain": "ferroloop.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0030",
+  "name": "Kestrelbridge",
+  "parts": [
+   "Kestrel",
+   "bridge"
+  ],
+  "domain": "kestrelbridge.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0031",
+  "name": "Glintstack",
+  "parts": [
+   "Glint",
+   "stack"
+  ],
+  "domain": "glintstack.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0032",
+  "name": "Tesselforge",
+  "parts": [
+   "Tessel",
+   "forge"
+  ],
+  "domain": "tesselforge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0033",
+  "name": "Tamarackdock",
+  "parts": [
+   "Tamarack",
+   "dock"
+  ],
+  "domain": "tamarackdock.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0034",
+  "name": "Marlowbridge",
+  "parts": [
+   "Marlow",
+   "bridge"
+  ],
+  "domain": "marlowbridge.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0035",
+  "name": "Opaldock",
+  "parts": [
+   "Opal",
+   "dock"
+  ],
+  "domain": "opaldock.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0036",
+  "name": "Yarrowforge",
+  "parts": [
+   "Yarrow",
+   "forge"
+  ],
+  "domain": "yarrowforge.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0037",
+  "name": "Tamarackcast",
+  "parts": [
+   "Tamarack",
+   "cast"
+  ],
+  "domain": "tamarackcast.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0038",
+  "name": "Gantrylabs",
+  "parts": [
+   "Gantry",
+   "labs"
+  ],
+  "domain": "gantrylabs.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0039",
+  "name": "Wrenport",
+  "parts": [
+   "Wren",
+   "port"
+  ],
+  "domain": "wrenport.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0040",
+  "name": "Cinderline",
+  "parts": [
+   "Cinder",
+   "line"
+  ],
+  "domain": "cinderline.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0041",
+  "name": "Willowwave",
+  "parts": [
+   "Willow",
+   "wave"
+  ],
+  "domain": "willowwave.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0042",
+  "name": "Juniperbase",
+  "parts": [
+   "Juniper",
+   "base"
+  ],
+  "domain": "juniperbase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0043",
+  "name": "Brindlepoint",
+  "parts": [
+   "Brindle",
+   "point"
+  ],
+  "domain": "brindlepoint.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0044",
+  "name": "Graniteforge",
+  "parts": [
+   "Granite",
+   "forge"
+  ],
+  "domain": "graniteforge.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0045",
+  "name": "Cobaltforge",
+  "parts": [
+   "Cobalt",
+   "forge"
+  ],
+  "domain": "cobaltforge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0046",
+  "name": "Quartzwave",
+  "parts": [
+   "Quartz",
+   "wave"
+  ],
+  "domain": "quartzwave.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0047",
+  "name": "Mosaiccast",
+  "parts": [
+   "Mosaic",
+   "cast"
+  ],
+  "domain": "mosaiccast.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0048",
+  "name": "Knollloop",
+  "parts": [
+   "Knoll",
+   "loop"
+  ],
+  "domain": "knollloop.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0049",
+  "name": "Latticewave",
+  "parts": [
+   "Lattice",
+   "wave"
+  ],
+  "domain": "latticewave.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0050",
+  "name": "Opalworks",
+  "parts": [
+   "Opal",
+   "works"
+  ],
+  "domain": "opalworks.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0051",
+  "name": "Nimbusyard",
+  "parts": [
+   "Nimbus",
+   "yard"
+  ],
+  "domain": "nimbusyard.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0052",
+  "name": "Yarrowpath",
+  "parts": [
+   "Yarrow",
+   "path"
+  ],
+  "domain": "yarrowpath.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0053",
+  "name": "Tesselpoint",
+  "parts": [
+   "Tessel",
+   "point"
+  ],
+  "domain": "tesselpoint.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0054",
+  "name": "Knolllabs",
+  "parts": [
+   "Knoll",
+   "labs"
+  ],
+  "domain": "knolllabs.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0055",
+  "name": "Northwindworks",
+  "parts": [
+   "Northwind",
+   "works"
+  ],
+  "domain": "northwindworks.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0056",
+  "name": "Solacedock",
+  "parts": [
+   "Solace",
+   "dock"
+  ],
+  "domain": "solacedock.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0057",
+  "name": "Northwindgrid",
+  "parts": [
+   "Northwind",
+   "grid"
+  ],
+  "domain": "northwindgrid.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0058",
+  "name": "Dunlinhub",
+  "parts": [
+   "Dunlin",
+   "hub"
+  ],
+  "domain": "dunlinhub.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0059",
+  "name": "Mosaicdock",
+  "parts": [
+   "Mosaic",
+   "dock"
+  ],
+  "domain": "mosaicdock.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0060",
+  "name": "Jasperline",
+  "parts": [
+   "Jasper",
+   "line"
+  ],
+  "domain": "jasperline.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0061",
+  "name": "Estuarycast",
+  "parts": [
+   "Estuary",
+   "cast"
+  ],
+  "domain": "estuarycast.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0062",
+  "name": "Ferrocast",
+  "parts": [
+   "Ferro",
+   "cast"
+  ],
+  "domain": "ferrocast.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0063",
+  "name": "Nimbusgrid",
+  "parts": [
+   "Nimbus",
+   "grid"
+  ],
+  "domain": "nimbusgrid.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0064",
+  "name": "Sablepath",
+  "parts": [
+   "Sable",
+   "path"
+  ],
+  "domain": "sablepath.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0065",
+  "name": "Basaltpoint",
+  "parts": [
+   "Basalt",
+   "point"
+  ],
+  "domain": "basaltpoint.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0066",
+  "name": "Fablebase",
+  "parts": [
+   "Fable",
+   "base"
+  ],
+  "domain": "fablebase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0067",
+  "name": "Cobaltcast",
+  "parts": [
+   "Cobalt",
+   "cast"
+  ],
+  "domain": "cobaltcast.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0068",
+  "name": "Vantagepoint",
+  "parts": [
+   "Vantage",
+   "point"
+  ],
+  "domain": "vantagepoint.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0069",
+  "name": "Harborworks",
+  "parts": [
+   "Harbor",
+   "works"
+  ],
+  "domain": "harborworks.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0070",
+  "name": "Granitestack",
+  "parts": [
+   "Granite",
+   "stack"
+  ],
+  "domain": "granitestack.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0071",
+  "name": "Juniperflow",
+  "parts": [
+   "Juniper",
+   "flow"
+  ],
+  "domain": "juniperflow.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0072",
+  "name": "Pinionpoint",
+  "parts": [
+   "Pinion",
+   "point"
+  ],
+  "domain": "pinionpoint.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0073",
+  "name": "Glintbridge",
+  "parts": [
+   "Glint",
+   "bridge"
+  ],
+  "domain": "glintbridge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0074",
+  "name": "Isledock",
+  "parts": [
+   "Isle",
+   "dock"
+  ],
+  "domain": "isledock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0075",
+  "name": "Tesselgrid",
+  "parts": [
+   "Tessel",
+   "grid"
+  ],
+  "domain": "tesselgrid.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0076",
+  "name": "Glintpath",
+  "parts": [
+   "Glint",
+   "path"
+  ],
+  "domain": "glintpath.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0077",
+  "name": "Basaltyard",
+  "parts": [
+   "Basalt",
+   "yard"
+  ],
+  "domain": "basaltyard.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0078",
+  "name": "Tesselport",
+  "parts": [
+   "Tessel",
+   "port"
+  ],
+  "domain": "tesselport.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0079",
+  "name": "Wrenloop",
+  "parts": [
+   "Wren",
+   "loop"
+  ],
+  "domain": "wrenloop.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0080",
+  "name": "Cobaltlabs",
+  "parts": [
+   "Cobalt",
+   "labs"
+  ],
+  "domain": "cobaltlabs.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0081",
+  "name": "Sablepoint",
+  "parts": [
+   "Sable",
+   "point"
+  ],
+  "domain": "sablepoint.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0082",
+  "name": "Sableloop",
+  "parts": [
+   "Sable",
+   "loop"
+  ],
+  "domain": "sableloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0083",
+  "name": "Harborstack",
+  "parts": [
+   "Harbor",
+   "stack"
+  ],
+  "domain": "harborstack.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0084",
+  "name": "Jasperbridge",
+  "parts": [
+   "Jasper",
+   "bridge"
+  ],
+  "domain": "jasperbridge.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0085",
+  "name": "Vantagemint",
+  "parts": [
+   "Vantage",
+   "mint"
+  ],
+  "domain": "vantagemint.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0086",
+  "name": "Sablegrid",
+  "parts": [
+   "Sable",
+   "grid"
+  ],
+  "domain": "sablegrid.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0087",
+  "name": "Willowforge",
+  "parts": [
+   "Willow",
+   "forge"
+  ],
+  "domain": "willowforge.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0088",
+  "name": "Lumencast",
+  "parts": [
+   "Lumen",
+   "cast"
+  ],
+  "domain": "lumencast.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0089",
+  "name": "Quillport",
+  "parts": [
+   "Quill",
+   "port"
+  ],
+  "domain": "quillport.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0090",
+  "name": "Pinionpath",
+  "parts": [
+   "Pinion",
+   "path"
+  ],
+  "domain": "pinionpath.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0091",
+  "name": "Pylonforge",
+  "parts": [
+   "Pylon",
+   "forge"
+  ],
+  "domain": "pylonforge.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0092",
+  "name": "Brindlegrid",
+  "parts": [
+   "Brindle",
+   "grid"
+  ],
+  "domain": "brindlegrid.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0093",
+  "name": "Verityline",
+  "parts": [
+   "Verity",
+   "line"
+  ],
+  "domain": "verityline.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0094",
+  "name": "Ferrolabs",
+  "parts": [
+   "Ferro",
+   "labs"
+  ],
+  "domain": "ferrolabs.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0095",
+  "name": "Basaltlabs",
+  "parts": [
+   "Basalt",
+   "labs"
+  ],
+  "domain": "basaltlabs.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0096",
+  "name": "Mosaicmint",
+  "parts": [
+   "Mosaic",
+   "mint"
+  ],
+  "domain": "mosaicmint.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0097",
+  "name": "Northwindpath",
+  "parts": [
+   "Northwind",
+   "path"
+  ],
+  "domain": "northwindpath.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0098",
+  "name": "Zephyrport",
+  "parts": [
+   "Zephyr",
+   "port"
+  ],
+  "domain": "zephyrport.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0099",
+  "name": "Orcharddock",
+  "parts": [
+   "Orchard",
+   "dock"
+  ],
+  "domain": "orcharddock.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0100",
+  "name": "Gantrybase",
+  "parts": [
+   "Gantry",
+   "base"
+  ],
+  "domain": "gantrybase.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0101",
+  "name": "Brindleport",
+  "parts": [
+   "Brindle",
+   "port"
+  ],
+  "domain": "brindleport.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0102",
+  "name": "Cinderhub",
+  "parts": [
+   "Cinder",
+   "hub"
+  ],
+  "domain": "cinderhub.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0103",
+  "name": "Wrengrid",
+  "parts": [
+   "Wren",
+   "grid"
+  ],
+  "domain": "wrengrid.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0104",
+  "name": "Opalforge",
+  "parts": [
+   "Opal",
+   "forge"
+  ],
+  "domain": "opalforge.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0105",
+  "name": "Gantryhub",
+  "parts": [
+   "Gantry",
+   "hub"
+  ],
+  "domain": "gantryhub.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0106",
+  "name": "Deltadock",
+  "parts": [
+   "Delta",
+   "dock"
+  ],
+  "domain": "deltadock.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0107",
+  "name": "Ridgebase",
+  "parts": [
+   "Ridge",
+   "base"
+  ],
+  "domain": "ridgebase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0108",
+  "name": "Embergrid",
+  "parts": [
+   "Ember",
+   "grid"
+  ],
+  "domain": "embergrid.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0109",
+  "name": "Estuaryforge",
+  "parts": [
+   "Estuary",
+   "forge"
+  ],
+  "domain": "estuaryforge.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0110",
+  "name": "Heronpoint",
+  "parts": [
+   "Heron",
+   "point"
+  ],
+  "domain": "heronpoint.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0111",
+  "name": "Vantagebase",
+  "parts": [
+   "Vantage",
+   "base"
+  ],
+  "domain": "vantagebase.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0112",
+  "name": "Orchardline",
+  "parts": [
+   "Orchard",
+   "line"
+  ],
+  "domain": "orchardline.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0113",
+  "name": "Pinionlabs",
+  "parts": [
+   "Pinion",
+   "labs"
+  ],
+  "domain": "pinionlabs.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0114",
+  "name": "Quillbridge",
+  "parts": [
+   "Quill",
+   "bridge"
+  ],
+  "domain": "quillbridge.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0115",
+  "name": "Fablepoint",
+  "parts": [
+   "Fable",
+   "point"
+  ],
+  "domain": "fablepoint.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0116",
+  "name": "Brindlestack",
+  "parts": [
+   "Brindle",
+   "stack"
+  ],
+  "domain": "brindlestack.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0117",
+  "name": "Tesselscope",
+  "parts": [
+   "Tessel",
+   "scope"
+  ],
+  "domain": "tesselscope.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0118",
+  "name": "Thistleloop",
+  "parts": [
+   "Thistle",
+   "loop"
+  ],
+  "domain": "thistleloop.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0119",
+  "name": "Tesseldock",
+  "parts": [
+   "Tessel",
+   "dock"
+  ],
+  "domain": "tesseldock.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0120",
+  "name": "Orchardworks",
+  "parts": [
+   "Orchard",
+   "works"
+  ],
+  "domain": "orchardworks.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0121",
+  "name": "Veritystack",
+  "parts": [
+   "Verity",
+   "stack"
+  ],
+  "domain": "veritystack.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0122",
+  "name": "Deltabase",
+  "parts": [
+   "Delta",
+   "base"
+  ],
+  "domain": "deltabase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0123",
+  "name": "Wrenbase",
+  "parts": [
+   "Wren",
+   "base"
+  ],
+  "domain": "wrenbase.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0124",
+  "name": "Solaceport",
+  "parts": [
+   "Solace",
+   "port"
+  ],
+  "domain": "solaceport.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0125",
+  "name": "Latticecast",
+  "parts": [
+   "Lattice",
+   "cast"
+  ],
+  "domain": "latticecast.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0126",
+  "name": "Zephyrpath",
+  "parts": [
+   "Zephyr",
+   "path"
+  ],
+  "domain": "zephyrpath.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0127",
+  "name": "Marlowloop",
+  "parts": [
+   "Marlow",
+   "loop"
+  ],
+  "domain": "marlowloop.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0128",
+  "name": "Quillline",
+  "parts": [
+   "Quill",
+   "line"
+  ],
+  "domain": "quillline.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0129",
+  "name": "Nimbuscast",
+  "parts": [
+   "Nimbus",
+   "cast"
+  ],
+  "domain": "nimbuscast.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0130",
+  "name": "Cobaltbase",
+  "parts": [
+   "Cobalt",
+   "base"
+  ],
+  "domain": "cobaltbase.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0131",
+  "name": "Quartzscope",
+  "parts": [
+   "Quartz",
+   "scope"
+  ],
+  "domain": "quartzscope.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0132",
+  "name": "Knollbridge",
+  "parts": [
+   "Knoll",
+   "bridge"
+  ],
+  "domain": "knollbridge.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0133",
+  "name": "Yarrowline",
+  "parts": [
+   "Yarrow",
+   "line"
+  ],
+  "domain": "yarrowline.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0134",
+  "name": "Ferroscope",
+  "parts": [
+   "Ferro",
+   "scope"
+  ],
+  "domain": "ferroscope.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0135",
+  "name": "Dunlingrid",
+  "parts": [
+   "Dunlin",
+   "grid"
+  ],
+  "domain": "dunlingrid.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0136",
+  "name": "Graniteloop",
+  "parts": [
+   "Granite",
+   "loop"
+  ],
+  "domain": "graniteloop.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0137",
+  "name": "Verityflow",
+  "parts": [
+   "Verity",
+   "flow"
+  ],
+  "domain": "verityflow.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0138",
+  "name": "Brindleflow",
+  "parts": [
+   "Brindle",
+   "flow"
+  ],
+  "domain": "brindleflow.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0139",
+  "name": "Deltamint",
+  "parts": [
+   "Delta",
+   "mint"
+  ],
+  "domain": "deltamint.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0140",
+  "name": "Ferroflow",
+  "parts": [
+   "Ferro",
+   "flow"
+  ],
+  "domain": "ferroflow.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0141",
+  "name": "Northwindloop",
+  "parts": [
+   "Northwind",
+   "loop"
+  ],
+  "domain": "northwindloop.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0142",
+  "name": "Ridgemint",
+  "parts": [
+   "Ridge",
+   "mint"
+  ],
+  "domain": "ridgemint.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0143",
+  "name": "Emberhub",
+  "parts": [
+   "Ember",
+   "hub"
+  ],
+  "domain": "emberhub.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0144",
+  "name": "Emberbase",
+  "parts": [
+   "Ember",
+   "base"
+  ],
+  "domain": "emberbase.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0145",
+  "name": "Jasperwave",
+  "parts": [
+   "Jasper",
+   "wave"
+  ],
+  "domain": "jasperwave.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0146",
+  "name": "Deltawave",
+  "parts": [
+   "Delta",
+   "wave"
+  ],
+  "domain": "deltawave.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0147",
+  "name": "Opalstack",
+  "parts": [
+   "Opal",
+   "stack"
+  ],
+  "domain": "opalstack.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0148",
+  "name": "Estuarygrid",
+  "parts": [
+   "Estuary",
+   "grid"
+  ],
+  "domain": "estuarygrid.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0149",
+  "name": "Basaltdock",
+  "parts": [
+   "Basalt",
+   "dock"
+  ],
+  "domain": "basaltdock.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0150",
+  "name": "Dunlinstack",
+  "parts": [
+   "Dunlin",
+   "stack"
+  ],
+  "domain": "dunlinstack.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0151",
+  "name": "Islemint",
+  "parts": [
+   "Isle",
+   "mint"
+  ],
+  "domain": "islemint.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0152",
+  "name": "Sableworks",
+  "parts": [
+   "Sable",
+   "works"
+  ],
+  "domain": "sableworks.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0153",
+  "name": "Alderwave",
+  "parts": [
+   "Alder",
+   "wave"
+  ],
+  "domain": "alderwave.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0154",
+  "name": "Opalhub",
+  "parts": [
+   "Opal",
+   "hub"
+  ],
+  "domain": "opalhub.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0155",
+  "name": "Orchardgrid",
+  "parts": [
+   "Orchard",
+   "grid"
+  ],
+  "domain": "orchardgrid.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0156",
+  "name": "Lumendock",
+  "parts": [
+   "Lumen",
+   "dock"
+  ],
+  "domain": "lumendock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0157",
+  "name": "Pinionforge",
+  "parts": [
+   "Pinion",
+   "forge"
+  ],
+  "domain": "pinionforge.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0158",
+  "name": "Basalthub",
+  "parts": [
+   "Basalt",
+   "hub"
+  ],
+  "domain": "basalthub.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0159",
+  "name": "Willowworks",
+  "parts": [
+   "Willow",
+   "works"
+  ],
+  "domain": "willowworks.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0160",
+  "name": "Pinionwave",
+  "parts": [
+   "Pinion",
+   "wave"
+  ],
+  "domain": "pinionwave.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0161",
+  "name": "Northwinddock",
+  "parts": [
+   "Northwind",
+   "dock"
+  ],
+  "domain": "northwinddock.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0162",
+  "name": "Solaceyard",
+  "parts": [
+   "Solace",
+   "yard"
+  ],
+  "domain": "solaceyard.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0163",
+  "name": "Isleworks",
+  "parts": [
+   "Isle",
+   "works"
+  ],
+  "domain": "isleworks.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0164",
+  "name": "Junipergrid",
+  "parts": [
+   "Juniper",
+   "grid"
+  ],
+  "domain": "junipergrid.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0165",
+  "name": "Mosaicloop",
+  "parts": [
+   "Mosaic",
+   "loop"
+  ],
+  "domain": "mosaicloop.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0166",
+  "name": "Kestrelbase",
+  "parts": [
+   "Kestrel",
+   "base"
+  ],
+  "domain": "kestrelbase.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0167",
+  "name": "Sablewave",
+  "parts": [
+   "Sable",
+   "wave"
+  ],
+  "domain": "sablewave.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0168",
+  "name": "Isleloop",
+  "parts": [
+   "Isle",
+   "loop"
+  ],
+  "domain": "isleloop.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0169",
+  "name": "Wrenlabs",
+  "parts": [
+   "Wren",
+   "labs"
+  ],
+  "domain": "wrenlabs.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0170",
+  "name": "Glintline",
+  "parts": [
+   "Glint",
+   "line"
+  ],
+  "domain": "glintline.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0171",
+  "name": "Jasperloop",
+  "parts": [
+   "Jasper",
+   "loop"
+  ],
+  "domain": "jasperloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0172",
+  "name": "Pylonscope",
+  "parts": [
+   "Pylon",
+   "scope"
+  ],
+  "domain": "pylonscope.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0173",
+  "name": "Fathomworks",
+  "parts": [
+   "Fathom",
+   "works"
+  ],
+  "domain": "fathomworks.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0174",
+  "name": "Quartzforge",
+  "parts": [
+   "Quartz",
+   "forge"
+  ],
+  "domain": "quartzforge.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0175",
+  "name": "Opalpoint",
+  "parts": [
+   "Opal",
+   "point"
+  ],
+  "domain": "opalpoint.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0176",
+  "name": "Aldermint",
+  "parts": [
+   "Alder",
+   "mint"
+  ],
+  "domain": "aldermint.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0177",
+  "name": "Thistleyard",
+  "parts": [
+   "Thistle",
+   "yard"
+  ],
+  "domain": "thistleyard.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0178",
+  "name": "Dunlinworks",
+  "parts": [
+   "Dunlin",
+   "works"
+  ],
+  "domain": "dunlinworks.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0179",
+  "name": "Thistledock",
+  "parts": [
+   "Thistle",
+   "dock"
+  ],
+  "domain": "thistledock.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0180",
+  "name": "Tesselloop",
+  "parts": [
+   "Tessel",
+   "loop"
+  ],
+  "domain": "tesselloop.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0181",
+  "name": "Zephyrwave",
+  "parts": [
+   "Zephyr",
+   "wave"
+  ],
+  "domain": "zephyrwave.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0182",
+  "name": "Marlowlabs",
+  "parts": [
+   "Marlow",
+   "labs"
+  ],
+  "domain": "marlowlabs.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0183",
+  "name": "Northwindpoint",
+  "parts": [
+   "Northwind",
+   "point"
+  ],
+  "domain": "northwindpoint.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0184",
+  "name": "Granitepoint",
+  "parts": [
+   "Granite",
+   "point"
+  ],
+  "domain": "granitepoint.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0185",
+  "name": "Opalcast",
+  "parts": [
+   "Opal",
+   "cast"
+  ],
+  "domain": "opalcast.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0186",
+  "name": "Mosaicyard",
+  "parts": [
+   "Mosaic",
+   "yard"
+  ],
+  "domain": "mosaicyard.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0187",
+  "name": "Estuaryport",
+  "parts": [
+   "Estuary",
+   "port"
+  ],
+  "domain": "estuaryport.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0188",
+  "name": "Willowmint",
+  "parts": [
+   "Willow",
+   "mint"
+  ],
+  "domain": "willowmint.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0189",
+  "name": "Cindercast",
+  "parts": [
+   "Cinder",
+   "cast"
+  ],
+  "domain": "cindercast.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0190",
+  "name": "Pylonloop",
+  "parts": [
+   "Pylon",
+   "loop"
+  ],
+  "domain": "pylonloop.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0191",
+  "name": "Fablebridge",
+  "parts": [
+   "Fable",
+   "bridge"
+  ],
+  "domain": "fablebridge.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0192",
+  "name": "Cindergrid",
+  "parts": [
+   "Cinder",
+   "grid"
+  ],
+  "domain": "cindergrid.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0193",
+  "name": "Thistlebridge",
+  "parts": [
+   "Thistle",
+   "bridge"
+  ],
+  "domain": "thistlebridge.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0194",
+  "name": "Islepoint",
+  "parts": [
+   "Isle",
+   "point"
+  ],
+  "domain": "islepoint.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0195",
+  "name": "Alderbridge",
+  "parts": [
+   "Alder",
+   "bridge"
+  ],
+  "domain": "alderbridge.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0196",
+  "name": "Vantageline",
+  "parts": [
+   "Vantage",
+   "line"
+  ],
+  "domain": "vantageline.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0197",
+  "name": "Tamarackworks",
+  "parts": [
+   "Tamarack",
+   "works"
+  ],
+  "domain": "tamarackworks.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0198",
+  "name": "Pinionworks",
+  "parts": [
+   "Pinion",
+   "works"
+  ],
+  "domain": "pinionworks.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0199",
+  "name": "Marlowpath",
+  "parts": [
+   "Marlow",
+   "path"
+  ],
+  "domain": "marlowpath.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0200",
+  "name": "Islestack",
+  "parts": [
+   "Isle",
+   "stack"
+  ],
+  "domain": "islestack.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0201",
+  "name": "Corvidcast",
+  "parts": [
+   "Corvid",
+   "cast"
+  ],
+  "domain": "corvidcast.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0202",
+  "name": "Fableline",
+  "parts": [
+   "Fable",
+   "line"
+  ],
+  "domain": "fableline.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0203",
+  "name": "Jasperpath",
+  "parts": [
+   "Jasper",
+   "path"
+  ],
+  "domain": "jasperpath.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0204",
+  "name": "Hollisbase",
+  "parts": [
+   "Hollis",
+   "base"
+  ],
+  "domain": "hollisbase.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0205",
+  "name": "Dunlinpoint",
+  "parts": [
+   "Dunlin",
+   "point"
+  ],
+  "domain": "dunlinpoint.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0206",
+  "name": "Cinderdock",
+  "parts": [
+   "Cinder",
+   "dock"
+  ],
+  "domain": "cinderdock.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0207",
+  "name": "Kestreldock",
+  "parts": [
+   "Kestrel",
+   "dock"
+  ],
+  "domain": "kestreldock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0208",
+  "name": "Glintscope",
+  "parts": [
+   "Glint",
+   "scope"
+  ],
+  "domain": "glintscope.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0209",
+  "name": "Zephyrbridge",
+  "parts": [
+   "Zephyr",
+   "bridge"
+  ],
+  "domain": "zephyrbridge.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0210",
+  "name": "Marlowflow",
+  "parts": [
+   "Marlow",
+   "flow"
+  ],
+  "domain": "marlowflow.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0211",
+  "name": "Knollpath",
+  "parts": [
+   "Knoll",
+   "path"
+  ],
+  "domain": "knollpath.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0212",
+  "name": "Lumenbridge",
+  "parts": [
+   "Lumen",
+   "bridge"
+  ],
+  "domain": "lumenbridge.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0213",
+  "name": "Knollport",
+  "parts": [
+   "Knoll",
+   "port"
+  ],
+  "domain": "knollport.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0214",
+  "name": "Tamarackscope",
+  "parts": [
+   "Tamarack",
+   "scope"
+  ],
+  "domain": "tamarackscope.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0215",
+  "name": "Quillgrid",
+  "parts": [
+   "Quill",
+   "grid"
+  ],
+  "domain": "quillgrid.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0216",
+  "name": "Dunlinscope",
+  "parts": [
+   "Dunlin",
+   "scope"
+  ],
+  "domain": "dunlinscope.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0217",
+  "name": "Solaceflow",
+  "parts": [
+   "Solace",
+   "flow"
+  ],
+  "domain": "solaceflow.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0218",
+  "name": "Solacepoint",
+  "parts": [
+   "Solace",
+   "point"
+  ],
+  "domain": "solacepoint.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0219",
+  "name": "Granitemint",
+  "parts": [
+   "Granite",
+   "mint"
+  ],
+  "domain": "granitemint.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0220",
+  "name": "Heronbase",
+  "parts": [
+   "Heron",
+   "base"
+  ],
+  "domain": "heronbase.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0221",
+  "name": "Harborpath",
+  "parts": [
+   "Harbor",
+   "path"
+  ],
+  "domain": "harborpath.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0222",
+  "name": "Yarrowloop",
+  "parts": [
+   "Yarrow",
+   "loop"
+  ],
+  "domain": "yarrowloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0223",
+  "name": "Graniteport",
+  "parts": [
+   "Granite",
+   "port"
+  ],
+  "domain": "graniteport.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0224",
+  "name": "Quillwave",
+  "parts": [
+   "Quill",
+   "wave"
+  ],
+  "domain": "quillwave.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0225",
+  "name": "Thistlegrid",
+  "parts": [
+   "Thistle",
+   "grid"
+  ],
+  "domain": "thistlegrid.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0226",
+  "name": "Dunlinpath",
+  "parts": [
+   "Dunlin",
+   "path"
+  ],
+  "domain": "dunlinpath.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0227",
+  "name": "Sablehub",
+  "parts": [
+   "Sable",
+   "hub"
+  ],
+  "domain": "sablehub.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0228",
+  "name": "Nimbuswave",
+  "parts": [
+   "Nimbus",
+   "wave"
+  ],
+  "domain": "nimbuswave.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0229",
+  "name": "Fathombase",
+  "parts": [
+   "Fathom",
+   "base"
+  ],
+  "domain": "fathombase.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0230",
+  "name": "Latticedock",
+  "parts": [
+   "Lattice",
+   "dock"
+  ],
+  "domain": "latticedock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0231",
+  "name": "Isleyard",
+  "parts": [
+   "Isle",
+   "yard"
+  ],
+  "domain": "isleyard.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0232",
+  "name": "Heronyard",
+  "parts": [
+   "Heron",
+   "yard"
+  ],
+  "domain": "heronyard.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0233",
+  "name": "Umberlabs",
+  "parts": [
+   "Umber",
+   "labs"
+  ],
+  "domain": "umberlabs.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0234",
+  "name": "Tesselhub",
+  "parts": [
+   "Tessel",
+   "hub"
+  ],
+  "domain": "tesselhub.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0235",
+  "name": "Brindleloop",
+  "parts": [
+   "Brindle",
+   "loop"
+  ],
+  "domain": "brindleloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0236",
+  "name": "Vantagepath",
+  "parts": [
+   "Vantage",
+   "path"
+  ],
+  "domain": "vantagepath.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0237",
+  "name": "Junipermint",
+  "parts": [
+   "Juniper",
+   "mint"
+  ],
+  "domain": "junipermint.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0238",
+  "name": "Dunlinyard",
+  "parts": [
+   "Dunlin",
+   "yard"
+  ],
+  "domain": "dunlinyard.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0239",
+  "name": "Glintgrid",
+  "parts": [
+   "Glint",
+   "grid"
+  ],
+  "domain": "glintgrid.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0240",
+  "name": "Ironwoodbase",
+  "parts": [
+   "Ironwood",
+   "base"
+  ],
+  "domain": "ironwoodbase.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0241",
+  "name": "Wrenflow",
+  "parts": [
+   "Wren",
+   "flow"
+  ],
+  "domain": "wrenflow.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0242",
+  "name": "Glintforge",
+  "parts": [
+   "Glint",
+   "forge"
+  ],
+  "domain": "glintforge.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0243",
+  "name": "Solacegrid",
+  "parts": [
+   "Solace",
+   "grid"
+  ],
+  "domain": "solacegrid.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0244",
+  "name": "Sableforge",
+  "parts": [
+   "Sable",
+   "forge"
+  ],
+  "domain": "sableforge.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0245",
+  "name": "Quillhub",
+  "parts": [
+   "Quill",
+   "hub"
+  ],
+  "domain": "quillhub.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0246",
+  "name": "Estuarywave",
+  "parts": [
+   "Estuary",
+   "wave"
+  ],
+  "domain": "estuarywave.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0247",
+  "name": "Harboryard",
+  "parts": [
+   "Harbor",
+   "yard"
+  ],
+  "domain": "harboryard.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0248",
+  "name": "Granitecast",
+  "parts": [
+   "Granite",
+   "cast"
+  ],
+  "domain": "granitecast.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0249",
+  "name": "Basaltbase",
+  "parts": [
+   "Basalt",
+   "base"
+  ],
+  "domain": "basaltbase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0250",
+  "name": "Cobaltpath",
+  "parts": [
+   "Cobalt",
+   "path"
+  ],
+  "domain": "cobaltpath.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0251",
+  "name": "Ironwoodpoint",
+  "parts": [
+   "Ironwood",
+   "point"
+  ],
+  "domain": "ironwoodpoint.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0252",
+  "name": "Ferrohub",
+  "parts": [
+   "Ferro",
+   "hub"
+  ],
+  "domain": "ferrohub.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0253",
+  "name": "Yarrowworks",
+  "parts": [
+   "Yarrow",
+   "works"
+  ],
+  "domain": "yarrowworks.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0254",
+  "name": "Brindleworks",
+  "parts": [
+   "Brindle",
+   "works"
+  ],
+  "domain": "brindleworks.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0255",
+  "name": "Heronlabs",
+  "parts": [
+   "Heron",
+   "labs"
+  ],
+  "domain": "heronlabs.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0256",
+  "name": "Veritygrid",
+  "parts": [
+   "Verity",
+   "grid"
+  ],
+  "domain": "veritygrid.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0257",
+  "name": "Wrenbridge",
+  "parts": [
+   "Wren",
+   "bridge"
+  ],
+  "domain": "wrenbridge.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0258",
+  "name": "Fathomyard",
+  "parts": [
+   "Fathom",
+   "yard"
+  ],
+  "domain": "fathomyard.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0259",
+  "name": "Tamarackline",
+  "parts": [
+   "Tamarack",
+   "line"
+  ],
+  "domain": "tamarackline.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0260",
+  "name": "Tamarackgrid",
+  "parts": [
+   "Tamarack",
+   "grid"
+  ],
+  "domain": "tamarackgrid.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0261",
+  "name": "Corvidforge",
+  "parts": [
+   "Corvid",
+   "forge"
+  ],
+  "domain": "corvidforge.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0262",
+  "name": "Isleline",
+  "parts": [
+   "Isle",
+   "line"
+  ],
+  "domain": "isleline.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0263",
+  "name": "Sableline",
+  "parts": [
+   "Sable",
+   "line"
+  ],
+  "domain": "sableline.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0264",
+  "name": "Alderbase",
+  "parts": [
+   "Alder",
+   "base"
+  ],
+  "domain": "alderbase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0265",
+  "name": "Juniperloop",
+  "parts": [
+   "Juniper",
+   "loop"
+  ],
+  "domain": "juniperloop.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0266",
+  "name": "Harborscope",
+  "parts": [
+   "Harbor",
+   "scope"
+  ],
+  "domain": "harborscope.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0267",
+  "name": "Juniperport",
+  "parts": [
+   "Juniper",
+   "port"
+  ],
+  "domain": "juniperport.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0268",
+  "name": "Hollisbridge",
+  "parts": [
+   "Hollis",
+   "bridge"
+  ],
+  "domain": "hollisbridge.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0269",
+  "name": "Emberloop",
+  "parts": [
+   "Ember",
+   "loop"
+  ],
+  "domain": "emberloop.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0270",
+  "name": "Kestrelmint",
+  "parts": [
+   "Kestrel",
+   "mint"
+  ],
+  "domain": "kestrelmint.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0271",
+  "name": "Lumenstack",
+  "parts": [
+   "Lumen",
+   "stack"
+  ],
+  "domain": "lumenstack.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0272",
+  "name": "Fathomstack",
+  "parts": [
+   "Fathom",
+   "stack"
+  ],
+  "domain": "fathomstack.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0273",
+  "name": "Wrenwave",
+  "parts": [
+   "Wren",
+   "wave"
+  ],
+  "domain": "wrenwave.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0274",
+  "name": "Heronbridge",
+  "parts": [
+   "Heron",
+   "bridge"
+  ],
+  "domain": "heronbridge.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0275",
+  "name": "Marlowdock",
+  "parts": [
+   "Marlow",
+   "dock"
+  ],
+  "domain": "marlowdock.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0276",
+  "name": "Glintworks",
+  "parts": [
+   "Glint",
+   "works"
+  ],
+  "domain": "glintworks.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0277",
+  "name": "Ridgepoint",
+  "parts": [
+   "Ridge",
+   "point"
+  ],
+  "domain": "ridgepoint.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0278",
+  "name": "Embercast",
+  "parts": [
+   "Ember",
+   "cast"
+  ],
+  "domain": "embercast.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0279",
+  "name": "Emberline",
+  "parts": [
+   "Ember",
+   "line"
+  ],
+  "domain": "emberline.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0280",
+  "name": "Ridgescope",
+  "parts": [
+   "Ridge",
+   "scope"
+  ],
+  "domain": "ridgescope.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0281",
+  "name": "Tamarackpoint",
+  "parts": [
+   "Tamarack",
+   "point"
+  ],
+  "domain": "tamarackpoint.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0282",
+  "name": "Graniteflow",
+  "parts": [
+   "Granite",
+   "flow"
+  ],
+  "domain": "graniteflow.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0283",
+  "name": "Fabledock",
+  "parts": [
+   "Fable",
+   "dock"
+  ],
+  "domain": "fabledock.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0284",
+  "name": "Orchardpoint",
+  "parts": [
+   "Orchard",
+   "point"
+  ],
+  "domain": "orchardpoint.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0285",
+  "name": "Umbergrid",
+  "parts": [
+   "Umber",
+   "grid"
+  ],
+  "domain": "umbergrid.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0286",
+  "name": "Cobaltworks",
+  "parts": [
+   "Cobalt",
+   "works"
+  ],
+  "domain": "cobaltworks.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0287",
+  "name": "Sabledock",
+  "parts": [
+   "Sable",
+   "dock"
+  ],
+  "domain": "sabledock.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0288",
+  "name": "Harbormint",
+  "parts": [
+   "Harbor",
+   "mint"
+  ],
+  "domain": "harbormint.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0289",
+  "name": "Northwindcast",
+  "parts": [
+   "Northwind",
+   "cast"
+  ],
+  "domain": "northwindcast.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0290",
+  "name": "Dunlinbase",
+  "parts": [
+   "Dunlin",
+   "base"
+  ],
+  "domain": "dunlinbase.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0291",
+  "name": "Kestrelworks",
+  "parts": [
+   "Kestrel",
+   "works"
+  ],
+  "domain": "kestrelworks.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0292",
+  "name": "Orchardflow",
+  "parts": [
+   "Orchard",
+   "flow"
+  ],
+  "domain": "orchardflow.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0293",
+  "name": "Zephyrworks",
+  "parts": [
+   "Zephyr",
+   "works"
+  ],
+  "domain": "zephyrworks.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0294",
+  "name": "Quartzflow",
+  "parts": [
+   "Quartz",
+   "flow"
+  ],
+  "domain": "quartzflow.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0295",
+  "name": "Fablemint",
+  "parts": [
+   "Fable",
+   "mint"
+  ],
+  "domain": "fablemint.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0296",
+  "name": "Solaceloop",
+  "parts": [
+   "Solace",
+   "loop"
+  ],
+  "domain": "solaceloop.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0297",
+  "name": "Lumenworks",
+  "parts": [
+   "Lumen",
+   "works"
+  ],
+  "domain": "lumenworks.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0298",
+  "name": "Willowport",
+  "parts": [
+   "Willow",
+   "port"
+  ],
+  "domain": "willowport.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0299",
+  "name": "Brindleyard",
+  "parts": [
+   "Brindle",
+   "yard"
+  ],
+  "domain": "brindleyard.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0300",
+  "name": "Juniperscope",
+  "parts": [
+   "Juniper",
+   "scope"
+  ],
+  "domain": "juniperscope.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0301",
+  "name": "Vantagecast",
+  "parts": [
+   "Vantage",
+   "cast"
+  ],
+  "domain": "vantagecast.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0302",
+  "name": "Nimbuspath",
+  "parts": [
+   "Nimbus",
+   "path"
+  ],
+  "domain": "nimbuspath.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0303",
+  "name": "Basaltpath",
+  "parts": [
+   "Basalt",
+   "path"
+  ],
+  "domain": "basaltpath.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0304",
+  "name": "Thistleforge",
+  "parts": [
+   "Thistle",
+   "forge"
+  ],
+  "domain": "thistleforge.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0305",
+  "name": "Veritybase",
+  "parts": [
+   "Verity",
+   "base"
+  ],
+  "domain": "veritybase.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0306",
+  "name": "Solaceworks",
+  "parts": [
+   "Solace",
+   "works"
+  ],
+  "domain": "solaceworks.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0307",
+  "name": "Ferropoint",
+  "parts": [
+   "Ferro",
+   "point"
+  ],
+  "domain": "ferropoint.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0308",
+  "name": "Estuarymint",
+  "parts": [
+   "Estuary",
+   "mint"
+  ],
+  "domain": "estuarymint.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0309",
+  "name": "Quillmint",
+  "parts": [
+   "Quill",
+   "mint"
+  ],
+  "domain": "quillmint.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0310",
+  "name": "Cobaltpoint",
+  "parts": [
+   "Cobalt",
+   "point"
+  ],
+  "domain": "cobaltpoint.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0311",
+  "name": "Hollismint",
+  "parts": [
+   "Hollis",
+   "mint"
+  ],
+  "domain": "hollismint.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0312",
+  "name": "Quartzbase",
+  "parts": [
+   "Quartz",
+   "base"
+  ],
+  "domain": "quartzbase.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0313",
+  "name": "Heronstack",
+  "parts": [
+   "Heron",
+   "stack"
+  ],
+  "domain": "heronstack.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0314",
+  "name": "Brindleline",
+  "parts": [
+   "Brindle",
+   "line"
+  ],
+  "domain": "brindleline.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0315",
+  "name": "Junipercast",
+  "parts": [
+   "Juniper",
+   "cast"
+  ],
+  "domain": "junipercast.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0316",
+  "name": "Willowpoint",
+  "parts": [
+   "Willow",
+   "point"
+  ],
+  "domain": "willowpoint.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0317",
+  "name": "Glintloop",
+  "parts": [
+   "Glint",
+   "loop"
+  ],
+  "domain": "glintloop.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0318",
+  "name": "Embermint",
+  "parts": [
+   "Ember",
+   "mint"
+  ],
+  "domain": "embermint.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0319",
+  "name": "Deltaloop",
+  "parts": [
+   "Delta",
+   "loop"
+  ],
+  "domain": "deltaloop.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0320",
+  "name": "Harborforge",
+  "parts": [
+   "Harbor",
+   "forge"
+  ],
+  "domain": "harborforge.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0321",
+  "name": "Ridgeport",
+  "parts": [
+   "Ridge",
+   "port"
+  ],
+  "domain": "ridgeport.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0322",
+  "name": "Ironwoodlabs",
+  "parts": [
+   "Ironwood",
+   "labs"
+  ],
+  "domain": "ironwoodlabs.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0323",
+  "name": "Pyloncast",
+  "parts": [
+   "Pylon",
+   "cast"
+  ],
+  "domain": "pyloncast.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0324",
+  "name": "Pinionbase",
+  "parts": [
+   "Pinion",
+   "base"
+  ],
+  "domain": "pinionbase.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0325",
+  "name": "Tesselstack",
+  "parts": [
+   "Tessel",
+   "stack"
+  ],
+  "domain": "tesselstack.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0326",
+  "name": "Knollforge",
+  "parts": [
+   "Knoll",
+   "forge"
+  ],
+  "domain": "knollforge.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0327",
+  "name": "Ferrobase",
+  "parts": [
+   "Ferro",
+   "base"
+  ],
+  "domain": "ferrobase.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0328",
+  "name": "Ridgeflow",
+  "parts": [
+   "Ridge",
+   "flow"
+  ],
+  "domain": "ridgeflow.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0329",
+  "name": "Zephyrflow",
+  "parts": [
+   "Zephyr",
+   "flow"
+  ],
+  "domain": "zephyrflow.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0330",
+  "name": "Latticeworks",
+  "parts": [
+   "Lattice",
+   "works"
+  ],
+  "domain": "latticeworks.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0331",
+  "name": "Heronport",
+  "parts": [
+   "Heron",
+   "port"
+  ],
+  "domain": "heronport.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0332",
+  "name": "Cobaltdock",
+  "parts": [
+   "Cobalt",
+   "dock"
+  ],
+  "domain": "cobaltdock.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0333",
+  "name": "Quillloop",
+  "parts": [
+   "Quill",
+   "loop"
+  ],
+  "domain": "quillloop.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0334",
+  "name": "Brindlecast",
+  "parts": [
+   "Brindle",
+   "cast"
+  ],
+  "domain": "brindlecast.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0335",
+  "name": "Quillstack",
+  "parts": [
+   "Quill",
+   "stack"
+  ],
+  "domain": "quillstack.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0336",
+  "name": "Yarrowyard",
+  "parts": [
+   "Yarrow",
+   "yard"
+  ],
+  "domain": "yarrowyard.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0337",
+  "name": "Ironwoodforge",
+  "parts": [
+   "Ironwood",
+   "forge"
+  ],
+  "domain": "ironwoodforge.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0338",
+  "name": "Ridgedock",
+  "parts": [
+   "Ridge",
+   "dock"
+  ],
+  "domain": "ridgedock.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0339",
+  "name": "Fablehub",
+  "parts": [
+   "Fable",
+   "hub"
+  ],
+  "domain": "fablehub.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0340",
+  "name": "Mosaicbase",
+  "parts": [
+   "Mosaic",
+   "base"
+  ],
+  "domain": "mosaicbase.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0341",
+  "name": "Willowloop",
+  "parts": [
+   "Willow",
+   "loop"
+  ],
+  "domain": "willowloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0342",
+  "name": "Mosaiclabs",
+  "parts": [
+   "Mosaic",
+   "labs"
+  ],
+  "domain": "mosaiclabs.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0343",
+  "name": "Quartzlabs",
+  "parts": [
+   "Quartz",
+   "labs"
+  ],
+  "domain": "quartzlabs.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0344",
+  "name": "Pylonbridge",
+  "parts": [
+   "Pylon",
+   "bridge"
+  ],
+  "domain": "pylonbridge.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0345",
+  "name": "Quartzloop",
+  "parts": [
+   "Quartz",
+   "loop"
+  ],
+  "domain": "quartzloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0346",
+  "name": "Cobaltflow",
+  "parts": [
+   "Cobalt",
+   "flow"
+  ],
+  "domain": "cobaltflow.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0347",
+  "name": "Knollpoint",
+  "parts": [
+   "Knoll",
+   "point"
+  ],
+  "domain": "knollpoint.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0348",
+  "name": "Wrendock",
+  "parts": [
+   "Wren",
+   "dock"
+  ],
+  "domain": "wrendock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0349",
+  "name": "Pylonyard",
+  "parts": [
+   "Pylon",
+   "yard"
+  ],
+  "domain": "pylonyard.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0350",
+  "name": "Marlowbase",
+  "parts": [
+   "Marlow",
+   "base"
+  ],
+  "domain": "marlowbase.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0351",
+  "name": "Yarrowgrid",
+  "parts": [
+   "Yarrow",
+   "grid"
+  ],
+  "domain": "yarrowgrid.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0352",
+  "name": "Tamarackpath",
+  "parts": [
+   "Tamarack",
+   "path"
+  ],
+  "domain": "tamarackpath.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0353",
+  "name": "Dunlinline",
+  "parts": [
+   "Dunlin",
+   "line"
+  ],
+  "domain": "dunlinline.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0354",
+  "name": "Opalline",
+  "parts": [
+   "Opal",
+   "line"
+  ],
+  "domain": "opalline.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0355",
+  "name": "Quartzstack",
+  "parts": [
+   "Quartz",
+   "stack"
+  ],
+  "domain": "quartzstack.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0356",
+  "name": "Gantrydock",
+  "parts": [
+   "Gantry",
+   "dock"
+  ],
+  "domain": "gantrydock.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0357",
+  "name": "Cobaltbridge",
+  "parts": [
+   "Cobalt",
+   "bridge"
+  ],
+  "domain": "cobaltbridge.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0358",
+  "name": "Hollislabs",
+  "parts": [
+   "Hollis",
+   "labs"
+  ],
+  "domain": "hollislabs.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0359",
+  "name": "Verityloop",
+  "parts": [
+   "Verity",
+   "loop"
+  ],
+  "domain": "verityloop.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0360",
+  "name": "Emberforge",
+  "parts": [
+   "Ember",
+   "forge"
+  ],
+  "domain": "emberforge.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0361",
+  "name": "Piniongrid",
+  "parts": [
+   "Pinion",
+   "grid"
+  ],
+  "domain": "piniongrid.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0362",
+  "name": "Harborbridge",
+  "parts": [
+   "Harbor",
+   "bridge"
+  ],
+  "domain": "harborbridge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0363",
+  "name": "Opalbase",
+  "parts": [
+   "Opal",
+   "base"
+  ],
+  "domain": "opalbase.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0364",
+  "name": "Tesselpath",
+  "parts": [
+   "Tessel",
+   "path"
+  ],
+  "domain": "tesselpath.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0365",
+  "name": "Orchardport",
+  "parts": [
+   "Orchard",
+   "port"
+  ],
+  "domain": "orchardport.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0366",
+  "name": "Heronpath",
+  "parts": [
+   "Heron",
+   "path"
+  ],
+  "domain": "heronpath.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0367",
+  "name": "Ferroline",
+  "parts": [
+   "Ferro",
+   "line"
+  ],
+  "domain": "ferroline.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0368",
+  "name": "Cobaltscope",
+  "parts": [
+   "Cobalt",
+   "scope"
+  ],
+  "domain": "cobaltscope.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0369",
+  "name": "Northwindforge",
+  "parts": [
+   "Northwind",
+   "forge"
+  ],
+  "domain": "northwindforge.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0370",
+  "name": "Vantagebridge",
+  "parts": [
+   "Vantage",
+   "bridge"
+  ],
+  "domain": "vantagebridge.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0371",
+  "name": "Ferrodock",
+  "parts": [
+   "Ferro",
+   "dock"
+  ],
+  "domain": "ferrodock.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Fintech"
+ },
+ {
+  "id": "P0372",
+  "name": "Kestrelforge",
+  "parts": [
+   "Kestrel",
+   "forge"
+  ],
+  "domain": "kestrelforge.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0373",
+  "name": "Basaltscope",
+  "parts": [
+   "Basalt",
+   "scope"
+  ],
+  "domain": "basaltscope.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0374",
+  "name": "Yarrowscope",
+  "parts": [
+   "Yarrow",
+   "scope"
+  ],
+  "domain": "yarrowscope.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0375",
+  "name": "Umberflow",
+  "parts": [
+   "Umber",
+   "flow"
+  ],
+  "domain": "umberflow.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0376",
+  "name": "Wrenscope",
+  "parts": [
+   "Wren",
+   "scope"
+  ],
+  "domain": "wrenscope.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0377",
+  "name": "Glintmint",
+  "parts": [
+   "Glint",
+   "mint"
+  ],
+  "domain": "glintmint.example",
+  "icp_fit": true,
+  "employees": 40,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0378",
+  "name": "Granitebase",
+  "parts": [
+   "Granite",
+   "base"
+  ],
+  "domain": "granitebase.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0379",
+  "name": "Harborhub",
+  "parts": [
+   "Harbor",
+   "hub"
+  ],
+  "domain": "harborhub.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0380",
+  "name": "Pinionmint",
+  "parts": [
+   "Pinion",
+   "mint"
+  ],
+  "domain": "pinionmint.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0381",
+  "name": "Harborgrid",
+  "parts": [
+   "Harbor",
+   "grid"
+  ],
+  "domain": "harborgrid.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0382",
+  "name": "Veritybridge",
+  "parts": [
+   "Verity",
+   "bridge"
+  ],
+  "domain": "veritybridge.example",
+  "icp_fit": false,
+  "employees": 600,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0383",
+  "name": "Alderpath",
+  "parts": [
+   "Alder",
+   "path"
+  ],
+  "domain": "alderpath.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0384",
+  "name": "Ridgehub",
+  "parts": [
+   "Ridge",
+   "hub"
+  ],
+  "domain": "ridgehub.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0385",
+  "name": "Ironwoodscope",
+  "parts": [
+   "Ironwood",
+   "scope"
+  ],
+  "domain": "ironwoodscope.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0386",
+  "name": "Quartzpoint",
+  "parts": [
+   "Quartz",
+   "point"
+  ],
+  "domain": "quartzpoint.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Healthtech"
+ },
+ {
+  "id": "P0387",
+  "name": "Dunlinforge",
+  "parts": [
+   "Dunlin",
+   "forge"
+  ],
+  "domain": "dunlinforge.example",
+  "icp_fit": false,
+  "employees": 150,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0388",
+  "name": "Knollcast",
+  "parts": [
+   "Knoll",
+   "cast"
+  ],
+  "domain": "knollcast.example",
+  "icp_fit": false,
+  "employees": 300,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0389",
+  "name": "Tesselworks",
+  "parts": [
+   "Tessel",
+   "works"
+  ],
+  "domain": "tesselworks.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Security software"
+ },
+ {
+  "id": "P0390",
+  "name": "Hollisloop",
+  "parts": [
+   "Hollis",
+   "loop"
+  ],
+  "domain": "hollisloop.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0391",
+  "name": "Wrenline",
+  "parts": [
+   "Wren",
+   "line"
+  ],
+  "domain": "wrenline.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0392",
+  "name": "Cobaltyard",
+  "parts": [
+   "Cobalt",
+   "yard"
+  ],
+  "domain": "cobaltyard.example",
+  "icp_fit": false,
+  "employees": 40,
+  "industry": "Logistics software"
+ },
+ {
+  "id": "P0393",
+  "name": "Quillscope",
+  "parts": [
+   "Quill",
+   "scope"
+  ],
+  "domain": "quillscope.example",
+  "icp_fit": true,
+  "employees": 150,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0394",
+  "name": "Holliswave",
+  "parts": [
+   "Hollis",
+   "wave"
+  ],
+  "domain": "holliswave.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0395",
+  "name": "Willowbridge",
+  "parts": [
+   "Willow",
+   "bridge"
+  ],
+  "domain": "willowbridge.example",
+  "icp_fit": true,
+  "employees": 80,
+  "industry": "Devtools"
+ },
+ {
+  "id": "P0396",
+  "name": "Cinderyard",
+  "parts": [
+   "Cinder",
+   "yard"
+  ],
+  "domain": "cinderyard.example",
+  "icp_fit": true,
+  "employees": 1200,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0397",
+  "name": "Nimbuspoint",
+  "parts": [
+   "Nimbus",
+   "point"
+  ],
+  "domain": "nimbuspoint.example",
+  "icp_fit": false,
+  "employees": 1200,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0398",
+  "name": "Marlowline",
+  "parts": [
+   "Marlow",
+   "line"
+  ],
+  "domain": "marlowline.example",
+  "icp_fit": true,
+  "employees": 600,
+  "industry": "Martech"
+ },
+ {
+  "id": "P0399",
+  "name": "Juniperforge",
+  "parts": [
+   "Juniper",
+   "forge"
+  ],
+  "domain": "juniperforge.example",
+  "icp_fit": true,
+  "employees": 300,
+  "industry": "HR tech"
+ },
+ {
+  "id": "P0400",
+  "name": "Orchardbridge",
+  "parts": [
+   "Orchard",
+   "bridge"
+  ],
+  "domain": "orchardbridge.example",
+  "icp_fit": false,
+  "employees": 80,
+  "industry": "HR tech"
+ }
+]

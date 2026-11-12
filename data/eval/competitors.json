@@ -1,0 +1,47 @@
+[
+ {
+  "id": "C01",
+  "name": "Ferroworks",
+  "parts": [
+   "Ferro",
+   "works"
+  ],
+  "domain": "ferroworks.example"
+ },
+ {
+  "id": "C02",
+  "name": "Wrenpoint",
+  "parts": [
+   "Wren",
+   "point"
+  ],
+  "domain": "wrenpoint.example"
+ },
+ {
+  "id": "C03",
+  "name": "Ironwoodmint",
+  "parts": [
+   "Ironwood",
+   "mint"
+  ],
+  "domain": "ironwoodmint.example"
+ },
+ {
+  "id": "C04",
+  "name": "Jaspermint",
+  "parts": [
+   "Jasper",
+   "mint"
+  ],
+  "domain": "jaspermint.example"
+ },
+ {
+  "id": "C05",
+  "name": "Kestrelstack",
+  "parts": [
+   "Kestrel",
+   "stack"
+  ],
+  "domain": "kestrelstack.example"
+ }
+]

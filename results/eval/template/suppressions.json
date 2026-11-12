@@ -1,0 +1,30 @@
+[
+ {
+  "id": "S001",
+  "event_id": "E029",
+  "reason": "competitor",
+  "competitor": "Kestrelstack",
+  "contact_id": "K00886"
+ },
+ {
+  "id": "S002",
+  "event_id": "E033",
+  "reason": "competitor",
+  "competitor": "Jaspermint",
+  "contact_id": "K00845"
+ },
+ {
+  "id": "S003",
+  "event_id": "E045",
+  "reason": "competitor",
+  "competitor": "Jaspermint",
+  "contact_id": "K01315"
+ },
+ {
+  "id": "S004",
+  "event_id": "E063",
+  "reason": "competitor",
+  "competitor": "Jaspermint",
+  "contact_id": "K01070"
+ }
+]

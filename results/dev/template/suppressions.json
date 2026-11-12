@@ -1,0 +1,37 @@
+[
+ {
+  "id": "S001",
+  "event_id": "E008",
+  "reason": "competitor",
+  "competitor": "Jasperpath",
+  "contact_id": "K00381"
+ },
+ {
+  "id": "S002",
+  "event_id": "E030",
+  "reason": "competitor",
+  "competitor": "Aldermint",
+  "contact_id": "K01315"
+ },
+ {
+  "id": "S003",
+  "event_id": "E049",
+  "reason": "competitor",
+  "competitor": "Aldermint",
+  "contact_id": "K01286"
+ },
+ {
+  "id": "S004",
+  "event_id": "E052",
+  "reason": "competitor",
+  "competitor": "Ridgebase",
+  "contact_id": "K00228"
+ },
+ {
+  "id": "S005",
+  "event_id": "E059",
+  "reason": "competitor",
+  "competitor": "Ridgebase",
+  "contact_id": "K01003"
+ }
+]
