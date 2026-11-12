@@ -9,9 +9,10 @@ account. Nothing goes to a prospect until a person approves it.
 > person and every company are invented, and the 90-day job-change feed is simulated. There is no data
 > provider, no real client and no live deployment. Nothing is ever sent: approvals go to a mock outbox.
 
-- **Guided walkthrough:** [Follow one job change through the agent](https://rycolls.github.io/champion-job-change-agent/walkthrough.html) (pick any of the 80 events and watch each check, with the 9 test results)
-- **Dashboard demo:** [90-day replay, approval inbox, account view](https://rycolls.github.io/champion-job-change-agent/) (source: `docs/index.html`)
-- **Case study:** [VantaOps.ai case study](https://rycolls.github.io/champion-job-change-agent/case-study.html) (source: `docs/case-study.html`)
+👉 [Follow one job change through the agent](https://rycolls.github.io/champion-job-change-agent/walkthrough.html), a guided walkthrough: pick any of the 80 simulated events and watch each check it goes through, then read the 9 test results. Start with the first event. GitHub shows `.html` files as code instead of rendering them, so use that link. The page source is `docs/walkthrough.html`.
+
+More views of the same run: [dashboard demo](https://rycolls.github.io/champion-job-change-agent/) (90-day replay, approval inbox, account view; source `docs/index.html`) and the [VantaOps.ai case study](https://rycolls.github.io/champion-job-change-agent/case-study.html) (source `docs/case-study.html`).
+
 - **Design:** [DESIGN.md](DESIGN.md)
 
 ## How it works
