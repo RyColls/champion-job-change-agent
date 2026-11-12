@@ -10,9 +10,9 @@
   "departed_contact_id": "K01456",
   "departed_name": "Sofia Yilmaz",
   "departed_role": "champion",
-  "days_until_renewal": 176,
-  "renewal_date": "2027-01-28",
-  "risk_level": "medium",
+  "days_until_renewal": 261,
+  "renewal_date": "2027-04-23",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K01460",
@@ -36,7 +36,7 @@
     "reason": "power user, 6 boards created, last active 34 days before the event"
    }
   ],
-  "summary": "Sofia Yilmaz (champion) left Umberforge; renewal in 176 days."
+  "summary": "Sofia Yilmaz (champion) left Umberforge; renewal in 261 days."
  },
  {
   "id": "F002",
@@ -49,8 +49,8 @@
   "departed_contact_id": "K00911",
   "departed_name": "Ayesha Olsen",
   "departed_role": "champion",
-  "days_until_renewal": 356,
-  "renewal_date": "2027-07-27",
+  "days_until_renewal": 441,
+  "renewal_date": "2027-10-20",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -75,7 +75,7 @@
     "reason": "admin, 46 boards created, last active 4 days before the event"
    }
   ],
-  "summary": "Ayesha Olsen (champion) left Hollisdock; renewal in 356 days."
+  "summary": "Ayesha Olsen (champion) left Hollisdock; renewal in 441 days."
  },
  {
   "id": "F003",
@@ -88,8 +88,8 @@
   "departed_contact_id": "K01100",
   "departed_name": "Amara Rutherford",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 299,
-  "renewal_date": "2027-06-02",
+  "days_until_renewal": 384,
+  "renewal_date": "2027-08-26",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -114,7 +114,7 @@
     "reason": "champion, 3 boards created, last active 21 days before the event"
    }
   ],
-  "summary": "Amara Rutherford (executive sponsor) left Cobaltbase; renewal in 299 days."
+  "summary": "Amara Rutherford (executive sponsor) left Cobaltbase; renewal in 384 days."
  },
  {
   "id": "F004",
@@ -127,8 +127,8 @@
   "departed_contact_id": "K00936",
   "departed_name": "Jonathan Patel",
   "departed_role": "champion",
-  "days_until_renewal": 258,
-  "renewal_date": "2027-04-23",
+  "days_until_renewal": 343,
+  "renewal_date": "2027-07-17",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -153,7 +153,7 @@
     "reason": "power user, 26 boards created, last active 15 days before the event"
    }
   ],
-  "summary": "Jonathan Patel (champion) left Lumenstack; renewal in 258 days."
+  "summary": "Jonathan Patel (champion) left Lumenstack; renewal in 343 days."
  },
  {
   "id": "F005",
@@ -166,9 +166,9 @@
   "departed_contact_id": "K00381",
   "departed_name": "Rohan Yilmaz",
   "departed_role": "champion",
-  "days_until_renewal": 46,
-  "renewal_date": "2026-09-25",
-  "risk_level": "high",
+  "days_until_renewal": 131,
+  "renewal_date": "2026-12-19",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00383",
@@ -192,7 +192,7 @@
     "reason": "executive sponsor, 13 boards created, last active 33 days before the event"
    }
   ],
-  "summary": "Rohan Yilmaz (champion) left Basalthub; renewal in 46 days."
+  "summary": "Rohan Yilmaz (champion) left Basalthub; renewal in 131 days."
  },
  {
   "id": "F006",
@@ -205,8 +205,8 @@
   "departed_contact_id": "K01405",
   "departed_name": "Mei Mbeki",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 350,
-  "renewal_date": "2027-07-27",
+  "days_until_renewal": 435,
+  "renewal_date": "2027-10-20",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -231,7 +231,7 @@
     "reason": "power user, 15 boards created, last active 19 days before the event"
    }
   ],
-  "summary": "Mei Mbeki (executive sponsor) left Latticemint; renewal in 350 days."
+  "summary": "Mei Mbeki (executive sponsor) left Latticemint; renewal in 435 days."
  },
  {
   "id": "F007",
@@ -244,8 +244,8 @@
   "departed_contact_id": "K00660",
   "departed_name": "Yusuf Grayson",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 379,
-  "renewal_date": "2027-08-27",
+  "days_until_renewal": 464,
+  "renewal_date": "2027-11-20",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -270,7 +270,7 @@
     "reason": "power user, 7 boards created, last active 31 days before the event"
    }
   ],
-  "summary": "Yusuf Grayson (executive sponsor) left Ridgeloop; renewal in 379 days."
+  "summary": "Yusuf Grayson (executive sponsor) left Ridgeloop; renewal in 464 days."
  },
  {
   "id": "F008",
@@ -283,9 +283,9 @@
   "departed_contact_id": "K00781",
   "departed_name": "Mateo Voss",
   "departed_role": "champion",
-  "days_until_renewal": 187,
-  "renewal_date": "2027-02-18",
-  "risk_level": "medium",
+  "days_until_renewal": 272,
+  "renewal_date": "2027-05-14",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K00785",
@@ -309,7 +309,7 @@
     "reason": "power user, 16 boards created, last active 20 days before the event"
    }
   ],
-  "summary": "Mateo Voss (champion) left Cinderforge; renewal in 187 days."
+  "summary": "Mateo Voss (champion) left Cinderforge; renewal in 272 days."
  },
  {
   "id": "F009",
@@ -322,8 +322,8 @@
   "departed_contact_id": "K00353",
   "departed_name": "Sienna Dunmore",
   "departed_role": "champion",
-  "days_until_renewal": 319,
-  "renewal_date": "2027-07-02",
+  "days_until_renewal": 404,
+  "renewal_date": "2027-09-25",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -348,7 +348,7 @@
     "reason": "power user, 22 boards created, last active 39 days before the event"
    }
   ],
-  "summary": "Sienna Dunmore (champion) left Gantrydock; renewal in 319 days."
+  "summary": "Sienna Dunmore (champion) left Gantrydock; renewal in 404 days."
  },
  {
   "id": "F010",
@@ -361,8 +361,8 @@
   "departed_contact_id": "K00190",
   "departed_name": "Malik Chaudhry",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 276,
-  "renewal_date": "2027-05-21",
+  "days_until_renewal": 361,
+  "renewal_date": "2027-08-14",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -387,7 +387,7 @@
     "reason": "power user, 18 boards created, last active 31 days before the event"
    }
   ],
-  "summary": "Malik Chaudhry (executive sponsor) left Estuarybridge; renewal in 276 days."
+  "summary": "Malik Chaudhry (executive sponsor) left Estuarybridge; renewal in 361 days."
  },
  {
   "id": "F011",
@@ -400,8 +400,8 @@
   "departed_contact_id": "K01031",
   "departed_name": "Nicholas Calloway",
   "departed_role": "champion",
-  "days_until_renewal": 261,
-  "renewal_date": "2027-05-08",
+  "days_until_renewal": 346,
+  "renewal_date": "2027-08-01",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -426,7 +426,7 @@
     "reason": "power user, 52 boards created, last active 47 days before the event"
    }
   ],
-  "summary": "Nicholas Calloway (champion) left Cinderworks; renewal in 261 days."
+  "summary": "Nicholas Calloway (champion) left Cinderworks; renewal in 346 days."
  },
  {
   "id": "F012",
@@ -439,9 +439,9 @@
   "departed_contact_id": "K00040",
   "departed_name": "Benjamin Vasquez",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 197,
-  "renewal_date": "2027-03-08",
-  "risk_level": "medium",
+  "days_until_renewal": 282,
+  "renewal_date": "2027-06-01",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K00036",
@@ -465,7 +465,7 @@
     "reason": "power user, 10 boards created, last active 35 days before the event"
    }
   ],
-  "summary": "Benjamin Vasquez (executive sponsor) left Quillbridge; renewal in 197 days."
+  "summary": "Benjamin Vasquez (executive sponsor) left Quillbridge; renewal in 282 days."
  },
  {
   "id": "F013",
@@ -478,9 +478,9 @@
   "departed_contact_id": "K01443",
   "departed_name": "Priya Dunmore",
   "departed_role": "champion",
-  "days_until_renewal": 68,
-  "renewal_date": "2026-10-31",
-  "risk_level": "high",
+  "days_until_renewal": 153,
+  "renewal_date": "2027-01-24",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K01445",
@@ -504,7 +504,7 @@
     "reason": "power user, 30 boards created, last active 53 days before the event"
    }
   ],
-  "summary": "Priya Dunmore (champion) left Yarrowworks; renewal in 68 days."
+  "summary": "Priya Dunmore (champion) left Yarrowworks; renewal in 153 days."
  },
  {
   "id": "F014",
@@ -517,9 +517,9 @@
   "departed_contact_id": "K00458",
   "departed_name": "Lucia Sorensen",
   "departed_role": "champion",
-  "days_until_renewal": 107,
-  "renewal_date": "2026-12-14",
-  "risk_level": "high",
+  "days_until_renewal": 192,
+  "renewal_date": "2027-03-09",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00460",
@@ -543,7 +543,7 @@
     "reason": "power user, 30 boards created, last active 28 days before the event"
    }
   ],
-  "summary": "Lucia Sorensen (champion) left Piniongrid; renewal in 107 days."
+  "summary": "Lucia Sorensen (champion) left Piniongrid; renewal in 192 days."
  },
  {
   "id": "F015",
@@ -556,8 +556,8 @@
   "departed_contact_id": "K01275",
   "departed_name": "Malik Ibarra",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": -4,
-  "renewal_date": "2026-08-25",
+  "days_until_renewal": 81,
+  "renewal_date": "2026-11-18",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -582,7 +582,7 @@
     "reason": "power user, 8 boards created, last active 57 days before the event"
    }
   ],
-  "summary": "Malik Ibarra (executive sponsor) left Glintscope; renewal in -4 days."
+  "summary": "Malik Ibarra (executive sponsor) left Glintscope; renewal in 81 days."
  },
  {
   "id": "F016",
@@ -595,8 +595,8 @@
   "departed_contact_id": "K00695",
   "departed_name": "Samantha Pereira",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 268,
-  "renewal_date": "2027-05-27",
+  "days_until_renewal": 353,
+  "renewal_date": "2027-08-20",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -621,7 +621,7 @@
     "reason": "power user, 9 boards created, last active 54 days before the event"
    }
   ],
-  "summary": "Samantha Pereira (executive sponsor) left Embercast; renewal in 268 days."
+  "summary": "Samantha Pereira (executive sponsor) left Embercast; renewal in 353 days."
  },
  {
   "id": "F017",
@@ -634,8 +634,8 @@
   "departed_contact_id": "K00901",
   "departed_name": "Michael Adeyemi",
   "departed_role": "champion",
-  "days_until_renewal": 320,
-  "renewal_date": "2027-07-18",
+  "days_until_renewal": 405,
+  "renewal_date": "2027-10-11",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -660,7 +660,7 @@
     "reason": "power user, 27 boards created, last active 59 days before the event"
    }
   ],
-  "summary": "Michael Adeyemi (champion) left Opalport; renewal in 320 days."
+  "summary": "Michael Adeyemi (champion) left Opalport; renewal in 405 days."
  },
  {
   "id": "F018",
@@ -673,8 +673,8 @@
   "departed_contact_id": "K01315",
   "departed_name": "Ayesha Everhart",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 271,
-  "renewal_date": "2027-06-01",
+  "days_until_renewal": 356,
+  "renewal_date": "2027-08-25",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -699,7 +699,7 @@
     "reason": "power user, 4 boards created, last active 55 days before the event"
    }
   ],
-  "summary": "Ayesha Everhart (executive sponsor) left Latticeforge; renewal in 271 days."
+  "summary": "Ayesha Everhart (executive sponsor) left Latticeforge; renewal in 356 days."
  },
  {
   "id": "F019",
@@ -712,8 +712,8 @@
   "departed_contact_id": "K01271",
   "departed_name": "Mei Hashemi",
   "departed_role": "champion",
-  "days_until_renewal": -14,
-  "renewal_date": "2026-08-25",
+  "days_until_renewal": 71,
+  "renewal_date": "2026-11-18",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -738,7 +738,7 @@
     "reason": "power user, 8 boards created, last active 67 days before the event"
    }
   ],
-  "summary": "Mei Hashemi (champion) left Glintscope; renewal in -14 days."
+  "summary": "Mei Hashemi (champion) left Glintscope; renewal in 71 days."
  },
  {
   "id": "F020",
@@ -751,8 +751,8 @@
   "departed_contact_id": "K00778",
   "departed_name": "Noor Yamada",
   "departed_role": "champion",
-  "days_until_renewal": 127,
-  "renewal_date": "2027-01-14",
+  "days_until_renewal": 212,
+  "renewal_date": "2027-04-09",
   "risk_level": "medium",
   "next_best_contacts": [
    {
@@ -777,7 +777,7 @@
     "reason": "power user, 46 boards created, last active 40 days before the event"
    }
   ],
-  "summary": "Noor Yamada (champion) left Cinderpoint; renewal in 127 days."
+  "summary": "Noor Yamada (champion) left Cinderpoint; renewal in 212 days."
  },
  {
   "id": "F021",
@@ -790,8 +790,8 @@
   "departed_contact_id": "K01295",
   "departed_name": "Matthew Ramos",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 346,
-  "renewal_date": "2027-08-22",
+  "days_until_renewal": 431,
+  "renewal_date": "2027-11-15",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -816,7 +816,7 @@
     "reason": "power user, 13 boards created, last active 42 days before the event"
    }
   ],
-  "summary": "Matthew Ramos (executive sponsor) left Cobaltlabs; renewal in 346 days."
+  "summary": "Matthew Ramos (executive sponsor) left Cobaltlabs; renewal in 431 days."
  },
  {
   "id": "F022",
@@ -829,8 +829,8 @@
   "departed_contact_id": "K01096",
   "departed_name": "Zainab Vasquez",
   "departed_role": "champion",
-  "days_until_renewal": 264,
-  "renewal_date": "2027-06-02",
+  "days_until_renewal": 349,
+  "renewal_date": "2027-08-26",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -855,7 +855,7 @@
     "reason": "power user, 29 boards created, last active 45 days before the event"
    }
   ],
-  "summary": "Zainab Vasquez (champion) left Cobaltbase; renewal in 264 days."
+  "summary": "Zainab Vasquez (champion) left Cobaltbase; renewal in 349 days."
  },
  {
   "id": "F023",
@@ -868,8 +868,8 @@
   "departed_contact_id": "K01301",
   "departed_name": "Andre Moreau",
   "departed_role": "champion",
-  "days_until_renewal": 127,
-  "renewal_date": "2027-01-17",
+  "days_until_renewal": 212,
+  "renewal_date": "2027-04-12",
   "risk_level": "medium",
   "next_best_contacts": [
    {
@@ -894,7 +894,7 @@
     "reason": "power user, 39 boards created, last active 60 days before the event"
    }
   ],
-  "summary": "Andre Moreau (champion) left Dunlinhub; renewal in 127 days."
+  "summary": "Andre Moreau (champion) left Dunlinhub; renewal in 212 days."
  },
  {
   "id": "F024",
@@ -907,9 +907,9 @@
   "departed_contact_id": "K00030",
   "departed_name": "Dmitri Bergstrom",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 86,
-  "renewal_date": "2026-12-09",
-  "risk_level": "high",
+  "days_until_renewal": 171,
+  "renewal_date": "2027-03-04",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00028",
@@ -933,7 +933,7 @@
     "reason": "power user, 55 boards created, last active 63 days before the event"
    }
   ],
-  "summary": "Dmitri Bergstrom (executive sponsor) left Granitemint; renewal in 86 days."
+  "summary": "Dmitri Bergstrom (executive sponsor) left Granitemint; renewal in 171 days."
  },
  {
   "id": "F025",
@@ -946,8 +946,8 @@
   "departed_contact_id": "K00341",
   "departed_name": "Rohan Voss",
   "departed_role": "champion",
-  "days_until_renewal": -18,
-  "renewal_date": "2026-08-27",
+  "days_until_renewal": 67,
+  "renewal_date": "2026-11-20",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -972,7 +972,7 @@
     "reason": "power user, 32 boards created, last active 67 days before the event"
    }
   ],
-  "summary": "Rohan Voss (champion) left Yarrowcast; renewal in -18 days."
+  "summary": "Rohan Voss (champion) left Yarrowcast; renewal in 67 days."
  },
  {
   "id": "F026",
@@ -985,8 +985,8 @@
   "departed_contact_id": "K00900",
   "departed_name": "Samantha Zhao",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 350,
-  "renewal_date": "2027-09-03",
+  "days_until_renewal": 435,
+  "renewal_date": "2027-11-27",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1011,7 +1011,7 @@
     "reason": "power user, 38 boards created, last active 76 days before the event"
    }
   ],
-  "summary": "Samantha Zhao (executive sponsor) left Ridgemint; renewal in 350 days."
+  "summary": "Samantha Zhao (executive sponsor) left Ridgemint; renewal in 435 days."
  },
  {
   "id": "F027",
@@ -1024,8 +1024,8 @@
   "departed_contact_id": "K00236",
   "departed_name": "Samantha Yamada",
   "departed_role": "champion",
-  "days_until_renewal": 336,
-  "renewal_date": "2027-08-22",
+  "days_until_renewal": 421,
+  "renewal_date": "2027-11-15",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1050,7 +1050,7 @@
     "reason": "power user, 29 boards created, last active 50 days before the event"
    }
   ],
-  "summary": "Samantha Yamada (champion) left Corvidcast; renewal in 336 days."
+  "summary": "Samantha Yamada (champion) left Corvidcast; renewal in 421 days."
  },
  {
   "id": "F028",
@@ -1063,8 +1063,8 @@
   "departed_contact_id": "K00171",
   "departed_name": "Anika Eriksen",
   "departed_role": "champion",
-  "days_until_renewal": 0,
-  "renewal_date": "2026-09-23",
+  "days_until_renewal": 85,
+  "renewal_date": "2026-12-17",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -1089,7 +1089,7 @@
     "reason": "power user, 33 boards created, last active 63 days before the event"
    }
   ],
-  "summary": "Anika Eriksen (champion) left Opalbase; renewal in 0 days."
+  "summary": "Anika Eriksen (champion) left Opalbase; renewal in 85 days."
  },
  {
   "id": "F029",
@@ -1102,8 +1102,8 @@
   "departed_contact_id": "K01286",
   "departed_name": "Tamsin Rosales",
   "departed_role": "champion",
-  "days_until_renewal": 154,
-  "renewal_date": "2027-02-27",
+  "days_until_renewal": 239,
+  "renewal_date": "2027-05-23",
   "risk_level": "medium",
   "next_best_contacts": [
    {
@@ -1128,7 +1128,7 @@
     "reason": "power user, 3 boards created, last active 60 days before the event"
    }
   ],
-  "summary": "Tamsin Rosales (champion) left Thistlescope; renewal in 154 days."
+  "summary": "Tamsin Rosales (champion) left Thistlescope; renewal in 239 days."
  },
  {
   "id": "F030",
@@ -1141,9 +1141,9 @@
   "departed_contact_id": "K00228",
   "departed_name": "Nadia Osei",
   "departed_role": "champion",
-  "days_until_renewal": 218,
-  "renewal_date": "2027-05-04",
-  "risk_level": "medium",
+  "days_until_renewal": 303,
+  "renewal_date": "2027-07-28",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K00226",
@@ -1167,7 +1167,7 @@
     "reason": "power user, 50 boards created, last active 60 days before the event"
    }
   ],
-  "summary": "Nadia Osei (champion) left Veritycast; renewal in 218 days."
+  "summary": "Nadia Osei (champion) left Veritycast; renewal in 303 days."
  },
  {
   "id": "F031",
@@ -1180,9 +1180,9 @@
   "departed_contact_id": "K00266",
   "departed_name": "Sienna Holloway",
   "departed_role": "champion",
-  "days_until_renewal": 73,
-  "renewal_date": "2026-12-13",
-  "risk_level": "high",
+  "days_until_renewal": 158,
+  "renewal_date": "2027-03-08",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00270",
@@ -1206,7 +1206,7 @@
     "reason": "power user, 10 boards created, last active 91 days before the event"
    }
   ],
-  "summary": "Sienna Holloway (champion) left Quartzmint; renewal in 73 days."
+  "summary": "Sienna Holloway (champion) left Quartzmint; renewal in 158 days."
  },
  {
   "id": "F032",
@@ -1219,9 +1219,9 @@
   "departed_contact_id": "K00761",
   "departed_name": "Diego Prescott",
   "departed_role": "champion",
-  "days_until_renewal": 110,
-  "renewal_date": "2027-01-22",
-  "risk_level": "high",
+  "days_until_renewal": 195,
+  "renewal_date": "2027-04-17",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00765",
@@ -1245,7 +1245,7 @@
     "reason": "power user, 45 boards created, last active 66 days before the event"
    }
   ],
-  "summary": "Diego Prescott (champion) left Ferroyard; renewal in 110 days."
+  "summary": "Diego Prescott (champion) left Ferroyard; renewal in 195 days."
  },
  {
   "id": "F033",
@@ -1258,8 +1258,8 @@
   "departed_contact_id": "K01003",
   "departed_name": "Anika Kimura",
   "departed_role": "champion",
-  "days_until_renewal": 244,
-  "renewal_date": "2027-06-06",
+  "days_until_renewal": 329,
+  "renewal_date": "2027-08-30",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1284,7 +1284,7 @@
     "reason": "power user, 14 boards created, last active 73 days before the event"
    }
   ],
-  "summary": "Anika Kimura (champion) left Solaceyard; renewal in 244 days."
+  "summary": "Anika Kimura (champion) left Solaceyard; renewal in 329 days."
  },
  {
   "id": "F034",
@@ -1297,9 +1297,9 @@
   "departed_contact_id": "K01475",
   "departed_name": "Elizabeth Eriksen",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 60,
-  "renewal_date": "2026-12-04",
-  "risk_level": "high",
+  "days_until_renewal": 145,
+  "renewal_date": "2027-02-27",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K01471",
@@ -1323,7 +1323,7 @@
     "reason": "power user, 39 boards created, last active 76 days before the event"
    }
   ],
-  "summary": "Elizabeth Eriksen (executive sponsor) left Brindleflow; renewal in 60 days."
+  "summary": "Elizabeth Eriksen (executive sponsor) left Brindleflow; renewal in 145 days."
  },
  {
   "id": "F035",
@@ -1336,9 +1336,9 @@
   "departed_contact_id": "K00201",
   "departed_name": "Marcus Gallagher",
   "departed_role": "champion",
-  "days_until_renewal": 90,
-  "renewal_date": "2027-01-04",
-  "risk_level": "high",
+  "days_until_renewal": 175,
+  "renewal_date": "2027-03-30",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00205",
@@ -1362,7 +1362,7 @@
     "reason": "power user, 3 boards created, last active 72 days before the event"
    }
   ],
-  "summary": "Marcus Gallagher (champion) left Deltaflow; renewal in 90 days."
+  "summary": "Marcus Gallagher (champion) left Deltaflow; renewal in 175 days."
  },
  {
   "id": "F036",
@@ -1375,9 +1375,9 @@
   "departed_contact_id": "K00475",
   "departed_name": "Idris Ortega",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 205,
-  "renewal_date": "2027-04-30",
-  "risk_level": "medium",
+  "days_until_renewal": 290,
+  "renewal_date": "2027-07-24",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K00471",
@@ -1401,7 +1401,7 @@
     "reason": "power user, 46 boards created, last active 87 days before the event"
    }
   ],
-  "summary": "Idris Ortega (executive sponsor) left Kestrelstack; renewal in 205 days."
+  "summary": "Idris Ortega (executive sponsor) left Kestrelstack; renewal in 290 days."
  },
  {
   "id": "F037",
@@ -1414,8 +1414,8 @@
   "departed_contact_id": "K00035",
   "departed_name": "Mateo Pereira",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": 283,
-  "renewal_date": "2027-07-17",
+  "days_until_renewal": 368,
+  "renewal_date": "2027-10-10",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1440,7 +1440,7 @@
     "reason": "power user, 53 boards created, last active 70 days before the event"
    }
   ],
-  "summary": "Mateo Pereira (executive sponsor) left Northwinddock; renewal in 283 days."
+  "summary": "Mateo Pereira (executive sponsor) left Northwinddock; renewal in 368 days."
  },
  {
   "id": "F038",
@@ -1453,9 +1453,9 @@
   "departed_contact_id": "K00101",
   "departed_name": "Julian Marchetti",
   "departed_role": "champion",
-  "days_until_renewal": 120,
-  "renewal_date": "2027-02-05",
-  "risk_level": "high",
+  "days_until_renewal": 205,
+  "renewal_date": "2027-05-01",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00105",
@@ -1479,7 +1479,7 @@
     "reason": "power user, 48 boards created, last active 92 days before the event"
    }
   ],
-  "summary": "Julian Marchetti (champion) left Harborforge; renewal in 120 days."
+  "summary": "Julian Marchetti (champion) left Harborforge; renewal in 205 days."
  },
  {
   "id": "F039",
@@ -1492,8 +1492,8 @@
   "departed_contact_id": "K00046",
   "departed_name": "Priya Castellano",
   "departed_role": "champion",
-  "days_until_renewal": 123,
-  "renewal_date": "2027-02-10",
+  "days_until_renewal": 208,
+  "renewal_date": "2027-05-06",
   "risk_level": "medium",
   "next_best_contacts": [
    {
@@ -1518,7 +1518,7 @@
     "reason": "power user, 35 boards created, last active 84 days before the event"
    }
   ],
-  "summary": "Priya Castellano (champion) left Ironwoodbridge; renewal in 123 days."
+  "summary": "Priya Castellano (champion) left Ironwoodbridge; renewal in 208 days."
  },
  {
   "id": "F040",
@@ -1531,8 +1531,8 @@
   "departed_contact_id": "K00696",
   "departed_name": "Ayesha Vasquez",
   "departed_role": "champion",
-  "days_until_renewal": 322,
-  "renewal_date": "2027-08-29",
+  "days_until_renewal": 407,
+  "renewal_date": "2027-11-22",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1557,7 +1557,7 @@
     "reason": "power user, 15 boards created, last active 76 days before the event"
    }
   ],
-  "summary": "Ayesha Vasquez (champion) left Fathomwave; renewal in 322 days."
+  "summary": "Ayesha Vasquez (champion) left Fathomwave; renewal in 407 days."
  },
  {
   "id": "F041",
@@ -1570,8 +1570,8 @@
   "departed_contact_id": "K00921",
   "departed_name": "Rebecca Cardenas",
   "departed_role": "champion",
-  "days_until_renewal": 263,
-  "renewal_date": "2027-07-03",
+  "days_until_renewal": 348,
+  "renewal_date": "2027-09-26",
   "risk_level": "low",
   "next_best_contacts": [
    {
@@ -1596,7 +1596,7 @@
     "reason": "power user, 43 boards created, last active 90 days before the event"
    }
   ],
-  "summary": "Rebecca Cardenas (champion) left Juniperbase; renewal in 263 days."
+  "summary": "Rebecca Cardenas (champion) left Juniperbase; renewal in 348 days."
  },
  {
   "id": "F042",
@@ -1609,8 +1609,8 @@
   "departed_contact_id": "K00173",
   "departed_name": "Jennifer Navarro",
   "departed_role": "champion",
-  "days_until_renewal": -23,
-  "renewal_date": "2026-09-23",
+  "days_until_renewal": 62,
+  "renewal_date": "2026-12-17",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -1635,7 +1635,7 @@
     "reason": "power user, 33 boards created, last active 86 days before the event"
    }
   ],
-  "summary": "Jennifer Navarro (champion) left Opalbase; renewal in -23 days."
+  "summary": "Jennifer Navarro (champion) left Opalbase; renewal in 62 days."
  },
  {
   "id": "F043",
@@ -1648,9 +1648,9 @@
   "departed_contact_id": "K00891",
   "departed_name": "Noor Holloway",
   "departed_role": "champion",
-  "days_until_renewal": 102,
-  "renewal_date": "2027-01-29",
-  "risk_level": "high",
+  "days_until_renewal": 187,
+  "renewal_date": "2027-04-24",
+  "risk_level": "medium",
   "next_best_contacts": [
    {
     "contact_id": "K00895",
@@ -1674,7 +1674,7 @@
     "reason": "power user, 9 boards created, last active 91 days before the event"
    }
   ],
-  "summary": "Noor Holloway (champion) left Opalline; renewal in 102 days."
+  "summary": "Noor Holloway (champion) left Opalline; renewal in 187 days."
  },
  {
   "id": "F044",
@@ -1687,8 +1687,8 @@
   "departed_contact_id": "K01430",
   "departed_name": "Hannah Iyer",
   "departed_role": "exec_sponsor",
-  "days_until_renewal": -27,
-  "renewal_date": "2026-09-23",
+  "days_until_renewal": 58,
+  "renewal_date": "2026-12-17",
   "risk_level": "high",
   "next_best_contacts": [
    {
@@ -1713,7 +1713,7 @@
     "reason": "power user, 26 boards created, last active 103 days before the event"
    }
   ],
-  "summary": "Hannah Iyer (executive sponsor) left Pinionpoint; renewal in -27 days."
+  "summary": "Hannah Iyer (executive sponsor) left Pinionpoint; renewal in 58 days."
  },
  {
   "id": "F045",
@@ -1726,9 +1726,9 @@
   "departed_contact_id": "K00551",
   "departed_name": "Alexander Fairbanks",
   "departed_role": "champion",
-  "days_until_renewal": 236,
-  "renewal_date": "2027-06-17",
-  "risk_level": "medium",
+  "days_until_renewal": 321,
+  "renewal_date": "2027-09-10",
+  "risk_level": "low",
   "next_best_contacts": [
    {
     "contact_id": "K00555",
@@ -1752,7 +1752,7 @@
     "reason": "power user, 42 boards created, last active 89 days before the event"
    }
   ],
-  "summary": "Alexander Fairbanks (champion) left Heronlabs; renewal in 236 days."
+  "summary": "Alexander Fairbanks (champion) left Heronlabs; renewal in 321 days."
  },
  {
   "id": "F046",
@@ -1765,8 +1765,8 @@
   "departed_contact_id": "K00601",
   "departed_name": "Diego Xiong",
   "departed_role": "champion",
-  "days_until_renewal": 131,
-  "renewal_date": "2027-03-08",
+  "days_until_renewal": 216,
+  "renewal_date": "2027-06-01",
   "risk_level": "medium",
   "next_best_contacts": [
    {
@@ -1791,6 +1791,6 @@
     "reason": "power user, 45 boards created, last active 103 days before the event"
    }
   ],
-  "summary": "Diego Xiong (champion) left Estuaryforge; renewal in 131 days."
+  "summary": "Diego Xiong (champion) left Estuaryforge; renewal in 216 days."
  }
 ]

@@ -1,0 +1,13 @@
+{
+ "ai_calls": {
+  "explain_identity|recorded|claude-sonnet-5-5 (Claude Code subagent)": 80,
+  "history_summary|recorded|claude-sonnet-5-5 (Claude Code subagent)": 25,
+  "draft_outreach|recorded|claude-sonnet-5-5 (Claude Code subagent)": 25,
+  "normalize|recorded|claude-haiku-5-5 (Claude Code subagent)": 30
+ },
+ "drafts": 25,
+ "drafts_blocked_first_pass": 0,
+ "drafts_blocked_final": 0,
+ "summaries_failed_check": 0,
+ "draft_retries": 0
+}

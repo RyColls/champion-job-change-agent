@@ -131,7 +131,10 @@ class Generator:
             account = {
                 "id": f"A{i + 1:04d}", "name": c["name"], "parts": c["parts"], "domain": slug(c["name"]) + ".example",
                 "plan": plan, "arr": int(round(base * r.uniform(0.9, 1.15) / 500) * 500),
-                "renewal_date": self.date_str(FEED_START + dt.timedelta(days=r.randint(10, 400))),
+                # the NEXT renewal must fall after the whole 90-day feed, so an event always precedes it. (The first
+                # version drew 10..400 days and could put a renewal before the event; the constant shift keeps the
+                # random stream, and therefore every other generated value, identical.)
+                "renewal_date": self.date_str(FEED_START + dt.timedelta(days=r.randint(10, 400) + 85)),
                 "customer_since": self.date_str(FEED_START - dt.timedelta(days=r.randint(200, 1600))),
                 "usage_level": r.choice(["low", "medium", "medium", "high", "high"]),
                 "csm": r.choice(CSMS), "account_manager": r.choice(AMS),

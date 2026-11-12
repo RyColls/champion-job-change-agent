@@ -74,7 +74,8 @@
      "why": "held in identity review: score 5.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0, title +1.0)"
     }
    ],
-   "note": null
+   "note": null,
+   "short": "47 of 55"
   },
   {
    "n": 2,
@@ -83,7 +84,8 @@
    "measured": "0 of 9 triggered a play; outcomes {'no_match': 6, 'identity_review': 3}",
    "passed": true,
    "failing_events": [],
-   "note": null
+   "note": null,
+   "short": "0 of 9"
   },
   {
    "n": 3,
@@ -92,7 +94,8 @@
    "measured": "0 of 4 created a second task",
    "passed": true,
    "failing_events": [],
-   "note": null
+   "note": null,
+   "short": "0 of 4"
   },
   {
    "n": 4,
@@ -158,7 +161,8 @@
      "why": "held in identity review: score 5.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0, title +1.0)"
     }
    ],
-   "note": null
+   "note": null,
+   "short": "72 of 80 (90.0%)"
   },
   {
    "n": 5,
@@ -167,7 +171,8 @@
    "measured": "0 drafts for 5 competitor moves; 4 were explicitly suppressed (the rest were held before reaching the rules)",
    "passed": true,
    "failing_events": [],
-   "note": null
+   "note": null,
+   "short": "0 drafts"
   },
   {
    "n": 6,
@@ -209,7 +214,8 @@
      "why": "no risk flag: held in identity review: score 5.0 is below the confirm threshold (name +3.0, employer +0.0, city +1.0, title +1.0)"
     }
    ],
-   "note": "Strict: departures held in identity review count as failures here."
+   "note": "Strict: departures held in identity review count as failures here.",
+   "short": "47 of 55"
   },
   {
    "n": 7,
@@ -218,7 +224,8 @@
    "measured": "(a) independent audit of 26 queued drafts and summaries: 0 unsupported facts; (b) planted-fact tests: agent verifier blocked 60 of 60, independent audit flagged 60 of 60; first-pass blocks 0 of 26 drafts, 0 blocked after retry",
    "passed": true,
    "failing_events": [],
-   "note": "The verifier checks entities, numbers, quantities and outcome language. It cannot verify arbitrary lowercase prose claims; those are limited by the prompt and by human review."
+   "note": "The verifier checks entities, numbers, quantities and outcome language. It cannot verify arbitrary lowercase prose claims; those are limited by the prompt and by human review.",
+   "short": "0 unsupported facts; 60 of 60 planted blocked"
   },
   {
    "n": 8,
@@ -227,7 +234,8 @@
    "measured": "26 drafts left pending by the pipeline; outbox empty until a named human acted; direct sends refused; unapproved sends refused: 2 of 2",
    "passed": true,
    "failing_events": [],
-   "note": "The outbox is a mock. Nothing real is ever sent."
+   "note": "The outbox is a mock. Nothing real is ever sent.",
+   "short": "nothing sent without a human"
   },
   {
    "n": 9,
@@ -236,7 +244,8 @@
    "measured": "80 of 80 events have all 7 steps with a rule and detail",
    "passed": true,
    "failing_events": [],
-   "note": null
+   "note": null,
+   "short": "80 of 80"
   }
  ],
  "extra": {

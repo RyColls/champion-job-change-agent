@@ -24,7 +24,9 @@ FORBIDDEN = re.compile(
     r"\bguarantee\w*\b|\bdoubl\w*\b|\bboost\w*\b|\bgrew\b|\bgrowth\b|"
     # spelled-out quantities and durations ("three years") are unsupported facts too
     r"\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|hundred|"
-    r"thousand|million|dozen|years?|months?|weeks?|quarters?)\b)", re.I)
+    r"thousand|million|dozen|years?|months?|weeks?|quarters?)\b|"
+    # the record has no gender, so a pronoun would be an inference about the person
+    r"\b(he|she|him|her|hers|his|himself|herself)\b)", re.I)
 WORD = re.compile(r"[A-Za-z][A-Za-z'\-]*")
 
 
@@ -86,7 +88,8 @@ def verify_text(text: str, facts: dict[str, str], claims: list[dict] | None = No
         problems.append(f"number '{n}' is not in the record")
     for m in WORD.finditer(text):
         w = m.group(0)
-        if w[0].isupper() and not _sentence_initial(text, m.start()) and w.lower() not in vocab:
+        base = re.sub(r"['\u2019]s$", "", w).lower()  # "Camila's" is the record word "Camila"
+        if w[0].isupper() and not _sentence_initial(text, m.start()) and base not in vocab:
             problems.append(f"'{w}' is not in the record")
     for m in FORBIDDEN.finditer(text):
         problems.append(f"outcome language not allowed: '{m.group(0)}'")

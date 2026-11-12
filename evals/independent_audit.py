@@ -18,6 +18,7 @@ from pathlib import Path
 
 OUTCOME = re.compile(r"(%|\$|\b(saved?|saving|increase\w*|decrease\w*|revenue|roi|churn\w*|pipeline|guarantee\w*|"
                      r"doubl\w*|boost\w*|grew|growth|reduc\w+|improv\w+|faster|cut)\b)", re.I)
+PRONOUN = re.compile(r"\b(he|she|him|her|hers|his|himself|herself)\b", re.I)
 QUANTITY = re.compile(r"\b(two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|twenty|thirty|forty|fifty|"
                       r"hundred|thousand|million|dozen|years?|months?|weeks?|quarters?)\b", re.I)
 
@@ -55,6 +56,8 @@ def audit_text(text: str, blob: str, lexicon: re.Pattern, allow_phrases: tuple[s
             findings.append(f"number '{num}' is not in this record")
     for m in OUTCOME.finditer(cleaned):
         findings.append(f"outcome language '{m.group(0)}'")
+    for m in PRONOUN.finditer(cleaned):
+        findings.append(f"gendered pronoun '{m.group(0)}' (the record has no gender)")
     for m in QUANTITY.finditer(cleaned):
         findings.append(f"unsupported quantity or duration '{m.group(0)}'")
     return findings

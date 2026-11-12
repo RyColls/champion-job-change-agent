@@ -238,6 +238,15 @@ def run(feed: str, backend: str) -> dict:
         "draft_stats": {k: stats[k] for k in ("drafts", "drafts_blocked_first_pass", "drafts_blocked_final",
                                               "draft_retries", "summaries_failed_check")},
     }
+    shorts = {
+        1: f"{len(caught)} of {len(real)}", 2: f"{len(trig)} of {len(coll)}",
+        3: f"{len({b['event_id'] for b in bad})} of {len(dups)}", 4: f"{ok} of {len(key)} ({100 * ok / len(key):.1f}%)",
+        5: f"{len(drafts_for_comp)} drafts", 6: f"{len(real) - len(wrong)} of {len(real)}",
+        7: f"{len(findings)} unsupported facts; {planted['agent_verifier']} of {planted['total']} planted blocked",
+        8: "nothing sent without a human" if not problems else f"{len(problems)} problems",
+        9: f"{len(decisions) - len({g['event_id'] for g in gaps})} of {len(decisions)}"}
+    for t in out["tests"]:
+        t["short"] = shorts[t["n"]]
     out["passed"] = sum(t["passed"] for t in out["tests"])
     (res / "acceptance.json").write_text(json.dumps(out, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     (res / "acceptance.md").write_text(render_md(out), encoding="utf-8")

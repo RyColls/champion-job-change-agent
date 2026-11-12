@@ -139,3 +139,35 @@ Wording rules for anything public: say "a fictional sample client" near the top;
 section 2 "the sample client's starting point"; call the feed "simulated job-change events"; present
 test results as measured in this project against the answer key, with counts. Never claim churn
 prevented, pipeline generated, revenue, a named data-provider integration, or a live deployment.
+
+## 7. Identity scoring (code, agent/identity.py)
+
+| Signal | Points |
+|---|---|
+| Full name matches exactly | +3.0 |
+| First name is a known variant, surname matches | +2.5 |
+| First name matches, surname differs | +0.5 (v2; needs corroboration) |
+| Prior employer resolves to the contact's account | +3.0 |
+| Prior employer close to the account name | +1.5 |
+| Prior employer is something else | -3.0 |
+| No prior employer, but the new employer is the same account (a new title) | +3.0 |
+| Prior e-mail domain matches / does not match the account | +3.0 / -4.0 |
+| Location matches | +1.0 (a different city is not penalised: people relocate) |
+| Prior title similar | +1.0 (dissimilar: -0.5) |
+
+Score 6.0 or more confirms (rule I1). From 3.5 up to 6.0 the event is held for a person (G3). Below 3.5
+it is a different person (G2). Two candidates within 1.0 point of each other are held for a person.
+
+## 8. Changes since the first measured run
+
+- **v1** was measured first on the `eval` feed: 5 of 9 tests passed and name collision E068 triggered a play (git commit 2ee645e).
+- **v2** lowers the weight of a surname mismatch (it let a colleague with the same first name be matched as a surname change). It was then measured on `eval2`, a feed generated after the fix.
+- The generator's renewal dates were shifted so they always fall after the feed (they could precede the event). Only that field changed.
+- The fact checker gained a possessive fix and a no-pronoun rule (the record has no gender).
+
+## 9. Known limitations
+
+- Events with no prior employer are held for review, so detection, classification and the old-account play miss them. A provider-supplied profile identifier would resolve this.
+- The offline normalizer parses only the announcement templates the simulator produces. The Haiku outputs match it on every announcement in `eval2`, which shows the recorded model handled these, not that arbitrary text is solved.
+- The fact checker cannot verify arbitrary lowercase prose claims.
+- The live backend is unit-tested against a fake client and has not been run against the real API in this repository's build session (no key was available).

@@ -1,0 +1,1965 @@
+[
+ {
+  "event_id": "E001",
+  "contact_id": "K00805",
+  "prospect_id": "P0255",
+  "company": "Knollbridge",
+  "contact_name": "Leila Holloway",
+  "new_title": "UX Researcher",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Leila Holloway was the executive sponsor at Knollscope, a Team plan account with low usage that has been a customer since 2025-08-13. Leila signed up on 2025-08-21, created 30 boards, and was last active on 2026-07-31. Previously Chief Product Officer, Leila now appears as a UX Researcher at Knollbridge.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Leila",
+   "contact.full_name": "Leila Holloway",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Chief Product Officer",
+   "contact.signup_date": "2025-08-21",
+   "contact.last_active_date": "2026-07-31",
+   "contact.boards_created": "30",
+   "account.name": "Knollscope",
+   "account.plan": "Team",
+   "account.usage_level": "low",
+   "account.customer_since": "2025-08-13",
+   "new_company.name": "Knollbridge",
+   "new_title": "UX Researcher"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Knollbridge, Leila",
+  "body": "Hi Leila,\n\nCongratulations on your new role as UX Researcher at Knollbridge! We still remember your time as Chief Product Officer at Knollscope and appreciate the sponsorship you gave Cairnboard there.\n\nIf feedback and roadmap tooling ever comes up in your new team, we would be glad to chat and share what might be useful. No pressure at all, just wanted to say hello and wish you well.\n\nWarmly,\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Leila",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "UX Researcher",
+    "field": "new_title"
+   },
+   {
+    "text": "Knollbridge",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "contact.old_title"
+   },
+   {
+    "text": "Knollscope",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q001"
+ },
+ {
+  "event_id": "E002",
+  "contact_id": "K00365",
+  "prospect_id": "P0191",
+  "company": "Northwindstack",
+  "contact_name": "Chloe Gallagher",
+  "new_title": "Senior Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Chloe Gallagher served as executive sponsor at Tesselscope, a Team plan account showing high usage and a customer since 2024-11-27. Chloe signed up on 2024-12-24, created 19 boards, and was last active on 2026-07-10. Chloe formerly held the title Head of Product and is now a Senior Product Manager at Northwindstack.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Chloe",
+   "contact.full_name": "Chloe Gallagher",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Head of Product",
+   "contact.signup_date": "2024-12-24",
+   "contact.last_active_date": "2026-07-10",
+   "contact.boards_created": "19",
+   "account.name": "Tesselscope",
+   "account.plan": "Team",
+   "account.usage_level": "high",
+   "account.customer_since": "2024-11-27",
+   "new_company.name": "Northwindstack",
+   "new_title": "Senior Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congrats on the move to Northwindstack",
+  "body": "Hi Chloe,\n\nWe heard you have joined Northwindstack as Senior Product Manager, and we wanted to send our congratulations. It was a pleasure working with you at Tesselscope, where you were such a strong supporter of Cairnboard.\n\nIf you would like to catch up or hear about how Cairnboard might fit your new team, we would love to talk. Either way, best of luck in the new role!\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Chloe",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Northwindstack",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Senior Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Tesselscope",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q002"
+ },
+ {
+  "type": "revops_review",
+  "event_id": "E004",
+  "status": "pending",
+  "assigned_to": "revops",
+  "reason": "'The Mosaiclabs' is not in the customer, prospect or competitor lists",
+  "contact_id": "K00926",
+  "id": "Q003"
+ },
+ {
+  "event_id": "E005",
+  "contact_id": "K00148",
+  "prospect_id": "P0286",
+  "company": "Quartzmint",
+  "contact_name": "Callum Everhart",
+  "new_title": "VP Product",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Callum Everhart was the champion at Thistlelabs, a Team plan account with high usage that has been a customer since 2024-01-29. Callum joined on 2024-05-15, built 15 boards, and was last active on 2026-07-24. Once a Group Product Manager, Callum is now VP Product at Quartzmint.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Callum",
+   "contact.full_name": "Callum Everhart",
+   "contact.role_label": "champion",
+   "contact.old_title": "Group Product Manager",
+   "contact.signup_date": "2024-05-15",
+   "contact.last_active_date": "2026-07-24",
+   "contact.boards_created": "15",
+   "account.name": "Thistlelabs",
+   "account.plan": "Team",
+   "account.usage_level": "high",
+   "account.customer_since": "2024-01-29",
+   "new_company.name": "Quartzmint",
+   "new_title": "VP Product"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on VP Product at Quartzmint",
+  "body": "Hi Callum,\n\nHuge congratulations on becoming VP Product at Quartzmint! As a champion for Cairnboard at Thistlelabs, you helped make our work with your team a real pleasure.\n\nWhen things settle in, we would be happy to catch up and hear what your new team is focused on. If product feedback or roadmap planning is on your list, we can share ideas.\n\nAll the best,\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Callum",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "VP Product",
+    "field": "new_title"
+   },
+   {
+    "text": "Quartzmint",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Thistlelabs",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q004"
+ },
+ {
+  "event_id": "E010",
+  "contact_id": "K00488",
+  "prospect_id": "P0076",
+  "company": "Harborlabs",
+  "contact_name": "Jonathan Underhill",
+  "new_title": "Product Operations Lead",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Jon (Jonathan Underhill) was the champion on the Pylonmint account, which is on the Business plan, shows high usage, and dates back as a customer to 2023-02-16. Jon signed up on 2023-05-26, created 29 boards, and was last active on 2026-07-03. The old title was Group Product Manager, and the new role is Product Operations Lead at Harborlabs.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Jon",
+   "contact.full_name": "Jonathan Underhill",
+   "contact.role_label": "champion",
+   "contact.old_title": "Group Product Manager",
+   "contact.signup_date": "2023-05-26",
+   "contact.last_active_date": "2026-07-03",
+   "contact.boards_created": "29",
+   "account.name": "Pylonmint",
+   "account.plan": "Business",
+   "account.usage_level": "high",
+   "account.customer_since": "2023-02-16",
+   "new_company.name": "Harborlabs",
+   "new_title": "Product Operations Lead"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Best wishes at Harborlabs, Jon",
+  "body": "Hi Jon,\n\nCongratulations on joining Harborlabs as Product Operations Lead! Thank you for everything you did as a champion for Cairnboard at Pylonmint, and for your time as Group Product Manager there.\n\nIf you would like to compare notes on how product teams gather feedback and plan roadmaps, we would enjoy a conversation. Otherwise, just know we are cheering you on.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Jon",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Harborlabs",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Product Operations Lead",
+    "field": "new_title"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Pylonmint",
+    "field": "account.name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q005"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E013",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00030",
+  "score": 5.0,
+  "explanation": "The name matches exactly, the location (Berlin) matches and the prior title (Head of Product) is similar, but no prior employer was given, so that signal adds nothing. The score of 5.0 falls between the 3.5 review threshold and the 6.0 confirm threshold, so it is sent for human review rather than confirmed.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Berlin matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Head of Product' is similar to 'Head of Product'"
+   }
+  ],
+  "payload": {
+   "full_name": "Camila Yamada",
+   "prior_employer": null,
+   "prior_title": "Head of Product",
+   "prior_email_domain": null,
+   "new_employer": "Latticelabs Inc.",
+   "new_title": "Associate Product Manager",
+   "location": "Berlin"
+  },
+  "id": "Q006"
+ },
+ {
+  "event_id": "E017",
+  "contact_id": "K01101",
+  "prospect_id": "P0038",
+  "company": "Verityflow",
+  "contact_name": "Kwame Sorensen",
+  "new_title": "Senior Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Kwame Sorensen championed Cairnboard at Isleworks, a Business plan account with medium usage and a customer since 2022-07-08. Kwame signed up on 2022-08-17, created 8 boards, and was last active on 2026-07-06. The record shows Kwame moving from Senior Product Manager to the same title at Verityflow.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Kwame",
+   "contact.full_name": "Kwame Sorensen",
+   "contact.role_label": "champion",
+   "contact.old_title": "Senior Product Manager",
+   "contact.signup_date": "2022-08-17",
+   "contact.last_active_date": "2026-07-06",
+   "contact.boards_created": "8",
+   "account.name": "Isleworks",
+   "account.plan": "Business",
+   "account.usage_level": "medium",
+   "account.customer_since": "2022-07-08",
+   "new_company.name": "Verityflow",
+   "new_title": "Senior Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Kwame, congrats on Verityflow",
+  "body": "Hi Kwame,\n\nWe saw you have started as Senior Product Manager at Verityflow. Congratulations! You were a great champion for Cairnboard at Isleworks, and we have appreciated working with you.\n\nShould it be helpful, we would be glad to talk about whether Cairnboard could support your new team. If not, no worries at all. We just wanted to wish you a great start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Kwame",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Senior Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Verityflow",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Isleworks",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q007"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E020",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K01345",
+  "score": 4.0,
+  "explanation": "The name matches exactly and the location (Denver) matches, but no prior employer was given, so there is little else to corroborate the match. The score of 4.0 sits between the 3.5 review threshold and the 6.0 confirm threshold, so it is sent for human review rather than confirmed.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Denver matches"
+   }
+  ],
+  "payload": {
+   "full_name": "Lucia Sinclair",
+   "prior_employer": null,
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "Latticelabs",
+   "new_title": "Principal Product Manager",
+   "location": "Denver"
+  },
+  "id": "Q008"
+ },
+ {
+  "event_id": "E025",
+  "contact_id": "K01486",
+  "prospect_id": "P0034",
+  "company": "Tamarackwave",
+  "contact_name": "Camila Whitfield",
+  "new_title": "VP Product",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Camila Whitfield was a champion at Marlowlabs, a Team plan account with medium usage. The account and Camila's signup share the same date, 2024-05-11, and Camila created 49 boards with last activity on 2026-07-02. Formerly a Product Manager, Camila is now VP Product at Tamarackwave.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Camila",
+   "contact.full_name": "Camila Whitfield",
+   "contact.role_label": "champion",
+   "contact.old_title": "Product Manager",
+   "contact.signup_date": "2024-05-11",
+   "contact.last_active_date": "2026-07-02",
+   "contact.boards_created": "49",
+   "account.name": "Marlowlabs",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2024-05-11",
+   "new_company.name": "Tamarackwave",
+   "new_title": "VP Product"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations, Camila!",
+  "body": "Hi Camila,\n\nWhat exciting news that you are now VP Product at Tamarackwave. Congratulations! Your enthusiasm for Cairnboard while you were a Product Manager at Marlowlabs meant a lot to us.\n\nWe would love to reconnect whenever it suits you and hear about your plans. If Cairnboard could be useful at Tamarackwave, we are happy to share more.\n\nWarm regards,\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Camila",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "VP Product",
+    "field": "new_title"
+   },
+   {
+    "text": "Tamarackwave",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Product Manager",
+    "field": "contact.old_title"
+   },
+   {
+    "text": "Marlowlabs",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q009"
+ },
+ {
+  "event_id": "E033",
+  "contact_id": "K01321",
+  "prospect_id": "P0052",
+  "company": "Cobaltstack",
+  "contact_name": "Rohan Iyer",
+  "new_title": "Chief Product Officer",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Rohan Iyer was the champion at Harborcast, an Enterprise account with high usage and a customer since 2022-04-11. Rohan signed up on 2022-05-22, created 27 boards, and was last active on 2026-07-31. After being a Principal Product Manager, Rohan is now Chief Product Officer at Cobaltstack.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Rohan",
+   "contact.full_name": "Rohan Iyer",
+   "contact.role_label": "champion",
+   "contact.old_title": "Principal Product Manager",
+   "contact.signup_date": "2022-05-22",
+   "contact.last_active_date": "2026-07-31",
+   "contact.boards_created": "27",
+   "account.name": "Harborcast",
+   "account.plan": "Enterprise",
+   "account.usage_level": "high",
+   "account.customer_since": "2022-04-11",
+   "new_company.name": "Cobaltstack",
+   "new_title": "Chief Product Officer"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Cobaltstack, Rohan",
+  "body": "Hi Rohan,\n\nCongratulations on your appointment as Chief Product Officer at Cobaltstack! That is wonderful news. We valued your support as a champion for Cairnboard at Harborcast, back when you were Principal Product Manager.\n\nIf you are open to it, we would enjoy catching up and hearing about your priorities at Cobaltstack. Wishing you a great start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Rohan",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "new_title"
+   },
+   {
+    "text": "Cobaltstack",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Harborcast",
+    "field": "account.name"
+   },
+   {
+    "text": "Principal Product Manager",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q010"
+ },
+ {
+  "event_id": "E034",
+  "contact_id": "K01225",
+  "prospect_id": "P0398",
+  "company": "Alderpath",
+  "contact_name": "Camila Nguyen",
+  "new_title": "Head of Product",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Camila Nguyen acted as executive sponsor for Islepoint, a Team plan account with low usage and a customer since 2024-08-29. Camila signed up on 2024-09-08, created 46 boards, and was last active on 2026-07-17. The prior title was VP Product, and the new one is Head of Product at Alderpath.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Camila",
+   "contact.full_name": "Camila Nguyen",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "VP Product",
+   "contact.signup_date": "2024-09-08",
+   "contact.last_active_date": "2026-07-17",
+   "contact.boards_created": "46",
+   "account.name": "Islepoint",
+   "account.plan": "Team",
+   "account.usage_level": "low",
+   "account.customer_since": "2024-08-29",
+   "new_company.name": "Alderpath",
+   "new_title": "Head of Product"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Camila, congrats on Alderpath",
+  "body": "Hi Camila,\n\nCongratulations on joining Alderpath as Head of Product! We remember with appreciation your sponsorship of Cairnboard at Islepoint as VP Product.\n\nIf you ever want to talk about product feedback or roadmaps in your new setting, we would be glad to help however we can. No obligation, we simply wanted to say congratulations and good luck.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Camila",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Alderpath",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Head of Product",
+    "field": "new_title"
+   },
+   {
+    "text": "Islepoint",
+    "field": "account.name"
+   },
+   {
+    "text": "VP Product",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q011"
+ },
+ {
+  "event_id": "E035",
+  "contact_id": "K00521",
+  "prospect_id": "P0048",
+  "company": "Sableline",
+  "contact_name": "Benjamin Kapoor",
+  "new_title": "Senior Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Benjamin Kapoor was the champion at Veritydock, a Team plan account with medium usage that became a customer on 2024-11-05. Benjamin signed up on 2025-01-21, created 60 boards, and was last active on 2026-07-31. Benjamin has moved from Principal Product Manager to Senior Product Manager at Sableline.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Benjamin",
+   "contact.full_name": "Benjamin Kapoor",
+   "contact.role_label": "champion",
+   "contact.old_title": "Principal Product Manager",
+   "contact.signup_date": "2025-01-21",
+   "contact.last_active_date": "2026-07-31",
+   "contact.boards_created": "60",
+   "account.name": "Veritydock",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2024-11-05",
+   "new_company.name": "Sableline",
+   "new_title": "Senior Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congrats on Sableline, Benjamin",
+  "body": "Hi Benjamin,\n\nWe heard the news that you are now Senior Product Manager at Sableline. Congratulations! Thank you for being such a champion for Cairnboard at Veritydock.\n\nWhen you have a moment, we would love to hear how the new role is going and whether there is anything Cairnboard can do to help. Either way, we are rooting for you.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Benjamin",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Senior Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Sableline",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Veritydock",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q012"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E039",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00070",
+  "score": 5.5,
+  "explanation": "Nick is a known variant of Nicholas and the surname matches, and the prior employer (Northwindpoint) matches, giving a score of 5.5. No location or title evidence was available to corroborate further, so the score falls between the 3.5 review threshold and the 6.0 confirm threshold and the event is sent for human review.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 2.5,
+    "detail": "first name is a known variant (Nick / Nicholas), surname matches"
+   },
+   {
+    "signal": "employer",
+    "points": 3.0,
+    "detail": "prior employer 'northwindpoint' is Northwindpoint"
+   }
+  ],
+  "payload": {
+   "full_name": "Nick Zimmerman",
+   "prior_employer": "northwindpoint",
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "Latticelabs",
+   "new_title": "Group Product Manager",
+   "location": null
+  },
+  "id": "Q013"
+ },
+ {
+  "event_id": "E040",
+  "contact_id": "K00128",
+  "prospect_id": "P0178",
+  "company": "Brindledock",
+  "contact_name": "Samantha Underhill",
+  "new_title": "Group Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Samantha Underhill was the champion at Cobaltcast, an Enterprise account with high usage and a customer since 2025-12-08. Samantha signed up on 2026-03-22, created 50 boards, and was last active on 2026-07-31. Samantha used to be a Product Manager and now holds the title Group Product Manager at Brindledock.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Samantha",
+   "contact.full_name": "Samantha Underhill",
+   "contact.role_label": "champion",
+   "contact.old_title": "Product Manager",
+   "contact.signup_date": "2026-03-22",
+   "contact.last_active_date": "2026-07-31",
+   "contact.boards_created": "50",
+   "account.name": "Cobaltcast",
+   "account.plan": "Enterprise",
+   "account.usage_level": "high",
+   "account.customer_since": "2025-12-08",
+   "new_company.name": "Brindledock",
+   "new_title": "Group Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Brindledock, Samantha",
+  "body": "Hi Samantha,\n\nCongratulations on the new role as Group Product Manager at Brindledock! It was great having you as a champion at Cobaltcast, and we are glad to have worked with you there.\n\nIf it would be useful, we would be happy to chat about how Cairnboard might fit at Brindledock. And if not, no worries. Wishing you every success.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Samantha",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Brindledock",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Cobaltcast",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q014"
+ },
+ {
+  "event_id": "E043",
+  "contact_id": "K00010",
+  "prospect_id": "P0099",
+  "company": "Wrenworks",
+  "contact_name": "Ravi Tran",
+  "new_title": "Group Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Ravi Tran was the executive sponsor at Emberbridge, a Business plan account with medium usage and a customer since 2024-07-22. Ravi signed up on 2024-10-11, created 48 boards, and was last active on 2026-07-20. Previously VP Product, Ravi is now a Group Product Manager at Wrenworks.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Ravi",
+   "contact.full_name": "Ravi Tran",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "VP Product",
+   "contact.signup_date": "2024-10-11",
+   "contact.last_active_date": "2026-07-20",
+   "contact.boards_created": "48",
+   "account.name": "Emberbridge",
+   "account.plan": "Business",
+   "account.usage_level": "medium",
+   "account.customer_since": "2024-07-22",
+   "new_company.name": "Wrenworks",
+   "new_title": "Group Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Ravi, best of luck at Wrenworks",
+  "body": "Hi Ravi,\n\nCongratulations on joining Wrenworks as Group Product Manager! We appreciated your sponsorship at Emberbridge, where you served as VP Product and supported Cairnboard along the way.\n\nIf you would like to catch up or explore whether Cairnboard could help your new team, we would welcome the conversation. In any case, we wish you a great start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Ravi",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Wrenworks",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Emberbridge",
+    "field": "account.name"
+   },
+   {
+    "text": "VP Product",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q015"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E044",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00740",
+  "score": 4.0,
+  "explanation": "The full name matches exactly (3.0) and the city Dublin matches (1.0), but no prior employer was given, so there is no employer evidence (0.0). The 4.0 total is between the review threshold of 3.5 and the confirm threshold of 6.0, so a person should review it rather than it being confirmed automatically.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Dublin matches"
+   }
+  ],
+  "payload": {
+   "full_name": "Rohan Dunmore",
+   "prior_employer": null,
+   "prior_title": null,
+   "prior_email_domain": null,
+   "new_employer": "Fablegrid",
+   "new_title": "Senior Product Manager",
+   "location": "Dublin"
+  },
+  "id": "Q016"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E045",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K01376",
+  "score": 5.0,
+  "explanation": "The exact name (3.0), matching city Portland (1.0) and similar title 'Product Operations Lead' (1.0) support the match, but no prior employer was given (0.0). The 5.0 total falls between 3.5 and 6.0, so it is sent for review instead of being confirmed.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Portland matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Product Operations Lead' is similar to 'Product Operations Lead'"
+   }
+  ],
+  "payload": {
+   "full_name": "Anika Marchetti",
+   "prior_employer": null,
+   "prior_title": "Product Operations Lead",
+   "prior_email_domain": null,
+   "new_employer": "Brindleline",
+   "new_title": "Product Operations Lead",
+   "location": "Portland"
+  },
+  "id": "Q017"
+ },
+ {
+  "event_id": "E047",
+  "contact_id": "K00826",
+  "prospect_id": "P0073",
+  "company": "Tesselpoint",
+  "contact_name": "Alexander Rutherford",
+  "new_title": "Customer Insights Analyst",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Alexander Rutherford was the champion on Wrenpath, a Business plan account with high usage that has been a customer since 2023-12-31. Alexander signed up on 2024-03-08, created 41 boards, and was last active on 2026-07-03. A former Product Manager, Alexander is now a Customer Insights Analyst at Tesselpoint.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Alexander",
+   "contact.full_name": "Alexander Rutherford",
+   "contact.role_label": "champion",
+   "contact.old_title": "Product Manager",
+   "contact.signup_date": "2024-03-08",
+   "contact.last_active_date": "2026-07-03",
+   "contact.boards_created": "41",
+   "account.name": "Wrenpath",
+   "account.plan": "Business",
+   "account.usage_level": "high",
+   "account.customer_since": "2023-12-31",
+   "new_company.name": "Tesselpoint",
+   "new_title": "Customer Insights Analyst"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congrats on the new chapter, Alexander",
+  "body": "Hi Alexander,\n\nCongratulations on starting as Customer Insights Analyst at Tesselpoint! Thank you for being a champion for Cairnboard at Wrenpath, it was a pleasure working with you.\n\nGiven the work you will be doing with customer insights, we would be glad to talk if Cairnboard could ever be useful. Otherwise, we just wanted to send our best wishes.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Alexander",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Customer Insights Analyst",
+    "field": "new_title"
+   },
+   {
+    "text": "Tesselpoint",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Wrenpath",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q018"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E048",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00930",
+  "score": 5.0,
+  "explanation": "The exact name (3.0), matching city Portland (1.0) and similar title 'Head of Product' (1.0) are positive signs, but no prior employer was given (0.0). The 5.0 total sits between the review threshold of 3.5 and the confirm threshold of 6.0, so it needs human review.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Portland matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Head of Product' is similar to 'Head of Product'"
+   }
+  ],
+  "payload": {
+   "full_name": "Lucas Laurent",
+   "prior_employer": null,
+   "prior_title": "Head of Product",
+   "prior_email_domain": null,
+   "new_employer": "Jasperwave",
+   "new_title": "Head of Product",
+   "location": "Portland"
+  },
+  "id": "Q019"
+ },
+ {
+  "event_id": "E049",
+  "contact_id": "K00580",
+  "prospect_id": "P0222",
+  "company": "Zephyrpath",
+  "contact_name": "Mateo Gallagher",
+  "new_title": "Product Designer",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Mateo Gallagher was executive sponsor at Mosaicscope, a Business plan account with low usage and a customer since 2023-06-26. Mateo signed up on 2023-07-31, created 30 boards, and was last active on 2026-07-18. The old title was Chief Product Officer, and the new role is Product Designer at Zephyrpath.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Mateo",
+   "contact.full_name": "Mateo Gallagher",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Chief Product Officer",
+   "contact.signup_date": "2023-07-31",
+   "contact.last_active_date": "2026-07-18",
+   "contact.boards_created": "30",
+   "account.name": "Mosaicscope",
+   "account.plan": "Business",
+   "account.usage_level": "low",
+   "account.customer_since": "2023-06-26",
+   "new_company.name": "Zephyrpath",
+   "new_title": "Product Designer"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Mateo, congratulations on Zephyrpath",
+  "body": "Hi Mateo,\n\nCongratulations on your new position as Product Designer at Zephyrpath! We have fond memories of your time as Chief Product Officer at Mosaicscope and your support as executive sponsor of Cairnboard there.\n\nIf you would ever like to reconnect and talk about feedback tooling, we would be happy to. No pressure. We simply wanted to wish you well.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Mateo",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Product Designer",
+    "field": "new_title"
+   },
+   {
+    "text": "Zephyrpath",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "contact.old_title"
+   },
+   {
+    "text": "Mosaicscope",
+    "field": "account.name"
+   },
+   {
+    "text": "executive sponsor",
+    "field": "contact.role_label"
+   }
+  ],
+  "id": "Q020"
+ },
+ {
+  "event_id": "E050",
+  "contact_id": "K00591",
+  "prospect_id": "P0097",
+  "company": "Wrendock",
+  "contact_name": "Benjamin Ortega",
+  "new_title": "UX Researcher",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Benjamin Ortega championed Cairnboard at Isleyard, a Team plan account with high usage and a customer since 2023-02-11. Benjamin signed up on 2023-03-03, created 56 boards, and was last active on 2026-07-02. Formerly Group Product Manager, Benjamin now works as a UX Researcher at Wrendock.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Benjamin",
+   "contact.full_name": "Benjamin Ortega",
+   "contact.role_label": "champion",
+   "contact.old_title": "Group Product Manager",
+   "contact.signup_date": "2023-03-03",
+   "contact.last_active_date": "2026-07-02",
+   "contact.boards_created": "56",
+   "account.name": "Isleyard",
+   "account.plan": "Team",
+   "account.usage_level": "high",
+   "account.customer_since": "2023-02-11",
+   "new_company.name": "Wrendock",
+   "new_title": "UX Researcher"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Wrendock, Benjamin",
+  "body": "Hi Benjamin,\n\nWe were delighted to hear you have joined Wrendock as UX Researcher. Congratulations! You were a wonderful champion for Cairnboard at Isleyard, and we appreciated it.\n\nIf you find yourself looking at ways to gather and organize user feedback in the new role, we would be glad to chat. Until then, best wishes for a great start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Benjamin",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Wrendock",
+    "field": "new_company.name"
+   },
+   {
+    "text": "UX Researcher",
+    "field": "new_title"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Isleyard",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q021"
+ },
+ {
+  "event_id": "E051",
+  "contact_id": "K01231",
+  "prospect_id": "P0148",
+  "company": "Deltapath",
+  "contact_name": "Marcus Okafor",
+  "new_title": "Product Designer",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Marcus Okafor was the champion at Nimbusbase, a Business plan account with medium usage that became a customer on 2024-03-19. Marcus signed up on 2024-04-11, created 6 boards, and was last active on 2026-07-06. Marcus has gone from Group Product Manager to Product Designer at Deltapath.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Marcus",
+   "contact.full_name": "Marcus Okafor",
+   "contact.role_label": "champion",
+   "contact.old_title": "Group Product Manager",
+   "contact.signup_date": "2024-04-11",
+   "contact.last_active_date": "2026-07-06",
+   "contact.boards_created": "6",
+   "account.name": "Nimbusbase",
+   "account.plan": "Business",
+   "account.usage_level": "medium",
+   "account.customer_since": "2024-03-19",
+   "new_company.name": "Deltapath",
+   "new_title": "Product Designer"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Marcus, congrats on Deltapath",
+  "body": "Hi Marcus,\n\nCongratulations on your move to Deltapath as Product Designer! Thank you for championing Cairnboard at Nimbusbase while you were Group Product Manager there.\n\nIf you are curious how Cairnboard might help at Deltapath, we would be happy to talk whenever it suits you. Otherwise, we are simply wishing you the very best in the new role.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Marcus",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Deltapath",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Product Designer",
+    "field": "new_title"
+   },
+   {
+    "text": "Nimbusbase",
+    "field": "account.name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q022"
+ },
+ {
+  "event_id": "E054",
+  "contact_id": "K01261",
+  "prospect_id": "P0096",
+  "company": "Cobaltdock",
+  "contact_name": "Felix Vasquez",
+  "new_title": "Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Felix Vasquez was a champion at Tesselloop, a Team plan account with low usage and a customer since 2025-05-27. Felix signed up on 2025-07-17, created 49 boards, and was last active on 2026-07-31. Felix's previous title was Product Operations Lead, and the new one is Product Manager at Cobaltdock.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Felix",
+   "contact.full_name": "Felix Vasquez",
+   "contact.role_label": "champion",
+   "contact.old_title": "Product Operations Lead",
+   "contact.signup_date": "2025-07-17",
+   "contact.last_active_date": "2026-07-31",
+   "contact.boards_created": "49",
+   "account.name": "Tesselloop",
+   "account.plan": "Team",
+   "account.usage_level": "low",
+   "account.customer_since": "2025-05-27",
+   "new_company.name": "Cobaltdock",
+   "new_title": "Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Felix, congratulations on Cobaltdock",
+  "body": "Hi Felix,\n\nCongratulations on joining Cobaltdock as Product Manager! We enjoyed working with you at Tesselloop, where you were a champion for Cairnboard as Product Operations Lead.\n\nIf it would be helpful, we would love to catch up and talk about how product teams at Cobaltdock might handle feedback and roadmaps. And if not, we are just cheering you on.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Felix",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Cobaltdock",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Tesselloop",
+    "field": "account.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Product Operations Lead",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q023"
+ },
+ {
+  "event_id": "E056",
+  "contact_id": "K00780",
+  "prospect_id": "P0205",
+  "company": "Tamarackyard",
+  "contact_name": "Oliver Escobar",
+  "new_title": "UX Researcher",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Oliver Escobar served as executive sponsor at Aldercast, a Team plan account with medium usage that has been a customer since 2023-07-14. Oliver signed up on 2023-07-28, created 12 boards, and was last active on 2026-07-05. Once Head of Product, Oliver is now a UX Researcher at Tamarackyard.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Oliver",
+   "contact.full_name": "Oliver Escobar",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Head of Product",
+   "contact.signup_date": "2023-07-28",
+   "contact.last_active_date": "2026-07-05",
+   "contact.boards_created": "12",
+   "account.name": "Aldercast",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2023-07-14",
+   "new_company.name": "Tamarackyard",
+   "new_title": "UX Researcher"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congrats on Tamarackyard, Oliver",
+  "body": "Hi Oliver,\n\nCongratulations on your new role as UX Researcher at Tamarackyard! We greatly valued your sponsorship of Cairnboard at Aldercast, where you led as Head of Product.\n\nWhenever you have time, we would be glad to reconnect and hear about your new work. If Cairnboard could be of use, we are happy to share more. Best wishes for a smooth start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Oliver",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "UX Researcher",
+    "field": "new_title"
+   },
+   {
+    "text": "Tamarackyard",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Aldercast",
+    "field": "account.name"
+   },
+   {
+    "text": "Head of Product",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q024"
+ },
+ {
+  "event_id": "E057",
+  "contact_id": "K00216",
+  "prospect_id": "P0313",
+  "company": "Orchardport",
+  "contact_name": "Jonathan Fairbanks",
+  "new_title": "Senior Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Jonathan Fairbanks was the champion at Cobaltyard, an Enterprise account with medium usage and a customer since 2023-03-15. Jonathan signed up on 2023-06-06, created 35 boards, and was last active on 2026-07-30. The move recorded is from Principal Product Manager to Senior Product Manager at Orchardport.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Jonathan",
+   "contact.full_name": "Jonathan Fairbanks",
+   "contact.role_label": "champion",
+   "contact.old_title": "Principal Product Manager",
+   "contact.signup_date": "2023-06-06",
+   "contact.last_active_date": "2026-07-30",
+   "contact.boards_created": "35",
+   "account.name": "Cobaltyard",
+   "account.plan": "Enterprise",
+   "account.usage_level": "medium",
+   "account.customer_since": "2023-03-15",
+   "new_company.name": "Orchardport",
+   "new_title": "Senior Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Orchardport, Jonathan",
+  "body": "Hi Jonathan,\n\nCongratulations on starting as Senior Product Manager at Orchardport! Thank you for being a champion of Cairnboard at Cobaltyard. It meant a lot to our team.\n\nIf you would like to talk about how Cairnboard might support your work at Orchardport, we would be glad to set up a conversation. If now is not the time, we are simply wishing you success.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Jonathan",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Senior Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Orchardport",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Cobaltyard",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q025"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E059",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00446",
+  "score": 5.0,
+  "explanation": "The exact name (3.0), matching city Portland (1.0) and similar title 'Group Product Manager' (1.0) are positive, but no prior employer was given (0.0). The 5.0 total is between the 3.5 review and 6.0 confirm thresholds, so it goes to review.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 3.0,
+    "detail": "full name matches exactly"
+   },
+   {
+    "signal": "employer",
+    "points": 0.0,
+    "detail": "no prior employer given"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Portland matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Group Product Manager' is similar to 'Group Product Manager'"
+   }
+  ],
+  "payload": {
+   "full_name": "Greta Sinclair",
+   "prior_employer": null,
+   "prior_title": "Group Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Brindlebridge",
+   "new_title": "Product Designer",
+   "location": "Portland"
+  },
+  "id": "Q026"
+ },
+ {
+  "event_id": "E060",
+  "contact_id": "K00825",
+  "prospect_id": "P0045",
+  "company": "Glintcast",
+  "contact_name": "Marisol Tanaka",
+  "new_title": "Customer Insights Analyst",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Marisol Tanaka was executive sponsor on Opalscope, a Team plan account with medium usage and a customer since 2022-12-28. Marisol signed up on 2023-02-28, created 20 boards, and was last active on 2026-07-02. Formerly Head of Product, Marisol is now a Customer Insights Analyst at Glintcast.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Marisol",
+   "contact.full_name": "Marisol Tanaka",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Head of Product",
+   "contact.signup_date": "2023-02-28",
+   "contact.last_active_date": "2026-07-02",
+   "contact.boards_created": "20",
+   "account.name": "Opalscope",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2022-12-28",
+   "new_company.name": "Glintcast",
+   "new_title": "Customer Insights Analyst"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Marisol, best wishes at Glintcast",
+  "body": "Hi Marisol,\n\nWe heard you have joined Glintcast as Customer Insights Analyst, and we wanted to say congratulations! You were a terrific executive sponsor for Cairnboard at Opalscope, and we remember it fondly.\n\nShould customer feedback tooling come up for you again, we would be happy to chat. No expectations at all. We are just glad to see you take this next step.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Marisol",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Glintcast",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Customer Insights Analyst",
+    "field": "new_title"
+   },
+   {
+    "text": "executive sponsor",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Opalscope",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q027"
+ },
+ {
+  "event_id": "E061",
+  "contact_id": "K00975",
+  "prospect_id": "P0220",
+  "company": "Willowforge",
+  "contact_name": "Imani Moreau",
+  "new_title": "Group Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Imani Moreau was the executive sponsor at Fathomlabs, a Team plan account with medium usage and a customer since 2023-06-16. Imani signed up on 2023-08-19, created 23 boards, and was last active on 2026-07-17. The old title was Chief Product Officer, and the new role is Group Product Manager at Willowforge.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Imani",
+   "contact.full_name": "Imani Moreau",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Chief Product Officer",
+   "contact.signup_date": "2023-08-19",
+   "contact.last_active_date": "2026-07-17",
+   "contact.boards_created": "23",
+   "account.name": "Fathomlabs",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2023-06-16",
+   "new_company.name": "Willowforge",
+   "new_title": "Group Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Willowforge, Imani",
+  "body": "Hi Imani,\n\nCongratulations on your new role as Group Product Manager at Willowforge! We are grateful for the support you gave Cairnboard at Fathomlabs as Chief Product Officer.\n\nIf you would like to catch up, or hear about how Cairnboard might fit your new team, we would be delighted to talk. Otherwise, we are simply sending our warmest wishes for the road ahead.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Imani",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Willowforge",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Fathomlabs",
+    "field": "account.name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q028"
+ },
+ {
+  "event_id": "E065",
+  "contact_id": "K00905",
+  "prospect_id": "P0251",
+  "company": "Kestrelhub",
+  "contact_name": "Leila Prescott",
+  "new_title": "Group Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Leila Prescott was executive sponsor at Tamarackport, a Team plan account with medium usage that became a customer on 2025-09-06. Leila signed up on 2025-09-18, created 31 boards, and was last active on 2026-07-18. Leila previously held the Chief Product Officer title and is now a Group Product Manager at Kestrelhub.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Leila",
+   "contact.full_name": "Leila Prescott",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Chief Product Officer",
+   "contact.signup_date": "2025-09-18",
+   "contact.last_active_date": "2026-07-18",
+   "contact.boards_created": "31",
+   "account.name": "Tamarackport",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2025-09-06",
+   "new_company.name": "Kestrelhub",
+   "new_title": "Group Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Leila, congrats on Kestrelhub",
+  "body": "Hi Leila,\n\nCongratulations on joining Kestrelhub as Group Product Manager! Your sponsorship of Cairnboard at Tamarackport, while you were Chief Product Officer, was something we truly appreciated.\n\nIf you would find it useful to talk about product feedback and roadmapping at Kestrelhub, we would be happy to make time. Either way, we hope the new role is a great one.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Leila",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Kestrelhub",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Group Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Tamarackport",
+    "field": "account.name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q029"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E067",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K00470",
+  "score": 5.5,
+  "explanation": "Only the first name matches while the surname differs (Montgomery vs Rutherford), worth 0.5 and flagged as needing corroboration. Employer Fathompoint (3.0), city London (1.0) and similar title (1.0) help, but the 5.5 total is below the 6.0 confirm threshold and above the 3.5 review threshold, so a person should review it.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 0.5,
+    "detail": "first name matches but surname differs (Montgomery / Rutherford); needs corroboration"
+   },
+   {
+    "signal": "employer",
+    "points": 3.0,
+    "detail": "prior employer 'Fathompoint' is Fathompoint"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location London matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Head of Product' is similar to 'Head of Product'"
+   }
+  ],
+  "payload": {
+   "full_name": "Tamsin Montgomery",
+   "prior_employer": "Fathompoint",
+   "prior_title": "Head of Product",
+   "prior_email_domain": null,
+   "new_employer": "Corvidflow",
+   "new_title": "Product Operations Lead",
+   "location": "London"
+  },
+  "id": "Q030"
+ },
+ {
+  "event_id": "E068",
+  "contact_id": "K01386",
+  "prospect_id": "P0191",
+  "company": "Northwindstack",
+  "contact_name": "Alexander Moreau",
+  "new_title": "Chief Product Officer",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Alexander Moreau was the champion at Ironwoodpoint, a Business plan account with medium usage and a customer since 2025-08-14. Alexander signed up on 2025-11-16, created 23 boards, and was last active on 2026-07-29. A former Senior Product Manager, Alexander is now Chief Product Officer at Northwindstack.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Alexander",
+   "contact.full_name": "Alexander Moreau",
+   "contact.role_label": "champion",
+   "contact.old_title": "Senior Product Manager",
+   "contact.signup_date": "2025-11-16",
+   "contact.last_active_date": "2026-07-29",
+   "contact.boards_created": "23",
+   "account.name": "Ironwoodpoint",
+   "account.plan": "Business",
+   "account.usage_level": "medium",
+   "account.customer_since": "2025-08-14",
+   "new_company.name": "Northwindstack",
+   "new_title": "Chief Product Officer"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congratulations on Northwindstack, Alexander",
+  "body": "Hi Alexander,\n\nCongratulations on becoming Chief Product Officer at Northwindstack! What a milestone. You were a great champion for Cairnboard at Ironwoodpoint, and we are thankful for it.\n\nIf you would like to catch up or discuss how Cairnboard could help your new team, we would love to hear from you. Best of luck settling in.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Alexander",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "new_title"
+   },
+   {
+    "text": "Northwindstack",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Ironwoodpoint",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q031"
+ },
+ {
+  "type": "revops_review",
+  "event_id": "E069",
+  "status": "pending",
+  "assigned_to": "revops",
+  "reason": "'The Basaltstack' is not in the customer, prospect or competitor lists",
+  "contact_id": "K01473",
+  "id": "Q032"
+ },
+ {
+  "event_id": "E072",
+  "contact_id": "K00260",
+  "prospect_id": "P0177",
+  "company": "Fathomline",
+  "contact_name": "Imani Rutherford",
+  "new_title": "Chief Product Officer",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Imani Rutherford was the executive sponsor at Knollwave, a Team plan account with medium usage and a customer since 2022-04-12. Imani signed up on 2022-06-19, created 34 boards, and was last active on 2026-07-24. The title Chief Product Officer carries over to the new company, Fathomline.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Imani",
+   "contact.full_name": "Imani Rutherford",
+   "contact.role_label": "executive sponsor",
+   "contact.old_title": "Chief Product Officer",
+   "contact.signup_date": "2022-06-19",
+   "contact.last_active_date": "2026-07-24",
+   "contact.boards_created": "34",
+   "account.name": "Knollwave",
+   "account.plan": "Team",
+   "account.usage_level": "medium",
+   "account.customer_since": "2022-04-12",
+   "new_company.name": "Fathomline",
+   "new_title": "Chief Product Officer"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Imani, congratulations on Fathomline",
+  "body": "Hi Imani,\n\nCongratulations on your new role as Chief Product Officer at Fathomline! We appreciated your sponsorship of Cairnboard at Knollwave and enjoyed working with you.\n\nIf Cairnboard could be useful at Fathomline, we would be glad to talk whenever works for you. And if the timing is not right, no problem at all. We are just cheering you on.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Imani",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Chief Product Officer",
+    "field": "new_title"
+   },
+   {
+    "text": "Fathomline",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Knollwave",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q033"
+ },
+ {
+  "type": "identity_review",
+  "event_id": "E075",
+  "status": "pending",
+  "assigned_to": "revops",
+  "contact_id": "K01138",
+  "score": 5.5,
+  "explanation": "Only the first name matches while the surname differs (Kapoor vs Rutherford), worth 0.5 and flagged as needing corroboration. Employer Lumenport (3.0), city Singapore (1.0) and similar title (1.0) help, but the 5.5 total is between the 3.5 review and 6.0 confirm thresholds, so it goes to a person for review.",
+  "evidence": [
+   {
+    "signal": "name",
+    "points": 0.5,
+    "detail": "first name matches but surname differs (Kapoor / Rutherford); needs corroboration"
+   },
+   {
+    "signal": "employer",
+    "points": 3.0,
+    "detail": "prior employer 'The Lumenport' is Lumenport"
+   },
+   {
+    "signal": "city",
+    "points": 1.0,
+    "detail": "location Singapore matches"
+   },
+   {
+    "signal": "title",
+    "points": 1.0,
+    "detail": "prior title 'Principal Product Manager' is similar to 'Principal Product Manager'"
+   }
+  ],
+  "payload": {
+   "full_name": "Yusuf Kapoor",
+   "prior_employer": "The Lumenport",
+   "prior_title": "Principal Product Manager",
+   "prior_email_domain": null,
+   "new_employer": "Willow labs",
+   "new_title": "Product Designer",
+   "location": "Singapore"
+  },
+  "id": "Q034"
+ },
+ {
+  "event_id": "E077",
+  "contact_id": "K00963",
+  "prospect_id": "P0084",
+  "company": "Alderdock",
+  "contact_name": "Viktor Thorne",
+  "new_title": "Product Operations Lead",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Viktor Thorne championed Cairnboard at Knollworks, a Business plan account with medium usage and a customer since 2025-04-26. Viktor signed up on 2025-05-24, created 15 boards, and was last active on 2026-07-15. Viktor has moved from Senior Product Manager to Product Operations Lead at Alderdock.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Viktor",
+   "contact.full_name": "Viktor Thorne",
+   "contact.role_label": "champion",
+   "contact.old_title": "Senior Product Manager",
+   "contact.signup_date": "2025-05-24",
+   "contact.last_active_date": "2026-07-15",
+   "contact.boards_created": "15",
+   "account.name": "Knollworks",
+   "account.plan": "Business",
+   "account.usage_level": "medium",
+   "account.customer_since": "2025-04-26",
+   "new_company.name": "Alderdock",
+   "new_title": "Product Operations Lead"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Congrats on Alderdock, Viktor",
+  "body": "Hi Viktor,\n\nCongratulations on joining Alderdock as Product Operations Lead! Thank you for being a champion for Cairnboard at Knollworks as Senior Product Manager. It was a pleasure.\n\nIf you would like to swap ideas about how product teams handle feedback and roadmaps, we would be happy to chat. Otherwise, we simply wish you a wonderful start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Viktor",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Alderdock",
+    "field": "new_company.name"
+   },
+   {
+    "text": "Product Operations Lead",
+    "field": "new_title"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Knollworks",
+    "field": "account.name"
+   },
+   {
+    "text": "Senior Product Manager",
+    "field": "contact.old_title"
+   }
+  ],
+  "id": "Q035"
+ },
+ {
+  "type": "revops_review",
+  "event_id": "E078",
+  "status": "pending",
+  "assigned_to": "revops",
+  "reason": "'mosaiclabs' is not in the customer, prospect or competitor lists",
+  "contact_id": "K01128",
+  "id": "Q036"
+ },
+ {
+  "event_id": "E080",
+  "contact_id": "K01116",
+  "prospect_id": "P0062",
+  "company": "Holliscast",
+  "contact_name": "Santiago Gallagher",
+  "new_title": "Principal Product Manager",
+  "to": "e-mail to be found by the rep",
+  "history_summary": "Santiago Gallagher was the champion at Deltacast, a Team plan account with low usage and a customer since 2023-05-13. Santiago signed up on 2023-07-21, created 10 boards, and was last active on 2026-07-28. Formerly a Group Product Manager, Santiago is now a Principal Product Manager at Holliscast.",
+  "rule": "R1",
+  "assigned_to": "sales-assist",
+  "provenance": {
+   "backend": "recorded",
+   "model": "claude-sonnet-5-5 (Claude Code subagent)"
+  },
+  "first_pass_ok": true,
+  "verification": {
+   "ok": true,
+   "problems": []
+  },
+  "facts_used": {
+   "contact.first_name": "Santiago",
+   "contact.full_name": "Santiago Gallagher",
+   "contact.role_label": "champion",
+   "contact.old_title": "Group Product Manager",
+   "contact.signup_date": "2023-07-21",
+   "contact.last_active_date": "2026-07-28",
+   "contact.boards_created": "10",
+   "account.name": "Deltacast",
+   "account.plan": "Team",
+   "account.usage_level": "low",
+   "account.customer_since": "2023-05-13",
+   "new_company.name": "Holliscast",
+   "new_title": "Principal Product Manager"
+  },
+  "type": "outreach_draft",
+  "status": "pending",
+  "subject": "Santiago, congratulations on Holliscast",
+  "body": "Hi Santiago,\n\nCongratulations on starting as Principal Product Manager at Holliscast! We remember your time as a champion for Cairnboard at Deltacast and are grateful for it.\n\nIf you would like to reconnect and talk about whether Cairnboard might help your new team, we would be glad to. No pressure, just good wishes for an excellent start.\n\nThe Cairnboard sales-assist team",
+  "claims": [
+   {
+    "text": "Santiago",
+    "field": "contact.first_name"
+   },
+   {
+    "text": "Principal Product Manager",
+    "field": "new_title"
+   },
+   {
+    "text": "Holliscast",
+    "field": "new_company.name"
+   },
+   {
+    "text": "champion",
+    "field": "contact.role_label"
+   },
+   {
+    "text": "Deltacast",
+    "field": "account.name"
+   }
+  ],
+  "id": "Q037"
+ }
+]

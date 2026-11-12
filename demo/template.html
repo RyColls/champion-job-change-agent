@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cairnboard Champions: job-change agent demo</title>
+<meta name="description" content="Demo of an event-driven agent that tracks champion job changes. Fictional sample client, simulated events, nothing is sent.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="notice"><b>Fictional sample client.</b> Cairnboard, its customers and every person here are invented. The job-change events are simulated. Nothing is sent: approvals go to a mock outbox.</div>
+<div class="shell">
+  <aside class="rail">
+    <div class="brand">
+      <svg viewBox="0 0 26 30" aria-hidden="true"><rect x="3" y="21" width="20" height="7" rx="3.5" fill="var(--tarn)"/><rect x="6" y="12.5" width="15" height="7" rx="3.5" fill="var(--lichen)" transform="rotate(-3 13 16)"/><rect x="9" y="4" width="9" height="7" rx="3.5" fill="var(--gorse)" transform="rotate(4 13 7)"/></svg>
+      <div><strong>Cairnboard</strong><span>Champions</span></div>
+    </div>
+    <nav class="nav" aria-label="Views">
+      <button data-view="replay">90-day replay <span class="count" id="c-replay"></span></button>
+      <button data-view="inbox">Approval inbox <span class="count" id="c-inbox"></span></button>
+      <button data-view="account">Account view <span class="count" id="c-account"></span></button>
+    </nav>
+    <p class="railnote"><a href="case-study.html">Case study</a><br><a href="https://github.com/RyColls/champion-job-change-agent">Source code</a></p>
+  </aside>
+  <main class="main" id="main" tabindex="-1"></main>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("data").textContent);
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const fmtDate = (iso, long) => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", long
+  ? { weekday: "short", day: "numeric", month: "short", year: "numeric", timeZone: "UTC" } : { day: "numeric", month: "short", timeZone: "UTC" });
+const fmtDay = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+const money = n => "$" + Number(n).toLocaleString("en-US");
+
+const LABEL = {
+  "departure:fit_prospect": "Left, joined a company that fits",
+  "departure:customer": "Left, joined an existing customer",
+  "departure:competitor": "Left, joined a competitor",
+  "departure:nofit_prospect": "Left, joined a company that does not fit",
+  "departure:unknown_company": "Left, joined a company not in any list",
+  "departure:no_new_employer": "Left, no new employer known",
+  same_company_title_change: "New title at the same company",
+  identity_review: "Held for a person to confirm who this is",
+  no_match: "Not matched to anyone in the records",
+  duplicate: "Duplicate of an earlier event",
+  unwatched_move: "Contact is not on the watch list",
+  normalize_failed: "Announcement could not be read",
+};
+const STEP = { normalize: "Read the event", identity: "Match the person", classify: "Where they went", dedupe: "Duplicate check",
+  watchlist: "Watch list", rules: "Rules", disposition: "Result" };
+const cat = l => l === "departure:competitor" ? "competitor" : l.startsWith("departure:") ? "departure"
+  : l === "same_company_title_change" ? "title" : (l === "identity_review" || l === "normalize_failed") ? "review" : "quiet";
+const CAT = { departure: ["var(--tarn)", "Left a customer"], competitor: ["var(--rowan)", "Joined a competitor"],
+  title: ["var(--lichen)", "New title, same company"], review: ["var(--gorse)", "Held for a person"], quiet: ["var(--mist)", "No action"] };
+
+const events = Object.fromEntries(D.events.map(e => [e.event_id, e]));
+const dec = D.decisions;
+const queueById = Object.fromEntries(D.queue.map(q => [q.id, q]));
+const flagById = Object.fromEntries(D.flags.map(f => [f.id, f]));
+const taskByFlag = Object.fromEntries(D.tasks.map(t => [t.flag_id, t]));
+const dateOf = id => events[id].received_at;
+
+const S = { view: "replay", idx: 0, playing: false, timer: null, tab: "drafts", sel: null, acct: null, acts: {}, outbox: [], editing: false, justAdded: -1 };
+
+/* ------------------------------------------------------------------ shell */
+function nav() {
+  document.querySelectorAll(".nav button").forEach(b => b.toggleAttribute("aria-current", b.dataset.view === S.view) ||
+    b.removeAttribute("aria-current"));
+  document.querySelectorAll(".nav button").forEach(b => { if (b.dataset.view === S.view) b.setAttribute("aria-current", "page"); });
+  const open = D.queue.filter(q => q.type === "outreach_draft" && !S.acts[q.id]).length;
+  $("#c-replay").textContent = `${S.idx}/${dec.length}`;
+  $("#c-inbox").textContent = open;
+  $("#c-account").textContent = D.flags.length;
+}
+function go(view) { stop(); S.view = view; S.editing = false; render(); $("#main").focus({ preventScroll: true }); }
+document.querySelectorAll(".nav button").forEach(b => b.addEventListener("click", () => go(b.dataset.view)));
+function render() { nav(); ({ replay, inbox, account })[S.view](); }
+
+/* ------------------------------------------------------------------ replay */
+const WEEKS = 13, START = Date.UTC(2026, 7, 1);
+const weekOf = iso => Math.min(WEEKS - 1, Math.floor((Date.parse(iso + "T00:00:00Z") - START) / 864e5 / 7));
+const stones = (() => { const count = {}; return dec.map((d, i) => { const w = weekOf(d.received_at); const k = count[w] = (count[w] ?? -1) + 1;
+  const j = ((i * 37) % 11) - 5; return { w, k, j, i }; }); })();
+
+function trail() {
+  const base = 226, cx = w => 52 + w * 66;
+  let s = `<svg viewBox="0 0 900 262" role="img" aria-label="A trail of weekly cairns. Each stone is one event, colored by what the agent decided.">`;
+  s += `<line x1="8" y1="${base}" x2="892" y2="${base}" stroke="var(--line)" stroke-width="2"/>`;
+  for (let w = 0; w < WEEKS; w++) if (w % 2 === 0) s += `<text x="${cx(w)}" y="248" text-anchor="middle" font-size="12" fill="var(--slate)">${fmtDate(new Date(START + w * 7 * 864e5).toISOString().slice(0, 10))}</text>`;
+  stones.forEach(st => {
+    if (st.i >= S.idx) return;
+    const d = dec[st.i], width = Math.max(26, 56 - st.k * 3 + st.j), x = cx(st.w) - width / 2 + st.j * 0.6, y = base - 16 * (st.k + 1) - 1;
+    const cur = st.i === S.idx - 1;
+    s += `<g class="stone${st.i === S.justAdded ? " settle" : ""}"><title>${esc(d.event_id)}: ${esc(LABEL[d.label])}</title>` +
+      `<rect x="${x.toFixed(1)}" y="${y}" width="${width}" height="15" rx="7.5" fill="${CAT[cat(d.label)][0]}" transform="rotate(${st.j * 0.5} ${cx(st.w)} ${y + 7})"` +
+      (cur ? ` stroke="var(--basalt)" stroke-width="2.5"` : ` stroke="var(--fog)" stroke-width="1"`) + `/></g>`;
+  });
+  return s + `</svg>`;
+}
+function stepsHtml(d) {
+  return `<ol class="steps">` + d.steps.map(s => {
+    const skipped = s.outcome === "skipped", stopIt = ["failed", "no_match", "review", "duplicate", "not_watched"].includes(s.outcome);
+    const rule = D.rules[s.rule] || "";
+    return `<li class="${skipped ? "skipped" : stopIt ? "stop" : ""}"><span class="name">${STEP[s.step]}</span>` +
+      `<span class="rule" title="${esc(rule)}">${esc(s.rule)}</span><span class="detail">${esc(s.detail)}</span></li>`;
+  }).join("") + `</ol>`;
+}
+function rawHtml(e) {
+  const meta = `<p class="meta">${fmtDate(e.received_at, true)} · ${esc(e.source)} · ${e.format === "text" ? "free-text announcement" : "structured record"}</p>`;
+  if (e.text) return meta + `<p class="quote">${esc(e.text)}</p>`;
+  const f = e.structured, rows = [["Name", f.full_name], ["Previous employer", f.prior_employer], ["Previous title", f.prior_title],
+    ["Previous e-mail domain", f.prior_email_domain], ["New employer", f.new_employer], ["New title", f.new_title], ["Location", f.location]];
+  return meta + `<dl>` + rows.map(([k, v]) => `<dt>${k}</dt><dd>${v ? esc(v) : "<span style='color:var(--slate)'>not given</span>"}</dd>`).join("") + `</dl>`;
+}
+function playsHtml(d) {
+  const p = d.plays, out = [];
+  if (p.risk_flag) out.push(`<button class="linkbtn" data-open-acct="${flagById[p.risk_flag].account_id}">Open the account view: risk flag and task for the customer success manager</button>`);
+  if (p.queue_item && queueById[p.queue_item]) out.push(`<button class="linkbtn" data-open-q="${p.queue_item}">Open the draft in the approval inbox</button>`);
+  if (p.revops_review) out.push(`<button class="linkbtn" data-open-q="${p.revops_review}">Open the revenue operations review item</button>`);
+  const note = D.notifications.find(n => n.id === p.notification);
+  let extra = note ? `<p style="margin:8px 0 0">${esc(note.message)}</p>` : "";
+  if (p.suppression) extra += `<p style="margin:8px 0 0">Outreach is suppressed because the new employer is a competitor.</p>`;
+  const up = D.record_updates.find(u => u.id === p.record_update);
+  if (up) extra += `<p style="margin:8px 0 0">Record updated: title changed to ${esc(up.new)}.</p>`;
+  if (d.label === "identity_review" || d.label === "normalize_failed") out.push(`<button class="linkbtn" data-open-q="${D.queue.find(q => q.event_id === d.event_id && q.type === "identity_review")?.id}">Open the identity review</button>`);
+  return extra + (out.length ? `<div class="links">${out.join("")}</div>` : "");
+}
+function replay() {
+  const d = dec[S.idx - 1], atEnd = S.idx >= dec.length;
+  $("#main").innerHTML = `<header><h1>90-day replay</h1><p class="sub">Step through 80 simulated job-change events. Each stone is one event; the agent's decision and the rule behind it appear below.</p></header>
+  <div class="trail">${trail()}</div>
+  <ul class="legend">${Object.values(CAT).map(([c, t]) => `<li><i style="background:${c}"></i>${t}</li>`).join("")}</ul>
+  <div class="controls">
+    <button class="btn" id="prev" ${S.idx === 0 ? "disabled" : ""}>Previous</button>
+    <button class="btn primary" id="play">${S.playing ? "Pause" : atEnd ? "Replay" : "Play"}</button>
+    <button class="btn" id="next" ${atEnd ? "disabled" : ""}>Next event</button>
+    <input class="scrub" id="scrub" type="range" min="0" max="${dec.length}" value="${S.idx}" aria-label="Event position">
+    <span class="where" aria-live="polite">${S.idx === 0 ? "Before day 1" : `Event ${S.idx} of ${dec.length} · ${fmtDate(d.received_at)}`}</span>
+  </div>` + (S.idx === 0 ? `<p class="empty">Press Play or Next event to start the 90 days. Left and right arrow keys also step through.</p>` : `
+  <div class="two">
+    <section><h2>What arrived</h2><div class="raw">${rawHtml(events[d.event_id])}</div></section>
+    <section><h2>What the agent did</h2>${stepsHtml(d)}
+      <div class="result"><strong>${esc(LABEL[d.label])}</strong><span>Decided by rule <span class="rule" title="${esc(D.rules[d.rule] || "")}">${esc(d.rule)}</span> ${esc(D.rules[d.rule] || "")}</span>${playsHtml(d)}</div>
+    </section>
+  </div>`);
+  $("#prev").onclick = () => step(-1); $("#next").onclick = () => step(1); $("#play").onclick = togglePlay;
+  $("#scrub").oninput = e => { stop(); S.justAdded = -1; S.idx = +e.target.value; render(); $("#scrub").focus(); };
+  document.querySelectorAll("[data-open-acct]").forEach(b => b.onclick = () => { S.acct = b.dataset.openAcct; go("account"); });
+  document.querySelectorAll("[data-open-q]").forEach(b => b.onclick = () => openQueue(b.dataset.openQ));
+}
+function step(n) { S.idx = Math.max(0, Math.min(dec.length, S.idx + n)); S.justAdded = n > 0 ? S.idx - 1 : -1; render(); }
+function stop() { S.playing = false; clearInterval(S.timer); }
+function togglePlay() {
+  if (S.playing) { stop(); return render(); }
+  if (S.idx >= dec.length) S.idx = 0;
+  S.playing = true; S.timer = setInterval(() => { if (S.idx >= dec.length) { stop(); return render(); } step(1); }, 650); step(1);
+}
+document.addEventListener("keydown", e => {
+  if (S.view !== "replay" || /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) return;
+  if (e.key === "ArrowRight") { stop(); step(1); } else if (e.key === "ArrowLeft") { stop(); step(-1); }
+});
+
+/* ------------------------------------------------------------------ inbox */
+const isDraft = q => q.type === "outreach_draft" || q.type === "draft_blocked";
+function openQueue(id) { const q = queueById[id]; if (!q) return; S.tab = isDraft(q) ? "drafts" : "review"; S.sel = id; go("inbox"); }
+function statusOf(q) {
+  const a = S.acts[q.id];
+  if (a) return a.status === "rejected" ? ["Rejected", "no"] : ["Approved", "done"];
+  return q.type === "draft_blocked" ? ["Blocked", "no"] : isDraft(q) ? ["To review", "open"] : ["Open", "open"];
+}
+function inbox() {
+  const items = D.queue.filter(q => (S.tab === "drafts" ? isDraft(q) : !isDraft(q)));
+  if (!items.find(q => q.id === S.sel)) S.sel = items[0]?.id ?? null;
+  const rows = items.map(q => {
+    const [st, cls] = statusOf(q), name = q.contact_name || q.payload?.full_name || (q.contact_id && D.contacts[q.contact_id]?.full_name) || "Unreadable event";
+    const sub = isDraft(q) ? `${esc(q.company)} · ${fmtDate(dateOf(q.event_id))}` : q.type === "revops_review" ? `Company not in any list · ${fmtDate(dateOf(q.event_id))}` : `Identity score ${q.score ?? "n/a"} · ${fmtDate(dateOf(q.event_id))}`;
+    return `<button class="row" data-q="${q.id}" ${q.id === S.sel ? 'aria-current="true"' : ""}><b>${esc(name)}<span class="st ${cls}">${st}</span></b><span>${sub}</span></button>`;
+  }).join("") || `<p class="empty" style="padding:16px">Nothing here.</p>`;
+  const nDraft = D.queue.filter(isDraft).length, nRev = D.queue.length - nDraft;
+  $("#main").innerHTML = `<header><h1>Approval inbox</h1><p class="sub">Nothing goes to a prospect until a person approves it. Approving places the message in a mock outbox.</p></header>
+  <div class="split"><div class="list"><div class="tabs" role="tablist"><button role="tab" aria-selected="${S.tab === "drafts"}" data-tab="drafts">Drafts (${nDraft})</button><button role="tab" aria-selected="${S.tab === "review"}" data-tab="review">Needs a person (${nRev})</button></div>${rows}</div>
+  <div class="pane" id="pane">${pane(queueById[S.sel])}</div></div>
+  <div class="outbox"><h3>Mock outbox (${S.outbox.length})</h3>${S.outbox.length ? `<table class="t"><tr><th>Approved by</th><th>Subject</th></tr>${S.outbox.map(o => `<tr><td>${esc(o.by)}</td><td>${esc(o.subject)}</td></tr>`).join("")}</table>` : `<p class="sub">Empty. Approve a draft to see it land here.</p>`}</div>`;
+  document.querySelectorAll("[data-tab]").forEach(b => b.onclick = () => { S.tab = b.dataset.tab; S.sel = null; S.editing = false; render(); });
+  document.querySelectorAll("[data-q]").forEach(b => b.onclick = () => { S.sel = b.dataset.q; S.editing = false; render(); });
+  wirePane();
+}
+function pane(q) {
+  if (!q) return `<p class="empty">Select an item.</p>`;
+  const when = fmtDate(dateOf(q.event_id), true);
+  if (q.type === "outreach_draft" || q.type === "draft_blocked") {
+    const a = S.acts[q.id], body = a?.body ?? q.body, v = q.verification;
+    const prov = q.provenance?.model || (q.provenance?.backend === "template" ? "deterministic template (no model)" : q.provenance?.backend);
+    let h = `<h2>${esc(q.contact_name)} to ${esc(q.company)}</h2><p class="sub">${when} · rule ${esc(q.rule)} · for sales-assist</p>
+      <h3>History with Cairnboard</h3><p>${esc(q.history_summary)}</p>`;
+    if (q.type === "draft_blocked") return h + `<h3>Draft</h3><p class="bad">Blocked. The draft failed the fact check, so a person has to write this one.</p><ul class="check">${q.blocked_problems.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
+    h += `<h3>Draft</h3>` + (S.editing ? `<textarea class="letter" id="edit" aria-label="Edit the draft">${esc(body)}</textarea>` :
+      `<div class="letter"><span class="subject">${esc(q.subject)}</span>${esc(body)}</div>`);
+    h += `<h3>Checked against the record</h3><div class="check"><span class="${v.ok ? "ok" : "bad"}">${v.ok ? `Passed. ${q.claims.length} claims match the record, no unsupported numbers, names or outcomes.` : "Failed"}</span>
+      <ul>${q.claims.map(c => `<li>“${esc(c.text)}” matches <code>${esc(c.field)}</code></li>`).join("")}</ul>
+      <p style="margin-top:8px;color:var(--slate)">Written by ${esc(prov)}. The check is code, not a model.</p></div>`;
+    if (a) h += `<div class="done-note">${a.status === "rejected" ? `Rejected by ${esc(a.by)}. Nothing was sent.` : `${a.edited ? "Edited and approved" : "Approved"} by ${esc(a.by)}. Placed in the mock outbox; nothing leaves this page.`}</div>`;
+    else h += S.editing ? `<div class="actions"><button class="btn primary" id="saveedit">Save edit and approve</button><button class="btn" id="canceledit">Cancel</button></div>`
+      : `<div class="actions"><button class="btn primary" id="approve">Approve</button><button class="btn" id="edit-btn">Edit</button><button class="btn danger" id="reject">Reject</button></div>`;
+    return h;
+  }
+  if (q.type === "revops_review") return `<h2>Company not in any list</h2><p class="sub">${when} · rule R7 · for revenue operations</p><p>${esc(q.reason)}. The old-account play still ran. Revenue operations decides whether to add this company.</p>`;
+  const rows = (q.evidence || []).map(e => `<tr><td>${esc(e.signal)}</td><td class="num">${e.points > 0 ? "+" : ""}${e.points.toFixed(1)}</td><td>${esc(e.detail)}</td></tr>`).join("");
+  return `<h2>Identity review</h2><p class="sub">${when} · for revenue operations</p>
+    ${q.payload ? `<p>The event names <b>${esc(q.payload.full_name)}</b>${q.payload.prior_employer ? `, previously at ${esc(q.payload.prior_employer)}` : ", with no previous employer given"}.</p>` : `<p>${esc(q.reason)}</p>`}
+    ${q.explanation ? `<h3>Why it was held</h3><p>${esc(q.explanation)}</p>` : ""}
+    ${rows ? `<h3>Evidence the code scored</h3><table class="t"><tr><th>Signal</th><th class="num">Points</th><th>Detail</th></tr>${rows}</table><p style="margin-top:8px;color:var(--slate)">Total ${q.score}. Confirm needs 6.0, review starts at 3.5. No play fired.</p>` : ""}`;
+}
+function wirePane() {
+  const q = queueById[S.sel], $$ = id => document.getElementById(id);
+  const act = (status, body, edited) => { S.acts[q.id] = { status, by: "rep.demo", body, edited };
+    if (status !== "rejected") S.outbox.push({ by: "rep.demo", subject: q.subject }); S.editing = false; render(); };
+  if ($$("approve")) $$("approve").onclick = () => act("approved", q.body, false);
+  if ($$("reject")) $$("reject").onclick = () => act("rejected");
+  if ($$("edit-btn")) $$("edit-btn").onclick = () => { S.editing = true; render(); $$("edit").focus(); };
+  if ($$("canceledit")) $$("canceledit").onclick = () => { S.editing = false; render(); };
+  if ($$("saveedit")) $$("saveedit").onclick = () => act("approved", $$("edit").value, true);
+}
+
+/* ------------------------------------------------------------------ account */
+function ruler(f) {
+  const d = f.days_until_renewal, sc = 1.7, W = 880, x = Math.min(d, 480) * sc, anchor = x > W - 220 ? "end" : "start";
+  const band = (a, b, c, t) => `<rect x="${a * sc}" y="36" width="${(Math.min(b, 480) - a) * sc}" height="26" fill="${c}" opacity=".3"/><text x="${a * sc + 8}" y="54" font-size="14.5" fill="var(--basalt)">${t}</text>`;
+  return `<svg viewBox="0 0 ${W} 124" role="img" aria-label="${plural(d, "day")} between the departure and the renewal. Risk is ${f.risk_level}.">
+    ${band(0, 120, "var(--rowan)", "high: up to 120 days")}${band(120, 240, "var(--gorse)", "medium: up to 240")}${band(240, 480, "var(--lichen)", "low")}
+    <line x1="1.5" y1="28" x2="1.5" y2="68" stroke="var(--basalt)" stroke-width="3"/><text x="8" y="22" font-size="15" fill="var(--basalt)">Champion left, ${fmtDate(dateOf(f.event_id))}</text>
+    <line x1="${x}" y1="28" x2="${x}" y2="100" stroke="var(--basalt)" stroke-width="3"/><text x="${x + (anchor === "start" ? 8 : -8)}" y="116" font-size="15" text-anchor="${anchor}" fill="var(--basalt)">Renewal in ${plural(d, "day")}</text>
+    <text x="0" y="84" font-size="13.5" fill="var(--slate)">0</text><text x="${120 * sc}" y="84" font-size="13.5" fill="var(--slate)">120 days</text><text x="${240 * sc}" y="84" font-size="13.5" fill="var(--slate)">240 days</text></svg>`;
+}
+function account() {
+  const flags = [...D.flags].sort((a, b) => a.days_until_renewal - b.days_until_renewal);
+  if (!flags.find(f => f.account_id === S.acct)) S.acct = flags[0]?.account_id;
+  const f = flags.find(x => x.account_id === S.acct), a = D.accounts[f.account_id], c = D.contacts[f.departed_contact_id];
+  const d = dec.find(x => x.event_id === f.event_id), t = taskByFlag[f.id];
+  const lvlCls = { high: "no", medium: "open", low: "done" }[f.risk_level];
+  const rows = flags.map(x => `<button class="row" data-a="${x.account_id}" ${x.account_id === S.acct ? 'aria-current="true"' : ""}><b>${esc(x.account_name)}<span class="st ${{ high: "no", medium: "open", low: "done" }[x.risk_level]}">${x.risk_level}</span></b><span>${esc(x.departed_name)} left · renews in ${plural(x.days_until_renewal, "day")}</span></button>`).join("");
+  const where = d.payload.new_employer ? `${esc(d.payload.new_employer)}${d.payload.new_title ? `, ${esc(d.payload.new_title)}` : ""}` : "No new employer known";
+  const draft = D.queue.find(q => q.event_id === f.event_id && isDraft(q));
+  $("#main").innerHTML = `<header><h1>Account view</h1><p class="sub">Accounts that lost a champion, soonest renewal first. The customer success manager confirms who the new champion is.</p></header>
+  <div class="split"><div class="list">${rows}</div><div class="pane">
+    <h2>${esc(f.account_name)}</h2><p class="sub">${esc(f.plan)} plan · ${money(f.arr)} a year · customer since ${fmtDay(a.customer_since)} · ${esc(a.usage_level)} usage</p>
+    <h3>Renewal risk: <span class="${lvlCls === "no" ? "bad" : lvlCls === "done" ? "ok" : ""}">${f.risk_level}</span></h3><div class="ruler">${ruler(f)}</div>
+    <div class="facts"><div><b>Departed</b><span>${esc(f.departed_name)}</span></div><div><b>Role and title</b><span>${esc(D.rolelabel[c.role])}, ${esc(c.title)}</span></div><div><b>Went to</b><span>${where}</span></div></div>
+    <h3>Suggested next contacts</h3><ul class="people">${f.next_best_contacts.map(n => `<li><b>${esc(n.name)}</b> ${esc(n.title)}<span>${esc(n.reason)}</span></li>`).join("")}</ul>
+    <h3>Task for ${esc(t.assignee)}</h3><p>${esc(t.title)}. Due ${fmtDate(t.due, true)}.</p>
+    ${draft ? `<p><button class="linkbtn" data-open-q="${draft.id}">Open the outreach draft for the new company</button></p>` : ""}
+    <p style="color:var(--slate);font-size:14px">Risk level follows a rule: high at 120 days or fewer to renewal, medium up to 240, otherwise low.</p>
+  </div></div>`;
+  document.querySelectorAll("[data-a]").forEach(b => b.onclick = () => { S.acct = b.dataset.a; render(); });
+  document.querySelectorAll("[data-open-q]").forEach(b => b.onclick = () => openQueue(b.dataset.openQ));
+}
+render();
+</script>
+</body>
+</html>

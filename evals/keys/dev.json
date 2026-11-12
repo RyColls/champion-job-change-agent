@@ -33,7 +33,7 @@
    "true_person": "K00490",
    "new_employer_id": "P0288",
    "real_departure": true,
-   "days_until_renewal": 329,
+   "days_until_renewal": 414,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -50,7 +50,7 @@
    "account_id": "A0292",
    "true_person": "K01456",
    "real_departure": true,
-   "days_until_renewal": 176,
+   "days_until_renewal": 261,
    "expected_label": "departure:no_new_employer",
    "acceptable_labels": [
     "departure:no_new_employer"
@@ -68,7 +68,7 @@
    "true_person": "K00911",
    "new_employer_id": "A0079",
    "real_departure": true,
-   "days_until_renewal": 356,
+   "days_until_renewal": 441,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -105,7 +105,7 @@
    "account_id": "A0220",
    "true_person": "K01100",
    "real_departure": true,
-   "days_until_renewal": 299,
+   "days_until_renewal": 384,
    "expected_label": "departure:no_new_employer",
    "acceptable_labels": [
     "departure:no_new_employer"
@@ -123,7 +123,7 @@
    "true_person": "K00936",
    "new_employer_id": "A0071",
    "real_departure": true,
-   "days_until_renewal": 258,
+   "days_until_renewal": 343,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -141,7 +141,7 @@
    "true_person": "K00381",
    "new_employer_id": "C02",
    "real_departure": true,
-   "days_until_renewal": 46,
+   "days_until_renewal": 131,
    "expected_label": "departure:competitor",
    "acceptable_labels": [
     "departure:competitor"
@@ -158,7 +158,7 @@
    "account_id": "A0281",
    "true_person": "K01405",
    "real_departure": true,
-   "days_until_renewal": 350,
+   "days_until_renewal": 435,
    "expected_label": "departure:no_new_employer",
    "acceptable_labels": [
     "departure:no_new_employer"
@@ -199,7 +199,7 @@
    "true_person": "K00660",
    "new_employer_id": "P0290",
    "real_departure": true,
-   "days_until_renewal": 379,
+   "days_until_renewal": 464,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -216,7 +216,7 @@
    "account_id": "A0157",
    "true_person": "K00781",
    "real_departure": true,
-   "days_until_renewal": 187,
+   "days_until_renewal": 272,
    "expected_label": "departure:no_new_employer",
    "acceptable_labels": [
     "departure:no_new_employer"
@@ -259,7 +259,7 @@
    "true_person": "K00353",
    "new_employer_id": "P0313",
    "real_departure": true,
-   "days_until_renewal": 319,
+   "days_until_renewal": 404,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -277,7 +277,7 @@
    "true_person": "K00190",
    "new_employer_id": "P0389",
    "real_departure": true,
-   "days_until_renewal": 276,
+   "days_until_renewal": 361,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -297,7 +297,7 @@
    "true_person": "K01031",
    "new_employer_id": "P0147",
    "real_departure": true,
-   "days_until_renewal": 261,
+   "days_until_renewal": 346,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -317,7 +317,7 @@
    "true_person": "K00516",
    "new_employer_id": "P0010",
    "real_departure": true,
-   "days_until_renewal": 310,
+   "days_until_renewal": 395,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -353,7 +353,7 @@
    "true_person": "K00040",
    "new_employer_id": "P0371",
    "real_departure": true,
-   "days_until_renewal": 197,
+   "days_until_renewal": 282,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -373,7 +373,7 @@
    "true_person": "K01443",
    "new_employer_id": "A0291",
    "real_departure": true,
-   "days_until_renewal": 68,
+   "days_until_renewal": 153,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -394,7 +394,7 @@
    "true_person": "K01010",
    "new_employer_id": "P0310",
    "real_departure": true,
-   "days_until_renewal": 168,
+   "days_until_renewal": 253,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -435,7 +435,7 @@
    "true_person": "K00458",
    "new_employer_id": "P0304",
    "real_departure": true,
-   "days_until_renewal": 107,
+   "days_until_renewal": 192,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -453,7 +453,7 @@
    "true_person": "K01275",
    "new_employer_id": "P0260",
    "real_departure": true,
-   "days_until_renewal": -4,
+   "days_until_renewal": 81,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -496,7 +496,7 @@
    "true_person": "K00695",
    "new_employer_id": "P0228",
    "real_departure": true,
-   "days_until_renewal": 268,
+   "days_until_renewal": 353,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -516,7 +516,7 @@
    "true_person": "K00901",
    "new_employer_id": "P0029",
    "real_departure": true,
-   "days_until_renewal": 320,
+   "days_until_renewal": 405,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -577,7 +577,7 @@
    "true_person": "K01315",
    "new_employer_id": "C03",
    "real_departure": true,
-   "days_until_renewal": 271,
+   "days_until_renewal": 356,
    "expected_label": "departure:competitor",
    "acceptable_labels": [
     "departure:competitor"
@@ -597,7 +597,7 @@
    "true_person": "K00736",
    "new_employer_id": "A0022",
    "real_departure": true,
-   "days_until_renewal": 194,
+   "days_until_renewal": 279,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -638,7 +638,7 @@
    "true_person": "K01271",
    "new_employer_id": "P0295",
    "real_departure": true,
-   "days_until_renewal": -14,
+   "days_until_renewal": 71,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -679,7 +679,7 @@
    "true_person": "K00778",
    "new_employer_id": "A0280",
    "real_departure": true,
-   "days_until_renewal": 127,
+   "days_until_renewal": 212,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -697,7 +697,7 @@
    "true_person": "K01295",
    "new_employer_id": "P0110",
    "real_departure": true,
-   "days_until_renewal": 346,
+   "days_until_renewal": 431,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -715,7 +715,7 @@
    "true_person": "K01096",
    "new_employer_id": "UNKNOWN",
    "real_departure": true,
-   "days_until_renewal": 264,
+   "days_until_renewal": 349,
    "expected_label": "departure:unknown_company",
    "acceptable_labels": [
     "departure:unknown_company"
@@ -733,7 +733,7 @@
    "true_person": "K01301",
    "new_employer_id": "P0124",
    "real_departure": true,
-   "days_until_renewal": 127,
+   "days_until_renewal": 212,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -774,7 +774,7 @@
    "true_person": "K00030",
    "new_employer_id": "UNKNOWN",
    "real_departure": true,
-   "days_until_renewal": 86,
+   "days_until_renewal": 171,
    "expected_label": "departure:unknown_company",
    "acceptable_labels": [
     "departure:unknown_company"
@@ -792,7 +792,7 @@
    "true_person": "K00341",
    "new_employer_id": "UNKNOWN",
    "real_departure": true,
-   "days_until_renewal": -18,
+   "days_until_renewal": 67,
    "expected_label": "departure:unknown_company",
    "acceptable_labels": [
     "departure:unknown_company"
@@ -853,7 +853,7 @@
    "true_person": "K00025",
    "new_employer_id": "P0367",
    "real_departure": true,
-   "days_until_renewal": 89,
+   "days_until_renewal": 174,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -871,7 +871,7 @@
    "true_person": "K00900",
    "new_employer_id": "A0132",
    "real_departure": true,
-   "days_until_renewal": 350,
+   "days_until_renewal": 435,
    "expected_label": "departure:customer",
    "acceptable_labels": [
     "departure:customer"
@@ -889,7 +889,7 @@
    "true_person": "K00236",
    "new_employer_id": "P0371",
    "real_departure": true,
-   "days_until_renewal": 336,
+   "days_until_renewal": 421,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -930,7 +930,7 @@
    "true_person": "K00171",
    "new_employer_id": "P0265",
    "real_departure": true,
-   "days_until_renewal": 0,
+   "days_until_renewal": 85,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -948,7 +948,7 @@
    "true_person": "K01286",
    "new_employer_id": "C03",
    "real_departure": true,
-   "days_until_renewal": 154,
+   "days_until_renewal": 239,
    "expected_label": "departure:competitor",
    "acceptable_labels": [
     "departure:competitor"
@@ -1004,7 +1004,7 @@
    "true_person": "K00228",
    "new_employer_id": "C05",
    "real_departure": true,
-   "days_until_renewal": 218,
+   "days_until_renewal": 303,
    "expected_label": "departure:competitor",
    "acceptable_labels": [
     "departure:competitor"
@@ -1024,7 +1024,7 @@
    "true_person": "K01325",
    "new_employer_id": "P0047",
    "real_departure": true,
-   "days_until_renewal": 115,
+   "days_until_renewal": 200,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1044,7 +1044,7 @@
    "true_person": "K00266",
    "new_employer_id": "P0089",
    "real_departure": true,
-   "days_until_renewal": 73,
+   "days_until_renewal": 158,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1064,7 +1064,7 @@
    "true_person": "K00126",
    "new_employer_id": "P0236",
    "real_departure": true,
-   "days_until_renewal": 166,
+   "days_until_renewal": 251,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -1103,7 +1103,7 @@
    "true_person": "K00761",
    "new_employer_id": "P0389",
    "real_departure": true,
-   "days_until_renewal": 110,
+   "days_until_renewal": 195,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1141,7 +1141,7 @@
    "true_person": "K01003",
    "new_employer_id": "C05",
    "real_departure": true,
-   "days_until_renewal": 244,
+   "days_until_renewal": 329,
    "expected_label": "departure:competitor",
    "acceptable_labels": [
     "departure:competitor"
@@ -1159,7 +1159,7 @@
    "true_person": "K01475",
    "new_employer_id": "P0377",
    "real_departure": true,
-   "days_until_renewal": 60,
+   "days_until_renewal": 145,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1178,7 +1178,7 @@
    "account_id": "A0041",
    "true_person": "K00201",
    "real_departure": true,
-   "days_until_renewal": 90,
+   "days_until_renewal": 175,
    "expected_label": "departure:no_new_employer",
    "acceptable_labels": [
     "departure:no_new_employer"
@@ -1196,7 +1196,7 @@
    "true_person": "K00475",
    "new_employer_id": "P0345",
    "real_departure": true,
-   "days_until_renewal": 205,
+   "days_until_renewal": 290,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1216,7 +1216,7 @@
    "true_person": "K00035",
    "new_employer_id": "P0286",
    "real_departure": true,
-   "days_until_renewal": 283,
+   "days_until_renewal": 368,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1257,7 +1257,7 @@
    "true_person": "K00101",
    "new_employer_id": "P0292",
    "real_departure": true,
-   "days_until_renewal": 120,
+   "days_until_renewal": 205,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1277,7 +1277,7 @@
    "true_person": "K00315",
    "new_employer_id": "P0085",
    "real_departure": true,
-   "days_until_renewal": 11,
+   "days_until_renewal": 96,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1297,7 +1297,7 @@
    "true_person": "K00046",
    "new_employer_id": "P0290",
    "real_departure": true,
-   "days_until_renewal": 123,
+   "days_until_renewal": 208,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1317,7 +1317,7 @@
    "true_person": "K00401",
    "new_employer_id": "P0362",
    "real_departure": true,
-   "days_until_renewal": 320,
+   "days_until_renewal": 405,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -1335,7 +1335,7 @@
    "true_person": "K00696",
    "new_employer_id": "P0377",
    "real_departure": true,
-   "days_until_renewal": 322,
+   "days_until_renewal": 407,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1353,7 +1353,7 @@
    "true_person": "K00921",
    "new_employer_id": "P0327",
    "real_departure": true,
-   "days_until_renewal": 263,
+   "days_until_renewal": 348,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -1396,7 +1396,7 @@
    "true_person": "K00173",
    "new_employer_id": "P0121",
    "real_departure": true,
-   "days_until_renewal": -23,
+   "days_until_renewal": 62,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1432,7 +1432,7 @@
    "true_person": "K00891",
    "new_employer_id": "P0368",
    "real_departure": true,
-   "days_until_renewal": 102,
+   "days_until_renewal": 187,
    "expected_label": "departure:nofit_prospect",
    "acceptable_labels": [
     "departure:nofit_prospect"
@@ -1450,7 +1450,7 @@
    "true_person": "K01430",
    "new_employer_id": "P0084",
    "real_departure": true,
-   "days_until_renewal": -27,
+   "days_until_renewal": 58,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1468,7 +1468,7 @@
    "true_person": "K00551",
    "new_employer_id": "P0168",
    "real_departure": true,
-   "days_until_renewal": 236,
+   "days_until_renewal": 321,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"
@@ -1511,7 +1511,7 @@
    "true_person": "K00601",
    "new_employer_id": "P0102",
    "real_departure": true,
-   "days_until_renewal": 131,
+   "days_until_renewal": 216,
    "expected_label": "departure:fit_prospect",
    "acceptable_labels": [
     "departure:fit_prospect"

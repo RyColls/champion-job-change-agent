@@ -1,0 +1,30 @@
+[
+ {
+  "id": "S001",
+  "event_id": "E026",
+  "reason": "competitor",
+  "competitor": "Fathomgrid",
+  "contact_id": "K01470"
+ },
+ {
+  "id": "S002",
+  "event_id": "E052",
+  "reason": "competitor",
+  "competitor": "Brindleflow",
+  "contact_id": "K01095"
+ },
+ {
+  "id": "S003",
+  "event_id": "E070",
+  "reason": "competitor",
+  "competitor": "Ferromint",
+  "contact_id": "K00835"
+ },
+ {
+  "id": "S004",
+  "event_id": "E079",
+  "reason": "competitor",
+  "competitor": "Jasperwave",
+  "contact_id": "K01453"
+ }
+]
